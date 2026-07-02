@@ -10,7 +10,7 @@ This plan turns the four governing documents into an ordered build:
 - `docs/product/covetability-score-v0.md` — score components, eligibility gates, stability tests, shadow-mode criteria
 - `docs/data/canonical-catalog.md` — the 5 pilot bags with aliases, exclusions, misidentification traps
 - `docs/decisions/architecture-decisions.md` — settled ADRs
-- `index.html` — the working design prototype (Provenance/Covetability visual system, bag profile / variant / brand / signals / compare screens) to be translated into the Next.js frontend
+- `design/prototype.html` — the working design prototype (Provenance/Covetability visual system, bag profile / variant / brand / signals / compare screens) to be translated into the Next.js frontend
 
 **Constraints that shape the ordering:**
 - **eBay API access is requested but not yet granted** → everything that needs live data has a fixture-replay fallback; non-API work is front-loaded.
@@ -63,8 +63,8 @@ covetability/
 
 **Goal:** repo, environments, database schema, and contract-enforcement fixtures exist; every later phase has rails to run on.
 
-- [ ] **0.1 Repo + scaffold.** `git init`; monorepo layout above; Python project (`uv init`, ruff, pytest), Next.js app (`create-next-app`, TypeScript, App Router); `docker-compose.yml` with Postgres 16; `.env.example` (DB URL, EBAY_APP_ID placeholder, ADMIN_SECRET). Commit the existing `docs/` and `index.html` (rename to `design/prototype.html` so it's clearly a reference artifact, not the app).
-- [ ] **0.2 Database schema, migration 001.** SQLAlchemy models + Alembic migration for the core tables:
+- [x] **0.1 Repo + scaffold.** `git init`; monorepo layout above; Python project (`uv init`, ruff, pytest), Next.js app (`create-next-app`, TypeScript, App Router); `docker-compose.yml` with Postgres 16; `.env.example` (DB URL, EBAY_APP_ID placeholder, ADMIN_SECRET). Commit the existing `docs/` and `index.html` (rename to `design/prototype.html` so it's clearly a reference artifact, not the app).
+- [x] **0.2 Database schema, migration 001.** SQLAlchemy models + Alembic migration for the core tables:
   - `bag_models` (canonical identity: slug, brand, model, era, editorial fields)
   - `bag_aliases` (alias text, type: alias|misspelling|marketplace_term)
   - `bag_variants` (size/color-family level; `attribution_confidence` note per catalog doc)
@@ -75,12 +75,12 @@ covetability/
   - `manual_comps` (provenance-complete per data-contract §4; a DB constraint rejects rows missing source/date/condition)
   - `gold_labels` (listing ref, accept/reject, rejection-taxonomy enum from catalog doc, variant/size/color/condition/completeness labels)
   - `score_daily` (per bag: component values, eligibility flags, weights used, raw + smoothed score, confidence, `published` bool) — the shadow-mode log
-- [ ] **0.3 Data-contract enforcement fixtures.** Encode the contract as code early so it can't drift:
+- [x] **0.3 Data-contract enforcement fixtures.** Encode the contract as code early so it can't drift:
   - `pipeline/app/contract.py`: enums for condition bands, authentication labels (4-label taxonomy), rejection taxonomy; minimum-data constants (5 listings/band, 8 model-wide, 15 lifecycle events…).
   - `web/lib/vocabulary.ts`: display-string table (metric → allowed label) + a lint test that greps built pages for the prohibited vocabulary list (data-contract §6: "market value", "sell-through", bare "Authenticated"…). Failing string = failing CI.
-- [ ] **0.4 Seed script for the 5-bag catalog.** Parse-free approach: hand-transcribe `docs/data/canonical-catalog.md` into `pipeline/seeds/catalog.py` (brands, 5 models, aliases incl. unaccented forms, variants at the coarseness the doc specifies, global + per-bag exclusion terms with reasons). Idempotent `python -m seeds.catalog`.
-- [ ] **0.5 CI.** GitHub Actions: ruff + pytest on pipeline, tsc + eslint + vocabulary-lint on web, alembic upgrade check against a service Postgres.
-- [ ] **0.6 eBay account tracking task.** While access is pending: create the keyset request checklist (Browse API scope, production keyset, EPN application separately per ADR-001/007). Record status in `docs/decisions/` when granted. **Nothing else in Phase 0–1 blocks on this.**
+- [x] **0.4 Seed script for the 5-bag catalog.** Parse-free approach: hand-transcribe `docs/data/canonical-catalog.md` into `pipeline/seeds/catalog.py` (brands, 5 models, aliases incl. unaccented forms, variants at the coarseness the doc specifies, global + per-bag exclusion terms with reasons). Idempotent `python -m seeds.catalog`.
+- [x] **0.5 CI.** GitHub Actions: ruff + pytest on pipeline, tsc + eslint + vocabulary-lint on web, alembic upgrade check against a service Postgres.
+- [x] **0.6 eBay account tracking task.** While access is pending: create the keyset request checklist (Browse API scope, production keyset, EPN application separately per ADR-001/007). Record status in `docs/decisions/` when granted. **Nothing else in Phase 0–1 blocks on this.**
 
 **Phase 0 verification:** `docker compose up` + `alembic upgrade head` + seed script yields a Postgres with 5 bags, ~40 aliases, exclusion terms; CI green including the vocabulary lint; FastAPI `/health` and Next.js splash page run locally.
 

@@ -1,0 +1,69 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_DB: covetability
+          POSTGRES_USER: covetability
+          POSTGRES_PASSWORD: covetability
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U covetability -d covetability"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+    env:
+      DATABASE_URL: postgresql+psycopg://covetability:covetability@localhost:5432/covetability
+      ADMIN_SECRET: ci-admin-secret
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: astral-sh/setup-uv@v5
+      - name: Install pipeline dependencies
+        working-directory: pipeline
+        run: uv sync
+      - name: Lint pipeline
+        working-directory: pipeline
+        run: uv run ruff check .
+      - name: Migrate database
+        working-directory: pipeline
+        run: uv run alembic upgrade head
+      - name: Seed catalog
+        working-directory: pipeline
+        run: uv run python -m seeds.catalog
+      - name: Test pipeline
+        working-directory: pipeline
+        run: uv run pytest
+
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - name: Install web dependencies
+        working-directory: web
+        run: npm ci
+      - name: Typecheck web
+        working-directory: web
+        run: npx tsc --noEmit
+      - name: Lint web
+        working-directory: web
+        run: npm run lint
+      - name: Vocabulary lint
+        working-directory: web
+        run: npm run lint:vocab

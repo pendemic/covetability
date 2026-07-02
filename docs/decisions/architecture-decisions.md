@@ -28,3 +28,8 @@
 ## ADR-007 — Deferred scope (July 2026)
 
 **Deferred until the intelligence layer is trusted:** Covet List, alerts, saved searches, personalization, public forecasting, reseller opportunity scoring, mobile app, and any automated Poshmark/TheRealReal/Fashionphile collection. Fashionphile/Vestiaire affiliate relationships may be pursued in parallel as partnerships, not scraping.
+
+## ADR-008 - Condition-band enum names (July 2026)
+
+**Decision:** The six public condition bands are encoded exactly as `new_or_unused`, `excellent`, `very_good`, `good`, `fair`, and `poor` in `pipeline/app/contract.py` and the Postgres enum.
+**Consequence:** Condition storage, matching fixtures, manual comps, aggregates, and future UI labels share one source of truth. Display copy may format these names for humans, but the stored vocabulary stays stable.

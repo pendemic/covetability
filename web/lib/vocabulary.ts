@@ -1,0 +1,33 @@
+export const metricDisplayVocabulary = {
+  typicalAskingRange: "Typical asking range",
+  listingPriceVerdict: "above typical asking",
+  listingTurnover: "Listing turnover",
+  listingsThatEnded: "listings that ended",
+  searchInterest: "Search interest",
+  score: "Covetability Score",
+  notYetScored: "Not yet scored",
+  confidenceLow: "Low",
+  confidenceModerate: "Moderate",
+  confidenceHigh: "High",
+  platformAuthenticated: "Platform-authenticated",
+  marketplaceAuthenticationProgram: "Marketplace authentication program",
+  sellerClaimOnly: "Seller claim only",
+  authenticationStatusUnknown: "Authentication status unknown",
+} as const;
+
+export const prohibitedVocabulary = [
+  "market value",
+  "worth",
+  "valuation",
+  "sold",
+  "sell-through",
+  "sales rate",
+  "sales",
+  "Authenticated",
+  "demand",
+  "investment",
+  "appreciating",
+  "ROI",
+  "forecast",
+  "prediction",
+] as const;
