@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Covetability — Vintage Designer Bag Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: #E7DECF; font-family: 'Hanken Grotesk', sans-serif; -webkit-font-smoothing: antialiased; color: #2B2520; }
+  ::selection { background: #B0623E; color: #F6F1E7; }
+  a { text-decoration: none; }
+  .serif { font-family: 'Cormorant Garamond', serif; }
+  .mono { font-family: 'IBM Plex Mono', monospace; }
+  .kicker { font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #9A8B77; }
+  .kicker-lg { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: #9A8B77; }
+  .page-wrap { max-width: 1240px; margin: 36px auto 80px; background: #F6F1E7; border: 1px solid #D2C2A8; border-radius: 3px; box-shadow: 0 30px 70px -34px rgba(43,37,32,0.4); overflow: hidden; }
+  .topbar { display: flex; align-items: center; justify-content: space-between; padding: 22px 40px; border-bottom: 1px solid #E0D4BF; }
+  .wordmark { display: flex; align-items: center; gap: 11px; cursor: pointer; }
+  .wordmark .dot { width: 11px; height: 11px; background: #B0623E; border-radius: 50%; display: block; }
+  .wordmark .name { font-family: 'Cormorant Garamond', serif; font-weight: 700; font-size: 23px; letter-spacing: 0.02em; color: #2B2520; }
+  .nav { display: flex; align-items: center; gap: 30px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; }
+  .nav a { color: #9A8B77; padding-bottom: 3px; border-bottom: 1px solid transparent; }
+  .nav a:hover { color: #2B2520; }
+  .nav a.on { color: #2B2520; border-bottom: 1px solid #B0623E; }
+  .searchbox { border: 1px solid #D2C2A8; border-radius: 2px; padding: 8px 14px; min-width: 210px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #9A8B77; }
+  .statgrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: #E0D4BF; border-bottom: 1px solid #E0D4BF; }
+  .statcard { background: #FCF9F2; padding: 20px 24px; }
+  .statnum { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 38px; line-height: 1.1; color: #2B2520; margin-top: 4px; }
+  .chip { display: inline-flex; align-items: center; gap: 7px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; padding: 7px 12px; border-radius: 2px; cursor: pointer; background: #FCF9F2; color: #6B5E4F; border: 1px solid #D2C2A8; }
+  .chip.on { background: #2B2520; color: #F6F1E7; border-color: #2B2520; }
+  .chip .sw { width: 9px; height: 9px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.35); display: block; }
+  .btn { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding: 9px 16px; border-radius: 2px; cursor: pointer; display: inline-block; }
+  .btn.ghost { color: #6B5E4F; border: 1px solid #D2C2A8; background: transparent; }
+  .btn.dark { color: #F6F1E7; background: #2B2520; border: 1px solid #2B2520; }
+  .badge { font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #F6F1E7; background: #B0623E; padding: 3px 8px; border-radius: 2px; }
+  .tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: #B0623E; border: 1px solid #B0623E; padding: 3px 7px; border-radius: 2px; }
+  .row-hover:hover { background: #F1E9DA; }
+  .note-card { background: #F1E9DA; border: 1px solid #E0D4BF; border-radius: 2px; padding: 16px 18px; }
+  .swatch-img { background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.08) 8px, rgba(0,0,0,0.05) 8px, rgba(0,0,0,0.05) 16px); border: 1px solid rgba(43,37,32,0.14); }
+  .hr { height: 1px; background: #E0D4BF; }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script>
+// ---------- state ----------
+const state = {
+  product: 'medium',
+  variant: 'whiskey',
+  compare: ['pad', 'city', 'stam'],
+};
+function setState(patch) { Object.assign(state, patch); render(); }
+
+const C = 326.7;
+const RISE = [0, 0.07, 0.15, 0.12, 0.23, 0.33, 0.39, 0.50, 0.46, 0.66, 0.82, 1];
+const FLAT = [0.45, 0.55, 0.48, 0.6, 0.5, 0.62, 0.52, 0.58, 0.5, 0.56, 0.48, 0.5];
+const FALL = [1, 0.95, 0.88, 0.9, 0.78, 0.66, 0.62, 0.5, 0.52, 0.36, 0.22, 0.1];
+const dirOf = s => s >= 80 ? 'Surging' : s >= 65 ? 'Trending' : s >= 50 ? 'Building' : s >= 30 ? 'Stable' : 'Cooling';
+const usd = n => '$' + n.toLocaleString();
+
+// ---------- catalog ----------
+const CATALOG = [
+  { id: 'pad', brand: 'Chloé', model: 'Paddington', variant: 'Medium · Whiskey', hex: '#B0623E', median: 785, score: 82, dir: 'Surging', active: 18, days: 34, sell: 58, pd: '+11%', sd: '+38%', conf: 61, era: 2005, material: 'Leather' },
+  { id: 'city', brand: 'Balenciaga', model: 'City', variant: 'Classic · Black', hex: '#3A3A3A', median: 640, score: 88, dir: 'Surging', active: 31, days: 28, sell: 63, pd: '+19%', sd: '+44%', conf: 66, era: 2001, material: 'Leather' },
+  { id: 'stam', brand: 'Marc Jacobs', model: 'Stam', variant: 'Quilted · Burgundy', hex: '#5A2E33', median: 410, score: 85, dir: 'Surging', active: 12, days: 31, sell: 60, pd: '+22%', sd: '+52%', conf: 58, era: 2005, material: 'Leather' },
+  { id: 'saddle', brand: 'Dior', model: 'Saddle', variant: 'Oblique Canvas', hex: '#1F2933', median: 1250, score: 79, dir: 'Trending', active: 24, days: 36, sell: 55, pd: '+15%', sd: '+28%', conf: 63, era: 2000, material: 'Canvas' },
+  { id: 'baguette', brand: 'Fendi', model: 'Baguette', variant: 'Zucca', hex: '#5C3A4A', median: 1020, score: 70, dir: 'Trending', active: 19, days: 39, sell: 52, pd: '+14%', sd: '+21%', conf: 60, era: 1997, material: 'Canvas' },
+  { id: 'pochette', brand: 'Louis Vuitton', model: 'Pochette', variant: 'Monogram', hex: '#6B4A2E', median: 620, score: 67, dir: 'Trending', active: 41, days: 33, sell: 57, pd: '+18%', sd: '+16%', conf: 69, era: 2000, material: 'Canvas' },
+  { id: 'reedition', brand: 'Prada', model: 'Re-Edition', variant: 'Nylon · Black', hex: '#2B2520', median: 780, score: 81, dir: 'Surging', active: 36, days: 30, sell: 61, pd: '+9%', sd: '+36%', conf: 64, era: 2005, material: 'Nylon' },
+  { id: 'jackie', brand: 'Gucci', model: 'Jackie', variant: 'GG Canvas', hex: '#3B2F2A', median: 590, score: 76, dir: 'Trending', active: 15, days: 35, sell: 54, pd: '+12%', sd: '+30%', conf: 52, era: 1961, material: 'Canvas' },
+];
+
+const PRODUCTS = [
+  { id: 'medium', size: 'Medium', tagline: 'The original 2005 satchel — the padlock that started it all.', cw: [
+    { id: 'whiskey', color: 'Whiskey', hex: '#B0623E', median: 785, active: 18, days: 34, sell: 58, score: 82, dir: 'Surging', conf: 61, pd: '+11%', sd: '+38%', vd: '+17%', rise: true, note: 'The canonical Paddington. Search and Pinterest saves are both accelerating while supply stays tight at 18 listings.' },
+    { id: 'black', color: 'Black', hex: '#2B2520', median: 690, active: 12, days: 41, sell: 52, score: 74, dir: 'Trending', conf: 64, pd: '+8%', sd: '+22%', vd: '+9%', rise: true, note: 'Evergreen colorway with steady lift — lower variance and higher confidence than whiskey.' },
+    { id: 'tan', color: 'Tan', hex: '#C9A878', median: 640, active: 9, days: 38, sell: 55, score: 68, dir: 'Building', conf: 57, pd: '+6%', sd: '+18%', vd: '+12%', rise: true, note: 'Riding the broader “quiet luxury” tan moment; a small sample keeps confidence moderate.' },
+    { id: 'cream', color: 'Cream', hex: '#E4D8C2', median: 560, active: 5, days: 52, sell: 44, score: 49, dir: 'Stable', conf: 48, pd: '+2%', sd: '+4%', vd: '-3%', rise: false, note: 'Condition-sensitive and slower to move; flat interest and thin listing volume.' },
+  ]},
+  { id: 'mini', size: 'Mini', tagline: 'The compact Y2K silhouette — small, loud, and accelerating.', cw: [
+    { id: 'whiskey', color: 'Whiskey', hex: '#B0623E', median: 420, active: 3, days: 29, sell: 62, score: 71, dir: 'Trending', conf: 44, pd: '+14%', sd: '+31%', vd: '+8%', rise: true, note: 'The mini / Y2K silhouette momentum is real, but only 3 listings — treat the score with low confidence.' },
+    { id: 'black', color: 'Black', hex: '#2B2520', median: 380, active: 4, days: 33, sell: 58, score: 66, dir: 'Building', conf: 47, pd: '+9%', sd: '+24%', vd: '+6%', rise: true, note: 'The safe mini pick; steadier interest than whiskey and a touch more liquidity.' },
+    { id: 'metallic', color: 'Metallic', hex: '#A9A39B', median: 460, active: 2, days: 40, sell: 50, score: 60, dir: 'Building', conf: 38, pd: '+7%', sd: '+19%', vd: '+3%', rise: true, note: 'Scarce metallic finish; only 2 listings, so treat the score as directional only.' },
+  ]},
+  { id: 'bowler', size: 'Bowler', tagline: 'The larger carryall shape — highest median, narrower demand.', cw: [
+    { id: 'grey', color: 'Grey', hex: '#8A857C', median: 880, active: 4, days: 47, sell: 50, score: 58, dir: 'Building', conf: 51, pd: '+5%', sd: '+12%', vd: '+4%', rise: true, note: 'Commands the highest median of any Paddington, but demand is narrower than the medium.' },
+    { id: 'black', color: 'Black', hex: '#2B2520', median: 820, active: 5, days: 44, sell: 53, score: 62, dir: 'Building', conf: 54, pd: '+6%', sd: '+15%', vd: '+5%', rise: true, note: 'The most liquid bowler colorway; a modest but durable lift.' },
+    { id: 'brown', color: 'Brown', hex: '#6E4A33', median: 840, active: 3, days: 51, sell: 48, score: 54, dir: 'Building', conf: 49, pd: '+3%', sd: '+8%', vd: '+1%', rise: false, note: 'Steady collector demand; not a momentum play at the moment.' },
+  ]},
+];
+
+const CHLOE = [
+  { model: 'Paddington', median: 720, score: 76, active: 39, era: '2005', pd: '+9%', hex: '#B0623E', up: true },
+  { model: 'Drew', median: 690, score: 66, active: 18, era: '2014', pd: '+6%', hex: '#6E4A33', up: true },
+  { model: 'Edith', median: 540, score: 71, active: 14, era: '2005', pd: '+8%', hex: '#8A5A3A', up: true },
+  { model: 'Silverado', median: 610, score: 58, active: 7, era: '2004', pd: '+3%', hex: '#8A857C', up: true },
+  { model: 'Bay', median: 520, score: 62, active: 6, era: '2007', pd: '+4%', hex: '#7A6A4A', up: true },
+  { model: 'Betty', median: 430, score: 44, active: 9, era: '2006', pd: '+1%', hex: '#9A7B5A', up: true },
+  { model: 'Marcie', median: 480, score: 38, active: 22, era: '2010', pd: '-6%', hex: '#9A6B3A', up: false },
+];
+
+const LISTINGS = [
+  { price: '$1,650', cond: 'Excellent', site: 'The RealReal', note: 'Full set, dust bag' },
+  { price: '$1,200', cond: 'Excellent', site: 'Fashionphile', note: 'Tan, medium' },
+  { price: '$920', cond: 'Very Good', site: 'eBay', note: 'Whiskey leather' },
+  { price: '$785', cond: 'Good', site: 'Vestiaire', note: 'Light wear, patina' },
+  { price: '$640', cond: 'Fair', site: 'Poshmark', note: 'Hardware tarnish' },
+];
+
+// ---------- chart helper (from design) ----------
+function chart(values, padX, padTop, padBot) {
+  const W = 1000, H = 300;
+  const min = Math.min(...values), max = Math.max(...values);
+  const span = (max - min) || 1;
+  const n = values.length;
+  const innerW = W - padX * 2, innerH = H - padTop - padBot, base = H - padBot;
+  const pts = values.map((v, i) => ({
+    x: +(padX + (n === 1 ? innerW / 2 : (i / (n - 1)) * innerW)).toFixed(1),
+    y: +(padTop + (1 - (v - min) / span) * innerH).toFixed(1),
+  }));
+  const line = pts.map((p, i) => (i ? 'L' : 'M') + p.x + ',' + p.y).join(' ');
+  const area = 'M' + pts[0].x + ',' + base.toFixed(1) + ' ' + pts.map(p => 'L' + p.x + ',' + p.y).join(' ') + ' L' + pts[n - 1].x + ',' + base.toFixed(1) + ' Z';
+  const last = pts[n - 1];
+  return { line, area, lastXpct: +((last.x / W) * 100).toFixed(2), lastYpct: +((last.y / H) * 100).toFixed(2) };
+}
+const spark = (score, up, padT = 70) => {
+  const shape = up ? RISE : FALL;
+  const start = up ? score * 0.5 : score * 1.5;
+  return chart(shape.map(t => start + (score - start) * t), 14, padT, padT).line;
+};
+
+// ---------- shared partials ----------
+function topbar(active) {
+  const links = [['bag', 'Bag Profile'], ['brand', 'Brand'], ['signals', 'Signals'], ['compare', 'Compare']];
+  return `<div class="topbar">
+    <a class="wordmark" href="#/bag"><span class="dot"></span><span class="name">Covetability</span></a>
+    <div class="nav">${links.map(([id, label]) => `<a href="#/${id}" class="${id === active ? 'on' : ''}">${label}</a>`).join('')}</div>
+    <div class="searchbox">Search a bag…</div>
+  </div>`;
+}
+function lineChart(ch, h, opts = {}) {
+  return `<div style="position: relative;">
+    <svg viewBox="0 0 1000 300" preserveAspectRatio="none" style="width: 100%; height: ${h}px; display: block; overflow: visible;">
+      <line x1="14" y1="148" x2="986" y2="148" stroke="#E7DDC9" stroke-width="1" vector-effect="non-scaling-stroke"></line>
+      <line x1="14" y1="276" x2="986" y2="276" stroke="#D2C2A8" stroke-width="1" vector-effect="non-scaling-stroke"></line>
+      <path d="${ch.area}" fill="#B0623E" opacity="0.09"></path>
+      <path d="${ch.line}" fill="none" stroke="#B0623E" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"></path>
+    </svg>
+    <div style="position: absolute; left: ${ch.lastXpct}%; top: ${ch.lastYpct}%; width: 9px; height: 9px; border-radius: 50%; background: #B0623E; border: 2px solid #F6F1E7; transform: translate(-50%,-50%);"></div>
+  </div>`;
+}
+function scoreRing(score, size, fontSize) {
+  const dash = ((score / 100) * C).toFixed(1) + ' ' + C;
+  return `<div style="position: relative; width: ${size}px; height: ${size}px; flex: 0 0 ${size}px;">
+    <svg width="${size}" height="${size}" viewBox="0 0 132 132">
+      <circle cx="66" cy="66" r="52" fill="none" stroke="#E7DDC9" stroke-width="10"></circle>
+      <circle cx="66" cy="66" r="52" fill="none" stroke="#B0623E" stroke-width="10" stroke-linecap="round" stroke-dasharray="${dash}" transform="rotate(-90 66 66)"></circle>
+    </svg>
+    <div style="position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <span class="serif" style="font-weight: 700; font-size: ${fontSize}px; line-height: 1; color: #2B2520;">${score}</span>
+      <span class="mono" style="font-size: 9px; letter-spacing: 0.1em; color: #9A8B77;">/ 100</span>
+    </div>
+  </div>`;
+}
+const sparkSvg = (d, color, h = 30) =>
+  `<svg viewBox="0 0 1000 300" preserveAspectRatio="none" style="width: 100%; height: ${h}px; display: block; overflow: visible;"><path d="${d}" fill="none" stroke="${color}" stroke-width="2.5" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"></path></svg>`;
+
+// ---------- data builders ----------
+function buildModelData() {
+  const prod = PRODUCTS.find(p => p.id === state.product) || PRODUCTS[0];
+  const variants = prod.cw.map(d => ({
+    ...d,
+    medianDisp: usd(d.median),
+    dirColor: d.rise && d.dir !== 'Stable' ? '#B0623E' : '#8A857C',
+    spark: (() => {
+      const shape = d.rise ? RISE : FLAT;
+      const s = d.score * (d.rise ? 0.55 : 0.92);
+      return chart(shape.map(t => s + (d.score - s) * t), 14, 70, 70).line;
+    })(),
+  }));
+  const a0 = variants.find(v => v.id === state.variant) || variants[0];
+  const pActive = prod.cw.reduce((s, c) => s + c.active, 0);
+  const wMedian = Math.round(prod.cw.reduce((s, c) => s + c.median * c.active, 0) / pActive);
+  const wScore = Math.round(prod.cw.reduce((s, c) => s + c.score * c.active, 0) / pActive);
+  const meds = prod.cw.map(c => c.median);
+  const topCw = [...prod.cw].sort((x, y) => y.score - x.score)[0];
+  const fastCw = [...prod.cw].sort((x, y) => parseFloat(y.sd) - parseFloat(x.sd))[0];
+  const model = {
+    median: usd(wMedian), active: pActive, score: wScore, dir: dirOf(wScore),
+    cwCount: prod.cw.length, rangeLow: usd(Math.min(...meds)), rangeHigh: usd(Math.max(...meds)),
+    topName: topCw.color, topScore: topCw.score, fastName: fastCw.color, fastSd: fastCw.sd,
+  };
+  const modelSearch = RISE.map(t => wScore * 0.62 + (wScore - wScore * 0.62) * t);
+  const cwMax = Math.max(...meds);
+  const colorwayBars = [...prod.cw].sort((x, y) => y.median - x.median).map(c => ({
+    name: c.color, disp: usd(c.median), w: Math.round((c.median / cwMax) * 100) + '%',
+  }));
+  return { prod, variants, a: a0, model, colorwayBars, modelSearchChart: chart(modelSearch, 14, 24, 26) };
+}
+
+// ---------- views ----------
+function viewBag() {
+  const { prod, variants, model, colorwayBars, modelSearchChart } = buildModelData();
+  return `${topbar('bag')}
+  <div style="padding: 26px 40px 22px; display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; border-bottom: 1px solid #E0D4BF;">
+    <div style="display: flex; align-items: center; gap: 22px;">
+      <div style="width: 96px; height: 96px; flex: 0 0 96px; border: 1px solid #D2C2A8; background-image: repeating-linear-gradient(135deg, #EFE7D8, #EFE7D8 8px, #E8DECC 8px, #E8DECC 16px);"></div>
+      <div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span class="kicker-lg">Discover › Chloé › Paddington</span>
+          <span class="tag">Product</span>
+        </div>
+        <h2 class="serif" style="margin: 4px 0 8px; font-weight: 600; font-size: 46px; line-height: 1;">Paddington <span style="color:#8A7C6C; font-weight: 500;">(${prod.size})</span></h2>
+        <span style="font-size: 13px; color: #6B5E4F;">${prod.tagline} · <strong style="color:#2B2520;">${model.cwCount} colorways</strong></span>
+        <div style="display: flex; align-items: center; gap: 8px; margin-top: 14px;">
+          <span class="mono" style="font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: #B3A48E;">Size</span>
+          ${PRODUCTS.map(p => `<span class="chip ${p.id === prod.id ? 'on' : ''}" onclick="setState({product:'${p.id}',variant:'${p.cw[0].id}'})">${p.size}</span>`).join('')}
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; gap: 10px;">
+      <span class="btn ghost">+ Watch model</span>
+      <a class="btn dark" href="#/compare">Compare</a>
+    </div>
+  </div>
+  <div class="statgrid">
+    <div class="statcard"><span class="kicker">Median · all colorways</span><div class="statnum">${model.median}</div><span class="mono" style="font-size: 11px; color: #9A8B77;">range ${model.rangeLow} – ${model.rangeHigh}</span></div>
+    <div class="statcard"><span class="kicker">Active listings</span><div class="statnum">${model.active}</div><span class="mono" style="font-size: 11px; color: #B0623E;">▲ across 9 sites</span></div>
+    <div class="statcard"><span class="kicker">Covetability Score</span><div style="display: flex; align-items: baseline; gap: 9px; margin-top: 4px;"><span class="serif" style="font-weight: 600; font-size: 38px; line-height: 1;">${model.score}</span><span class="badge">${model.dir}</span></div><span class="mono" style="font-size: 11px; color: #9A8B77;">weighted by listings</span></div>
+    <div class="statcard"><span class="kicker">Colorways</span><div class="statnum">${model.cwCount}</div><span class="mono" style="font-size: 11px; color: #9A8B77;">in this size</span></div>
+  </div>
+  <div style="display: grid; grid-template-columns: 1.55fr 1fr;">
+    <div style="padding: 26px 28px 30px 40px; border-right: 1px solid #E0D4BF;">
+      <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 6px;">
+        <span class="serif" style="font-weight: 600; font-size: 26px;">Variants</span>
+        <span class="mono" style="font-size: 11px; color: #B0623E;">Click a row to open detail →</span>
+      </div>
+      <div style="display: grid; grid-template-columns: 24px 1.25fr 76px 88px 64px; gap: 14px; padding: 8px 12px;" class="kicker">
+        <span></span><span>Variant</span><span style="text-align:right;">Median</span><span>30d interest</span><span style="text-align:right;">Score</span>
+      </div>
+      ${variants.map(v => `
+      <div class="row-hover" onclick="setState({variant:'${v.id}'});location.hash='#/variant'" style="${v.id === state.variant ? 'background:#F1E9DA;' : ''} display: grid; grid-template-columns: 24px 1.25fr 76px 88px 64px; gap: 14px; align-items: center; padding: 13px 12px; border-top: 1px solid #EBE2D2; cursor: pointer;">
+        <span style="width: 18px; height: 18px; border-radius: 50%; background: ${v.hex}; border: 1px solid rgba(43,37,32,0.18); display: block;"></span>
+        <div style="display: flex; flex-direction: column;">
+          <span class="serif" style="font-weight: 600; font-size: 20px; line-height: 1.05;">${v.color}</span>
+          <span class="mono" style="font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: #9A8B77;">Leather · ${v.active} listings</span>
+        </div>
+        <span class="serif" style="text-align: right; font-weight: 600; font-size: 19px;">${v.medianDisp}</span>
+        ${sparkSvg(v.spark, v.dirColor)}
+        <div style="display: flex; flex-direction: column; align-items: flex-end;">
+          <span class="serif" style="font-weight: 700; font-size: 21px; line-height: 1; color: ${v.dirColor};">${v.score}</span>
+          <span class="mono" style="font-size: 9px; letter-spacing: 0.08em; text-transform: uppercase; color: ${v.dirColor};">${v.dir}</span>
+        </div>
+      </div>`).join('')}
+    </div>
+    <div style="padding: 26px 40px 30px 32px; display: flex; flex-direction: column; gap: 24px;">
+      <div>
+        <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 12px;">
+          <span class="mono" style="font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #6B5E4F;">Search interest · model</span>
+          <span class="mono" style="font-size: 11px; color: #B0623E;">▲ +29%</span>
+        </div>
+        ${lineChart(modelSearchChart, 116)}
+      </div>
+      <div class="hr"></div>
+      <div>
+        <span class="kicker-lg">Median by colorway</span>
+        <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 11px;">
+          ${colorwayBars.map(c => `
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <span class="mono" style="flex: 0 0 104px; font-size: 10px; letter-spacing: 0.04em; text-transform: uppercase; color: #6B5E4F;">${c.name}</span>
+            <div style="flex: 1; height: 8px; background: #EAE0CE; position: relative;"><div style="position: absolute; left: 0; top: 0; bottom: 0; width: ${c.w}; background: #C99B78;"></div></div>
+            <span class="serif" style="flex: 0 0 50px; text-align: right; font-weight: 600; font-size: 16px;">${c.disp}</span>
+          </div>`).join('')}
+        </div>
+      </div>
+      <div class="note-card">
+        <span class="kicker" style="color: #B0623E;">Top mover</span>
+        <p style="margin: 8px 0 0; font-size: 12.5px; line-height: 1.55; color: #5C5147;"><strong style="color:#2B2520;">${model.topName}</strong> leads this size at score ${model.topScore}, while <strong style="color:#2B2520;">${model.fastName}</strong> shows the fastest 30-day interest growth at ${model.fastSd}.</p>
+      </div>
+    </div>
+  </div>`;
+}
+
+function viewVariant() {
+  const { prod, variants, model } = buildModelData();
+  const a0 = variants.find(v => v.id === state.variant) || variants[0];
+  const shapeA = a0.rise ? RISE : FLAT;
+  const priceStart = a0.median * (a0.rise ? 0.82 : 0.97);
+  const priceSeries = shapeA.map(t => priceStart + (a0.median - priceStart) * t);
+  const searchStart = a0.score * (a0.rise ? 0.55 : 0.92);
+  const searchSeries = shapeA.map(t => searchStart + (a0.score - searchStart) * t);
+  const volStart = a0.active * 0.55;
+  const volSeries = shapeA.map(t => volStart + (a0.active - volStart) * t);
+  const volMax = Math.max(...volSeries);
+  const rangeLow = usd(Math.round(a0.median * 0.62)), rangeHigh = usd(Math.round(a0.median * 1.95));
+  const momRow = (l, v) => `<div style="display: flex; align-items: center; justify-content: space-between; padding: 9px 0; border-top: 1px solid #EBE2D2;"><span class="mono" style="font-size: 11px; text-transform: uppercase; color: #6B5E4F;">${l}</span><span class="mono" style="font-size: 13px; color: #B0623E;">${v}</span></div>`;
+  return `${topbar('bag')}
+  <div style="padding: 26px 40px 22px; border-bottom: 1px solid #E0D4BF;">
+    <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 24px;">
+      <div style="display: flex; align-items: center; gap: 22px;">
+        <div class="swatch-img" style="width: 96px; height: 96px; flex: 0 0 96px; background-color: ${a0.hex};"></div>
+        <div>
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <a href="#/bag" class="kicker-lg" style="color: #9A8B77;">‹ Paddington (${prod.size})</a>
+            <span class="tag">Variant</span>
+          </div>
+          <h2 class="serif" style="margin: 4px 0 4px; font-weight: 600; font-size: 46px; line-height: 1;">${a0.color} <span style="color:#8A7C6C;">·</span> ${prod.size}</h2>
+          <span style="font-size: 13px; color: #6B5E4F;">Leather · gold padlock · range ${rangeLow} – ${rangeHigh}</span>
+        </div>
+      </div>
+      <div style="display: flex; gap: 10px;"><span class="btn ghost">+ Watch</span><span class="btn dark">Set alert</span></div>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px;">
+      ${variants.map(v => `<span class="chip ${v.id === state.variant ? 'on' : ''}" onclick="setState({variant:'${v.id}'})"><span class="sw" style="background: ${v.hex};"></span>${v.color}</span>`).join('')}
+    </div>
+  </div>
+  <div class="statgrid">
+    <div class="statcard"><span class="kicker">Median asking</span><div class="statnum">${a0.medianDisp}</div><span class="mono" style="font-size: 11px; color: #B0623E;">▲ ${a0.pd} · 90d</span></div>
+    <div class="statcard"><span class="kicker">Active listings</span><div class="statnum">${a0.active}</div><span class="mono" style="font-size: 11px; color: #9A8B77;">in this variant</span></div>
+    <div class="statcard"><span class="kicker">Days on market</span><div class="statnum">${a0.days}</div><span class="mono" style="font-size: 11px; color: #9A8B77;">average</span></div>
+    <div class="statcard"><span class="kicker">Sell-through</span><div class="statnum">${a0.sell}%</div><span class="mono" style="font-size: 11px; color: #9A8B77;">est.</span></div>
+  </div>
+  <div style="display: grid; grid-template-columns: 1.45fr 1fr;">
+    <div style="padding: 28px 32px 30px 40px; display: flex; flex-direction: column; gap: 26px; border-right: 1px solid #E0D4BF;">
+      <div>
+        <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 12px;"><span class="mono" style="font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #6B5E4F;">Median asking price</span><span class="mono" style="font-size: 11px; color: #B0623E;">▲ ${a0.pd}</span></div>
+        ${lineChart(chart(priceSeries, 14, 24, 26), 130)}
+      </div>
+      <div>
+        <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 12px;"><span class="mono" style="font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #6B5E4F;">Search interest index</span><span class="mono" style="font-size: 11px; color: #B0623E;">▲ ${a0.sd}</span></div>
+        ${lineChart(chart(searchSeries, 14, 24, 26), 130)}
+      </div>
+      <div>
+        <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 12px;"><span class="mono" style="font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #6B5E4F;">Active listing volume</span><span class="mono" style="font-size: 11px; color: #B0623E;">▲ ${a0.vd}</span></div>
+        <div style="display: flex; align-items: flex-end; gap: 5px; height: 96px;">
+          ${volSeries.map(v => `<div style="flex: 1; background: #D7B292; height: ${((v / volMax) * 100).toFixed(1)}%; min-height: 4px;"></div>`).join('')}
+        </div>
+      </div>
+    </div>
+    <div style="padding: 28px 40px 30px 32px; display: flex; flex-direction: column; gap: 22px;">
+      <div style="display: flex; align-items: center; gap: 24px;">
+        ${scoreRing(a0.score, 132, 44)}
+        <div>
+          <span class="badge" style="padding: 5px 11px; letter-spacing: 0.16em; font-size: 11px;">${a0.dir}</span>
+          <p style="margin: 12px 0 0; font-size: 12.5px; color: #6B5E4F; line-height: 1.5;">${a0.conf}% confidence. ${prod.size} average is <strong style="color:#2B2520;">${model.score}</strong>.</p>
+        </div>
+      </div>
+      <div class="hr"></div>
+      <div>
+        <span class="kicker-lg">Momentum</span>
+        <div style="margin-top: 8px;">${momRow('Search interest', a0.sd)}${momRow('Asking price', a0.pd)}${momRow('Listing volume', a0.vd)}</div>
+      </div>
+      <div class="note-card">
+        <span class="kicker" style="color: #B0623E;">Why it’s moving</span>
+        <p style="margin: 8px 0 0; font-size: 12.5px; line-height: 1.55; color: #5C5147;">${a0.note}</p>
+      </div>
+    </div>
+  </div>
+  <div style="padding: 26px 40px 34px; border-top: 1px solid #E0D4BF;">
+    <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 4px;">
+      <span class="serif" style="font-weight: 600; font-size: 24px;">Listings · ${a0.color} ${prod.size}</span>
+      <span class="mono" style="font-size: 11px; color: #B0623E;">View all ${a0.active} →</span>
+    </div>
+    <div style="display: grid; grid-template-columns: 90px 110px 1fr; gap: 16px; padding: 12px 0 8px;" class="kicker"><span>Price</span><span>Condition</span><span>Marketplace · note</span></div>
+    ${LISTINGS.map(l => `
+    <div style="display: grid; grid-template-columns: 90px 110px 1fr; gap: 16px; align-items: center; padding: 12px 0; border-top: 1px solid #EBE2D2;">
+      <span class="serif" style="font-weight: 600; font-size: 20px;">${l.price}</span>
+      <span class="mono" style="font-size: 10px; text-transform: uppercase; color: #6B5E4F;">${l.cond}</span>
+      <span style="font-size: 13px; color: #6B5E4F;"><span style="color: #2B2520; font-weight: 600;">${l.site}</span> · ${l.note}</span>
+    </div>`).join('')}
+  </div>`;
+}
+
+function viewBrand() {
+  const brandActive = CHLOE.reduce((s, m) => s + m.active, 0);
+  const brandScore = Math.round(CHLOE.reduce((s, m) => s + m.score * m.active, 0) / brandActive);
+  const brandChart = chart(RISE.map(t => brandScore * 0.7 + (brandScore - brandScore * 0.7) * t), 14, 24, 26);
+  return `${topbar('brand')}
+  <div style="padding: 34px 40px 26px; display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; border-bottom: 1px solid #E0D4BF;">
+    <div>
+      <span class="kicker-lg">Discover › Brand</span>
+      <h2 class="serif" style="margin: 6px 0 6px; font-weight: 600; font-size: 72px; line-height: 0.9;">Chloé</h2>
+      <span style="font-size: 13px; color: #6B5E4F;">Paris · 1952 · ${CHLOE.length} models tracked</span>
+    </div>
+    <div style="display: flex; gap: 10px;"><span class="btn ghost">+ Follow house</span><a class="btn dark" href="#/signals">House signals</a></div>
+  </div>
+  <div class="statgrid">
+    <div class="statcard"><span class="kicker">House Covetability</span><div style="display: flex; align-items: baseline; gap: 9px; margin-top: 4px;"><span class="serif" style="font-weight: 600; font-size: 38px; line-height: 1;">${brandScore}</span><span class="badge">${dirOf(brandScore)}</span></div></div>
+    <div class="statcard"><span class="kicker">Models tracked</span><div class="statnum">${CHLOE.length}</div></div>
+    <div class="statcard"><span class="kicker">Active listings</span><div class="statnum">${brandActive}</div></div>
+    <div class="statcard"><span class="kicker">House momentum · 90d</span><div class="statnum" style="color: #B0623E;">+18%</div></div>
+  </div>
+  <div style="display: grid; grid-template-columns: 1.6fr 1fr;">
+    <div style="padding: 26px 32px 32px 40px; border-right: 1px solid #E0D4BF;">
+      <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 6px;">
+        <span class="serif" style="font-weight: 600; font-size: 26px;">Models</span>
+        <span class="mono" style="font-size: 11px; color: #B0623E;">Click a model to open it →</span>
+      </div>
+      <div style="display: grid; grid-template-columns: 22px 1.3fr 60px 88px 68px; gap: 14px; padding: 8px 12px;" class="kicker"><span></span><span>Model</span><span style="text-align:right;">Median</span><span>Interest</span><span style="text-align:right;">Score</span></div>
+      ${CHLOE.map(m => {
+        const dirColor = m.up && m.score >= 50 ? '#B0623E' : '#8A857C';
+        return `<a href="#/bag" class="row-hover" style="display: grid; grid-template-columns: 22px 1.3fr 60px 88px 68px; gap: 14px; align-items: center; padding: 13px 12px; border-top: 1px solid #EBE2D2; cursor: pointer;">
+        <span style="width: 18px; height: 18px; border-radius: 50%; background: ${m.hex}; border: 1px solid rgba(43,37,32,0.18); display: block;"></span>
+        <div style="display: flex; flex-direction: column;">
+          <span class="serif" style="font-weight: 600; font-size: 20px; line-height: 1.05; color: #2B2520;">${m.model}</span>
+          <span class="mono" style="font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: #9A8B77;">${m.era} · ${m.active} listings</span>
+        </div>
+        <span class="serif" style="text-align: right; font-weight: 600; font-size: 19px; color: #2B2520;">${usd(m.median)}</span>
+        ${sparkSvg(spark(m.score, m.up, 60), dirColor)}
+        <div style="display: flex; flex-direction: column; align-items: flex-end;">
+          <span class="serif" style="font-weight: 700; font-size: 21px; line-height: 1; color: ${dirColor};">${m.score}</span>
+          <span class="mono" style="font-size: 9px; letter-spacing: 0.08em; text-transform: uppercase; color: ${dirColor};">${dirOf(m.score)}</span>
+        </div>
+      </a>`;
+      }).join('')}
+    </div>
+    <div style="padding: 26px 40px 32px 32px; display: flex; flex-direction: column; gap: 22px;">
+      <div>
+        <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 12px;">
+          <span class="mono" style="font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #6B5E4F;">House interest · 12mo</span>
+          <span class="mono" style="font-size: 11px; color: #B0623E;">▲ +18%</span>
+        </div>
+        ${lineChart(brandChart, 120)}
+      </div>
+      <div class="hr"></div>
+      <div class="note-card">
+        <span class="kicker" style="color: #B0623E;">House read</span>
+        <p style="margin: 8px 0 0; font-size: 13px; line-height: 1.6; color: #5C5147;">House momentum is led by the Paddington and Edith revival, with the Drew holding steady. The Marcie is the one cooling model — down 6% and drifting toward Stable.</p>
+      </div>
+      <div style="display: flex; gap: 12px;">
+        <div style="flex: 1; background: #FCF9F2; border: 1px solid #E0D4BF; border-radius: 2px; padding: 14px 16px;"><span class="kicker" style="font-size: 9px;">Top model</span><div class="serif" style="font-weight: 600; font-size: 22px;">Paddington</div></div>
+        <div style="flex: 1; background: #FCF9F2; border: 1px solid #E0D4BF; border-radius: 2px; padding: 14px 16px;"><span class="kicker" style="font-size: 9px;">Cooling</span><div class="serif" style="font-weight: 600; font-size: 22px; color: #8A857C;">Marcie</div></div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function viewSignals() {
+  const parts = [
+    { label: 'Search-interest momentum', weight: 0.25, norm: 92, src: 'Google Trends · +38% / 30d' },
+    { label: 'Social-mention momentum', weight: 0.20, norm: 84, src: 'Pinterest saves +24%, TikTok posts +19%' },
+    { label: 'Asking-price momentum', weight: 0.20, norm: 78, src: 'Median +11% / 90d' },
+    { label: 'Listing-demand imbalance', weight: 0.15, norm: 80, src: 'Sell-through 58%, DOM −5 days' },
+    { label: 'Editorial momentum', weight: 0.10, norm: 72, src: '6 mentions, sentiment +' },
+    { label: 'Marketplace breadth', weight: 0.10, norm: 74, src: '9 marketplaces carrying' },
+  ];
+  const sigTotal = Math.round(parts.reduce((s, p) => s + p.weight * p.norm, 0));
+  const leadSearch = chart([40, 44, 49, 47, 55, 63, 68, 74, 72, 82, 90, 96], 14, 20, 24);
+  const leadPrice = chart([60, 61, 62, 63, 62, 64, 65, 67, 66, 70, 74, 78], 14, 20, 24);
+  const windows = [['7-day', '+9%'], ['30-day', '+38%'], ['90-day', '+52%'], ['Year / year', '+71%']];
+  const drivers = [
+    ['Search interest', 'strongest driver', '+23.0 pts'],
+    ['Social mentions', 'accelerating', '+16.8 pts'],
+    ['Asking price', 'lagging — upside', '+15.6 pts'],
+  ];
+  return `${topbar('signals')}
+  <div style="padding: 28px 40px 24px; display: flex; align-items: center; gap: 30px; border-bottom: 1px solid #E0D4BF;">
+    ${scoreRing(sigTotal, 128, 42)}
+    <div style="flex: 1;">
+      <span class="kicker-lg">Covetability Score · Chloé Paddington · Medium · Whiskey</span>
+      <div style="display: flex; align-items: baseline; gap: 14px; margin: 6px 0 8px;">
+        <span class="serif" style="font-style: italic; font-weight: 600; font-size: 34px;">${dirOf(sigTotal)}</span>
+        <span class="mono" style="font-size: 12px; color: #6B5E4F;">Confidence 61%</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 3px; height: 22px; width: 100%; background: #EAE0CE; border-radius: 2px; overflow: hidden;">
+        ${parts.map(p => `<div style="height: 100%; width: ${(p.weight * p.norm)}%; background: #B0623E; border-right: 1px solid #F6F1E7;" title="${p.label}"></div>`).join('')}
+      </div>
+      <span class="mono" style="font-size: 10px; letter-spacing: 0.06em; color: #9A8B77; margin-top: 7px; display: block;">Weighted contribution to score · ${sigTotal} of 100 filled</span>
+    </div>
+  </div>
+  <div style="display: grid; grid-template-columns: 1.5fr 1fr;">
+    <div style="padding: 26px 32px 30px 40px; border-right: 1px solid #E0D4BF;">
+      <span class="serif" style="font-weight: 600; font-size: 24px;">Score breakdown</span>
+      <div style="display: grid; grid-template-columns: 1.5fr 46px 1fr 58px; gap: 14px; padding: 12px 0 8px;" class="kicker"><span>Signal</span><span style="text-align:right;">Weight</span><span>Normalized</span><span style="text-align:right;">Points</span></div>
+      ${parts.map(p => `
+      <div style="display: grid; grid-template-columns: 1.5fr 46px 1fr 58px; gap: 14px; align-items: center; padding: 12px 0; border-top: 1px solid #EBE2D2;">
+        <div style="display: flex; flex-direction: column;">
+          <span style="font-size: 14px; font-weight: 600;">${p.label}</span>
+          <span class="mono" style="font-size: 9.5px; letter-spacing: 0.04em; color: #9A8B77;">${p.src}</span>
+        </div>
+        <span class="mono" style="text-align: right; font-size: 12px; color: #6B5E4F;">${Math.round(p.weight * 100)}%</span>
+        <div style="height: 7px; background: #EAE0CE; position: relative;"><div style="position: absolute; left: 0; top: 0; bottom: 0; width: ${p.norm}%; background: #C99B78;"></div></div>
+        <span class="serif" style="text-align: right; font-weight: 700; font-size: 19px; color: #B0623E;">${(p.weight * p.norm).toFixed(1)}</span>
+      </div>`).join('')}
+      <div style="margin-top: 20px;">
+        <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 10px;">
+          <span class="mono" style="font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #6B5E4F;">Search leads price</span>
+          <span class="mono" style="font-size: 10px; color: #9A8B77;"><span style="color:#B0623E;">■</span> search &nbsp; <span style="color:#C99B78;">■</span> price</span>
+        </div>
+        <svg viewBox="0 0 1000 300" preserveAspectRatio="none" style="width: 100%; height: 110px; display: block; overflow: visible;">
+          <line x1="14" y1="276" x2="986" y2="276" stroke="#D2C2A8" stroke-width="1" vector-effect="non-scaling-stroke"></line>
+          <path d="${leadPrice.line}" fill="none" stroke="#C99B78" stroke-width="2.5" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"></path>
+          <path d="${leadSearch.line}" fill="none" stroke="#B0623E" stroke-width="2.5" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"></path>
+        </svg>
+        <p style="margin: 8px 0 0; font-size: 12px; line-height: 1.5; color: #6B5E4F;">Search interest is pulling ahead of asking price — the classic precursor to a median step-up.</p>
+      </div>
+    </div>
+    <div style="padding: 26px 40px 30px 32px; display: flex; flex-direction: column; gap: 20px;">
+      <div>
+        <span class="kicker-lg">Momentum windows</span>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: #E0D4BF; border: 1px solid #E0D4BF; margin-top: 10px;">
+          ${windows.map(([w, v]) => `<div style="background: #FCF9F2; padding: 14px 16px;"><span class="kicker">${w}</span><div class="serif" style="font-weight: 700; font-size: 28px; line-height: 1.1; color: #B0623E;">${v}</div></div>`).join('')}
+        </div>
+      </div>
+      <div style="display: flex; gap: 12px;">
+        <div style="flex: 1;" class="note-card"><span class="kicker" style="font-size: 9px;">Velocity</span><div class="serif" style="font-weight: 700; font-size: 26px;">+14 pts</div></div>
+        <div style="flex: 1;" class="note-card"><span class="kicker" style="font-size: 9px;">Acceleration</span><div class="serif" style="font-weight: 700; font-size: 26px; color: #B0623E;">+6 pts</div></div>
+      </div>
+      <p style="margin: 0; font-size: 12px; line-height: 1.5; color: #6B5E4F;">Interest rose 20→40 then 40→80 — the curve is steepening, not just rising.</p>
+      <div class="hr"></div>
+      <div style="background: #2B2520; border-radius: 3px; padding: 20px 22px;">
+        <span class="mono" style="font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #D7A88C;">Forecast · 3–6 months</span>
+        <p class="serif" style="margin: 10px 0 8px; font-style: italic; font-weight: 600; font-size: 23px; line-height: 1.25; color: #F6F1E7;">Likely to increase in popularity over the next 3–6 months.</p>
+        <p style="margin: 0; font-size: 12px; line-height: 1.55; color: #C6B7A4;">Asking price is lagging search interest by roughly six weeks — historically a leading indicator of a median step-up. Confidence held at 61% by limited sold-price data.</p>
+      </div>
+      <div>
+        <span class="kicker-lg">Top drivers</span>
+        ${drivers.map(([l, n, v]) => `
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-top: 1px solid #EBE2D2;">
+          <div style="display: flex; flex-direction: column;"><span style="font-size: 13.5px; font-weight: 600;">${l}</span><span class="mono" style="font-size: 9.5px; letter-spacing: 0.04em; text-transform: uppercase; color: #9A8B77;">${n}</span></div>
+          <span class="mono" style="font-size: 13px; color: #B0623E;">${v}</span>
+        </div>`).join('')}
+      </div>
+    </div>
+  </div>`;
+}
+
+function viewCompare() {
+  const cat = CATALOG.map(b => ({ ...b, medianDisp: usd(b.median), dirColor: b.score >= 50 ? '#B0623E' : '#8A857C' }));
+  const cols = state.compare.map(id => cat.find(b => b.id === id)).filter(Boolean);
+  const rows = [
+    ['Median asking', b => b.medianDisp],
+    ['Covetability', b => b.score + ' · ' + b.dir, true],
+    ['Price · 90d', b => b.pd],
+    ['Search · 30d', b => b.sd],
+    ['Active listings', b => String(b.active)],
+    ['Days on market', b => String(b.days)],
+    ['Sell-through', b => b.sell + '%'],
+    ['Confidence', b => b.conf + '%'],
+    ['Era · material', b => b.era + ' · ' + b.material],
+  ];
+  return `${topbar('compare')}
+  <div style="padding: 26px 40px 20px; border-bottom: 1px solid #E0D4BF;">
+    <h2 class="serif" style="margin: 0 0 4px; font-weight: 600; font-size: 40px; line-height: 1;">Compare bags</h2>
+    <span style="font-size: 13px; color: #6B5E4F;">Pick 2–4 bags — the table updates live.</span>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px;">
+      ${cat.map(b => `<span class="chip ${state.compare.includes(b.id) ? 'on' : ''}" onclick="toggleCompare('${b.id}')"><span class="sw" style="background: ${b.hex};"></span>${b.brand} ${b.model}</span>`).join('')}
+    </div>
+  </div>
+  <div style="display: flex; align-items: stretch; border-bottom: 1px solid #E0D4BF;">
+    <div style="flex: 0 0 168px; padding: 22px 20px 22px 40px; border-right: 1px solid #E0D4BF;"></div>
+    ${cols.map(c => `
+    <div style="flex: 1; padding: 20px 22px; border-right: 1px solid #E0D4BF; min-width: 0;">
+      <div class="swatch-img" style="width: 100%; height: 88px; border-radius: 3px; margin-bottom: 12px; background-color: ${c.hex}; background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.08) 0 9px, rgba(0,0,0,0.05) 9px 18px);"></div>
+      <span class="mono" style="font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A8B77;">${c.brand}</span>
+      <div class="serif" style="font-weight: 600; font-size: 24px; line-height: 1.02;">${c.model}</div>
+      <span class="mono" style="font-size: 10px; letter-spacing: 0.04em; color: #6B5E4F;">${c.variant}</span>
+    </div>`).join('')}
+  </div>
+  ${rows.map(([label, fn, accent]) => `
+  <div style="display: flex; align-items: stretch; border-top: 1px solid #EBE2D2;">
+    <span class="mono" style="flex: 0 0 168px; padding: 14px 20px 14px 40px; border-right: 1px solid #E0D4BF; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: #6B5E4F; display: flex; align-items: center;">${label}</span>
+    ${cols.map(b => `<span class="serif" style="flex: 1; padding: 14px 22px; border-right: 1px solid #E0D4BF; font-weight: 600; font-size: 21px; color: ${accent ? b.dirColor : '#2B2520'}; display: flex; align-items: center; min-width: 0;">${fn(b)}</span>`).join('')}
+  </div>`).join('')}`;
+}
+
+function toggleCompare(id) {
+  const has = state.compare.includes(id);
+  if (has && state.compare.length <= 2) return;
+  if (!has && state.compare.length >= 4) return;
+  setState({ compare: has ? state.compare.filter(x => x !== id) : [...state.compare, id] });
+}
+
+// ---------- router ----------
+const VIEWS = { bag: viewBag, variant: viewVariant, brand: viewBrand, signals: viewSignals, compare: viewCompare };
+function render() {
+  const route = (location.hash.replace('#/', '') || 'bag');
+  const view = VIEWS[route] || viewBag;
+  document.getElementById('app').innerHTML = `<div class="page-wrap">${view()}</div>`;
+  window.scrollTo(0, 0);
+}
+window.addEventListener('hashchange', render);
+render();
+</script>
+</body>
+</html>
