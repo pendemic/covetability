@@ -6,6 +6,7 @@ from app.models.market import (
     ListingEvent,
     ListingRaw,
     ManualComp,
+    MatchRun,
     SnapshotRun,
 )
 from app.models.score import ScoreDaily
@@ -22,6 +23,7 @@ __all__ = [
     "ListingEvent",
     "ListingRaw",
     "ManualComp",
+    "MatchRun",
     "ScoreDaily",
     "SnapshotRun",
 ]

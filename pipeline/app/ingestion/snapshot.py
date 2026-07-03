@@ -77,7 +77,14 @@ def run_snapshot(
                 if candidate.marketplace_item_id in processed_item_ids:
                     continue
                 processed_item_ids.add(candidate.marketplace_item_id)
-                write_result = upsert_listing(session, source.source_name, candidate, observed_at)
+                write_result = upsert_listing(
+                    session,
+                    source.source_name,
+                    candidate,
+                    observed_at,
+                    candidate_bag_model_id=bag.id,
+                    candidate_query=query,
+                )
                 counts[write_result] += 1
 
         counts["unique"] = len(bag_seen)
@@ -116,6 +123,9 @@ def upsert_listing(
     source_name: str,
     candidate: ListingCandidate,
     observed_at: datetime,
+    *,
+    candidate_bag_model_id: int | None = None,
+    candidate_query: str | None = None,
 ) -> str:
     listing = session.scalar(
         select(ListingRaw).where(
@@ -145,6 +155,8 @@ def upsert_listing(
             last_observed=observed_at,
             expires_at=expires_at,
             raw_payload=candidate.raw_payload,
+            candidate_bag_model_id=candidate_bag_model_id,
+            candidate_query=candidate_query,
         )
         session.add(listing)
         session.flush()
@@ -167,6 +179,10 @@ def upsert_listing(
     listing.last_observed = observed_at
     listing.expires_at = expires_at
     listing.raw_payload = candidate.raw_payload
+    if listing.candidate_bag_model_id is None:
+        listing.candidate_bag_model_id = candidate_bag_model_id
+    if listing.candidate_query is None:
+        listing.candidate_query = candidate_query
 
     if old_price != candidate.price or old_currency != candidate.currency:
         write_event(

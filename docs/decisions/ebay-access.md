@@ -15,6 +15,9 @@
 Live Browse API smoke testing starts at Phase 1.6 after credentials are granted. Until then,
 ingestion work uses fixture replay and the Phase 0 catalog seed.
 
+After the live smoke test passes, start the real gold-set process in
+`docs/runbooks/gold-set-labeling.md`.
+
 ## Live Smoke Runbook
 
 Run this only after production Browse API credentials are granted.

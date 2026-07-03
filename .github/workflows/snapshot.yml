@@ -29,6 +29,9 @@ jobs:
       - name: Run snapshot
         working-directory: pipeline
         run: uv run python -m jobs.daily_snapshot
+      - name: Run matching
+        working-directory: pipeline
+        run: uv run python -m jobs.run_matching
       - name: Expire raw rows
         working-directory: pipeline
         run: uv run python -m jobs.expire_raw

@@ -1,0 +1,306 @@
+.adminShell {
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.adminTopbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 28px;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.adminBrand {
+  display: grid;
+  gap: 2px;
+}
+
+.adminBrand strong {
+  font-size: 1.05rem;
+}
+
+.adminBrand span,
+.adminMuted {
+  color: var(--muted);
+}
+
+.adminNav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.adminNav a,
+.adminButton,
+.adminGhostButton,
+.adminDangerButton,
+.adminSelect,
+.adminInput {
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font: inherit;
+}
+
+.adminNav a,
+.adminButton,
+.adminGhostButton,
+.adminDangerButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 14px;
+  color: var(--ink);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.adminButton {
+  border-color: var(--blue);
+  background: var(--blue);
+  color: white;
+}
+
+.adminGhostButton {
+  background: transparent;
+}
+
+.adminDangerButton {
+  border-color: #9f3f39;
+  background: #9f3f39;
+  color: white;
+}
+
+.adminSelect,
+.adminInput {
+  width: 100%;
+  padding: 0 12px;
+  background: white;
+  color: var(--ink);
+}
+
+.adminMain {
+  width: min(1280px, calc(100vw - 32px));
+  margin: 0 auto;
+  padding: 28px 0 48px;
+}
+
+.adminHeader {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 22px;
+}
+
+.adminHeader h1,
+.adminPanel h2,
+.adminTool h2 {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.2;
+}
+
+.adminGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.adminPanel,
+.adminTool,
+.adminLoginBox {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.adminPanel,
+.adminTool {
+  padding: 18px;
+}
+
+.adminPanelWide {
+  grid-column: span 2;
+}
+
+.adminStack {
+  display: grid;
+  gap: 14px;
+}
+
+.adminTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.adminTable th,
+.adminTable td {
+  padding: 10px 8px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.adminTable th {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.adminLoginPage {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 24px;
+  background: var(--paper);
+}
+
+.adminLoginBox {
+  display: grid;
+  gap: 16px;
+  width: min(420px, 100%);
+  padding: 24px;
+}
+
+.adminLoginBox h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.adminTwoColumn {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(300px, 0.8fr);
+  gap: 16px;
+}
+
+.adminListingTitle {
+  margin: 0 0 14px;
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.adminMetaGrid,
+.adminFormGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.adminMeta {
+  padding: 10px;
+  border-left: 4px solid var(--moss);
+  background: rgb(255 255 255 / 56%);
+}
+
+.adminMeta span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.adminImageFrame {
+  display: grid;
+  min-height: 260px;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+}
+
+.adminImageFrame img {
+  width: 100%;
+  height: 100%;
+  max-height: 360px;
+  object-fit: contain;
+}
+
+.adminTraceList,
+.adminChipRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.adminChip,
+.adminTraceList li {
+  padding: 6px 9px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: white;
+  font-size: 0.82rem;
+}
+
+.adminRejectChip {
+  border-color: #c68079;
+  color: #7d2e2a;
+}
+
+.adminCheckboxRow {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.adminCheckboxRow label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 38px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+}
+
+.adminActionRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.adminQueueRow {
+  cursor: pointer;
+}
+
+.adminQueueRow[aria-selected="true"] {
+  background: rgb(61 96 115 / 12%);
+}
+
+.adminKeyBox {
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+}
+
+@media (max-width: 900px) {
+  .adminTopbar,
+  .adminHeader {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .adminGrid,
+  .adminTwoColumn,
+  .adminMetaGrid,
+  .adminFormGrid,
+  .adminCheckboxRow {
+    grid-template-columns: 1fr;
+  }
+
+  .adminPanelWide {
+    grid-column: span 1;
+  }
+}

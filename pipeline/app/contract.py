@@ -84,9 +84,24 @@ class SnapshotRunStatus(StrEnum):
     failed = "failed"
 
 
+class MatchStatus(StrEnum):
+    pending = "pending"
+    auto_accepted = "auto_accepted"
+    needs_review = "needs_review"
+    auto_rejected = "auto_rejected"
+    human_accepted = "human_accepted"
+    human_rejected = "human_rejected"
+
+
 class GoldLabelVerdict(StrEnum):
     accept = "accept"
     reject = "reject"
+
+
+class GoldLabelOrigin(StrEnum):
+    labeling_ui = "labeling_ui"
+    review_queue = "review_queue"
+    fixture_seed = "fixture_seed"
 
 
 class ScoreClassification(StrEnum):
@@ -107,6 +122,10 @@ WINSOR_PCT = (2, 98)
 RAW_RETENTION_DAYS = 90
 RELIST_WINDOW_DAYS = 14
 ENDED_AFTER_MISSED_DAYS = 2
+REMATCH_DELTA_THRESHOLD = 0.15
+MATCH_PRECISION_TARGET = 0.95
+MATCH_RECALL_TARGET = 0.70
+VARIANT_ATTRIBUTION_TARGET = 0.85
 
 SCORE_BASE_WEIGHTS = {
     "search_momentum": 25,

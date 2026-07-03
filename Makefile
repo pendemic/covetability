@@ -1,7 +1,8 @@
 DB_COMPOSE = docker compose -f infra/docker-compose.yml
 EBAY_SOURCE ?= fixtures
+GOLD ?= all
 
-.PHONY: db-up db-down migrate seed snapshot expire expire-dry test lint api web
+.PHONY: db-up db-down migrate seed snapshot match rematch load-fixture-gold evaluate evaluate-fixtures expire expire-dry test lint api web
 
 db-up:
 	$(DB_COMPOSE) up -d
@@ -17,6 +18,22 @@ seed:
 
 snapshot:
 	cd pipeline && EBAY_SOURCE=$(EBAY_SOURCE) uv run python -m jobs.daily_snapshot
+
+match:
+	cd pipeline && uv run python -m jobs.run_matching
+
+rematch:
+	cd pipeline && uv run python -m jobs.run_matching --all
+
+load-fixture-gold:
+	cd pipeline && uv run python -m jobs.load_fixture_gold
+
+evaluate:
+	cd pipeline && uv run python -m jobs.evaluate_matcher --gold-origin $(GOLD)
+
+evaluate-fixtures:
+	cd pipeline && uv run python -m jobs.load_fixture_gold
+	cd pipeline && uv run python -m jobs.evaluate_matcher --gold-origin fixture_seed --enforce
 
 expire:
 	cd pipeline && uv run python -m jobs.expire_raw

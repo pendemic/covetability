@@ -58,6 +58,15 @@ jobs:
       - name: Verify fixture snapshot
         working-directory: pipeline
         run: uv run python -m jobs.verify_snapshot
+      - name: Match fixture listings
+        working-directory: pipeline
+        run: uv run python -m jobs.run_matching
+      - name: Load fixture gold labels
+        working-directory: pipeline
+        run: uv run python -m jobs.load_fixture_gold
+      - name: Evaluate fixture matcher
+        working-directory: pipeline
+        run: uv run python -m jobs.evaluate_matcher --gold-origin fixture_seed --enforce
       - name: Retention dry run
         working-directory: pipeline
         run: uv run python -m jobs.expire_raw --dry-run
@@ -83,3 +92,6 @@ jobs:
       - name: Vocabulary lint
         working-directory: web
         run: npm run lint:vocab
+      - name: Build web
+        working-directory: web
+        run: npm run build

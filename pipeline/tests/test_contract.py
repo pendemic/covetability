@@ -8,6 +8,10 @@ def test_contract_constants_match_governing_docs() -> None:
     assert contract.MIN_LIFECYCLE_EVENTS == 15
     assert contract.MATCH_AUTO_ACCEPT == 0.90
     assert contract.MATCH_REVIEW_FLOOR == 0.60
+    assert contract.REMATCH_DELTA_THRESHOLD == 0.15
+    assert contract.MATCH_PRECISION_TARGET == 0.95
+    assert contract.MATCH_RECALL_TARGET == 0.70
+    assert contract.VARIANT_ATTRIBUTION_TARGET == 0.85
     assert contract.WINSOR_PCT == (2, 98)
     assert contract.RAW_RETENTION_DAYS == 90
     assert contract.RELIST_WINDOW_DAYS == 14
@@ -19,6 +23,22 @@ def test_contract_constants_match_governing_docs() -> None:
         "listing_turnover_proxy": 15,
     }
     assert contract.SCORE_WEIGHT_CEILINGS["asking_price_momentum"] == 25
+
+
+def test_matching_contract_enums_are_stable() -> None:
+    assert [status.value for status in contract.MatchStatus] == [
+        "pending",
+        "auto_accepted",
+        "needs_review",
+        "auto_rejected",
+        "human_accepted",
+        "human_rejected",
+    ]
+    assert [origin.value for origin in contract.GoldLabelOrigin] == [
+        "labeling_ui",
+        "review_queue",
+        "fixture_seed",
+    ]
 
 
 def test_daily_aggregate_model_avoids_prohibited_metric_language() -> None:

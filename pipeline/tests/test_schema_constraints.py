@@ -8,8 +8,8 @@ from sqlalchemy.engine import Engine
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
-from app.contract import ConditionBand, PriceType, SourceType
-from app.models import BagModel, Brand, DailyAggregate, ManualComp
+from app.contract import ConditionBand, GoldLabelVerdict, PriceType, SourceType
+from app.models import BagModel, Brand, DailyAggregate, GoldLabel, ManualComp
 
 
 def cleanup_test_catalog_rows(engine: Engine) -> None:
@@ -89,6 +89,24 @@ def test_daily_aggregate_unique_key_treats_null_variant_as_same_bucket(db_engine
                 active_listing_count=9,
                 matched_listing_count=9,
                 source_count=1,
+            )
+        )
+
+        with pytest.raises(IntegrityError):
+            session.commit()
+
+        session.rollback()
+
+
+def test_gold_label_reject_requires_rejection_reason(db_engine: Engine) -> None:
+    with Session(db_engine) as session:
+        bag = create_test_bag(session)
+        session.add(
+            GoldLabel(
+                marketplace_item_id=f"test-label-{uuid4().hex}",
+                bag_model_id=bag.id,
+                verdict=GoldLabelVerdict.reject,
+                rejection_reason=None,
             )
         )
 

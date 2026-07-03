@@ -26,9 +26,11 @@ from app.contract import (
     AuthLabel,
     ConditionBand,
     ConditionConfidence,
+    GoldLabelOrigin,
     GoldLabelVerdict,
     IngestionMode,
     ListingEventType,
+    MatchStatus,
     PriceType,
     RejectionReason,
     SnapshotRunStatus,
@@ -68,6 +70,20 @@ class ListingRaw(Base):
     matched_variant_id: Mapped[int | None] = mapped_column(
         ForeignKey("bag_variants.id", ondelete="SET NULL")
     )
+    match_status: Mapped[MatchStatus] = mapped_column(
+        pg_enum(MatchStatus, "match_status"),
+        nullable=False,
+        server_default=MatchStatus.pending.value,
+    )
+    rule_trace: Mapped[dict[str, Any]] = mapped_column(
+        JSONB, nullable=False, server_default=text("'{}'::jsonb")
+    )
+    matcher_version: Mapped[str | None] = mapped_column(String(40))
+    matched_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    candidate_bag_model_id: Mapped[int | None] = mapped_column(
+        ForeignKey("bag_models.id", ondelete="SET NULL")
+    )
+    candidate_query: Mapped[str | None] = mapped_column(String(240))
     condition_raw: Mapped[str | None] = mapped_column(Text)
     condition_band: Mapped[ConditionBand | None] = mapped_column(
         pg_enum(ConditionBand, "condition_band")
@@ -221,12 +237,27 @@ class ManualComp(Base):
 
 class GoldLabel(Base):
     __tablename__ = "gold_labels"
+    __table_args__ = (
+        UniqueConstraint("marketplace_item_id", "bag_model_id", name="uq_gold_labels_item_bag"),
+        CheckConstraint(
+            "(verdict = 'reject' AND rejection_reason IS NOT NULL) OR "
+            "(verdict = 'accept' AND rejection_reason IS NULL)",
+            name="ck_gold_labels_verdict_reason",
+        ),
+        Index("ix_gold_labels_bag_model_id", "bag_model_id"),
+    )
 
     id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
     listing_id: Mapped[int | None] = mapped_column(ForeignKey("listings_raw.id", ondelete="SET NULL"))
-    marketplace_item_id: Mapped[str | None] = mapped_column(String(180))
+    marketplace_item_id: Mapped[str] = mapped_column(String(180), nullable=False)
+    bag_model_id: Mapped[int] = mapped_column(ForeignKey("bag_models.id", ondelete="CASCADE"), nullable=False)
     verdict: Mapped[GoldLabelVerdict] = mapped_column(
         pg_enum(GoldLabelVerdict, "gold_label_verdict"), nullable=False
+    )
+    origin: Mapped[GoldLabelOrigin] = mapped_column(
+        pg_enum(GoldLabelOrigin, "gold_label_origin"),
+        nullable=False,
+        server_default=GoldLabelOrigin.labeling_ui.value,
     )
     rejection_reason: Mapped[RejectionReason | None] = mapped_column(
         pg_enum(RejectionReason, "rejection_reason")
@@ -246,3 +277,24 @@ class GoldLabel(Base):
         DateTime(timezone=True), nullable=False, server_default=text("now()")
     )
     notes: Mapped[str | None] = mapped_column(Text)
+
+
+class MatchRun(Base):
+    __tablename__ = "match_runs"
+
+    id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    run_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
+    mode: Mapped[str] = mapped_column(String(40), nullable=False)
+    matcher_version: Mapped[str] = mapped_column(String(40), nullable=False)
+    listings_considered: Mapped[int] = mapped_column(Integer, nullable=False, server_default=text("0"))
+    status_counts: Mapped[dict[str, Any]] = mapped_column(
+        JSONB, nullable=False, server_default=text("'{}'::jsonb")
+    )
+    bag_deltas: Mapped[dict[str, Any]] = mapped_column(
+        JSONB, nullable=False, server_default=text("'{}'::jsonb")
+    )
+    threshold_exceeded: Mapped[bool] = mapped_column(Boolean, nullable=False, server_default=text("false"))
+    notes: Mapped[str | None] = mapped_column(Text)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), nullable=False, server_default=text("now()")
+    )

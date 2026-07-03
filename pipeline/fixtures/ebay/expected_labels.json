@@ -1,0 +1,1262 @@
+[
+  {
+    "item_id": "v1|fx-balenciaga-city-001|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-002|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "gray",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-003|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": null,
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-004|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "red",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-005|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-006|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-007|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": "Le City reissue",
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-008|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "reject",
+    "rejection_reason": "child_mini_variant_mismatched",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-009|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-010|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "reject",
+    "rejection_reason": "replica_or_inspired",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-011|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "blue",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-012|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-013|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-014|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": null,
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-015|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": "Mini City",
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-016|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "brown",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-017|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-018|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-019|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "red",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-020|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-021|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-022|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "beige",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-023|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-024|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-025|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": "Small City",
+    "color_family": "taupe",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-026|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": null,
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-027|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-balenciaga-city-028|0",
+    "bag_slug": "balenciaga-city",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-001|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "brown",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-002|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-003|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "cream",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-004|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "brown",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-005|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "gray",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-006|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "tan",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-007|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "blue",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-008|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "metallic",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-009|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "reject",
+    "rejection_reason": "wrong_product_category",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-010|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-011|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "brown",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-012|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "red",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-013|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "cream",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-014|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-015|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-016|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "reject",
+    "rejection_reason": "wrong_product_category",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-017|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "reject",
+    "rejection_reason": "replica_or_inspired",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-018|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "reject",
+    "rejection_reason": "accessory_replacement_part",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-019|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "brown",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-020|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "tan",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-021|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "cream",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-022|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "blue",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-023|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-024|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "brown",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-025|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "gray",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-026|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "tan",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-027|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "brown",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-chloe-paddington-028|0",
+    "bag_slug": "chloe-paddington",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-001|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "blue",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-002|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-003|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": "Modern Saddle",
+    "color_family": null,
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-004|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "rasta",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-005|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "blue",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-006|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "denim",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-007|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "reject",
+    "rejection_reason": "wrong_product_category",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-008|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "reject",
+    "rejection_reason": "wrong_product_category",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-009|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-010|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "reject",
+    "rejection_reason": "replica_or_inspired",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-011|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": null,
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-012|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "pink",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-013|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "reject",
+    "rejection_reason": "wrong_product_category",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-014|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "reject",
+    "rejection_reason": "wrong_product_category",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-015|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-016|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": "Modern Saddle",
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-017|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": null,
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-018|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "red",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-019|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "reject",
+    "rejection_reason": "replica_or_inspired",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-020|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "blue",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-021|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "tan",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-022|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": null,
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-023|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "rasta",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-024|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": "Modern Saddle",
+    "color_family": null,
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-025|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "red",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-026|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-027|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "blue",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-dior-saddle-028|0",
+    "bag_slug": "dior-saddle",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": null,
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-001|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Zucca canvas",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-002|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-003|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Zucca canvas",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-004|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": null,
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-005|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": "Baguette 1997 re-edition",
+    "color_family": "Zucca canvas",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-006|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-007|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-008|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-009|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "reject",
+    "rejection_reason": "accessory_replacement_part",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-010|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "reject",
+    "rejection_reason": "replica_or_inspired",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-011|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Zucca canvas",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-012|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "brown",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-013|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-014|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": null,
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-015|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Zucca canvas",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-016|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-017|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Zucca canvas",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-018|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "tan",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-019|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "reject",
+    "rejection_reason": "wrong_product_category",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-020|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": "Baguette 1997 re-edition",
+    "color_family": "black",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-021|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Zucca canvas",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-022|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "purple",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-023|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Zucca canvas",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-024|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "cream",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-025|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Zucca canvas",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-026|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "reject",
+    "rejection_reason": "accessory_replacement_part",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-027|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "brown",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-fendi-baguette-028|0",
+    "bag_slug": "fendi-baguette",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "red",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-001|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Monogram",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-002|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Monogram",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-003|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": "Pochette Accessoires NM",
+    "color_family": "Monogram",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-004|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Damier Ebene",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-005|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Multicolore",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-006|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Vernis",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-007|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "reject",
+    "rejection_reason": "child_mini_variant_mismatched",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-008|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-009|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-010|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "reject",
+    "rejection_reason": "accessory_replacement_part",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-011|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "reject",
+    "rejection_reason": "accessory_replacement_part",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-012|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "reject",
+    "rejection_reason": "replica_or_inspired",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-013|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Monogram",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-014|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Damier Azur",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-015|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Monogram",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-016|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-017|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-018|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Monogram",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-019|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "reject",
+    "rejection_reason": "accessory_replacement_part",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-020|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Damier Azur",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-021|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Monogram",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-022|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Multicolore",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-023|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Monogram",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-024|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": "Pochette Accessoires NM",
+    "color_family": "Monogram",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-025|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Damier Ebene",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-026|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "reject",
+    "rejection_reason": "wrong_model",
+    "variant": null,
+    "color_family": null,
+    "note": "fixture trap"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-027|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Monogram",
+    "note": "fixture accept"
+  },
+  {
+    "item_id": "v1|fx-lv-pochette-028|0",
+    "bag_slug": "louis-vuitton-pochette-accessoires",
+    "verdict": "accept",
+    "rejection_reason": null,
+    "variant": null,
+    "color_family": "Multicolore",
+    "note": "fixture accept"
+  }
+]
