@@ -1,0 +1,258 @@
+{
+  "href": "fixture://dior-saddle-bag",
+  "total": 10,
+  "limit": 10,
+  "offset": 0,
+  "itemSummaries": [
+    {
+      "itemId": "v1|fx-dior-saddle-001|0",
+      "title": "Dior Saddle vintage blue Trotter oblique canvas Galliano bag",
+      "price": {
+        "value": "1850.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-001-0",
+      "seller": {
+        "username": "galliano-archive"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-001-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "22.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-002|0",
+      "title": "Christian Dior Saddle bag black leather vintage D hardware",
+      "price": {
+        "value": "1420.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-002-0",
+      "seller": {
+        "username": "dior-edit"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-002-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "20.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-003|0",
+      "title": "Dior Oblique Saddle modern 2018 shoulder bag with strap",
+      "price": {
+        "value": "3200.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-003-0",
+      "seller": {
+        "username": "modern-dior"
+      },
+      "condition": "Pre-owned - Excellent",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-003-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "28.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-004|0",
+      "title": "Dior Saddle Rasta print vintage Galliano rare",
+      "price": {
+        "value": "2450.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-004-0",
+      "seller": {
+        "username": "rare-print"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-004-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "24.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-005|0",
+      "title": "Dior Mini Saddle blue oblique compact bag",
+      "price": {
+        "value": "1680.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-005-0",
+      "seller": {
+        "username": "mini-dior"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-005-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-006|0",
+      "title": "Dior Saddle denim vintage bag hardware plating wear",
+      "price": {
+        "value": "1180.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-006-0",
+      "seller": {
+        "username": "denim-vault"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-006-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "20.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-007|0",
+      "title": "Horse saddle western leather tack not Dior bag",
+      "price": {
+        "value": "120.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-007-0",
+      "seller": {
+        "username": "equestrian-shop"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-007-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "35.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-008|0",
+      "title": "Dior saddle pad equestrian blue quilted",
+      "price": {
+        "value": "64.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-008-0",
+      "seller": {
+        "username": "stable-goods"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-008-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "14.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-009|0",
+      "title": "Gucci saddle bag brown leather Dior style keyword",
+      "price": {
+        "value": "480.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-009-0",
+      "seller": {
+        "username": "brand-mix"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-009-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-010|0",
+      "title": "Dior saddle inspired monogram style shoulder purse",
+      "price": {
+        "value": "82.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-010-0",
+      "seller": {
+        "username": "style-dupes"
+      },
+      "condition": "New",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-010-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "10.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    }
+  ]
+}

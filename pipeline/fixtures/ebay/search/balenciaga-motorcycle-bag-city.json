@@ -1,0 +1,308 @@
+{
+  "href": "fixture://balenciaga-motorcycle-bag-city",
+  "total": 12,
+  "limit": 12,
+  "offset": 0,
+  "itemSummaries": [
+    {
+      "itemId": "v1|fx-balenciaga-city-019|0",
+      "title": "Balenciaga City rouge lambskin motorcycle handbag",
+      "price": {
+        "value": "740.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-balenciaga-city-019-0",
+      "seller": {
+        "username": "red-edit"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-balenciaga-city-019-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-balenciaga-city-020|0",
+      "title": "Balenciaga Day hobo bag city motorcycle keywords",
+      "price": {
+        "value": "370.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-balenciaga-city-020-0",
+      "seller": {
+        "username": "hobo-lot"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-balenciaga-city-020-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-balenciaga-city-021|0",
+      "title": "Balenciaga Classic City black chevre leather early 2000s",
+      "price": {
+        "value": "1280.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-balenciaga-city-021-0",
+      "seller": {
+        "username": "early-era"
+      },
+      "condition": "Pre-owned - Excellent",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-balenciaga-city-021-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "24.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-balenciaga-city-022|0",
+      "title": "Balenciaga City beige lambskin worn corners tassels intact",
+      "price": {
+        "value": "570.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-balenciaga-city-022-0",
+      "seller": {
+        "username": "neutral-archive"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-balenciaga-city-022-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-balenciaga-city-023|0",
+      "title": "Balenciaga Weekender bag city motorcycle line large travel",
+      "price": {
+        "value": "640.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-balenciaga-city-023-0",
+      "seller": {
+        "username": "travel-size"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-balenciaga-city-023-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-balenciaga-city-024|0",
+      "title": "Balenciaga City black classic hardware dust bag included",
+      "price": {
+        "value": "830.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-balenciaga-city-024-0",
+      "seller": {
+        "username": "clean-closet"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-balenciaga-city-024-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "20.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-balenciaga-city-025|0",
+      "title": "Balenciaga Small City metallic edge taupe bag",
+      "price": {
+        "value": "720.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-balenciaga-city-025-0",
+      "seller": {
+        "username": "taupe-vault"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-balenciaga-city-025-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-balenciaga-city-026|0",
+      "title": "Balenciaga Classic City green lambskin bag split tassel",
+      "price": {
+        "value": "590.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-balenciaga-city-026-0",
+      "seller": {
+        "username": "green-edit"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-balenciaga-city-026-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-balenciaga-city-027|0",
+      "title": "Balenciaga City black motorcycle bag excellent mirror tassels",
+      "price": {
+        "value": "950.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-balenciaga-city-027-0",
+      "seller": {
+        "username": "city-loop"
+      },
+      "condition": "Pre-owned - Excellent",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-balenciaga-city-027-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "21.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-balenciaga-city-028|0",
+      "title": "Balenciaga Neo Classic bag city keyword black top handle",
+      "price": {
+        "value": "700.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-balenciaga-city-028-0",
+      "seller": {
+        "username": "neo-mix"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-balenciaga-city-028-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-balenciaga-city-001|0",
+      "title": "Balenciaga Classic City black lambskin motorcycle bag mirror",
+      "price": {
+        "value": "820.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-balenciaga-city-001-0",
+      "seller": {
+        "username": "motorcycle-archive"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-balenciaga-city-001-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "20.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-balenciaga-city-002|0",
+      "title": "Balenciaga City bag anthracite brass hardware tassels",
+      "price": {
+        "value": "690.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-balenciaga-city-002-0",
+      "seller": {
+        "username": "paris-resale"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-balenciaga-city-002-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "href": "fixture://chloe-paddington-satchel",
+  "total": 10,
+  "limit": 10,
+  "offset": 0,
+  "itemSummaries": [
+    {
+      "itemId": "v1|fx-chloe-paddington-009|0",
+      "title": "Paddington Bear plush teddy with marmalade tote bag",
+      "price": {
+        "value": "34.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-009-0",
+      "seller": {
+        "username": "movie-merch"
+      },
+      "condition": "New",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-009-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-010|0",
+      "title": "Chloe Edith leather satchel listed as Paddington brown bag",
+      "price": {
+        "value": "390.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-010-0",
+      "seller": {
+        "username": "mixeddesigner"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-010-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-011|0",
+      "title": "Chloe Paddington whiskey satchel full set lock key cards dust bag",
+      "price": {
+        "value": "1180.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-011-0",
+      "seller": {
+        "username": "archive-lux"
+      },
+      "condition": "Pre-owned - Excellent",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-011-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "30.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-012|0",
+      "title": "Chloe Paddington red leather padlock handbag worn corners",
+      "price": {
+        "value": "455.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-012-0",
+      "seller": {
+        "username": "estate-style"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-012-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "17.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-013|0",
+      "title": "Chloe Paddington cream mini lock bag tarnished hardware",
+      "price": {
+        "value": "375.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-013-0",
+      "seller": {
+        "username": "vintage-cycle"
+      },
+      "condition": "Pre-owned - Fair",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-013-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "15.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-014|0",
+      "title": "Chloe Silverado bag cross listed Paddington style leather",
+      "price": {
+        "value": "320.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-014-0",
+      "seller": {
+        "username": "seller-mixup"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-014-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-015|0",
+      "title": "Chloe Paddington black leather satchel padlock and key excellent",
+      "price": {
+        "value": "890.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-015-0",
+      "seller": {
+        "username": "designer-loop"
+      },
+      "condition": "Pre-owned - Excellent",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-015-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "24.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-016|0",
+      "title": "Chloe Paddington DVD movie merchandise Paddington 2 bear bag",
+      "price": {
+        "value": "18.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-016-0",
+      "seller": {
+        "username": "media-lot"
+      },
+      "condition": "Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-016-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "5.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-017|0",
+      "title": "Inspired Chloe Paddington style padlock purse brown faux leather",
+      "price": {
+        "value": "65.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-017-0",
+      "seller": {
+        "username": "trend-dupes"
+      },
+      "condition": "New",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-017-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "12.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-018|0",
+      "title": "Chloe Paddington replacement lock and key only brass hardware",
+      "price": {
+        "value": "85.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-018-0",
+      "seller": {
+        "username": "parts-bin"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-018-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "7.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    }
+  ]
+}

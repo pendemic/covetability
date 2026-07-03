@@ -1,0 +1,308 @@
+{
+  "href": "fixture://chloe-padlock-bag",
+  "total": 12,
+  "limit": 12,
+  "offset": 0,
+  "itemSummaries": [
+    {
+      "itemId": "v1|fx-chloe-paddington-019|0",
+      "title": "Chloe Paddington medium chocolate satchel authenticated reseller tag",
+      "price": {
+        "value": "760.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-019-0",
+      "seller": {
+        "username": "platform-vault"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-019-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "20.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-020|0",
+      "title": "Chloe Paddington tan leather handbag heavy padlock patina",
+      "price": {
+        "value": "575.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-020-0",
+      "seller": {
+        "username": "slowfashion"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-020-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "19.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-021|0",
+      "title": "Chloe Paddington ivory leather bag lock key minor scratches",
+      "price": {
+        "value": "690.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-021-0",
+      "seller": {
+        "username": "closet-archive"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-021-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-022|0",
+      "title": "Chloe Paddington small blue leather satchel missing lock",
+      "price": {
+        "value": "340.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-022-0",
+      "seller": {
+        "username": "bag-notes"
+      },
+      "condition": "Pre-owned - Fair",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-022-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "16.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-023|0",
+      "title": "Chloe Paddington black padlock satchel original dust bag",
+      "price": {
+        "value": "810.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-023-0",
+      "seller": {
+        "username": "lux-loop"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-023-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "23.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-024|0",
+      "title": "Chloe Paddington whiskey leather tote with key and card",
+      "price": {
+        "value": "735.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-024-0",
+      "seller": {
+        "username": "designer-resale"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-024-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "25.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-025|0",
+      "title": "Chloe Paddington grey leather shoulder bag padlock no key",
+      "price": {
+        "value": "495.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-025-0",
+      "seller": {
+        "username": "y2k-archive"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-025-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-026|0",
+      "title": "Chloe Paddington tan bowler bag full lock set excellent",
+      "price": {
+        "value": "845.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-026-0",
+      "seller": {
+        "username": "vogue-vault"
+      },
+      "condition": "Pre-owned - Excellent",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-026-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "26.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-027|0",
+      "title": "Chloe Paddington brown satchel distressed leather padlock",
+      "price": {
+        "value": "520.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-027-0",
+      "seller": {
+        "username": "estate-lux"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-027-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-028|0",
+      "title": "Chloe Paddington black mini bag lock key dustbag",
+      "price": {
+        "value": "665.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-028-0",
+      "seller": {
+        "username": "mini-edit"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-028-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "17.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-001|0",
+      "title": "Chloe Paddington medium whiskey leather padlock bag with key",
+      "price": {
+        "value": "725.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-001-0",
+      "seller": {
+        "username": "atelier-archive"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-001-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "22.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-chloe-paddington-002|0",
+      "title": "Chloe Paddington black satchel lock and clochette Y2K Phoebe Philo",
+      "price": {
+        "value": "640.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-chloe-paddington-002-0",
+      "seller": {
+        "username": "vaultedit"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-002-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    }
+  ]
+}

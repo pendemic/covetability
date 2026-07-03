@@ -45,6 +45,22 @@ jobs:
       - name: Test pipeline
         working-directory: pipeline
         run: uv run pytest
+      - name: Run fixture snapshot
+        working-directory: pipeline
+        env:
+          EBAY_SOURCE: fixtures
+        run: uv run python -m jobs.daily_snapshot
+      - name: Re-run fixture snapshot for idempotency
+        working-directory: pipeline
+        env:
+          EBAY_SOURCE: fixtures
+        run: uv run python -m jobs.daily_snapshot
+      - name: Verify fixture snapshot
+        working-directory: pipeline
+        run: uv run python -m jobs.verify_snapshot
+      - name: Retention dry run
+        working-directory: pipeline
+        run: uv run python -m jobs.expire_raw --dry-run
 
   web:
     runs-on: ubuntu-latest

@@ -1,0 +1,258 @@
+{
+  "href": "fixture://fendi-baguette-bag",
+  "total": 10,
+  "limit": 10,
+  "offset": 0,
+  "itemSummaries": [
+    {
+      "itemId": "v1|fx-fendi-baguette-001|0",
+      "title": "Fendi Zucca Baguette vintage FF clasp brown shoulder bag",
+      "price": {
+        "value": "880.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-fendi-baguette-001-0",
+      "seller": {
+        "username": "roman-archive"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-fendi-baguette-001-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-fendi-baguette-002|0",
+      "title": "Fendi Baguette black leather shoulder bag silver FF buckle",
+      "price": {
+        "value": "940.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-fendi-baguette-002-0",
+      "seller": {
+        "username": "fendi-edit"
+      },
+      "condition": "Pre-owned - Excellent",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-fendi-baguette-002-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "20.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-fendi-baguette-003|0",
+      "title": "Fendi Baguette vintage zucca canvas edge wear",
+      "price": {
+        "value": "560.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-fendi-baguette-003-0",
+      "seller": {
+        "username": "condition-archive"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-fendi-baguette-003-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "17.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-fendi-baguette-004|0",
+      "title": "Fendi embellished beaded Baguette evening shoulder bag",
+      "price": {
+        "value": "1850.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-fendi-baguette-004-0",
+      "seller": {
+        "username": "runway-beads"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-fendi-baguette-004-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "22.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-fendi-baguette-005|0",
+      "title": "Fendi 1997 re-edition Baguette brown FF canvas",
+      "price": {
+        "value": "2190.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-fendi-baguette-005-0",
+      "seller": {
+        "username": "modern-fendi"
+      },
+      "condition": "Pre-owned - Excellent",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-fendi-baguette-005-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "24.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-fendi-baguette-006|0",
+      "title": "Fendi Mini Baguette black nappa leather bag",
+      "price": {
+        "value": "720.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-fendi-baguette-006-0",
+      "seller": {
+        "username": "mini-lux"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-fendi-baguette-006-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "16.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-fendi-baguette-007|0",
+      "title": "Fendi Mamma Forever shoulder bag seller calls Baguette",
+      "price": {
+        "value": "620.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-fendi-baguette-007-0",
+      "seller": {
+        "username": "mamma-mix"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-fendi-baguette-007-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-fendi-baguette-008|0",
+      "title": "Fendi Croissant bag zucca canvas baguette keyword",
+      "price": {
+        "value": "410.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-fendi-baguette-008-0",
+      "seller": {
+        "username": "shape-confusion"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-fendi-baguette-008-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-fendi-baguette-009|0",
+      "title": "Fendi Baguette charm keychain mini accessory",
+      "price": {
+        "value": "145.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-fendi-baguette-009-0",
+      "seller": {
+        "username": "accessory-case"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-fendi-baguette-009-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "8.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-fendi-baguette-010|0",
+      "title": "Fendi baguette inspired FF style shoulder purse",
+      "price": {
+        "value": "68.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-fendi-baguette-010-0",
+      "seller": {
+        "username": "dupe-market"
+      },
+      "condition": "New",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-fendi-baguette-010-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "9.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    }
+  ]
+}

@@ -73,6 +73,17 @@ class ListingEventType(StrEnum):
     repriced = "repriced"
 
 
+class IngestionMode(StrEnum):
+    fixtures = "fixtures"
+    live = "live"
+
+
+class SnapshotRunStatus(StrEnum):
+    succeeded = "succeeded"
+    partial = "partial"
+    failed = "failed"
+
+
 class GoldLabelVerdict(StrEnum):
     accept = "accept"
     reject = "reject"
@@ -95,6 +106,7 @@ MATCH_REVIEW_FLOOR = 0.60
 WINSOR_PCT = (2, 98)
 RAW_RETENTION_DAYS = 90
 RELIST_WINDOW_DAYS = 14
+ENDED_AFTER_MISSED_DAYS = 2
 
 SCORE_BASE_WEIGHTS = {
     "search_momentum": 25,

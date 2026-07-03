@@ -1,6 +1,13 @@
 from app.models.base import Base
 from app.models.catalog import BagAlias, BagModel, BagVariant, Brand, ExclusionTerm
-from app.models.market import DailyAggregate, GoldLabel, ListingEvent, ListingRaw, ManualComp
+from app.models.market import (
+    DailyAggregate,
+    GoldLabel,
+    ListingEvent,
+    ListingRaw,
+    ManualComp,
+    SnapshotRun,
+)
 from app.models.score import ScoreDaily
 
 __all__ = [
@@ -16,4 +23,5 @@ __all__ = [
     "ListingRaw",
     "ManualComp",
     "ScoreDaily",
+    "SnapshotRun",
 ]

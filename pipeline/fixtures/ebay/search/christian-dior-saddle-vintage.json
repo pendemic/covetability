@@ -1,0 +1,308 @@
+{
+  "href": "fixture://christian-dior-saddle-vintage",
+  "total": 12,
+  "limit": 12,
+  "offset": 0,
+  "itemSummaries": [
+    {
+      "itemId": "v1|fx-dior-saddle-019|0",
+      "title": "Western saddle style crossbody bag no Dior",
+      "price": {
+        "value": "38.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-019-0",
+      "seller": {
+        "username": "western-fashion"
+      },
+      "condition": "New",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-019-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "9.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-020|0",
+      "title": "Dior Saddle vintage blue oblique excellent with dust bag",
+      "price": {
+        "value": "2100.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-020-0",
+      "seller": {
+        "username": "dustbag-dior"
+      },
+      "condition": "Pre-owned - Excellent",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-020-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "24.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-021|0",
+      "title": "Dior Saddle vintage tan leather Galliano era",
+      "price": {
+        "value": "1320.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-021-0",
+      "seller": {
+        "username": "tan-dior"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-021-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "19.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-022|0",
+      "title": "Christian Dior Saddle Trotter bag date code visible",
+      "price": {
+        "value": "1750.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-022-0",
+      "seller": {
+        "username": "datecode-vault"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-022-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "21.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-023|0",
+      "title": "Dior Saddle Rasta vintage fair canvas wear",
+      "price": {
+        "value": "1550.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-023-0",
+      "seller": {
+        "username": "rasta-notes"
+      },
+      "condition": "Pre-owned - Fair",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-023-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "20.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-024|0",
+      "title": "Dior Saddle modern oblique pouch with strap",
+      "price": {
+        "value": "2950.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-024-0",
+      "seller": {
+        "username": "strap-included"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-024-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "25.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-025|0",
+      "title": "Dior Saddle vintage denim embroidered limited bag",
+      "price": {
+        "value": "1980.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-025-0",
+      "seller": {
+        "username": "denim-dior"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-025-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "22.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-026|0",
+      "title": "Dior Saddle black oblique modern mini bag",
+      "price": {
+        "value": "2850.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-026-0",
+      "seller": {
+        "username": "mini-modern"
+      },
+      "condition": "Pre-owned - Excellent",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-026-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "24.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-027|0",
+      "title": "Dior Saddle blue oblique vintage D charm hardware",
+      "price": {
+        "value": "1690.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-027-0",
+      "seller": {
+        "username": "hardware-note"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-027-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "20.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-028|0",
+      "title": "Dior Saddle vintage logo canvas no strap",
+      "price": {
+        "value": "1475.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-028-0",
+      "seller": {
+        "username": "no-strap-note"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-028-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-001|0",
+      "title": "Dior Saddle vintage blue Trotter oblique canvas Galliano bag",
+      "price": {
+        "value": "1850.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-001-0",
+      "seller": {
+        "username": "galliano-archive"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-001-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "22.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-dior-saddle-002|0",
+      "title": "Christian Dior Saddle bag black leather vintage D hardware",
+      "price": {
+        "value": "1420.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-dior-saddle-002-0",
+      "seller": {
+        "username": "dior-edit"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-dior-saddle-002-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "20.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    }
+  ]
+}

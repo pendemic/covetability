@@ -1,0 +1,258 @@
+{
+  "href": "fixture://louis-vuitton-pochette-accessoires",
+  "total": 10,
+  "limit": 10,
+  "offset": 0,
+  "itemSummaries": [
+    {
+      "itemId": "v1|fx-lv-pochette-001|0",
+      "title": "Louis Vuitton Pochette Accessoires monogram canvas vintage",
+      "price": {
+        "value": "520.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-001-0",
+      "seller": {
+        "username": "lv-archive"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-001-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "16.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-002|0",
+      "title": "LV Pochette Accessories monogram brown vachetta patina",
+      "price": {
+        "value": "410.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-002-0",
+      "seller": {
+        "username": "patina-notes"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-002-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "14.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-003|0",
+      "title": "Louis Vuitton Pochette Accessoires NM monogram larger re-edition",
+      "price": {
+        "value": "875.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-003-0",
+      "seller": {
+        "username": "nm-market"
+      },
+      "condition": "Pre-owned - Excellent",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-003-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-004|0",
+      "title": "Louis Vuitton Pochette Accessoires Damier Ebene pouch bag",
+      "price": {
+        "value": "610.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-004-0",
+      "seller": {
+        "username": "damier-edit"
+      },
+      "condition": "Pre-owned - Very Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-004-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "16.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-005|0",
+      "title": "LV Pochette Accessoires Multicolore white Murakami bag",
+      "price": {
+        "value": "920.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-005-0",
+      "seller": {
+        "username": "murakami-vault"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-005-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-006|0",
+      "title": "Louis Vuitton Pochette Accessoires Vernis red patent pouch",
+      "price": {
+        "value": "480.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-006-0",
+      "seller": {
+        "username": "vernis-case"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-006-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "15.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-007|0",
+      "title": "Mini Pochette Accessoires monogram LV small pouch",
+      "price": {
+        "value": "455.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-007-0",
+      "seller": {
+        "username": "mini-lv"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-007-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-008|0",
+      "title": "Pochette Metis monogram crossbody Louis Vuitton",
+      "price": {
+        "value": "1480.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-008-0",
+      "seller": {
+        "username": "metis-mix"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-008-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-009|0",
+      "title": "Louis Vuitton Pochette Felicie chain wallet monogram",
+      "price": {
+        "value": "820.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-009-0",
+      "seller": {
+        "username": "felicie-mix"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-009-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-010|0",
+      "title": "LV Pochette chain strap only gold replacement accessory",
+      "price": {
+        "value": "42.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-010-0",
+      "seller": {
+        "username": "strap-source"
+      },
+      "condition": "New",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-010-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "6.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    }
+  ]
+}

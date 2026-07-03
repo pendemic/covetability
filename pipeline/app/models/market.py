@@ -27,9 +27,11 @@ from app.contract import (
     ConditionBand,
     ConditionConfidence,
     GoldLabelVerdict,
+    IngestionMode,
     ListingEventType,
     PriceType,
     RejectionReason,
+    SnapshotRunStatus,
     SourceType,
 )
 from app.models.base import Base, pg_enum
@@ -96,6 +98,9 @@ class ListingRaw(Base):
 
 class ListingEvent(Base):
     __tablename__ = "listing_events"
+    __table_args__ = (
+        UniqueConstraint("listing_id", "type", "event_date", name="uq_listing_events_listing_type_date"),
+    )
 
     id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
     listing_id: Mapped[int] = mapped_column(ForeignKey("listings_raw.id", ondelete="CASCADE"), nullable=False)
@@ -111,6 +116,29 @@ class ListingEvent(Base):
     )
 
     listing: Mapped[ListingRaw] = relationship(back_populates="events")
+
+
+class SnapshotRun(Base):
+    __tablename__ = "snapshot_runs"
+    __table_args__ = (Index("ix_snapshot_runs_run_date", "run_date"),)
+
+    id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    run_date: Mapped[date] = mapped_column(Date, nullable=False)
+    source: Mapped[str] = mapped_column(String(80), nullable=False)
+    mode: Mapped[IngestionMode] = mapped_column(pg_enum(IngestionMode, "ingestion_mode"), nullable=False)
+    status: Mapped[SnapshotRunStatus] = mapped_column(
+        pg_enum(SnapshotRunStatus, "snapshot_run_status"), nullable=False
+    )
+    started_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
+    finished_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    bag_counts: Mapped[dict[str, Any]] = mapped_column(
+        JSONB, nullable=False, server_default=text("'{}'::jsonb")
+    )
+    ended_event_count: Mapped[int] = mapped_column(Integer, nullable=False, server_default=text("0"))
+    error: Mapped[str | None] = mapped_column(Text)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), nullable=False, server_default=text("now()")
+    )
 
 
 class DailyAggregate(Base):

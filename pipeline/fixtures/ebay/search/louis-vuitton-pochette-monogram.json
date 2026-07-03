@@ -1,0 +1,258 @@
+{
+  "href": "fixture://louis-vuitton-pochette-monogram",
+  "total": 10,
+  "limit": 10,
+  "offset": 0,
+  "itemSummaries": [
+    {
+      "itemId": "v1|fx-lv-pochette-009|0",
+      "title": "Louis Vuitton Pochette Felicie chain wallet monogram",
+      "price": {
+        "value": "820.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-009-0",
+      "seller": {
+        "username": "felicie-mix"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-009-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-010|0",
+      "title": "LV Pochette chain strap only gold replacement accessory",
+      "price": {
+        "value": "42.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-010-0",
+      "seller": {
+        "username": "strap-source"
+      },
+      "condition": "New",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-010-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "6.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-011|0",
+      "title": "Louis Vuitton Pochette insert organizer felt aftermarket",
+      "price": {
+        "value": "28.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-011-0",
+      "seller": {
+        "username": "organizer-shop"
+      },
+      "condition": "New",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-011-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "5.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-012|0",
+      "title": "LV inspired pochette accessoires style monogram pouch",
+      "price": {
+        "value": "55.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-012-0",
+      "seller": {
+        "username": "inspired-lv"
+      },
+      "condition": "New",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-012-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "8.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-013|0",
+      "title": "Louis Vuitton Pochette Accessoires monogram sticky lining fair",
+      "price": {
+        "value": "240.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-013-0",
+      "seller": {
+        "username": "as-is-lv"
+      },
+      "condition": "Pre-owned - Fair",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-013-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "12.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-014|0",
+      "title": "Louis Vuitton Pochette Accessoires Azur damier pouch bag",
+      "price": {
+        "value": "560.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-014-0",
+      "seller": {
+        "username": "azur-edit"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-014-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "15.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-015|0",
+      "title": "Louis Vuitton Pochette Accessoires monogram excellent full strap",
+      "price": {
+        "value": "690.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-015-0",
+      "seller": {
+        "username": "full-strap-lv"
+      },
+      "condition": "Pre-owned - Excellent",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-015-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "16.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-016|0",
+      "title": "Louis Vuitton Toiletry Pouch 19 pochette keywords",
+      "price": {
+        "value": "500.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-016-0",
+      "seller": {
+        "username": "toiletry-mix"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-016-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-017|0",
+      "title": "Louis Vuitton Kirigami pochette set monogram",
+      "price": {
+        "value": "620.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-017-0",
+      "seller": {
+        "username": "kirigami-case"
+      },
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-017-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "18.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    },
+    {
+      "itemId": "v1|fx-lv-pochette-018|0",
+      "title": "LV Pochette Accessoires monogram with extender chain",
+      "price": {
+        "value": "540.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/v1-fx-lv-pochette-018-0",
+      "seller": {
+        "username": "chain-included"
+      },
+      "condition": "Pre-owned - Good",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/v1-fx-lv-pochette-018-0.jpg"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "15.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ]
+    }
+  ]
+}
