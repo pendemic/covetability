@@ -35,6 +35,9 @@ class FixtureSource:
 
         raise KeyError(f"Fixture item not found: {item_id}")
 
+    def image_phash(self, summary: ItemSummary) -> str | None:
+        return summary.fixture_phash
+
 
 def write_search_fixture(path: Path, items: list[ItemSummary], query: str) -> None:
     payload = {

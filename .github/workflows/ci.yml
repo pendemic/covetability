@@ -67,6 +67,15 @@ jobs:
       - name: Evaluate fixture matcher
         working-directory: pipeline
         run: uv run python -m jobs.evaluate_matcher --gold-origin fixture_seed --enforce
+      - name: Evaluate fixture conditions
+        working-directory: pipeline
+        run: uv run python -m jobs.evaluate_conditions --enforce
+      - name: Run fixture aggregates
+        working-directory: pipeline
+        run: uv run python -m jobs.daily_aggregates
+      - name: Verify fixture aggregates
+        working-directory: pipeline
+        run: uv run python -m jobs.verify_aggregates
       - name: Retention dry run
         working-directory: pipeline
         run: uv run python -m jobs.expire_raw --dry-run

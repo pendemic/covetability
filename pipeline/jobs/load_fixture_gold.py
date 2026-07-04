@@ -9,7 +9,7 @@ from typing import Any
 from sqlalchemy import select
 from sqlalchemy.dialects.postgresql import insert
 
-from app.contract import GoldLabelOrigin, GoldLabelVerdict, RejectionReason
+from app.contract import ConditionBand, GoldLabelOrigin, GoldLabelVerdict, RejectionReason
 from app.db import SessionLocal
 from app.models import BagModel, BagVariant, GoldLabel, ListingRaw
 from app.settings import get_settings
@@ -75,6 +75,14 @@ def upsert_label(
         "rejection_reason": rejection_reason,
         "accepted_variant_id": variant.id if variant is not None else None,
         "color_family": label.get("color_family"),
+        "condition_band": (
+            ConditionBand(label["condition_band"]) if label.get("condition_band") else None
+        ),
+        "strap_included": label.get("strap_included"),
+        "lock_included": label.get("lock_included"),
+        "key_included": label.get("key_included"),
+        "dustbag_included": label.get("dustbag_included"),
+        "cards_included": label.get("cards_included"),
         "labeled_by": "fixture",
         "labeled_at": datetime.now(UTC),
         "notes": label.get("note"),

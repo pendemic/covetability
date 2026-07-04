@@ -1,14 +1,17 @@
 from __future__ import annotations
 
+from collections.abc import Callable
 from dataclasses import dataclass
 from datetime import UTC, datetime, timedelta
 from decimal import Decimal
+from functools import partial
 from typing import Any
 
 from sqlalchemy import select
 from sqlalchemy.dialects.postgresql import insert
 from sqlalchemy.orm import Session
 
+from app.conditions.normalize import CONDITION_NORMALIZER_VERSION, normalize_condition
 from app.contract import (
     ENDED_AFTER_MISSED_DAYS,
     ListingEventType,
@@ -84,6 +87,8 @@ def run_snapshot(
                     observed_at,
                     candidate_bag_model_id=bag.id,
                     candidate_query=query,
+                    candidate_bag_slug=bag.slug,
+                    phash_provider=partial(source.image_phash, summary),
                 )
                 counts[write_result] += 1
 
@@ -126,6 +131,8 @@ def upsert_listing(
     *,
     candidate_bag_model_id: int | None = None,
     candidate_query: str | None = None,
+    candidate_bag_slug: str | None = None,
+    phash_provider: Callable[[], str | None] | None = None,
 ) -> str:
     listing = session.scalar(
         select(ListingRaw).where(
@@ -148,6 +155,7 @@ def upsert_listing(
             shipping_included=candidate.shipping_included,
             seller_id=candidate.seller_id,
             item_url=candidate.item_url,
+            image_phash=phash_provider() if phash_provider is not None else None,
             price_type=PriceType.asking,
             condition_raw=candidate.condition_raw,
             observed_at=observed_at,
@@ -158,6 +166,7 @@ def upsert_listing(
             candidate_bag_model_id=candidate_bag_model_id,
             candidate_query=candidate_query,
         )
+        apply_condition_normalization(listing, candidate, candidate_bag_slug)
         session.add(listing)
         session.flush()
         write_event(session, listing.id, ListingEventType.new, observed_at.date(), {})
@@ -183,6 +192,9 @@ def upsert_listing(
         listing.candidate_bag_model_id = candidate_bag_model_id
     if listing.candidate_query is None:
         listing.candidate_query = candidate_query
+    if listing.image_phash is None and phash_provider is not None:
+        listing.image_phash = phash_provider()
+    apply_condition_normalization(listing, candidate, candidate_bag_slug)
 
     if old_price != candidate.price or old_currency != candidate.currency:
         write_event(
@@ -199,6 +211,21 @@ def upsert_listing(
         return "repriced"
 
     return "updated"
+
+
+def apply_condition_normalization(
+    listing: ListingRaw,
+    candidate: ListingCandidate,
+    candidate_bag_slug: str | None,
+) -> None:
+    assessment = normalize_condition(
+        candidate.condition_raw,
+        candidate.title,
+        bag_slug=candidate_bag_slug,
+    )
+    listing.condition_band = assessment.band
+    listing.condition_confidence = assessment.confidence
+    listing.condition_normalizer_version = CONDITION_NORMALIZER_VERSION
 
 
 def write_ended_events(

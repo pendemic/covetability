@@ -32,6 +32,9 @@ jobs:
       - name: Run matching
         working-directory: pipeline
         run: uv run python -m jobs.run_matching
+      - name: Run aggregates
+        working-directory: pipeline
+        run: uv run python -m jobs.daily_aggregates
       - name: Expire raw rows
         working-directory: pipeline
         run: uv run python -m jobs.expire_raw

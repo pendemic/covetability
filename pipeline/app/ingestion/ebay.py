@@ -10,6 +10,7 @@ import httpx
 from app.contract import IngestionMode
 from app.ingestion.fixtures import write_search_fixture
 from app.ingestion.models import ItemSummary, SearchResponse
+from app.ingestion.phash import compute_phash
 from app.ingestion.source import slugify
 
 OAUTH_SCOPE = "https://api.ebay.com/oauth/api_scope"
@@ -70,6 +71,16 @@ class EbayBrowseClient:
     def get_item(self, item_id: str) -> ItemSummary:
         response = self._request("GET", f"/buy/browse/v1/item/{item_id}")
         return ItemSummary.model_validate(response.json())
+
+    def image_phash(self, summary: ItemSummary) -> str | None:
+        if summary.image is None or summary.image.image_url is None:
+            return None
+        try:
+            response = self.client.get(summary.image.image_url, timeout=15)
+            response.raise_for_status()
+            return compute_phash(response.content)
+        except Exception:
+            return None
 
     def _request_search_page(self, *, query: str, limit: int, offset: int) -> SearchResponse:
         response = self._request(

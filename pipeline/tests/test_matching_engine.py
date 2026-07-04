@@ -8,7 +8,14 @@ from sqlalchemy import delete, func, select
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import Session, selectinload
 
-from app.contract import GoldLabelOrigin, GoldLabelVerdict, MatchStatus, RejectionReason
+from app.conditions.evaluate import evaluate_conditions
+from app.contract import (
+    ConditionBand,
+    GoldLabelOrigin,
+    GoldLabelVerdict,
+    MatchStatus,
+    RejectionReason,
+)
 from app.ingestion.fixtures import FixtureSource
 from app.ingestion.snapshot import run_snapshot
 from app.matching.engine import apply_matching
@@ -71,6 +78,14 @@ def load_expected_gold(session: Session) -> None:
                 ),
                 accepted_variant_id=variant.id if variant is not None else None,
                 color_family=label["color_family"],
+                condition_band=(
+                    ConditionBand(label["condition_band"]) if label.get("condition_band") else None
+                ),
+                strap_included=label.get("strap_included"),
+                lock_included=label.get("lock_included"),
+                key_included=label.get("key_included"),
+                dustbag_included=label.get("dustbag_included"),
+                cards_included=label.get("cards_included"),
                 labeled_by="fixture",
                 notes=label["note"],
             )
@@ -175,5 +190,20 @@ def test_fixture_gold_evaluation_passes_contract_targets(db_engine: Engine) -> N
         assert report.passes_targets
         assert report.false_positive == 0
         assert report.variant_attribution == 1.0
+
+    cleanup_fixture_rows(db_engine)
+
+
+def test_fixture_condition_evaluation_passes_contract_target(db_engine: Engine) -> None:
+    seed_and_snapshot(db_engine)
+    with Session(db_engine) as session:
+        load_expected_gold(session)
+        session.commit()
+
+        report = evaluate_conditions(session)
+
+        assert report.total_labels > 0
+        assert report.passes_targets
+        assert report.coverage > 0
 
     cleanup_fixture_rows(db_engine)

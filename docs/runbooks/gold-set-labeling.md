@@ -20,7 +20,7 @@ Label candidates from `/admin/labeling` in queue order by candidate bag. Target 
 3. Read the false-positive reason table and confusion export.
 4. Tune aliases and exclusions in `pipeline/seeds/catalog.py`.
 5. Run `make seed`, bump `MATCHER_VERSION` for rule changes, then run `make rematch`.
-6. If any rematch delta exceeds 15%, keep the `match_runs` row and annotate the tuning note. In Phase 3.4, run historical aggregate recompute before treating downstream movement as real.
+6. If any rematch delta exceeds 15%, keep the `match_runs` row and run `make recompute SINCE=<first-affected-date> NOTE="match_run=<id>"` before treating downstream movement as real.
 7. Repeat until precision is at least 95%, recall is at least 70%, and variant attribution is at least 85%.
 
 ## Exit

@@ -20,6 +20,9 @@ class ListingSource(Protocol):
     def get_item(self, item_id: str) -> ItemSummary:
         raise NotImplementedError
 
+    def image_phash(self, summary: ItemSummary) -> str | None:
+        raise NotImplementedError
+
 
 def slugify(value: str) -> str:
     normalized = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii")

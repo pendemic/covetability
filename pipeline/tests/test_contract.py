@@ -15,6 +15,7 @@ def test_contract_constants_match_governing_docs() -> None:
     assert contract.WINSOR_PCT == (2, 98)
     assert contract.RAW_RETENTION_DAYS == 90
     assert contract.RELIST_WINDOW_DAYS == 14
+    assert contract.AGGREGATE_WINDOW_DAYS == 14
     assert contract.SCORE_BASE_WEIGHTS == {
         "search_momentum": 25,
         "active_inventory_momentum": 25,
@@ -23,6 +24,8 @@ def test_contract_constants_match_governing_docs() -> None:
         "listing_turnover_proxy": 15,
     }
     assert contract.SCORE_WEIGHT_CEILINGS["asking_price_momentum"] == 25
+    assert contract.CONDITION_ACCURACY_TARGET == 0.85
+    assert contract.PHASH_HAMMING_MAX == 6
 
 
 def test_matching_contract_enums_are_stable() -> None:
@@ -38,6 +41,17 @@ def test_matching_contract_enums_are_stable() -> None:
         "labeling_ui",
         "review_queue",
         "fixture_seed",
+    ]
+
+
+def test_condition_band_order_is_scale_order() -> None:
+    assert [band.value for band in contract.ConditionBand] == [
+        "new_or_unused",
+        "excellent",
+        "very_good",
+        "good",
+        "fair",
+        "poor",
     ]
 
 

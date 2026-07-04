@@ -77,6 +77,24 @@ export type Summary = {
   gold_progress: Array<{ bag_slug: string; candidate_count: number; label_count: number }>;
 };
 
+export type QualitySummary = {
+  date_from: string;
+  date_to: string;
+  bags: Array<{
+    bag_slug: string;
+    band_coverage: Record<
+      string,
+      Record<string, { matched: number; priced: boolean; variant_id: number | null }>
+    >;
+    active_trend: Array<{ date: string; count: number }>;
+    confidence_trend: Array<{ date: string; average: number | null }>;
+    unbanded_share: number;
+    variant_attribution_share: number;
+    separate_market_rows: number;
+  }>;
+  alarms: Array<Record<string, string | number>>;
+};
+
 export type LabelPayload = {
   marketplace_item_id: string;
   bag_model_id: number;
@@ -157,6 +175,10 @@ export function getReviewQueue(bagSlug?: string) {
   return adminFetch<{ items: AdminListing[]; total: number; limit: number; offset: number }>(
     `review/queue?${query.toString()}`,
   );
+}
+
+export function getQualitySummary(days = 14) {
+  return adminFetch<QualitySummary>(`quality/summary?days=${days}`);
 }
 
 export function submitReviewDecision(

@@ -9,6 +9,7 @@ from sqlalchemy import delete, func, select
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import Session
 
+from app.conditions.normalize import CONDITION_NORMALIZER_VERSION
 from app.contract import ListingEventType
 from app.ingestion.fixtures import FixtureSource
 from app.ingestion.snapshot import run_snapshot
@@ -74,6 +75,12 @@ def test_fixture_snapshot_is_idempotent(db_engine: Engine) -> None:
         new_events = count_fixture_events(session, ListingEventType.new)
         assert raw_count >= 120
         assert new_events == raw_count
+        normalized = session.scalar(
+            select(ListingRaw).where(ListingRaw.marketplace_item_id == "v1|fx-chloe-paddington-001|0")
+        )
+        assert normalized is not None
+        assert normalized.condition_band is not None
+        assert normalized.condition_normalizer_version == CONDITION_NORMALIZER_VERSION
 
         run_snapshot(session, source, as_of=datetime(2026, 7, 2, 15, tzinfo=UTC))
         session.commit()

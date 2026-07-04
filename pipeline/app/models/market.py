@@ -93,6 +93,7 @@ class ListingRaw(Base):
         nullable=False,
         server_default=ConditionConfidence.indeterminate.value,
     )
+    condition_normalizer_version: Mapped[str | None] = mapped_column(String(40))
     auth_label: Mapped[AuthLabel] = mapped_column(
         pg_enum(AuthLabel, "auth_label"),
         nullable=False,
@@ -294,6 +295,26 @@ class MatchRun(Base):
         JSONB, nullable=False, server_default=text("'{}'::jsonb")
     )
     threshold_exceeded: Mapped[bool] = mapped_column(Boolean, nullable=False, server_default=text("false"))
+    notes: Mapped[str | None] = mapped_column(Text)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), nullable=False, server_default=text("now()")
+    )
+
+
+class AggregateRun(Base):
+    __tablename__ = "aggregate_runs"
+
+    id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    run_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
+    mode: Mapped[str] = mapped_column(String(40), nullable=False)
+    date_from: Mapped[date] = mapped_column(Date, nullable=False)
+    date_to: Mapped[date] = mapped_column(Date, nullable=False)
+    rows_written: Mapped[int] = mapped_column(Integer, nullable=False, server_default=text("0"))
+    relist_events_created: Mapped[int] = mapped_column(Integer, nullable=False, server_default=text("0"))
+    bag_stats: Mapped[dict[str, Any]] = mapped_column(
+        JSONB, nullable=False, server_default=text("'{}'::jsonb")
+    )
+    triggered_by: Mapped[str | None] = mapped_column(Text)
     notes: Mapped[str | None] = mapped_column(Text)
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), nullable=False, server_default=text("now()")

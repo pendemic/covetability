@@ -1,10 +1,13 @@
 from __future__ import annotations
 
+from datetime import date
+
 from fastapi.testclient import TestClient
 from sqlalchemy import select
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import Session
 
+from app.aggregates.compute import run_daily_aggregates
 from app.contract import GoldLabelOrigin, MatchStatus
 from app.main import app
 from app.matching.engine import apply_matching
@@ -100,5 +103,24 @@ def test_admin_review_decision_updates_listing_and_gold_label(db_engine: Engine)
         assert listing.match_status == MatchStatus.human_accepted
         assert label is not None
         assert label.origin == GoldLabelOrigin.review_queue
+
+    cleanup_fixture_rows(db_engine)
+
+
+def test_admin_quality_summary_shape(db_engine: Engine) -> None:
+    seed_and_snapshot(db_engine)
+    with Session(db_engine) as session:
+        apply_matching(session)
+        run_daily_aggregates(session, date(2026, 7, 2))
+        session.commit()
+
+    with TestClient(app) as client:
+        response = client.get("/admin/quality/summary?days=14", headers=auth_headers())
+
+    assert response.status_code == 200
+    payload = response.json()
+    assert payload["bags"]
+    assert "band_coverage" in payload["bags"][0]
+    assert "alarms" in payload
 
     cleanup_fixture_rows(db_engine)

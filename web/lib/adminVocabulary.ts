@@ -2,6 +2,7 @@ export const adminCopy = {
   dashboard: "Dashboard",
   labeling: "Labeling",
   review: "Review",
+  quality: "Data quality",
   signOut: "Sign out",
   adminAccess: "Admin access",
   secret: "Shared secret",
@@ -40,6 +41,12 @@ export const adminCopy = {
   action: "Action",
   keys: "Keys",
   close: "Close",
+  bandCoverage: "Band coverage",
+  possibleRelists: "Possible relists",
+  listingsThatEnded: "Listings that ended",
+  unbandedShare: "Unbanded share",
+  variantCoverage: "Variant coverage",
+  alarms: "Alarms",
 } as const;
 
 export const rejectionReasons = [

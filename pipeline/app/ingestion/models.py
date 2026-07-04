@@ -38,6 +38,7 @@ class ItemSummary(EbayModel):
     condition: str | None = None
     shipping_options: list[ShippingOption] = Field(default_factory=list, alias="shippingOptions")
     image: Image | None = None
+    fixture_phash: str | None = Field(default=None, alias="fixturePhash")
 
 
 class SearchResponse(EbayModel):
@@ -64,6 +65,7 @@ class ListingCandidate:
     shipping_included: bool | None
     seller_id: str | None
     item_url: str | None
+    image_url: str | None
     condition_raw: str | None
     raw_payload: dict[str, Any]
 
@@ -91,6 +93,7 @@ def to_candidate(summary: ItemSummary) -> ListingCandidate:
         shipping_included=shipping_included,
         seller_id=summary.seller.username if summary.seller else None,
         item_url=summary.item_web_url,
+        image_url=summary.image.image_url if summary.image else None,
         condition_raw=summary.condition,
         raw_payload=summary.model_dump(mode="json", by_alias=True, exclude_none=True),
     )
