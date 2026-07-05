@@ -55,6 +55,25 @@ CATALOG = [
             "Expected asking range: about $300 Fair incomplete to $1,800 Excellent full set; "
             "typical Good/Very Good about $550-$950."
         ),
+        "editorial_summary": (
+            "The Paddington is the mid-2000s padlock satchel that made heavy hardware feel "
+            "romantic and everyday at once."
+        ),
+        "editorial_history": (
+            "The Paddington arrived during Phoebe Philo's first great Chloe run, when the house "
+            "was turning soft leather, slouch, and substantial hardware into a new language for "
+            "daily bags. Its oversized brass lock was not a quiet detail; it made the bag instantly "
+            "recognizable, gave listings a clear completeness checklist, and helped define the "
+            "mid-2000s appetite for tactile accessories. The model appeared in multiple shapes, "
+            "including satchel, mini, bowler, tote, and zippy versions, which is why size language "
+            "needs careful handling in marketplace titles. The lock, key, clochette, and dust bag "
+            "also matter because missing pieces can change how a comparable listing should be read. "
+            "Later nostalgia for Philo-era Chloe brought renewed attention to the Paddington, but "
+            "the bag remains condition-sensitive: leather surface marks, corner wear, lock tarnish, "
+            "and key loss are more useful signals than a title that simply says vintage. Strong "
+            "examples usually pair clear hardware photos with enough angle detail to confirm shape "
+            "and scale."
+        ),
         "editorial_condition_notes": (
             "Leather scratches and patina, padlock tarnish, and missing lock or key are first-order "
             "condition and completeness signals."
@@ -102,6 +121,24 @@ CATALOG = [
         "expected_range_note": (
             "Expected asking range: about $350 Fair to $1,600 Excellent; typical Good/Very Good "
             "about $500-$900."
+        ),
+        "editorial_summary": (
+            "The City is Balenciaga's motorcycle-line workhorse: soft, graphic, and highly sensitive "
+            "to leather, hardware, and era."
+        ),
+        "editorial_history": (
+            "The Balenciaga City grew out of Nicolas Ghesquiere's motorcycle line in the early "
+            "2000s, pairing distressed lambskin with long tassels, studs, and a compact rectangular "
+            "shape. Its appeal sits in the tension between polish and wear: the leather was meant "
+            "to soften, crease, and look lived-in, yet excessive corner wear or darkened handles "
+            "still changes how a listing should be grouped. Marketplace naming is messy because "
+            "sellers often mix City with First, Work, Town, Velo, and other motorcycle silhouettes. "
+            "Hardware names such as G12, G21, and Metallic Edge also matter, but Phase 4 keeps them "
+            "as catalog context rather than separate public price rows. The recent Le City reissue "
+            "is treated as a separate market because modern retail positioning, condition profile, "
+            "and title behavior differ from early archive pieces. For public ranges, the model row "
+            "therefore reflects accepted non-reissue City listings only. Mirror presence, tassel "
+            "state, and handle tone are useful checks when two listings otherwise appear similar."
         ),
         "editorial_condition_notes": (
             "Corner wear, handle darkening, missing mirror, and split or missing tassels are common "
@@ -154,6 +191,24 @@ CATALOG = [
             "Expected asking range: about $300 Fair vintage to $2,500+ Excellent embellished; "
             "typical vintage Zucca Good/Very Good about $500-$1,100."
         ),
+        "editorial_summary": (
+            "The Baguette is Fendi's compact shoulder icon, with vintage Zucca, leather, and "
+            "embellished versions behaving differently in listings."
+        ),
+        "editorial_history": (
+            "Silvia Venturini Fendi introduced the Baguette in 1997 as a small shoulder bag carried "
+            "under the arm, and its compact format made fabric, beading, sequins, and logo canvas "
+            "feel like the main event. Vintage Zucca examples are common enough to support tighter "
+            "condition bands, while rare embellished pieces can sit far outside ordinary ranges and "
+            "need careful matching. The name also attracts noise: Mamma Baguette, Croissant, and "
+            "other Fendi shoulder bags are often folded into Baguette titles even when the shape is "
+            "different. Condition reads vary by material. Zucca canvas can show edge wear and "
+            "fading, older interiors can become sticky, and bead or sequin loss can cap an otherwise "
+            "strong listing. Fendi's later relaunch and re-editions added another layer of naming "
+            "complexity, so the catalog separates the 1997 re-edition market while keeping broader "
+            "material buckets visible as attribution context. Clear interior photos are especially "
+            "important because lining issues can be hidden in otherwise polished listing titles."
+        ),
         "editorial_condition_notes": (
             "Zucca canvas edge wear, sticky vintage lining, and bead or sequin loss are key "
             "condition signals."
@@ -203,6 +258,24 @@ CATALOG = [
             "Expected asking range: vintage about $500 Fair to $2,500 Excellent rare print; "
             "modern about $2,000-$4,500."
         ),
+        "editorial_summary": (
+            "The Saddle is Dior's asymmetric Y2K signature, split early between Galliano-era "
+            "vintage pieces and the modern revival."
+        ),
+        "editorial_history": (
+            "The Dior Saddle debuted for Spring 2000 under John Galliano and became one of the "
+            "clearest shapes of the Y2K accessories era: asymmetric flap, short shoulder drop, and "
+            "a profile that reads as Dior even before the logo appears. Vintage examples span "
+            "Oblique, Trotter, Rasta, denim, and seasonal prints, so model matching has to separate "
+            "true Saddle bags from equestrian goods, belts, card holders, and generic saddle-style "
+            "bags. Maria Grazia Chiuri's 2018 revival introduced a modern market with different "
+            "retail context, strap conventions, and condition profile. Phase 3 therefore treats "
+            "both Galliano-era and modern Saddle variants as separate markets, leaving the model "
+            "row intentionally thin unless an accepted listing cannot be assigned to either era. "
+            "For vintage pieces, canvas edge wear, lining wear, and hardware plating loss are often "
+            "more informative than broad title claims about rarity. Strap presence is tracked as "
+            "context, but era assignment remains the stronger split for public panels."
+        ),
         "editorial_condition_notes": (
             "Canvas corner wear, Dior-logo lining wear, and hardware plating loss are common "
             "vintage condition issues."
@@ -248,6 +321,25 @@ CATALOG = [
         "expected_range_note": (
             "Expected asking range: about $200 Fair to $900 Excellent Monogram; typical Good/Very "
             "Good about $300-$550, with Multicolore commanding a premium."
+        ),
+        "editorial_summary": (
+            "The Pochette Accessoires is Louis Vuitton's compact monogram staple, with NM and "
+            "Murakami-era variants needing separate attention."
+        ),
+        "editorial_history": (
+            "Louis Vuitton's Pochette Accessoires is small, simple, and easy to mislabel, which is "
+            "exactly why it needs disciplined catalog rules. The classic monogram version dates "
+            "back to the 1990s and is often listed alongside Mini Pochette, Felicie, Metis, Toiletry "
+            "Pouch, strap-only accessories, and organizer inserts. Those neighboring terms can "
+            "look close in marketplace search results but represent different objects. Condition "
+            "depends heavily on vachetta, lining, zipper pull, strap state, and date-code legibility. "
+            "Light even patina is not automatically a downgrade, while sticky lining, water spots, "
+            "or missing hardware can move a listing into a lower band. The newer Pochette "
+            "Accessoires NM is a separate market because its size, retail context, and title "
+            "patterns differ from older pieces. Multicolore, Vernis, Damier, and Monogram buckets "
+            "remain useful attribution hints without becoming public numeric submarkets in this "
+            "phase. Strap length and pouch dimensions are useful checks when titles mix related "
+            "Louis Vuitton accessories."
         ),
         "editorial_condition_notes": (
             "Vachetta patina, sticky 1990s lining, and date-code legibility drive condition reads."
@@ -318,7 +410,12 @@ def upsert_bag(session: Session, item: dict) -> BagModel:
     bag.brand = brand
     bag.model_name = item["model_name"]
     bag.era = item["era"]
-    bag.editorial_condition_notes = item["editorial_condition_notes"]
+    if bag.editorial_summary is None:
+        bag.editorial_summary = item.get("editorial_summary")
+    if bag.editorial_history is None:
+        bag.editorial_history = item.get("editorial_history")
+    if bag.editorial_condition_notes is None:
+        bag.editorial_condition_notes = item["editorial_condition_notes"]
     bag.expected_range_note = item["expected_range_note"]
     bag.initial_queries = item["initial_queries"]
     bag.tracking_since = TRACKING_START

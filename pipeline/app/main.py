@@ -1,8 +1,10 @@
 from fastapi import FastAPI
 
 from app.api.admin import router as admin_router
+from app.api.public import router as public_router
 
 app = FastAPI(title="Covetability Pipeline", version="0.1.0")
+app.include_router(public_router)
 app.include_router(admin_router)
 
 

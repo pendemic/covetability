@@ -6,6 +6,8 @@ from typing import Any
 
 from pydantic import BaseModel, ConfigDict, Field
 
+from app.contract import AuthLabel
+
 
 class EbayModel(BaseModel):
     model_config = ConfigDict(extra="allow", populate_by_name=True)
@@ -39,6 +41,7 @@ class ItemSummary(EbayModel):
     shipping_options: list[ShippingOption] = Field(default_factory=list, alias="shippingOptions")
     image: Image | None = None
     fixture_phash: str | None = Field(default=None, alias="fixturePhash")
+    qualified_programs: list[str] = Field(default_factory=list, alias="qualifiedPrograms")
 
 
 class SearchResponse(EbayModel):
@@ -67,6 +70,7 @@ class ListingCandidate:
     item_url: str | None
     image_url: str | None
     condition_raw: str | None
+    auth_label: AuthLabel
     raw_payload: dict[str, Any]
 
 
@@ -95,5 +99,12 @@ def to_candidate(summary: ItemSummary) -> ListingCandidate:
         item_url=summary.item_web_url,
         image_url=summary.image.image_url if summary.image else None,
         condition_raw=summary.condition,
+        auth_label=auth_label(summary),
         raw_payload=summary.model_dump(mode="json", by_alias=True, exclude_none=True),
     )
+
+
+def auth_label(summary: ItemSummary) -> AuthLabel:
+    if "AUTHENTICITY_GUARANTEE" in summary.qualified_programs:
+        return AuthLabel.marketplace_authentication_program
+    return AuthLabel.authentication_status_unknown

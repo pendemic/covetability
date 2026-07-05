@@ -3,6 +3,7 @@ export const adminCopy = {
   labeling: "Labeling",
   review: "Review",
   quality: "Data quality",
+  catalog: "Catalog",
   signOut: "Sign out",
   adminAccess: "Admin access",
   secret: "Shared secret",
@@ -47,6 +48,15 @@ export const adminCopy = {
   unbandedShare: "Unbanded share",
   variantCoverage: "Variant coverage",
   alarms: "Alarms",
+  recomputeRequired: "Recompute required",
+  aliases: "Aliases",
+  variants: "Variants",
+  globalExclusions: "Global exclusions",
+  editorial: "Editorial",
+  save: "Save",
+  add: "Add",
+  delete: "Delete",
+  createBag: "Create bag",
 } as const;
 
 export const rejectionReasons = [

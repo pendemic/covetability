@@ -4,10 +4,8 @@ from typing import Any
 
 from fastapi import APIRouter
 from sqlalchemy import func, select
-from sqlalchemy.orm import selectinload
 
 from app.api.admin.deps import SessionDep
-from app.matching.keywords import COLOR_FAMILIES
 from app.models import BagModel, GoldLabel, ListingRaw, MatchRun, SnapshotRun
 
 router = APIRouter()
@@ -22,37 +20,6 @@ def ingestion_summary(session: SessionDep) -> dict[str, Any]:
         "last_match_run": serialize_match_run(last_match),
         "match_status_by_bag": match_status_by_bag(session),
         "gold_progress": gold_progress(session),
-    }
-
-
-@router.get("/catalog/bags")
-def catalog_bags(session: SessionDep) -> dict[str, Any]:
-    bags = session.scalars(
-        select(BagModel)
-        .options(selectinload(BagModel.brand), selectinload(BagModel.variants))
-        .order_by(BagModel.slug)
-    ).all()
-    return {
-        "items": [
-            {
-                "id": bag.id,
-                "slug": bag.slug,
-                "brand": bag.brand.name,
-                "model_name": bag.model_name,
-                "variants": [
-                    {
-                        "id": variant.id,
-                        "name": variant.name,
-                        "kind": variant.kind.value,
-                        "is_separate_market": variant.is_separate_market,
-                    }
-                    for variant in sorted(bag.variants, key=lambda row: row.name)
-                ],
-                "color_families": sorted({value for value, _term in COLOR_FAMILIES.get(bag.slug, ())}),
-            }
-            for bag in bags
-        ],
-        "total": len(bags),
     }
 
 

@@ -45,10 +45,60 @@ export type RuleTrace = {
 export type BagOption = {
   id: number;
   slug: string;
+  brand_slug?: string;
   brand: string;
   model_name: string;
+  recompute_required?: boolean;
+  recompute_flagged_at?: string | null;
   variants: Array<{ id: number; name: string; kind: string; is_separate_market: boolean }>;
   color_families: string[];
+};
+
+export type CatalogBag = {
+  id: number;
+  slug: string;
+  brand: { id: number; slug: string; name: string };
+  model_name: string;
+  era: string | null;
+  editorial_summary: string | null;
+  editorial_history: string | null;
+  editorial_condition_notes: string | null;
+  expected_range_note: string | null;
+  initial_queries: string[];
+  tracking_since: string | null;
+  recompute_required: boolean;
+  recompute_flagged_at: string | null;
+  aliases: Array<{ id: number; alias: string; type: string }>;
+  variants: Array<{
+    id: number;
+    name: string;
+    kind: string;
+    attribution_confidence: string | null;
+    is_separate_market: boolean;
+  }>;
+  exclusions: CatalogExclusion[];
+  global_exclusions: CatalogExclusion[];
+};
+
+export type CatalogExclusion = {
+  id: number;
+  term: string;
+  scope: string;
+  reason: RejectionReason;
+  notes: string | null;
+};
+
+export type BagPayload = {
+  slug?: string;
+  brand?: { slug: string; name: string };
+  model_name?: string;
+  era?: string | null;
+  editorial_summary?: string | null;
+  editorial_history?: string | null;
+  editorial_condition_notes?: string | null;
+  expected_range_note?: string | null;
+  initial_queries?: string[];
+  tracking_since?: string | null;
 };
 
 export type Summary = {
@@ -148,6 +198,82 @@ export function getIngestionSummary() {
 
 export function getCatalogBags() {
   return adminFetch<{ items: BagOption[]; total: number }>("catalog/bags");
+}
+
+export function createCatalogBag(payload: Required<Pick<BagPayload, "slug" | "brand" | "model_name">> & BagPayload) {
+  return adminFetch<{ id: number; slug: string }>("catalog/bags", {
+    method: "POST",
+    body: JSON.stringify(payload),
+  });
+}
+
+export function getCatalogBag(slug: string) {
+  return adminFetch<CatalogBag>(`catalog/bags/${slug}`);
+}
+
+export function updateCatalogBag(slug: string, payload: BagPayload) {
+  return adminFetch<CatalogBag>(`catalog/bags/${slug}`, {
+    method: "PATCH",
+    body: JSON.stringify(payload),
+  });
+}
+
+export function addCatalogAlias(slug: string, payload: { alias: string; type: string }) {
+  return adminFetch<{ id: number }>(`catalog/bags/${slug}/aliases`, {
+    method: "POST",
+    body: JSON.stringify(payload),
+  });
+}
+
+export function deleteCatalogAlias(slug: string, aliasId: number) {
+  return adminFetch<{ status: string }>(`catalog/bags/${slug}/aliases/${aliasId}`, {
+    method: "DELETE",
+  });
+}
+
+export function addCatalogVariant(
+  slug: string,
+  payload: { name: string; kind: string; attribution_confidence?: string | null; is_separate_market: boolean },
+) {
+  return adminFetch<{ id: number }>(`catalog/bags/${slug}/variants`, {
+    method: "POST",
+    body: JSON.stringify(payload),
+  });
+}
+
+export function deleteCatalogVariant(slug: string, variantId: number) {
+  return adminFetch<{ status: string }>(`catalog/bags/${slug}/variants/${variantId}`, {
+    method: "DELETE",
+  });
+}
+
+export function addCatalogExclusion(
+  slug: string,
+  payload: { term: string; reason: RejectionReason; notes?: string | null },
+) {
+  return adminFetch<{ id: number }>(`catalog/bags/${slug}/exclusions`, {
+    method: "POST",
+    body: JSON.stringify(payload),
+  });
+}
+
+export function deleteCatalogExclusion(slug: string, exclusionId: number) {
+  return adminFetch<{ status: string }>(`catalog/bags/${slug}/exclusions/${exclusionId}`, {
+    method: "DELETE",
+  });
+}
+
+export function addGlobalExclusion(payload: { term: string; reason: RejectionReason; notes?: string | null }) {
+  return adminFetch<{ id: number }>("catalog/exclusions", {
+    method: "POST",
+    body: JSON.stringify(payload),
+  });
+}
+
+export function deleteGlobalExclusion(exclusionId: number) {
+  return adminFetch<{ status: string }>(`catalog/exclusions/${exclusionId}`, {
+    method: "DELETE",
+  });
 }
 
 export function getNextLabel(bagSlug: string, afterId?: number) {

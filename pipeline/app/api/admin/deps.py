@@ -3,13 +3,12 @@ from __future__ import annotations
 import secrets
 from typing import Annotated
 
-from fastapi import Depends, Header, HTTPException, status
-from sqlalchemy.orm import Session
+from fastapi import Header, HTTPException, status
 
-from app.db import get_session
+from app.api.deps import SessionDep
 from app.settings import get_settings
 
-SessionDep = Annotated[Session, Depends(get_session)]
+__all__ = ["SessionDep", "require_admin"]
 
 
 def require_admin(authorization: Annotated[str | None, Header()] = None) -> None:

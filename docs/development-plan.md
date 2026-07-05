@@ -135,19 +135,19 @@ covetability/
 
 **Goal:** the flagship page exists against early/sample data, validating that the data model supports the experience *before* months of history accumulate in the wrong shape.
 
-- [ ] **4.1 Public read API.** FastAPI routes: `GET /bags`, `GET /bags/{slug}` (identity, variants, editorial), `GET /bags/{slug}/market` (condition-band ranges from `daily_aggregates`, honoring minimums → explicit `insufficient_data` markers in the payload), `GET /bags/{slug}/history` (aggregate time series), `GET /bags/{slug}/listings` (active matched ≥0.90, with authentication label + verdict fields). Response schemas mirror `contract.py` — the API physically cannot emit a blended median as the primary price.
-- [ ] **4.2 Design-system translation.** Port the visual system from `design/prototype.html` into `web/` as components: palette/typography tokens (Cormorant Garamond / Hanken Grotesk / IBM Plex Mono, the #E7DECF/#B0623E/#2B2520 scheme), stat cards, chip, badge, sparkline + line chart (the prototype's SVG chart helper translates directly), score ring, listings table.
-- [ ] **4.3 Bag page — information hierarchy per the settled spec.** `web/app/bags/[slug]/page.tsx`, sections in this order:
+- [x] **4.1 Public read API.** FastAPI routes: `GET /bags`, `GET /bags/{slug}` (identity, variants, editorial), `GET /bags/{slug}/market` (condition-band ranges from `daily_aggregates`, honoring minimums → explicit `insufficient_data` markers in the payload), `GET /bags/{slug}/history` (aggregate time series), `GET /bags/{slug}/listings` (active matched ≥0.90, with authentication label + verdict fields). Response schemas mirror `contract.py` — the API physically cannot emit a blended median as the primary price.
+- [x] **4.2 Design-system translation.** Port the visual system from `design/prototype.html` into `web/` as components: palette/typography tokens (Cormorant Garamond / Hanken Grotesk / IBM Plex Mono, the #E7DECF/#B0623E/#2B2520 scheme), stat cards, chip, badge, sparkline + line chart (the prototype's SVG chart helper translates directly), score ring, listings table.
+- [x] **4.3 Bag page — information hierarchy per the settled spec.** `web/app/bags/[slug]/page.tsx`, sections in this order:
   1. **What should I pay** — condition-banded "Typical asking range" cards; bands under minimum render "Insufficient reliable data" (never borrowed values)
   2. **Covetability status** — until score publication: component panels only + "Not yet scored — tracking since [month]" (score-spec §8 option, adopted)
   3. **Why it's moving** — 3–5 observations generated only from stored metrics (explanation rules, data-contract §3); server-side template over metric records, no free-form AI in v0
   4. **Listings worth considering** — price, band, "≈ N% above typical asking for [band]" verdict chips (only when band minimums met AND match ≥0.90), 4-label authentication taxonomy, last-verified timestamp, outbound link
   5. **History** — charts from `daily_aggregates` (asking medians per band, active count); short-history states designed deliberately ("42 days of tracking")
   6. **Editorial** — the bag's story, variants, naming confusion (content in 4.5)
-- [ ] **4.4 Variant panels.** Variant-level price/availability panels labeled "model-level score" and "colorway attribution is best-effort" per score-spec/catalog docs.
-- [ ] **4.5 Editorial capsules.** Write 5 × 150–300 words (release context, why it mattered, revivals, naming confusion) into `bag_models` editorial fields via admin catalog editor (4.6). Draft with Claude, fact-check by hand — these carry SEO weight.
-- [ ] **4.6 Catalog editor (admin).** CRUD for bags/aliases/variants/exclusions + editorial fields; alias/exclusion edits flag "recompute required" (wired to 3.4).
-- [ ] **4.7 Site-wide honesty furniture.** Methodology page (score identity statement verbatim from score-spec §1), authentication disclosure (data-contract §2), "Tracking since" on every page; vocabulary-lint (0.3) runs against rendered pages in CI.
+- [x] **4.4 Variant panels.** Variant-level price/availability panels labeled "model-level score" and "colorway attribution is best-effort" per score-spec/catalog docs.
+- [x] **4.5 Editorial capsules.** Write 5 × 150–300 words (release context, why it mattered, revivals, naming confusion) into `bag_models` editorial fields via admin catalog editor (4.6). Draft with Claude, fact-check by hand — these carry SEO weight.
+- [x] **4.6 Catalog editor (admin).** CRUD for bags/aliases/variants/exclusions + editorial fields; alias/exclusion edits flag "recompute required" (wired to 3.4).
+- [x] **4.7 Site-wide honesty furniture.** Methodology page (score identity statement verbatim from score-spec §1), authentication disclosure (data-contract §2), "Tracking since" on every page; vocabulary-lint (0.3) runs against rendered pages in CI.
 
 **Phase 4 verification:** With fixture data: Paddington page renders every section including at least one deliberately-thin band showing the insufficient state; vocabulary lint passes; verdict chips absent (not "N/A") where minimums unmet; Lighthouse pass for the editorial/SEO basics (meta, structured data for products).
 

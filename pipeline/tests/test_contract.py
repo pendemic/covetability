@@ -26,6 +26,8 @@ def test_contract_constants_match_governing_docs() -> None:
     assert contract.SCORE_WEIGHT_CEILINGS["asking_price_momentum"] == 25
     assert contract.CONDITION_ACCURACY_TARGET == 0.85
     assert contract.PHASH_HAMMING_MAX == 6
+    assert contract.PUBLIC_HISTORY_DEFAULT_DAYS == 90
+    assert contract.PUBLIC_HISTORY_MAX_DAYS == 365
 
 
 def test_matching_contract_enums_are_stable() -> None:

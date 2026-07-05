@@ -43,6 +43,7 @@ def main() -> int:
             bag_ids=bag_ids,
             triggered_by=args.note,
         )
+        clear_recompute_flags(session, bag_ids)
         session.commit()
 
     print(
@@ -50,6 +51,15 @@ def main() -> int:
         f"rows={summary.rows_written}"
     )
     return 0
+
+
+def clear_recompute_flags(session, bag_ids: set[int] | None) -> None:
+    query = select(BagModel)
+    if bag_ids is not None:
+        query = query.where(BagModel.id.in_(bag_ids))
+    for bag in session.scalars(query).all():
+        bag.recompute_required = False
+        bag.recompute_flagged_at = None
 
 
 if __name__ == "__main__":

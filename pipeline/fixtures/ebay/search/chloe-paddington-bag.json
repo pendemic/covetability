@@ -16,6 +16,9 @@
         "username": "atelier-archive"
       },
       "condition": "Pre-owned - Very Good",
+      "qualifiedPrograms": [
+        "AUTHENTICITY_GUARANTEE"
+      ],
       "image": {
         "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-001-0.jpg"
       },
@@ -116,6 +119,9 @@
         "username": "resale-room"
       },
       "condition": "Pre-owned - Excellent",
+      "qualifiedPrograms": [
+        "AUTHENTICITY_GUARANTEE"
+      ],
       "image": {
         "imageUrl": "https://i.ebayimg.com/images/v1-fx-chloe-paddington-005-0.jpg"
       },

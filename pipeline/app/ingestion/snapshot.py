@@ -158,6 +158,7 @@ def upsert_listing(
             image_phash=phash_provider() if phash_provider is not None else None,
             price_type=PriceType.asking,
             condition_raw=candidate.condition_raw,
+            auth_label=candidate.auth_label,
             observed_at=observed_at,
             first_observed=observed_at,
             last_observed=observed_at,
@@ -184,6 +185,7 @@ def upsert_listing(
     listing.seller_id = candidate.seller_id
     listing.item_url = candidate.item_url
     listing.condition_raw = candidate.condition_raw
+    listing.auth_label = candidate.auth_label
     listing.observed_at = observed_at
     listing.last_observed = observed_at
     listing.expires_at = expires_at

@@ -13,7 +13,42 @@ export const metricDisplayVocabulary = {
   marketplaceAuthenticationProgram: "Marketplace authentication program",
   sellerClaimOnly: "Seller claim only",
   authenticationStatusUnknown: "Authentication status unknown",
+  insufficientReliableData: "Insufficient reliable data",
+  insufficientSearchData: "Insufficient stable search data",
+  modelLevelScore: "model-level score",
+  colorwayAttributionBestEffort: "colorway attribution is best-effort",
+  belowTypicalAsking: "below typical asking",
+  aboveTypicalAsking: "above typical asking",
+  typicalAskingMatch: "near typical asking",
+  trackingSince: "Tracking since",
+  daysOfTracking: "days of tracking",
+  authenticationDisclosure:
+    "Covetability does not authenticate items. Labels describe marketplace programs and seller claims only.",
+  scoreIdentityStatement:
+    "The Covetability Score v0 measures observable momentum in attention, availability, and active-market pricing for a handbag model.",
+  scoreExclusions:
+    "It is an activity index, not a valuation. It does not measure authenticity, investment quality, confirmed resale value, likelihood of profit, fashion quality, or personal desirability.",
 } as const;
+
+export const conditionBandLabels = {
+  new_or_unused: "New or unused",
+  excellent: "Excellent",
+  very_good: "Very good",
+  good: "Good",
+  fair: "Fair",
+  poor: "Poor",
+} as const;
+
+export const authLabelDisplay = {
+  platform_authenticated: metricDisplayVocabulary.platformAuthenticated,
+  marketplace_authentication_program: metricDisplayVocabulary.marketplaceAuthenticationProgram,
+  seller_claim_only: metricDisplayVocabulary.sellerClaimOnly,
+  authentication_status_unknown: metricDisplayVocabulary.authenticationStatusUnknown,
+} as const;
+
+export function notYetScoredTrackingSince(month: string) {
+  return `Not yet scored \u2014 tracking since ${month}`;
+}
 
 export const prohibitedVocabulary = [
   "market value",

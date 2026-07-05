@@ -1,68 +1,102 @@
+import Link from "next/link";
+
+import { SiteFooter, SiteHeader, StatCard } from "@/app/components/MarketComponents";
+import { getBags, type BagSummary } from "@/lib/publicApi";
 import { metricDisplayVocabulary } from "@/lib/vocabulary";
 
-const pilotBags = [
-  "Chloé Paddington",
-  "Balenciaga City",
-  "Fendi Baguette",
-  "Dior Saddle",
-  "Louis Vuitton Pochette Accessoires",
+export const dynamic = "force-dynamic";
+
+const fallbackBags: BagSummary[] = [
+  {
+    slug: "chloe-paddington",
+    model_name: "Paddington",
+    brand: { slug: "chloe", name: "Chloe" },
+    era: "Phoebe Philo era",
+    tracking_since: "2026-07-01",
+    editorial_summary: "Padlock satchel tracking is ready once fixture aggregates are available.",
+  },
+  {
+    slug: "balenciaga-city",
+    model_name: "City",
+    brand: { slug: "balenciaga", name: "Balenciaga" },
+    era: "Motorcycle line",
+    tracking_since: "2026-07-01",
+    editorial_summary: "Archive City listings are grouped separately from the Le City reissue.",
+  },
+  {
+    slug: "fendi-baguette",
+    model_name: "Baguette",
+    brand: { slug: "fendi", name: "Fendi" },
+    era: "1997 onward",
+    tracking_since: "2026-07-01",
+    editorial_summary: "Vintage Zucca, leather, and embellished examples are condition banded.",
+  },
+  {
+    slug: "dior-saddle",
+    model_name: "Saddle",
+    brand: { slug: "dior", name: "Dior" },
+    era: "2000 and 2018 revival",
+    tracking_since: "2026-07-01",
+    editorial_summary: "Vintage and modern Saddle markets are split for public panels.",
+  },
+  {
+    slug: "louis-vuitton-pochette-accessoires",
+    model_name: "Pochette Accessoires",
+    brand: { slug: "louis-vuitton", name: "Louis Vuitton" },
+    era: "1992 onward",
+    tracking_since: "2026-07-01",
+    editorial_summary: "Classic, NM, and material buckets are tracked with careful exclusions.",
+  },
 ];
 
-export default function Home() {
+export default async function Home() {
+  const bags = await loadBags();
   return (
-    <main className="shell">
-      <section className="hero" aria-labelledby="page-title">
-        <div className="heroCopy">
-          <p className="eyebrow">Phase 0 foundations</p>
-          <h1 id="page-title">Covetability</h1>
-          <p className="lede">
-            Active-market intelligence for the five-bag pilot, with contract-first language,
-            condition-banded ranges, and score shadow mode from day one.
-          </p>
-        </div>
-        <div className="statusPanel" aria-label="Phase 0 system status">
+    <>
+      <SiteHeader />
+      <main className="page-wrap">
+        <section className="homeHero">
           <div>
-            <span>API</span>
-            <strong>/health</strong>
+            <span className="kicker-lg">Five-bag pilot</span>
+            <h1>Covetability</h1>
+            <p>
+              Active-market intelligence for vintage designer handbags, with condition-banded
+              asking ranges and score shadow mode from day one.
+            </p>
           </div>
-          <div>
-            <span>Catalog</span>
-            <strong>5 models</strong>
+          <div className="statgrid">
+            <StatCard label="Catalog" value={String(bags.length)} caption="pilot models" />
+            <StatCard label="Display rule" value="6" caption="condition bands" />
+            <StatCard label="Score" value="Shadow" caption="pre-publication" />
           </div>
-          <div>
-            <span>Score</span>
-            <strong>Shadow mode</strong>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="grid" aria-label="Pilot bags">
-        {pilotBags.map((bag) => (
-          <article className="bagCard" key={bag}>
-            <span className="cardLabel">Tracking setup</span>
-            <h2>{bag}</h2>
-            <p>Seeded aliases, variants, exclusions, and initial queries.</p>
-          </article>
-        ))}
-      </section>
-
-      <section className="contractBand" aria-label="Metric language">
-        <h2>Contract Vocabulary</h2>
-        <dl>
-          <div>
-            <dt>Price range label</dt>
-            <dd>{metricDisplayVocabulary.typicalAskingRange}</dd>
+        <section className="contentSection">
+          <div className="sectionHeader">
+            <h2>Catalog</h2>
+            <span className="muted">{metricDisplayVocabulary.typicalAskingRange}</span>
           </div>
-          <div>
-            <dt>Lifecycle label</dt>
-            <dd>{metricDisplayVocabulary.listingTurnover}</dd>
+          <div className="rangeGrid">
+            {bags.map((bag) => (
+              <Link className="rangeCard" href={`/bags/${bag.slug}`} key={bag.slug}>
+                <span className="kicker">{bag.brand.name}</span>
+                <strong className="rangePrice">{bag.model_name}</strong>
+                <span className="muted">{bag.editorial_summary}</span>
+              </Link>
+            ))}
           </div>
-          <div>
-            <dt>Search label</dt>
-            <dd>{metricDisplayVocabulary.searchInterest}</dd>
-          </div>
-        </dl>
-      </section>
-    </main>
+        </section>
+      </main>
+      <SiteFooter />
+    </>
   );
+}
+
+async function loadBags() {
+  try {
+    const response = await getBags();
+    return response.items;
+  } catch {
+    return fallbackBags;
+  }
 }
