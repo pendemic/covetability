@@ -294,6 +294,16 @@
   color: #7d2e2a;
 }
 
+button.adminChip {
+  cursor: pointer;
+}
+
+.adminChipActive {
+  border-color: var(--accent, #b0623e);
+  background: var(--accent, #b0623e);
+  color: white;
+}
+
 .adminCheckboxRow {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));

@@ -113,6 +113,25 @@ class ScoreClassification(StrEnum):
     surging = "surging"
 
 
+class SearchBucket(StrEnum):
+    strong_up = "strong_up"
+    up = "up"
+    flat = "flat"
+    down = "down"
+    strong_down = "strong_down"
+
+
+class ScoreDirection(StrEnum):
+    rising = "rising"
+    falling = "falling"
+    stable = "stable"
+
+
+class TrendQueryRole(StrEnum):
+    canonical = "canonical"
+    alias = "alias"
+
+
 MIN_LISTINGS_PER_BAND = 5
 MIN_MODEL_WIDE_LISTINGS = 8
 MIN_LIFECYCLE_EVENTS = 15
@@ -171,3 +190,132 @@ SCORE_CLASSIFICATION_BOUNDS = {
     ScoreClassification.trending: (70, 84),
     ScoreClassification.surging: (85, 100),
 }
+
+# ---------------------------------------------------------------------------
+# Score v0 shadow-mode constants (Phase 5).
+# Component identifiers mirror the SCORE_BASE_WEIGHTS keys. Every ladder and
+# threshold below is PROVISIONAL and expected to be tuned during shadow mode
+# (score-spec §3, §6, §7); shadow mode exists precisely to calibrate them.
+# ---------------------------------------------------------------------------
+
+COMPONENT_SEARCH = "search_momentum"
+COMPONENT_INVENTORY = "active_inventory_momentum"
+COMPONENT_PRICE = "asking_price_momentum"
+COMPONENT_BREADTH = "marketplace_breadth"
+COMPONENT_TURNOVER = "listing_turnover_proxy"
+
+COMPONENT_KEYS = (
+    COMPONENT_SEARCH,
+    COMPONENT_INVENTORY,
+    COMPONENT_PRICE,
+    COMPONENT_BREADTH,
+    COMPONENT_TURNOVER,
+)
+
+# Fewer than this many eligible components leaves the model unscored (score-spec §4.2).
+MIN_ELIGIBLE_COMPONENTS = 3
+# Overflow that cannot be placed within ceilings goes to inventory first, then breadth.
+REDISTRIBUTION_OVERFLOW_ORDER = (COMPONENT_INVENTORY, COMPONENT_BREADTH)
+
+# S — search momentum. Bucket -> 0-100 component score (score-spec §3).
+SEARCH_BUCKET_SCORES = {
+    SearchBucket.strong_up: 100,
+    SearchBucket.up: 75,
+    SearchBucket.flat: 50,
+    SearchBucket.down: 25,
+    SearchBucket.strong_down: 0,
+}
+# 8-week smoothed-slope thresholds (anchor-rescaled units per week) -> bucket.
+SEARCH_SLOPE_STRONG = 2.0
+SEARCH_SLOPE_MILD = 0.5
+SEARCH_MIN_SERIES_WEEKS = 16
+SEARCH_SMOOTHING_WEEKS = 8
+SEARCH_SHORT_SLOPE_WEEKS = 4
+SEARCH_LOW_VOLUME_FLOOR = 5.0  # anchor-rescaled level below which Trends volume is sub-threshold
+
+# I — active-inventory momentum. Declining inventory scores high (scarcity pressure).
+# Applied to the negated smoothed percentage change so decline maps to the top rungs.
+INVENTORY_MIN_HISTORY_DAYS = 45
+INVENTORY_SMOOTHING_DAYS = 7
+INVENTORY_WINDOW_DAYS = 90
+INVENTORY_MOMENTUM_LADDER = (
+    (0.30, 100),
+    (0.15, 80),
+    (0.05, 65),
+    (-0.05, 50),
+    (-0.15, 35),
+    (-0.30, 20),
+)
+
+# P — asking-price momentum. Rising condition-adjusted asking medians score high.
+PRICE_SHORT_WINDOW_DAYS = 30
+PRICE_LONG_WINDOW_DAYS = 90
+PRICE_SHORT_LONG_WEIGHTS = (0.5, 0.5)
+PRICE_MOMENTUM_LADDER = (
+    (0.15, 100),
+    (0.08, 80),
+    (0.03, 65),
+    (-0.03, 50),
+    (-0.08, 35),
+    (-0.15, 20),
+)
+# Fixed condition-band mix weights, renormalized over bands meeting the minimum
+# so a mix shift toward Excellent listings cannot read as a price rise (score-spec §3).
+PRICE_BAND_MIX_WEIGHTS = {
+    ConditionBand.new_or_unused: 0.10,
+    ConditionBand.excellent: 0.25,
+    ConditionBand.very_good: 0.30,
+    ConditionBand.good: 0.20,
+    ConditionBand.fair: 0.10,
+    ConditionBand.poor: 0.05,
+}
+PRICE_MAX_UNUSABLE_CONDITION_SHARE = 0.40
+PRICE_REPRICING_MIN_INTERVAL_DAYS = 14
+# Divergence guard: P strong-positive while S and I flat/negative for N consecutive weeks.
+PRICE_DIVERGENCE_HALVE_WEEKS = 4
+PRICE_DIVERGENCE_EXCLUDE_WEEKS = 8
+PRICE_DIVERGENCE_STRONG_THRESHOLD = 65  # component value treated as "strongly positive"
+
+# B — marketplace breadth. Distinct valid sources in trailing 30 days, log-scaled.
+BREADTH_WINDOW_DAYS = 30
+BREADTH_LADDER = {0: 0, 1: 20, 2: 45, 3: 65, 4: 80}
+BREADTH_LADDER_MAX_SCORE = 100  # 5+ sources
+
+# T — listing-turnover proxy. Experimental; launches ineligible until relist
+# precision is validated on a gold sample (score-spec §4.1).
+TURNOVER_WINDOW_DAYS = 90
+RELIST_PRECISION_TARGET = 0.90
+TURNOVER_DEFAULT_INELIGIBLE_REASON = "relist precision unvalidated"
+TURNOVER_MOMENTUM_LADDER = (
+    (0.30, 100),
+    (0.15, 80),
+    (0.05, 65),
+    (-0.05, 50),
+    (-0.15, 35),
+    (-0.30, 20),
+)
+
+# Confidence display bands and history cap threshold (score-spec §5).
+CONFIDENCE_HISTORY_CAP_DAYS = 90
+CONFIDENCE_LOW_MATCHED_LISTINGS = 15
+CONFIDENCE_MATCHED_LISTING_FULL = 40  # matched-listing count that saturates its factor
+CONFIDENCE_HISTORY_FULL_DAYS = 180  # history length that saturates its factor
+CONFIDENCE_SOURCE_FULL = 5
+
+# Smoothing, publication threshold, direction (score-spec §7).
+SCORE_EMA_SPAN_DAYS = 7
+PUBLICATION_MOVE_THRESHOLD = 2.0
+DIRECTION_WINDOW_DAYS = 30
+DIRECTION_STABLE_SLOPE = 0.05  # published-track points/day treated as "stable"
+
+# Search-signal stability gate (score-spec §6).
+STABILITY_FLIP_RATE_MAX = 0.25
+STABILITY_SLOPE_CHANGE_EXEMPTION = 1.5  # x trailing std of the 8-week slope
+STABILITY_REPRODUCIBILITY_MIN_TRIALS = 20
+STABILITY_REPRODUCIBILITY_MIN_SHARE = 0.90
+STABILITY_ALIAS_AGREEMENT_MIN = 0.75
+STABILITY_WINDOW_ROBUSTNESS_MIN = 0.70
+STABILITY_BAGS_REQUIRED = 4  # of 5 pilot bags must pass per-bag stability
+SEARCH_WEIGHT_FULL = 30
+SEARCH_WEIGHT_BASE = 25
+SEARCH_WEIGHT_DEMOTED = 15

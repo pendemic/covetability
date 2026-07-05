@@ -57,6 +57,48 @@ def test_condition_band_order_is_scale_order() -> None:
     ]
 
 
+def test_score_v0_component_ladders_and_constants() -> None:
+    # Component keys line up with the base-weight table (score-spec §2).
+    assert set(contract.COMPONENT_KEYS) == set(contract.SCORE_BASE_WEIGHTS)
+    assert contract.MIN_ELIGIBLE_COMPONENTS == 3
+    assert contract.REDISTRIBUTION_OVERFLOW_ORDER == (
+        "active_inventory_momentum",
+        "marketplace_breadth",
+    )
+    # Bucket -> score mapping is exactly the score-spec §3 table.
+    assert contract.SEARCH_BUCKET_SCORES == {
+        contract.SearchBucket.strong_up: 100,
+        contract.SearchBucket.up: 75,
+        contract.SearchBucket.flat: 50,
+        contract.SearchBucket.down: 25,
+        contract.SearchBucket.strong_down: 0,
+    }
+    # Breadth ladder is the score-spec §3 log ladder (5+ -> 100).
+    assert contract.BREADTH_LADDER == {0: 0, 1: 20, 2: 45, 3: 65, 4: 80}
+    assert contract.BREADTH_LADDER_MAX_SCORE == 100
+    # P circularity guards (score-spec §3).
+    assert contract.PRICE_REPRICING_MIN_INTERVAL_DAYS == 14
+    assert contract.PRICE_DIVERGENCE_HALVE_WEEKS == 4
+    assert contract.PRICE_DIVERGENCE_EXCLUDE_WEEKS == 8
+    # T launches ineligible until relist precision validated (score-spec §4.1).
+    assert contract.RELIST_PRECISION_TARGET == 0.90
+    # Smoothing + publication threshold (score-spec §7).
+    assert contract.SCORE_EMA_SPAN_DAYS == 7
+    assert contract.PUBLICATION_MOVE_THRESHOLD == 2.0
+
+
+def test_new_score_enums_are_stable() -> None:
+    assert [b.value for b in contract.SearchBucket] == [
+        "strong_up",
+        "up",
+        "flat",
+        "down",
+        "strong_down",
+    ]
+    assert [d.value for d in contract.ScoreDirection] == ["rising", "falling", "stable"]
+    assert [r.value for r in contract.TrendQueryRole] == ["canonical", "alias"]
+
+
 def test_daily_aggregate_model_avoids_prohibited_metric_language() -> None:
     prohibited = {
         "market_value",

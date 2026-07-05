@@ -10,7 +10,13 @@ from app.models.market import (
     MatchRun,
     SnapshotRun,
 )
-from app.models.score import ScoreDaily
+from app.models.score import (
+    ScoreDaily,
+    ScorePricePoint,
+    ScoreRun,
+    SearchSignalWeekly,
+    TrendPull,
+)
 
 __all__ = [
     "Base",
@@ -27,5 +33,9 @@ __all__ = [
     "ManualComp",
     "MatchRun",
     "ScoreDaily",
+    "ScorePricePoint",
+    "ScoreRun",
+    "SearchSignalWeekly",
     "SnapshotRun",
+    "TrendPull",
 ]

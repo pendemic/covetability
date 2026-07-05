@@ -1,0 +1,30 @@
+name: Trends
+
+on:
+  schedule:
+    - cron: "23 7 * * 1"
+  workflow_dispatch:
+
+jobs:
+  trends:
+    if: vars.EBAY_LIVE_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: ${{ secrets.SNAPSHOT_DATABASE_URL }}
+      ADMIN_SECRET: ${{ secrets.ADMIN_SECRET }}
+      # pytrends is unofficial; if it rate-limits, fall back to a manual CSV
+      # import (TRENDS_SOURCE=csv) — the search component is gated either way.
+      TRENDS_SOURCE: ${{ vars.TRENDS_SOURCE || 'pytrends' }}
+      TRENDS_ANCHOR_TERM: handbag
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: astral-sh/setup-uv@v5
+      - name: Install dependencies
+        working-directory: pipeline
+        run: uv sync --group trends
+      - name: Pull weekly trends and stitch search signal
+        working-directory: pipeline
+        run: uv run python -m jobs.weekly_trends
