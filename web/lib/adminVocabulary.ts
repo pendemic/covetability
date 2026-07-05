@@ -4,6 +4,7 @@ export const adminCopy = {
   review: "Review",
   quality: "Data quality",
   catalog: "Catalog",
+  evidence: "Evidence",
   signOut: "Sign out",
   adminAccess: "Admin access",
   secret: "Shared secret",
@@ -57,6 +58,10 @@ export const adminCopy = {
   add: "Add",
   delete: "Delete",
   createBag: "Create bag",
+  manualComp: "Manual comp",
+  auctionRecord: "Auction record",
+  culturalContext: "Cultural context",
+  confirmedClose: "Confirmed close",
 } as const;
 
 export const rejectionReasons = [

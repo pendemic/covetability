@@ -101,6 +101,54 @@ export type BagPayload = {
   tracking_since?: string | null;
 };
 
+export type EvidenceRecord = {
+  id: number;
+  bag_model_id: number;
+  variant_id: number | null;
+  source: string;
+  source_type: "manual" | "user_submitted" | "auction_record";
+  observed_at: string;
+  entered_by: string;
+  listing_url: string;
+  confirmed: boolean;
+  price_type: "asking" | "realized";
+  price: string;
+  currency: string;
+  shipping_included: boolean;
+  condition_raw: string | null;
+  condition_band: ConditionBand;
+  condition_confidence: string;
+  notes: string | null;
+};
+
+export type EvidencePayload = {
+  bag_model_id: number;
+  variant_id?: number | null;
+  source: string;
+  source_type: "manual" | "user_submitted" | "auction_record";
+  observed_at: string;
+  entered_by: string;
+  listing_url: string;
+  confirmed: boolean;
+  price_type: "asking" | "realized";
+  price: string;
+  currency: string;
+  shipping_included: boolean;
+  condition_raw?: string | null;
+  condition_band: ConditionBand;
+  condition_confidence?: string;
+  notes?: string | null;
+};
+
+export type CulturalNote = {
+  id: number;
+  bag_model_id: number;
+  note_date: string;
+  body: string;
+  created_by: string | null;
+  created_at: string;
+};
+
 export type Summary = {
   snapshot_runs: Array<{
     id: number;
@@ -272,6 +320,43 @@ export function addGlobalExclusion(payload: { term: string; reason: RejectionRea
 
 export function deleteGlobalExclusion(exclusionId: number) {
   return adminFetch<{ status: string }>(`catalog/exclusions/${exclusionId}`, {
+    method: "DELETE",
+  });
+}
+
+export function getEvidenceRecords(slug: string) {
+  return adminFetch<{ items: EvidenceRecord[]; total: number }>(`evidence/bags/${slug}/comps`);
+}
+
+export function addEvidenceRecord(payload: EvidencePayload) {
+  return adminFetch<{ id: number }>("evidence/comps", {
+    method: "POST",
+    body: JSON.stringify(payload),
+  });
+}
+
+export function deleteEvidenceRecord(id: number) {
+  return adminFetch<{ status: string }>(`evidence/comps/${id}`, {
+    method: "DELETE",
+  });
+}
+
+export function getCulturalNotes(slug: string) {
+  return adminFetch<{ items: CulturalNote[]; total: number }>(`evidence/bags/${slug}/cultural-notes`);
+}
+
+export function addCulturalNote(
+  slug: string,
+  payload: { note_date: string; body: string; created_by?: string | null },
+) {
+  return adminFetch<{ id: number }>(`evidence/bags/${slug}/cultural-notes`, {
+    method: "POST",
+    body: JSON.stringify(payload),
+  });
+}
+
+export function deleteCulturalNote(id: number) {
+  return adminFetch<{ status: string }>(`evidence/cultural-notes/${id}`, {
     method: "DELETE",
   });
 }

@@ -175,10 +175,10 @@ covetability/
 
 **Goal:** the human-operated evidence channels exist with full provenance, feeding breadth (B) and the page's context sections.
 
-- [ ] **6.1 Manual comp entry (admin).** Form enforcing data-contract §4: source, source_type, observed date, condition, sold_confirmed, price_type, shipping_included, URL, entered_by; DB constraint backs the validation. Weekly operating cadence documented (Terapeak reads where permitted, Vestiaire/Fashionphile observations).
-- [ ] **6.2 Auction records.** Same form, `source_type=auction_record`; renders ONLY in a separate "Notable sales" page section — a test asserts auction rows never enter `daily_aggregates` or verdict math (data-contract §4).
-- [ ] **6.3 Cultural-context notes (admin).** Weekly curated note per bag (the 0%-weight editorial layer, ADR-004); renders in "Why it's moving" as clearly-labeled context, excluded from score math by construction.
-- [ ] **6.4 Breadth wiring.** B component counts distinct sources with valid observations ≤30 days (API + manual with provenance), log-scaled per score-spec §3.
+- [x] **6.1 Manual comp entry (admin).** Form enforcing data-contract §4: source, source_type, observed date, condition, sold_confirmed, price_type, shipping_included, URL, entered_by; DB constraint backs the validation. Weekly operating cadence documented (Terapeak reads where permitted, Vestiaire/Fashionphile observations).
+- [x] **6.2 Auction records.** Same form, `source_type=auction_record`; renders ONLY in a separate "Notable sales" page section — a test asserts auction rows never enter `daily_aggregates` or verdict math (data-contract §4).
+- [x] **6.3 Cultural-context notes (admin).** Weekly curated note per bag (the 0%-weight editorial layer, ADR-004); renders in "Why it's moving" as clearly-labeled context, excluded from score math by construction.
+- [x] **6.4 Breadth wiring.** B component counts distinct sources with valid observations ≤30 days (API + manual with provenance), log-scaled per score-spec §3.
 
 **Phase 6 verification:** a comp missing condition is rejected at both form and DB layer; an auction record appears in Notable Sales and provably not in any aggregate row; adding a second source moves B from 20 → 45 next scoring run.
 

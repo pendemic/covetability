@@ -28,6 +28,7 @@ export default async function AdminLayout({ children }: { children: ReactNode })
           <Link href="/admin/review">{adminCopy.review}</Link>
           <Link href="/admin/quality">{adminCopy.quality}</Link>
           <Link href="/admin/catalog">{adminCopy.catalog}</Link>
+          <Link href="/admin/evidence">{adminCopy.evidence}</Link>
           <LogoutButton />
         </nav>
       </header>

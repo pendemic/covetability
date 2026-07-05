@@ -136,6 +136,10 @@ a {
   color: var(--ink);
 }
 
+.inlineBadge {
+  margin-left: 8px;
+}
+
 .note-card {
   padding: 16px;
   border: 1px solid var(--line);
@@ -378,6 +382,17 @@ a {
   padding: 16px;
   border-left: 4px solid var(--copper);
   background: var(--surface);
+  line-height: 1.5;
+}
+
+.contextNotes {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.contextNotes p {
+  margin: 6px 0 0;
   line-height: 1.5;
 }
 

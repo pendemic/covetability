@@ -2,6 +2,7 @@ from app.models.base import Base
 from app.models.catalog import BagAlias, BagModel, BagVariant, Brand, ExclusionTerm
 from app.models.market import (
     AggregateRun,
+    CulturalNote,
     DailyAggregate,
     GoldLabel,
     ListingEvent,
@@ -19,6 +20,7 @@ __all__ = [
     "BagModel",
     "BagVariant",
     "Brand",
+    "CulturalNote",
     "DailyAggregate",
     "ExclusionTerm",
     "GoldLabel",
