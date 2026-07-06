@@ -41,8 +41,9 @@ def redistribute(
     base = dict(SCORE_BASE_WEIGHTS)
     if weight_overrides:
         base.update(weight_overrides)
+        _normalize_base_weights(base, set(weight_overrides))
 
-    eligible = [key for key in COMPONENT_KEYS if eligibility.get(key)]
+    eligible = [key for key in COMPONENT_KEYS if eligibility.get(key) and base[key] > 0]
     weights = {key: 0.0 for key in COMPONENT_KEYS}
 
     if len(eligible) < MIN_ELIGIBLE_COMPONENTS:
@@ -74,6 +75,33 @@ def redistribute(
         overflow_to=overflow_to,
         unscored_reason=None,
     )
+
+
+def _normalize_base_weights(base: dict[str, int], locked: set[str]) -> None:
+    delta = 100 - sum(base.values())
+    if delta == 0:
+        return
+    if delta > 0:
+        for key in (REDISTRIBUTION_OVERFLOW_ORDER + tuple(k for k in COMPONENT_KEYS if k not in locked)):
+            if key in locked:
+                continue
+            room = SCORE_WEIGHT_CEILINGS[key] - base[key]
+            grant = min(delta, room)
+            if grant > 0:
+                base[key] += int(grant)
+                delta -= int(grant)
+            if delta == 0:
+                return
+    else:
+        excess = -delta
+        for key in tuple(k for k in COMPONENT_KEYS if k not in locked and k != COMPONENT_PRICE):
+            room = base[key]
+            take = min(excess, room)
+            if take > 0:
+                base[key] -= int(take)
+                excess -= int(take)
+            if excess == 0:
+                return
 
 
 def _fill_pro_rata(

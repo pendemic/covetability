@@ -9,6 +9,7 @@ import {
   HistoryCharts,
   ListingsTable,
   ObservationList,
+  ScoreBreakdown,
   ScoreRing,
   SiteFooter,
   SiteHeader,
@@ -17,6 +18,7 @@ import {
   monthLabel,
   trackingSinceLabel,
 } from "@/app/components/MarketComponents";
+import { CovetListForm } from "@/app/components/CovetListForm";
 import {
   getAuctionRecords,
   getBag,
@@ -146,19 +148,31 @@ export default async function BagPage({ params }: PageProps) {
           <div className="sectionHeader">
             <h2 id="score-heading">Covetability status</h2>
           </div>
-          <ScoreRing trackingSince={market.tracking_since} />
-          <div className="componentGrid">
-            {market.score.components.map((component) => (
-              <div className="componentPanel" key={component.key}>
-                <strong>{component.key.replaceAll("_", " ")}</strong>
-                <span className="muted">
-                  {component.state === "insufficient_stable_search_data"
-                    ? metricDisplayVocabulary.insufficientSearchData
-                    : "Not yet computed"}
-                </span>
-              </div>
-            ))}
+          <ScoreRing score={market.score} />
+          {market.score.status === "published" ? (
+            <ScoreBreakdown score={market.score} />
+          ) : (
+            <div className="componentGrid">
+              {market.score.components.map((component) => (
+                <div className="componentPanel" key={component.key}>
+                  <strong>{component.key.replaceAll("_", " ")}</strong>
+                  <span className="muted">
+                    {component.state === "insufficient_stable_search_data"
+                      ? metricDisplayVocabulary.insufficientSearchData
+                      : "Not yet computed"}
+                  </span>
+                </div>
+              ))}
+            </div>
+          )}
+        </section>
+
+        <section className="contentSection" aria-labelledby="covet-list-heading">
+          <div className="sectionHeader">
+            <h2 id="covet-list-heading">{metricDisplayVocabulary.covetList}</h2>
+            <span className="muted">Weekly digest preview scaffold</span>
           </div>
+          <CovetListForm slug={bag.slug} />
         </section>
 
         <section className="contentSection" aria-labelledby="moving-heading">

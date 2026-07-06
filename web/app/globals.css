@@ -148,6 +148,31 @@ a {
   font: inherit;
 }
 
+.covetForm {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 320px) auto;
+  gap: 12px;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.covetForm p {
+  margin: 6px 0 0;
+}
+
+.covetForm input {
+  min-height: 42px;
+  padding: 10px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  background: var(--surface-page);
+  color: var(--ink);
+  font: inherit;
+}
+
 .discoverGrid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -403,6 +428,63 @@ a {
   stroke: var(--moss);
   transform: rotate(-90deg);
   transform-origin: center;
+}
+
+.scoreSvgText {
+  fill: var(--ink);
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.scoreBreakdown {
+  display: grid;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.scoreSegments {
+  display: flex;
+  gap: 4px;
+  height: 18px;
+  overflow: hidden;
+  border-radius: 8px;
+  background: var(--track);
+}
+
+.scoreSegment {
+  min-width: 18px;
+  background: var(--copper);
+}
+
+.scoreSegment.off {
+  background: var(--ink-faint);
+}
+
+.scoreTable {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.scoreTable th,
+.scoreTable td {
+  padding: 11px 12px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+}
+
+.scoreTable th {
+  color: var(--muted);
+  font-family: var(--font-mono), monospace;
+  font-size: 0.72rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.mutedRow {
+  color: var(--muted);
 }
 
 .componentGrid {
@@ -726,6 +808,7 @@ dd {
   .variantGrid,
   .scorePanel,
   .componentGrid,
+  .covetForm,
   .observationList,
   .historyGrid,
   .methodGrid {

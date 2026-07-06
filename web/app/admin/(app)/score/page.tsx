@@ -6,13 +6,17 @@ import {
   GateHistory,
   ScoreBagRow,
   ScoreDecomposition,
+  ScoreReadiness,
   ScoreTimeline,
   SearchSignalRow,
   getScoreBags,
   getScoreDecomposition,
   getScoreGates,
+  getScoreReadiness,
   getScoreTimeline,
   getSearchSignal,
+  publishScore,
+  unpublishScore,
 } from "@/lib/adminApi";
 import { adminCopy, scoreComponentLabels } from "@/lib/adminVocabulary";
 
@@ -31,6 +35,7 @@ export default function ScorePage() {
   const [gates, setGates] = useState<GateHistory | null>(null);
   const [signal, setSignal] = useState<SearchSignalRow[]>([]);
   const [decomp, setDecomp] = useState<ScoreDecomposition | null>(null);
+  const [readiness, setReadiness] = useState<ScoreReadiness | null>(null);
 
   useEffect(() => {
     getScoreBags()
@@ -56,6 +61,7 @@ export default function ScorePage() {
       })
       .catch(() => setTimeline(null));
     getScoreGates(bagSlug).then(setGates).catch(() => setGates(null));
+    getScoreReadiness(bagSlug).then(setReadiness).catch(() => setReadiness(null));
     getSearchSignal(bagSlug).then((data) => setSignal(data.search_signal)).catch(() => setSignal([]));
   }, []);
 
@@ -66,6 +72,14 @@ export default function ScorePage() {
   }, [slug, loadBag]);
 
   const latestGate = gates?.gate_history.at(-1) ?? null;
+  const selectedBag = bags.find((bag) => bag.slug === slug) ?? null;
+
+  function refreshSelected() {
+    if (slug) {
+      loadBag(slug);
+      getScoreBags().then((data) => setBags(data.bags)).catch(() => undefined);
+    }
+  }
 
   return (
     <div className="adminStack">
@@ -85,9 +99,83 @@ export default function ScorePage() {
             {bag.slug}
             {" — "}
             {bag.classification ?? adminCopy.notScored}
+            {bag.score_published ? " / public" : ""}
           </button>
         ))}
       </div>
+
+      {slug && readiness ? (
+        <section className="adminTool adminStack">
+          <div className="adminHeader">
+            <h2>{adminCopy.publicationReadiness}</h2>
+            <span className={readiness.ready ? "adminChip adminChipActive" : "adminChip"}>
+              {readiness.ready ? "ready" : "needs review"}
+            </span>
+          </div>
+          <table className="adminTable">
+            <thead>
+              <tr>
+                <th>Criterion</th>
+                <th>Status</th>
+                <th>Detail</th>
+              </tr>
+            </thead>
+            <tbody>
+              {readiness.items.map((item) => (
+                <tr key={item.key} className={item.passed ? undefined : "adminMuted"}>
+                  <td>{item.label}</td>
+                  <td>{item.passed ? "pass" : "review"}</td>
+                  <td>{item.detail}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          {readiness.material_moves.length ? (
+            <div className="adminStack">
+              <h3>Material moves</h3>
+              <table className="adminTable">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Delta</th>
+                    <th>Notes</th>
+                    <th>Warnings</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {readiness.material_moves.map((move) => (
+                    <tr key={move.date}>
+                      <td>{move.date}</td>
+                      <td>{signed(move.smoothed_delta)}</td>
+                      <td>{move.notes_present ? "yes" : "no"}</td>
+                      <td>{move.warnings.join(", ")}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ) : null}
+          <div className="adminActions">
+            {selectedBag?.score_published ? (
+              <button
+                className="adminButton"
+                type="button"
+                onClick={() => unpublishScore(slug).then(refreshSelected)}
+              >
+                {adminCopy.unpublishScore}
+              </button>
+            ) : (
+              <button
+                className="adminButton"
+                type="button"
+                onClick={() => publishScore(slug, { force: true, reason: "operator publication review" }).then(refreshSelected)}
+              >
+                {adminCopy.publishScore}
+              </button>
+            )}
+          </div>
+        </section>
+      ) : null}
 
       {timeline ? (
         <section className="adminTool adminStack">

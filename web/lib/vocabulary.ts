@@ -26,10 +26,20 @@ export const metricDisplayVocabulary = {
     "Covetability does not authenticate items. Labels describe marketplace programs and seller claims only.",
   notableAuctionResults: "Notable auction results",
   culturalContext: "Cultural context",
+  covetList: "Covet List",
   scoreIdentityStatement:
     "The Covetability Score v0 measures observable momentum in attention, availability, and active-market pricing for a handbag model.",
   scoreExclusions:
     "It is an activity index, not a valuation. It does not measure authenticity, investment quality, confirmed resale value, likelihood of profit, fashion quality, or personal desirability.",
+} as const;
+
+export const scoreClassificationLabels = {
+  dormant: "Dormant",
+  cooling: "Cooling",
+  stable: "Stable",
+  building: "Building",
+  trending: "Trending",
+  surging: "Surging",
 } as const;
 
 export const conditionBandLabels = {

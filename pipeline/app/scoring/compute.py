@@ -30,6 +30,7 @@ from app.contract import (
 )
 from app.matching.engine import ACCEPTED_STATUSES
 from app.models import BagModel, DailyAggregate, ListingRaw, ScoreDaily, ScoreRun
+from app.models.score import ScoreConfig
 from app.scoring.components import (
     ComponentResult,
     compute_breadth,
@@ -114,6 +115,12 @@ def compute_bag_day(
     relist_precision: float | None = None,
 ) -> ScoreDaily:
     build_price_points_for_day(session, bag.id, day)
+    config = score_config(session)
+    weight_overrides = (
+        {COMPONENT_SEARCH: config.search_weight}
+        if config is not None
+        else None
+    )
 
     inventory = compute_inventory(session, bag.id, day)
     results: dict[str, ComponentResult] = {
@@ -123,8 +130,20 @@ def compute_bag_day(
         COMPONENT_TURNOVER: compute_turnover(session, bag.id, day, relist_precision=relist_precision),
         COMPONENT_BREADTH: compute_breadth(session, bag.id, day),
     }
+    if config is not None and config.search_weight == 0:
+        search = results[COMPONENT_SEARCH]
+        results[COMPONENT_SEARCH] = ComponentResult(
+            search.key,
+            search.value,
+            False,
+            "search stability decision excluded S",
+            search.trace,
+        )
 
-    redis = redistribute({key: results[key].eligible for key in COMPONENT_KEYS})
+    redis = redistribute(
+        {key: results[key].eligible for key in COMPONENT_KEYS},
+        weight_overrides=weight_overrides,
+    )
     matched_count, avg_confidence = _coverage(session, bag.id, day)
     history_days = _history_days(session, bag.id, day)
     source_count = int(results[COMPONENT_BREADTH].trace.get("source_count", 0))
@@ -175,6 +194,7 @@ def compute_bag_day(
         "direction": row_direction.value if row_direction else None,
         "classification": classification.value if classification else None,
         "weights": redis.weights,
+        "weight_overrides": weight_overrides or {},
         "eligible": redis.eligible,
         "overflow_to": redis.overflow_to,
         "unscored_reason": redis.unscored_reason,
@@ -208,13 +228,17 @@ def compute_bag_day(
         confidence_raw=Decimal(str(confidence.value)),
         classification=classification,
         unscored_reason=redis.unscored_reason,
-        published=False,
+        published=bag.score_published,
         component_trace=trace,
         **_component_columns(results, redis.weights),
     )
     session.add(row)
     session.flush()
     return row
+
+
+def score_config(session: Session) -> ScoreConfig | None:
+    return session.get(ScoreConfig, 1)
 
 
 def _component_entry(result: ComponentResult, weight: float, contribution: float) -> dict[str, Any]:

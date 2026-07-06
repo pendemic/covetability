@@ -210,10 +210,10 @@ Tasks:
 
 **Goal:** publish the score once shadow-mode criteria hold in production; grow to 30 bags without diluting quality.
 
-- [ ] **8.1 Score publication review.** Score-spec §8 checklist against the production shadow log; stability-gate decision applied (S at 15/25/30%); flip `published=true` pathway + the full score UI (ring, classification, confidence, component breakdown with greyed-out ineligibles, tracking-since).
-- [ ] **8.2 "Why it's moving" upgrade.** Explanations driven by published-score decomposition (still template-over-metrics; AI rephrasing only if it passes the explanation rules and adds nothing not in the metric record).
-- [ ] **8.3 Expansion playbook.** Document the per-bag onboarding recipe proven by the pilot: catalog entry → queries → 150-label gold sample → precision check → 2 weeks ingestion → page live. Expand in waves of ~5 (next wave from the spec's suggested set: Speedy, Jackie, Re-Edition, Spy, Stam), each wave passing the same thresholds. 30 bags ≈ 5 waves.
-- [ ] **8.4 Deferred-scope trigger review.** Only after score publication + first expansion wave: revisit ADR-007 deferrals (Covet List, alerts) — first candidate is per-bag "watch" with a weekly email digest, smallest honest personalization.
+- [x] **8.1 Score publication review.** Score-spec §8 checklist against the production shadow log; stability-gate decision applied (S at 15/25/30%); flip `published=true` pathway + the full score UI (ring, classification, confidence, component breakdown with greyed-out ineligibles, tracking-since).
+- [x] **8.2 "Why it's moving" upgrade.** Explanations driven by published-score decomposition (still template-over-metrics; AI rephrasing only if it passes the explanation rules and adds nothing not in the metric record).
+- [x] **8.3 Expansion playbook.** Document the per-bag onboarding recipe proven by the pilot: catalog entry → queries → 150-label gold sample → precision check → 2 weeks ingestion → page live. Expand in waves of ~5 (next wave from the spec's suggested set: Speedy, Jackie, Re-Edition, Spy, Stam), each wave passing the same thresholds. 30 bags ≈ 5 waves.
+- [x] **8.4 Deferred-scope trigger review.** Only after score publication + first expansion wave: revisit ADR-007 deferrals (Covet List, alerts) — first candidate is per-bag "watch" with a weekly email digest, smallest honest personalization.
 
 **Phase 8 verification:** score visible publicly with confidence + tracking-since; one full expansion wave onboarded via the playbook meeting all thresholds; shadow log archived as the methodology audit trail.
 

@@ -217,6 +217,8 @@ export type ScoreBagRow = {
   publication_value: number | null;
   classification: string | null;
   unscored_reason: string | null;
+  score_published: boolean;
+  score_published_at: string | null;
 };
 
 export type ScoreTimelineRow = {
@@ -236,7 +238,27 @@ export type ScoreTimeline = {
   slug: string;
   model_name: string;
   published: boolean;
+  published_at: string | null;
   timeline: ScoreTimelineRow[];
+};
+
+export type ScoreReadiness = {
+  slug: string;
+  ready: boolean;
+  items: Array<{
+    key: string;
+    label: string;
+    passed: boolean;
+    detail: string;
+    operator_attested: boolean;
+  }>;
+  material_moves: Array<{
+    date: string;
+    previous_date: string | null;
+    smoothed_delta: number;
+    notes_present: boolean;
+    warnings: string[];
+  }>;
 };
 
 export type ScoreDecomposition = {
@@ -466,6 +488,26 @@ export function getScoreBags() {
 
 export function getScoreTimeline(slug: string) {
   return adminFetch<ScoreTimeline>(`score/${slug}/timeline`);
+}
+
+export function getScoreReadiness(slug: string) {
+  return adminFetch<ScoreReadiness>(`score/${slug}/readiness`);
+}
+
+export function publishScore(slug: string, payload: { force?: boolean; reason?: string | null } = {}) {
+  return adminFetch<{ slug: string; score_published: boolean; score_published_at: string | null; forced: boolean }>(
+    `score/${slug}/publish`,
+    {
+      method: "POST",
+      body: JSON.stringify(payload),
+    },
+  );
+}
+
+export function unpublishScore(slug: string) {
+  return adminFetch<{ slug: string; score_published: boolean }>(`score/${slug}/unpublish`, {
+    method: "POST",
+  });
 }
 
 export function getScoreDecomposition(slug: string, date: string) {

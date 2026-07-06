@@ -3,7 +3,7 @@ EBAY_SOURCE ?= fixtures
 TRENDS_SOURCE ?= fixtures
 GOLD ?= all
 
-.PHONY: db-up db-down migrate seed snapshot match rematch normalize-conditions load-fixture-gold evaluate evaluate-fixtures evaluate-conditions aggregate recompute verify-aggregates expire expire-dry trends score stability test lint api web
+.PHONY: db-up db-down migrate seed snapshot match rematch normalize-conditions load-fixture-gold evaluate evaluate-fixtures evaluate-conditions aggregate recompute verify-aggregates expire expire-dry trends score stability apply-stability covet-digest test lint api web
 
 db-up:
 	$(DB_COMPOSE) up -d
@@ -65,6 +65,12 @@ score:
 
 stability:
 	cd pipeline && uv run python -m jobs.stability_report
+
+apply-stability:
+	cd pipeline && uv run python -m jobs.apply_stability_decision
+
+covet-digest:
+	cd pipeline && uv run python -m jobs.covet_digest
 
 test:
 	cd pipeline && uv run pytest

@@ -195,3 +195,40 @@ class ScoreRun(Base):
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), nullable=False, server_default=text("now()")
     )
+
+
+class ScoreConfig(Base):
+    """Single-row score publication config.
+
+    The search weight is decided by the score-spec §6 stability gate and then
+    read by daily scoring through the existing redistribution override hook.
+    """
+
+    __tablename__ = "score_config"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    search_weight: Mapped[int] = mapped_column(Integer, nullable=False)
+    decided_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
+    rationale: Mapped[str] = mapped_column(Text, nullable=False)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), nullable=False, server_default=text("now()")
+    )
+
+
+class CovetListWatch(Base):
+    """Per-bag watch scaffold for the Covet List digest."""
+
+    __tablename__ = "covet_list_watches"
+    __table_args__ = (
+        UniqueConstraint("email", "bag_model_id", name="uq_covet_list_watches_email_bag"),
+        Index("ix_covet_list_watches_bag", "bag_model_id"),
+    )
+
+    id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    email: Mapped[str] = mapped_column(String(320), nullable=False)
+    bag_model_id: Mapped[int] = mapped_column(
+        ForeignKey("bag_models.id", ondelete="CASCADE"), nullable=False
+    )
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), nullable=False, server_default=text("now()")
+    )

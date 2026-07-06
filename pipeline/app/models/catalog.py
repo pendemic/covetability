@@ -52,6 +52,8 @@ class BagModel(Base):
     tracking_since: Mapped[date | None] = mapped_column(Date)
     recompute_required: Mapped[bool] = mapped_column(Boolean, nullable=False, server_default=text("false"))
     recompute_flagged_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    score_published: Mapped[bool] = mapped_column(Boolean, nullable=False, server_default=text("false"))
+    score_published_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), nullable=False, server_default=text("now()")
     )

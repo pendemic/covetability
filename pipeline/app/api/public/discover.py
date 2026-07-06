@@ -14,7 +14,7 @@ from app.api.public.schemas import (
     DiscoverResponse,
     DiscoveryBagItem,
 )
-from app.models import BagModel, DailyAggregate
+from app.models import BagModel, DailyAggregate, ScoreDaily
 
 router = APIRouter()
 
@@ -27,6 +27,7 @@ class BagDiscoveryStats:
     baseline_active: int
     active_delta: int
     priced_bands: int
+    published_score: float | None
 
 
 @router.get("/discover", response_model=DiscoverResponse, response_model_exclude_none=True)
@@ -50,8 +51,22 @@ def bag_stats(session: SessionDep, bag: BagModel) -> BagDiscoveryStats:
     as_of = session.scalar(
         select(func.max(DailyAggregate.observation_date)).where(DailyAggregate.bag_model_id == bag.id)
     )
+    published_score = session.scalar(
+        select(ScoreDaily.publication_value)
+        .where(ScoreDaily.bag_model_id == bag.id, ScoreDaily.published.is_(True))
+        .order_by(ScoreDaily.observation_date.desc())
+        .limit(1)
+    )
     if as_of is None:
-        return BagDiscoveryStats(bag, None, 0, 0, 0, 0)
+        return BagDiscoveryStats(
+            bag,
+            None,
+            0,
+            0,
+            0,
+            0,
+            float(published_score) if published_score is not None else None,
+        )
 
     start = as_of - timedelta(days=29)
     rows = session.execute(
@@ -89,10 +104,28 @@ def bag_stats(session: SessionDep, bag: BagModel) -> BagDiscoveryStats:
         baseline_active=baseline_active,
         active_delta=latest_active - baseline_active,
         priced_bands=priced_bands,
+        published_score=float(published_score) if published_score is not None else None,
     )
 
 
 def featured_module(stats: list[BagDiscoveryStats]) -> DiscoverModule:
+    published = [item for item in stats if item.published_score is not None]
+    if published:
+        ranked = sorted(published, key=lambda item: item.published_score or 0, reverse=True)
+        return DiscoverModule(
+            key="featured",
+            title="Most Covetable",
+            description="Published score leaders from the latest public score track.",
+            items=[
+                discovery_item(
+                    item,
+                    metric_label="Published score",
+                    metric_value=str(round(item.published_score or 0)),
+                    caption=f"{item.priced_bands}/6 priced bands",
+                )
+                for item in ranked
+            ],
+        )
     return DiscoverModule(
         key="featured",
         title="Featured",

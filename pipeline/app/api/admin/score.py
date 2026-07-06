@@ -8,17 +8,25 @@ weekly search signal.
 
 from __future__ import annotations
 
-from datetime import date
+from datetime import UTC, date, datetime
 from typing import Any
 
 from fastapi import APIRouter, HTTPException, Query
-from sqlalchemy import select
+from pydantic import BaseModel
+from sqlalchemy import select, update
 
 from app.api.admin.deps import SessionDep
 from app.contract import COMPONENT_KEYS
 from app.models import BagModel, ScoreDaily, SearchSignalWeekly
+from app.scoring.decomposition import decompose_score_day
+from app.scoring.publication import evaluate_publication_readiness, readiness_dict
 
 router = APIRouter()
+
+
+class PublishRequest(BaseModel):
+    force: bool = False
+    reason: str | None = None
 
 
 def _bag_or_404(session: SessionDep, slug: str) -> BagModel:
@@ -48,9 +56,11 @@ def score_bags(session: SessionDep) -> dict[str, Any]:
                 "publication_value": _num(latest.publication_value) if latest else None,
                 "classification": latest.classification.value if latest and latest.classification else None,
                 "unscored_reason": latest.unscored_reason if latest else None,
+                "score_published": bag.score_published,
+                "score_published_at": bag.score_published_at.isoformat() if bag.score_published_at else None,
             }
         )
-    return {"bags": out, "published": False}
+    return {"bags": out, "published": any(row["score_published"] for row in out)}
 
 
 @router.get("/score/{slug}/timeline")
@@ -77,7 +87,13 @@ def score_timeline(session: SessionDep, slug: str, days: int = Query(default=120
         }
         for row in reversed(rows)
     ]
-    return {"slug": slug, "model_name": bag.model_name, "published": False, "timeline": timeline}
+    return {
+        "slug": slug,
+        "model_name": bag.model_name,
+        "published": bag.score_published,
+        "published_at": bag.score_published_at.isoformat() if bag.score_published_at else None,
+        "timeline": timeline,
+    }
 
 
 @router.get("/score/{slug}/trace")
@@ -93,54 +109,72 @@ def score_trace(session: SessionDep, slug: str, date: str = Query(...)) -> dict[
 def score_decomposition(session: SessionDep, slug: str, date: str = Query(...)) -> dict[str, Any]:
     bag = _bag_or_404(session, slug)
     day = _parse(date)
-    current = _row_on(session, bag.id, day)
-    if current is None:
+    decomposition = decompose_score_day(session, bag.id, day)
+    if decomposition is None:
         raise HTTPException(status_code=404, detail="no score for that date")
-    previous = session.scalars(
-        select(ScoreDaily)
-        .where(
-            ScoreDaily.bag_model_id == bag.id,
-            ScoreDaily.observation_date < day,
-            ScoreDaily.raw_score.is_not(None),
-        )
-        .order_by(ScoreDaily.observation_date.desc())
-        .limit(1)
-    ).first()
-
-    now_components = (current.component_trace or {}).get("components", {})
-    prev_components = (previous.component_trace or {}).get("components", {}) if previous else {}
-    parts = []
-    total = 0.0
-    for key in COMPONENT_KEYS:
-        now_c = float(now_components.get(key, {}).get("contribution", 0.0) or 0.0)
-        prev_c = float(prev_components.get(key, {}).get("contribution", 0.0) or 0.0)
-        delta = round(now_c - prev_c, 4)
-        total += delta
-        parts.append(
-            {
-                "component": key,
-                "contribution_now": round(now_c, 4),
-                "contribution_previous": round(prev_c, 4),
-                "delta": delta,
-                "value": now_components.get(key, {}).get("value"),
-                "eligible": now_components.get(key, {}).get("eligible"),
-                "reason": now_components.get(key, {}).get("reason"),
-            }
-        )
-
-    raw_now = float(current.raw_score) if current.raw_score is not None else 0.0
-    raw_prev = float(previous.raw_score) if previous and previous.raw_score is not None else 0.0
-    raw_delta = round(raw_now - raw_prev, 2)
     return {
         "slug": slug,
         "date": day.isoformat(),
-        "previous_date": previous.observation_date.isoformat() if previous else None,
-        "raw_now": round(raw_now, 2),
-        "raw_previous": round(raw_prev, 2),
-        "raw_delta": raw_delta,
-        "decomposition_sum": round(total, 2),
-        "components": parts,
+        "previous_date": decomposition.previous_date.isoformat() if decomposition.previous_date else None,
+        "raw_now": decomposition.raw_now,
+        "raw_previous": decomposition.raw_previous,
+        "raw_delta": decomposition.raw_delta,
+        "decomposition_sum": decomposition.decomposition_sum,
+        "components": [
+            {
+                "component": item.component,
+                "contribution_now": item.contribution_now,
+                "contribution_previous": item.contribution_previous,
+                "delta": item.delta,
+                "value": item.value,
+                "eligible": item.eligible,
+                "reason": item.reason,
+            }
+            for item in decomposition.components
+        ],
     }
+
+
+@router.get("/score/{slug}/readiness")
+def publication_readiness(session: SessionDep, slug: str) -> dict[str, Any]:
+    bag = _bag_or_404(session, slug)
+    return readiness_dict(evaluate_publication_readiness(session, bag))
+
+
+@router.post("/score/{slug}/publish")
+def publish_score(session: SessionDep, slug: str, payload: PublishRequest | None = None) -> dict[str, Any]:
+    bag = _bag_or_404(session, slug)
+    readiness = evaluate_publication_readiness(session, bag)
+    request = payload or PublishRequest()
+    if not readiness.ready and not request.force:
+        raise HTTPException(status_code=409, detail=readiness_dict(readiness))
+
+    bag.score_published = True
+    bag.score_published_at = datetime.now(UTC)
+    session.execute(
+        update(ScoreDaily)
+        .where(ScoreDaily.bag_model_id == bag.id)
+        .values(published=True)
+    )
+    session.commit()
+    return {
+        "slug": bag.slug,
+        "score_published": bag.score_published,
+        "score_published_at": bag.score_published_at.isoformat() if bag.score_published_at else None,
+        "forced": not readiness.ready,
+    }
+
+
+@router.post("/score/{slug}/unpublish")
+def unpublish_score(session: SessionDep, slug: str) -> dict[str, Any]:
+    bag = _bag_or_404(session, slug)
+    bag.score_published = False
+    bag.score_published_at = None
+    session.execute(
+        update(ScoreDaily).where(ScoreDaily.bag_model_id == bag.id).values(published=False)
+    )
+    session.commit()
+    return {"slug": bag.slug, "score_published": False}
 
 
 @router.get("/score/{slug}/gates")

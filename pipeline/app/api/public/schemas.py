@@ -85,11 +85,21 @@ class MarketTotals(BaseModel):
 class ScoreComponent(BaseModel):
     key: str
     state: str
+    eligible: bool | None = None
+    weight_used: str | None = None
+    value: str | None = None
+    contribution: str | None = None
+    reason: str | None = None
 
 
 class ScoreBlock(BaseModel):
     status: Literal["not_yet_scored", "published"]
     tracking_since: str | None
+    value: int | None = None
+    classification: str | None = None
+    direction: str | None = None
+    confidence_label: Literal["Low", "Moderate", "High"] | None = None
+    confidence_raw: str | None = None
     components: list[ScoreComponent]
 
 

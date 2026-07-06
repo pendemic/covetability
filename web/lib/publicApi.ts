@@ -57,7 +57,20 @@ export type MarketResponse = {
   score: {
     status: "not_yet_scored" | "published";
     tracking_since: string | null;
-    components: Array<{ key: string; state: string }>;
+    value?: number | null;
+    classification?: string | null;
+    direction?: string | null;
+    confidence_label?: "Low" | "Moderate" | "High" | null;
+    confidence_raw?: string | null;
+    components: Array<{
+      key: string;
+      state: string;
+      eligible?: boolean | null;
+      weight_used?: string | null;
+      value?: string | null;
+      contribution?: string | null;
+      reason?: string | null;
+    }>;
   };
   observations: Array<{
     metric: string;

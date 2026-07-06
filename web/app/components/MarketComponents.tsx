@@ -14,6 +14,7 @@ import {
   conditionBandLabels,
   metricDisplayVocabulary,
   notYetScoredTrackingSince,
+  scoreClassificationLabels,
 } from "@/lib/vocabulary";
 
 export function SiteHeader() {
@@ -118,23 +119,93 @@ export function VariantPanel({
   );
 }
 
-export function ScoreRing({ trackingSince }: { trackingSince: string | null }) {
-  const month = monthLabel(trackingSince);
+export function ScoreRing({ score }: { score: MarketResponse["score"] }) {
+  const month = monthLabel(score.tracking_since);
+  const value = score.status === "published" ? Math.max(0, Math.min(100, score.value ?? 0)) : null;
+  const classification =
+    score.classification && score.classification in scoreClassificationLabels
+      ? scoreClassificationLabels[score.classification as keyof typeof scoreClassificationLabels]
+      : null;
+  const dash = value == null ? 0 : (value / 100) * scoreRingCircumference;
   return (
     <div className="scorePanel">
-      <svg viewBox="0 0 140 140" role="img" aria-label={metricDisplayVocabulary.notYetScored}>
+      <svg
+        viewBox="0 0 140 140"
+        role="img"
+        aria-label={value == null ? metricDisplayVocabulary.notYetScored : `${metricDisplayVocabulary.score} ${value}`}
+      >
         <circle className="scoreTrack" cx="70" cy="70" r="52" />
         <circle
           className="scoreProgress"
           cx="70"
           cy="70"
           r="52"
-          strokeDasharray={`0 ${scoreRingCircumference}`}
+          strokeDasharray={`${dash} ${scoreRingCircumference}`}
         />
+        {value == null ? null : (
+          <text className="scoreSvgText" x="70" y="78" textAnchor="middle">
+            {value}
+          </text>
+        )}
       </svg>
       <div>
         <span className="kicker">{metricDisplayVocabulary.score}</span>
-        <h2>{notYetScoredTrackingSince(month)}</h2>
+        {value == null ? (
+          <h2>{notYetScoredTrackingSince(month)}</h2>
+        ) : (
+          <>
+            <h2>
+              {value} - {classification}
+            </h2>
+            <p className="muted">
+              Confidence: {score.confidence_label ?? metricDisplayVocabulary.confidenceLow}
+              {score.direction ? ` - ${score.direction}` : ""}
+            </p>
+          </>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export function ScoreBreakdown({ score }: { score: MarketResponse["score"] }) {
+  if (score.status !== "published") {
+    return null;
+  }
+  return (
+    <div className="scoreBreakdown">
+      <div className="scoreSegments" aria-hidden="true">
+        {score.components.map((component) => (
+          <span
+            className={component.eligible ? "scoreSegment" : "scoreSegment off"}
+            key={component.key}
+            style={{ flexGrow: Number(component.contribution ?? component.weight_used ?? 0) || 1 }}
+          />
+        ))}
+      </div>
+      <div className="tableWrap">
+        <table className="scoreTable">
+          <thead>
+            <tr>
+              <th>Component</th>
+              <th>Score</th>
+              <th>Weight</th>
+              <th>Contribution</th>
+              <th>Gate</th>
+            </tr>
+          </thead>
+          <tbody>
+            {score.components.map((component) => (
+              <tr className={component.eligible ? "" : "mutedRow"} key={component.key}>
+                <td>{component.key.replaceAll("_", " ")}</td>
+                <td>{component.value ?? ""}</td>
+                <td>{component.weight_used ?? "0.00"}%</td>
+                <td>{component.contribution ?? "0.00"}</td>
+                <td>{component.eligible ? "Eligible" : component.reason ?? "Ineligible"}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
   );

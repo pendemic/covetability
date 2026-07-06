@@ -12,6 +12,8 @@ from app.models.market import (
     SnapshotRun,
 )
 from app.models.score import (
+    CovetListWatch,
+    ScoreConfig,
     ScoreDaily,
     ScorePricePoint,
     ScoreRun,
@@ -27,6 +29,7 @@ __all__ = [
     "BagVariant",
     "Brand",
     "CulturalNote",
+    "CovetListWatch",
     "DailyAggregate",
     "ExclusionTerm",
     "GoldLabel",
@@ -35,6 +38,7 @@ __all__ = [
     "ManualComp",
     "MatchRun",
     "ScoreDaily",
+    "ScoreConfig",
     "ScorePricePoint",
     "ScoreRun",
     "SearchSignalWeekly",

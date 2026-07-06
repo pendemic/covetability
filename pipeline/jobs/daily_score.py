@@ -25,10 +25,7 @@ def main() -> int:
         summary = run_daily_score(session, day, relist_precision=args.relist_precision)
         session.commit()
 
-    print(
-        f"daily score date={day.isoformat()} scored={summary.bags_scored} "
-        f"unscored={summary.bags_unscored} (published=false, shadow mode)"
-    )
+    print(f"daily score date={day.isoformat()} scored={summary.bags_scored} unscored={summary.bags_unscored}")
     print("bag,raw,smoothed,publication,classification,eligible,unscored_reason")
     for slug, stats in sorted(summary.bag_stats.items()):
         print(

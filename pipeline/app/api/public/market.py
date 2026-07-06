@@ -28,6 +28,7 @@ from app.contract import (
     ConditionBand,
 )
 from app.insights.observations import generate_observations
+from app.insights.score_observations import generate_score_observations
 from app.models import DailyAggregate, ScoreDaily
 
 router = APIRouter()
@@ -69,7 +70,13 @@ def bag_market(slug: str, session: SessionDep) -> MarketResponse:
         bands=bands,
         variants=variants,
         score=score_block(session, bag.id, bag.tracking_since.isoformat() if bag.tracking_since else None),
-        observations=generate_observations(history_rows, as_of) if as_of else [],
+        observations=(
+            generate_score_observations(session, bag, as_of)
+            if bag.score_published
+            else generate_observations(history_rows, as_of)
+        )
+        if as_of
+        else [],
     )
 
 
@@ -233,15 +240,28 @@ def score_block(session: SessionDep, bag_id: int, tracking_since: str | None) ->
         .limit(1)
     )
     if score is not None and score.smoothed_score is not None:
+        components = (score.component_trace or {}).get("components", {})
         return ScoreBlock(
             status="published",
             tracking_since=tracking_since,
+            value=round(float(score.publication_value or score.smoothed_score)),
+            classification=score.classification.value if score.classification else None,
+            direction=score.direction.value if score.direction else None,
+            confidence_label=confidence_label(score.confidence_raw),
+            confidence_raw=str(Decimal(score.confidence_raw).quantize(Decimal("0.0001")))
+            if score.confidence_raw is not None
+            else None,
             components=[
-                ScoreComponent(key="search", state="published"),
-                ScoreComponent(key="active_inventory", state="published"),
-                ScoreComponent(key="asking_price", state="published"),
-                ScoreComponent(key="marketplace_breadth", state="published"),
-                ScoreComponent(key="listing_turnover_proxy", state="published"),
+                ScoreComponent(
+                    key=key,
+                    state="eligible" if component.get("eligible") else "ineligible",
+                    eligible=component.get("eligible"),
+                    weight_used=decimal_string(component.get("weight")),
+                    value=decimal_string(component.get("value")),
+                    contribution=decimal_string(component.get("contribution")),
+                    reason=component.get("reason"),
+                )
+                for key, component in components.items()
             ],
         )
     return ScoreBlock(
@@ -261,3 +281,20 @@ def money(value: Decimal | None) -> str | None:
     if value is None:
         return None
     return str(Decimal(value).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
+
+
+def decimal_string(value) -> str | None:
+    if value is None:
+        return None
+    return str(Decimal(str(value)).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
+
+
+def confidence_label(value: Decimal | None) -> str | None:
+    if value is None:
+        return None
+    confidence = Decimal(value)
+    if confidence < Decimal("0.40"):
+        return "Low"
+    if confidence < Decimal("0.70"):
+        return "Moderate"
+    return "High"
