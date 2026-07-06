@@ -22,6 +22,10 @@ class Settings(BaseSettings):
     ebay_category_ids: str = Field(default="169291", alias="EBAY_CATEGORY_IDS")
     ebay_fixtures_dir: str = Field(default="fixtures/ebay", alias="EBAY_FIXTURES_DIR")
     ebay_record_dir: str | None = Field(default=None, alias="EBAY_RECORD_DIR")
+    trends_source: str = Field(default="fixtures", alias="TRENDS_SOURCE")
+    trends_fixtures_dir: str = Field(default="fixtures/trends", alias="TRENDS_FIXTURES_DIR")
+    trends_csv_dir: str | None = Field(default=None, alias="TRENDS_CSV_DIR")
+    trends_anchor_term: str = Field(default="handbag", alias="TRENDS_ANCHOR_TERM")
 
     @property
     def package_root(self) -> Path:

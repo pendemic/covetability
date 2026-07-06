@@ -209,6 +209,74 @@ export type LabelPayload = {
   notes?: string | null;
 };
 
+export type ScoreBagRow = {
+  slug: string;
+  model_name: string;
+  latest_date: string | null;
+  raw_score: number | null;
+  publication_value: number | null;
+  classification: string | null;
+  unscored_reason: string | null;
+};
+
+export type ScoreTimelineRow = {
+  date: string;
+  raw_score: number | null;
+  smoothed_score: number | null;
+  publication_value: number | null;
+  classification: string | null;
+  direction: string | null;
+  confidence: number | null;
+  scored: boolean;
+  unscored_reason: string | null;
+  weights: Record<string, number>;
+};
+
+export type ScoreTimeline = {
+  slug: string;
+  model_name: string;
+  published: boolean;
+  timeline: ScoreTimelineRow[];
+};
+
+export type ScoreDecomposition = {
+  slug: string;
+  date: string;
+  previous_date: string | null;
+  raw_now: number;
+  raw_previous: number;
+  raw_delta: number;
+  decomposition_sum: number;
+  components: Array<{
+    component: string;
+    contribution_now: number;
+    contribution_previous: number;
+    delta: number;
+    value: number | null;
+    eligible: boolean | null;
+    reason: string | null;
+  }>;
+};
+
+export type GateHistory = {
+  slug: string;
+  gate_history: Array<{
+    date: string;
+    components: Record<string, { eligible: boolean | null; reason: string | null; weight: number | null }>;
+  }>;
+};
+
+export type SearchSignalRow = {
+  week_start: string;
+  stitched_value: number | null;
+  slope_8w: number | null;
+  slope_4w: number | null;
+  bucket: string | null;
+  alias_agrees: boolean | null;
+  low_volume: boolean;
+  series_length: number;
+};
+
 async function adminFetch<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(`/api/admin/${path}`, {
     ...init,
@@ -390,6 +458,26 @@ export function getReviewQueue(bagSlug?: string) {
 
 export function getQualitySummary(days = 14) {
   return adminFetch<QualitySummary>(`quality/summary?days=${days}`);
+}
+
+export function getScoreBags() {
+  return adminFetch<{ bags: ScoreBagRow[]; published: boolean }>("score/bags");
+}
+
+export function getScoreTimeline(slug: string) {
+  return adminFetch<ScoreTimeline>(`score/${slug}/timeline`);
+}
+
+export function getScoreDecomposition(slug: string, date: string) {
+  return adminFetch<ScoreDecomposition>(`score/${slug}/decomposition?date=${date}`);
+}
+
+export function getScoreGates(slug: string) {
+  return adminFetch<GateHistory>(`score/${slug}/gates`);
+}
+
+export function getSearchSignal(slug: string) {
+  return adminFetch<{ slug: string; search_signal: SearchSignalRow[] }>(`score/${slug}/search-signal`);
 }
 
 export function submitReviewDecision(

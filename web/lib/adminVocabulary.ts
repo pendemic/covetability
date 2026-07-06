@@ -58,11 +58,36 @@ export const adminCopy = {
   add: "Add",
   delete: "Delete",
   createBag: "Create bag",
+  score: "Score audit",
+  shadowMode: "Shadow mode — internal only, not published",
+  timeline: "Score timeline",
+  components: "Components",
+  gateHistory: "Gate history",
+  decomposition: "Day-over-day decomposition",
+  searchSignal: "Search signal",
+  bucket: "Bucket",
+  eligible: "Eligible",
+  weight: "Weight",
+  contribution: "Contribution",
+  rawScore: "Raw",
+  smoothed: "Smoothed",
+  publicationTrack: "Publication track",
+  classification: "Classification",
+  direction: "Direction",
+  notScored: "Not yet scored",
   manualComp: "Manual comp",
   auctionRecord: "Auction record",
   culturalContext: "Cultural context",
   confirmedClose: "Confirmed close",
 } as const;
+
+export const scoreComponentLabels: Record<string, string> = {
+  search_momentum: "Search momentum",
+  active_inventory_momentum: "Active inventory momentum",
+  asking_price_momentum: "Asking-price momentum",
+  marketplace_breadth: "Marketplace breadth",
+  listing_turnover_proxy: "Listing turnover",
+};
 
 export const rejectionReasons = [
   "wrong_model",

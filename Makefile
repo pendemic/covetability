@@ -1,8 +1,9 @@
 DB_COMPOSE = docker compose -f infra/docker-compose.yml
 EBAY_SOURCE ?= fixtures
+TRENDS_SOURCE ?= fixtures
 GOLD ?= all
 
-.PHONY: db-up db-down migrate seed snapshot match rematch normalize-conditions load-fixture-gold evaluate evaluate-fixtures evaluate-conditions aggregate recompute verify-aggregates expire expire-dry test lint api web
+.PHONY: db-up db-down migrate seed snapshot match rematch normalize-conditions load-fixture-gold evaluate evaluate-fixtures evaluate-conditions aggregate recompute verify-aggregates expire expire-dry trends score stability test lint api web
 
 db-up:
 	$(DB_COMPOSE) up -d
@@ -55,6 +56,15 @@ expire:
 
 expire-dry:
 	cd pipeline && uv run python -m jobs.expire_raw --dry-run
+
+trends:
+	cd pipeline && TRENDS_SOURCE=$(TRENDS_SOURCE) uv run python -m jobs.weekly_trends
+
+score:
+	cd pipeline && uv run python -m jobs.daily_score $(if $(RELIST_PRECISION),--relist-precision $(RELIST_PRECISION),)
+
+stability:
+	cd pipeline && uv run python -m jobs.stability_report
 
 test:
 	cd pipeline && uv run pytest

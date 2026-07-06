@@ -217,6 +217,11 @@ class ManualComp(Base):
             "shipping_included IS NOT NULL",
             name="ck_manual_comps_shipping_included_required",
         ),
+        # sold_confirmed is true ONLY for auction records (data-contract §4).
+        CheckConstraint(
+            "sold_confirmed = false OR source_type = 'auction_record'",
+            name="ck_manual_comps_sold_confirmed_auction_only",
+        ),
     )
 
     id: Mapped[int] = mapped_column(BigInteger, primary_key=True)

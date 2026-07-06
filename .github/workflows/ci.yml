@@ -76,6 +76,17 @@ jobs:
       - name: Verify fixture aggregates
         working-directory: pipeline
         run: uv run python -m jobs.verify_aggregates
+      - name: Ingest fixture trends
+        working-directory: pipeline
+        env:
+          TRENDS_SOURCE: fixtures
+        run: uv run python -m jobs.weekly_trends
+      - name: Compute fixture shadow score
+        working-directory: pipeline
+        run: uv run python -m jobs.daily_score
+      - name: Stability gate report
+        working-directory: pipeline
+        run: uv run python -m jobs.stability_report
       - name: Retention dry run
         working-directory: pipeline
         run: uv run python -m jobs.expire_raw --dry-run

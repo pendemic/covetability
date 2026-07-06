@@ -14,7 +14,7 @@ from app.aggregates.compute import compute_aggregates_for_day
 from app.contract import ConditionBand, ConditionConfidence, MatchStatus, PriceType, SourceType
 from app.main import app
 from app.models import BagModel, Brand, CulturalNote, DailyAggregate, ListingRaw, ManualComp
-from app.scoring.breadth import marketplace_breadth
+from app.scoring.components import compute_breadth
 from tests.test_admin_api import auth_headers
 
 
@@ -98,6 +98,18 @@ def add_manual_comp(
     session.add(row)
     session.flush()
     return row
+
+
+def test_sold_confirmed_only_allowed_for_auction_records(db_engine: Engine) -> None:
+    from sqlalchemy.exc import IntegrityError
+
+    with Session(db_engine) as session:
+        bag = create_bag(session)
+        row = add_manual_comp(session, bag, source="vestiaire", source_type=SourceType.manual)
+        row.sold_confirmed = True  # data-contract §4: only auction records may confirm
+        with pytest.raises(IntegrityError):
+            session.commit()
+        session.rollback()
 
 
 def add_listing(session: Session, bag: BagModel) -> ListingRaw:
@@ -199,8 +211,8 @@ def test_breadth_counts_api_and_manual_sources_but_excludes_auction_records(db_e
         stale.observed_at = datetime(2026, 5, 1, 12, tzinfo=UTC)
         session.commit()
 
-        result = marketplace_breadth(session, bag.id, date(2026, 7, 5))
+        result = compute_breadth(session, bag.id, date(2026, 7, 5))
 
-    assert result.source_count == 2
-    assert result.score == 45
-    assert result.sources == ("evidence-test", "vestiaire")
+    assert result.trace["source_count"] == 2
+    assert result.value == 45.0
+    assert result.trace["sources"] == ["evidence-test", "vestiaire"]
