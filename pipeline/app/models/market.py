@@ -205,6 +205,23 @@ class ManualComp(Base):
             "match_confidence IS NULL OR (match_confidence >= 0 AND match_confidence <= 1)",
             name="ck_manual_comps_match_confidence_range",
         ),
+        CheckConstraint(
+            "entered_by IS NOT NULL AND btrim(entered_by) <> ''",
+            name="ck_manual_comps_entered_by_required",
+        ),
+        CheckConstraint(
+            "listing_url IS NOT NULL AND btrim(listing_url) <> ''",
+            name="ck_manual_comps_listing_url_required",
+        ),
+        CheckConstraint(
+            "shipping_included IS NOT NULL",
+            name="ck_manual_comps_shipping_included_required",
+        ),
+        # sold_confirmed is true ONLY for auction records (data-contract §4).
+        CheckConstraint(
+            "sold_confirmed = false OR source_type = 'auction_record'",
+            name="ck_manual_comps_sold_confirmed_auction_only",
+        ),
     )
 
     id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
@@ -231,6 +248,24 @@ class ManualComp(Base):
         server_default=ConditionConfidence.indeterminate.value,
     )
     notes: Mapped[str | None] = mapped_column(Text)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), nullable=False, server_default=text("now()")
+    )
+
+
+class CulturalNote(Base):
+    __tablename__ = "cultural_notes"
+    __table_args__ = (
+        UniqueConstraint("bag_model_id", "note_date", name="uq_cultural_notes_bag_date"),
+        CheckConstraint("btrim(body) <> ''", name="ck_cultural_notes_body_required"),
+        Index("ix_cultural_notes_bag_date", "bag_model_id", "note_date"),
+    )
+
+    id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    bag_model_id: Mapped[int] = mapped_column(ForeignKey("bag_models.id", ondelete="CASCADE"), nullable=False)
+    note_date: Mapped[date] = mapped_column(Date, nullable=False)
+    body: Mapped[str] = mapped_column(Text, nullable=False)
+    created_by: Mapped[str | None] = mapped_column(String(160))
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), nullable=False, server_default=text("now()")
     )

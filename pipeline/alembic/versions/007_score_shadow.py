@@ -1,7 +1,7 @@
 """score shadow-mode storage
 
-Revision ID: 006_score_shadow
-Revises: 005_catalog_editor
+Revision ID: 007_score_shadow
+Revises: 006_manual_evidence
 Create Date: 2026-07-05
 """
 
@@ -14,8 +14,8 @@ from sqlalchemy.dialects import postgresql
 from alembic import op
 from app.contract import ConditionBand, ScoreDirection, SearchBucket, TrendQueryRole
 
-revision: str = "006_score_shadow"
-down_revision: str | None = "005_catalog_editor"
+revision: str = "007_score_shadow"
+down_revision: str | None = "006_manual_evidence"
 branch_labels: str | Sequence[str] | None = None
 depends_on: str | Sequence[str] | None = None
 

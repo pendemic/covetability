@@ -4,6 +4,7 @@ export const adminCopy = {
   review: "Review",
   quality: "Data quality",
   catalog: "Catalog",
+  evidence: "Evidence",
   signOut: "Sign out",
   adminAccess: "Admin access",
   secret: "Shared secret",
@@ -74,6 +75,10 @@ export const adminCopy = {
   classification: "Classification",
   direction: "Direction",
   notScored: "Not yet scored",
+  manualComp: "Manual comp",
+  auctionRecord: "Auction record",
+  culturalContext: "Cultural context",
+  confirmedClose: "Confirmed close",
 } as const;
 
 export const scoreComponentLabels: Record<string, string> = {

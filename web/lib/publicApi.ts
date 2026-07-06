@@ -119,6 +119,37 @@ export type ListingsResponse = {
   total: number;
 };
 
+export type AuctionRecord = {
+  id: number;
+  source: string | null;
+  observed_at: string | null;
+  price: string | null;
+  currency: string;
+  condition_band: ConditionBand | null;
+  listing_url: string | null;
+  notes: string | null;
+  confirmed: boolean;
+};
+
+export type AuctionRecordsResponse = {
+  slug: string;
+  items: AuctionRecord[];
+  total: number;
+};
+
+export type ContextNote = {
+  id: number;
+  note_date: string;
+  body: string;
+  created_by: string | null;
+};
+
+export type ContextNotesResponse = {
+  slug: string;
+  items: ContextNote[];
+  total: number;
+};
+
 const apiBase = process.env.PIPELINE_API_URL ?? "http://localhost:8000";
 
 async function publicFetch<T>(path: string): Promise<T> {
@@ -141,4 +172,12 @@ export const getHistory = cache(async (slug: string, days = 90) =>
 
 export const getListings = cache(async (slug: string, limit = 50) =>
   publicFetch<ListingsResponse>(`/bags/${slug}/listings?limit=${limit}`),
+);
+
+export const getAuctionRecords = cache(async (slug: string, limit = 6) =>
+  publicFetch<AuctionRecordsResponse>(`/bags/${slug}/auction-records?limit=${limit}`),
+);
+
+export const getContextNotes = cache(async (slug: string, limit = 5) =>
+  publicFetch<ContextNotesResponse>(`/bags/${slug}/context-notes?limit=${limit}`),
 );

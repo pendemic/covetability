@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import {
+  AuctionRecordsTable,
   BandRangeCard,
   Chip,
+  ContextNotes,
   HistoryCharts,
   ListingsTable,
   ObservationList,
@@ -15,7 +17,14 @@ import {
   monthLabel,
   trackingSinceLabel,
 } from "@/app/components/MarketComponents";
-import { getBag, getHistory, getListings, getMarket } from "@/lib/publicApi";
+import {
+  getAuctionRecords,
+  getBag,
+  getContextNotes,
+  getHistory,
+  getListings,
+  getMarket,
+} from "@/lib/publicApi";
 import { metricDisplayVocabulary } from "@/lib/vocabulary";
 
 export const dynamic = "force-dynamic";
@@ -49,7 +58,7 @@ export default async function BagPage({ params }: PageProps) {
   } catch {
     notFound();
   }
-  const { bag, market, history, listings } = data;
+  const { bag, market, history, listings, auctionRecords, contextNotes } = data;
   const nonSeparateVariants = bag.variants.filter((variant) => !variant.is_separate_market);
   const productName = `${bag.brand.name} ${bag.model_name}`;
   const jsonLd = [
@@ -160,6 +169,7 @@ export default async function BagPage({ params }: PageProps) {
             </span>
           </div>
           <ObservationList observations={market.observations} daysOfHistory={history.days_of_history} />
+          <ContextNotes notes={contextNotes.items} />
         </section>
 
         <section className="contentSection" aria-labelledby="listings-heading">
@@ -168,6 +178,14 @@ export default async function BagPage({ params }: PageProps) {
             <span className="muted">{metricDisplayVocabulary.authenticationDisclosure}</span>
           </div>
           <ListingsTable listings={listings.items} />
+        </section>
+
+        <section className="contentSection" aria-labelledby="auction-heading">
+          <div className="sectionHeader">
+            <h2 id="auction-heading">{metricDisplayVocabulary.notableSales}</h2>
+            <span className="muted">Auction records are context anchors only.</span>
+          </div>
+          <AuctionRecordsTable records={auctionRecords.items} />
         </section>
 
         <section className="contentSection" aria-labelledby="history-heading">
@@ -199,11 +217,13 @@ export default async function BagPage({ params }: PageProps) {
 }
 
 async function loadBagPage(slug: string) {
-  const [bag, market, history, listings] = await Promise.all([
+  const [bag, market, history, listings, auctionRecords, contextNotes] = await Promise.all([
     getBag(slug),
     getMarket(slug),
     getHistory(slug),
     getListings(slug),
+    getAuctionRecords(slug),
+    getContextNotes(slug),
   ]);
-  return { bag, market, history, listings };
+  return { bag, market, history, listings, auctionRecords, contextNotes };
 }

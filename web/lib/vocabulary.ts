@@ -24,6 +24,8 @@ export const metricDisplayVocabulary = {
   daysOfTracking: "days of tracking",
   authenticationDisclosure:
     "Covetability does not authenticate items. Labels describe marketplace programs and seller claims only.",
+  notableSales: "Notable auction results",
+  culturalContext: "Cultural context",
   scoreIdentityStatement:
     "The Covetability Score v0 measures observable momentum in attention, availability, and active-market pricing for a handbag model.",
   scoreExclusions:

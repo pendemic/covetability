@@ -48,6 +48,7 @@ from app.contract import (
     ConditionBand,
     ListingEventType,
     SearchBucket,
+    SourceType,
 )
 from app.matching.engine import ACCEPTED_STATUSES
 from app.models import (
@@ -343,11 +344,15 @@ def compute_breadth(session: Session, bag_id: int, day: date) -> ComponentResult
             .distinct()
         ).all()
     )
+    # Auction records are context anchors only and never feed a score component
+    # (data-contract §4); user-submitted has no channel yet (ADR-007). Only
+    # provenance-complete `manual` comps lift breadth.
     manual_sources = set(
         session.scalars(
             select(ManualComp.source)
             .where(
                 ManualComp.bag_model_id == bag_id,
+                ManualComp.source_type == SourceType.manual,
                 ManualComp.observed_at >= window_start,
                 ManualComp.source.is_not(None),
             )

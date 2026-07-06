@@ -1,7 +1,14 @@
 import Link from "next/link";
 
 import { buildChartPath, scoreRingCircumference } from "@/lib/charts";
-import type { BandRange, HistoryResponse, ListingItem, MarketResponse } from "@/lib/publicApi";
+import type {
+  AuctionRecord,
+  BandRange,
+  ContextNote,
+  HistoryResponse,
+  ListingItem,
+  MarketResponse,
+} from "@/lib/publicApi";
 import {
   authLabelDisplay,
   conditionBandLabels,
@@ -266,6 +273,64 @@ export function HistoryCharts({ history }: { history: HistoryResponse }) {
           value: point.active_listing_count,
         }))}
       />
+    </div>
+  );
+}
+
+export function AuctionRecordsTable({ records }: { records: AuctionRecord[] }) {
+  if (records.length === 0) {
+    return <p className="muted">No auction records have been entered yet.</p>;
+  }
+  return (
+    <div className="tableWrap">
+      <table className="listingsTable">
+        <thead>
+          <tr>
+            <th>Source</th>
+            <th>Observed</th>
+            <th>Condition</th>
+            <th>Price</th>
+            <th>Context</th>
+          </tr>
+        </thead>
+        <tbody>
+          {records.map((record) => (
+            <tr className="row-hover" key={record.id}>
+              <td>{record.source}</td>
+              <td>{record.observed_at ? formatDateTime(record.observed_at) : ""}</td>
+              <td>{record.condition_band ? conditionBandLabels[record.condition_band] : ""}</td>
+              <td>
+                {record.price ? `$${record.price} ${record.currency}` : ""}
+                {record.confirmed ? <span className="badge inlineBadge">confirmed</span> : null}
+              </td>
+              <td>
+                {record.notes ? <span>{record.notes}</span> : null}
+                {record.listing_url ? (
+                  <a className="outboundLink" href={record.listing_url} rel="nofollow noopener" target="_blank">
+                    Open record
+                  </a>
+                ) : null}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+export function ContextNotes({ notes }: { notes: ContextNote[] }) {
+  if (notes.length === 0) {
+    return null;
+  }
+  return (
+    <div className="contextNotes">
+      {notes.map((note) => (
+        <article className="note-card" key={note.id}>
+          <span className="kicker">{note.note_date}</span>
+          <p>{note.body}</p>
+        </article>
+      ))}
     </div>
   );
 }
