@@ -26,6 +26,10 @@ class Settings(BaseSettings):
     trends_fixtures_dir: str = Field(default="fixtures/trends", alias="TRENDS_FIXTURES_DIR")
     trends_csv_dir: str | None = Field(default=None, alias="TRENDS_CSV_DIR")
     trends_anchor_term: str = Field(default="handbag", alias="TRENDS_ANCHOR_TERM")
+    epn_campaign_id: str | None = Field(default=None, alias="EPN_CAMPAIGN_ID")
+    epn_custom_id: str = Field(default="covetability", alias="EPN_CUSTOM_ID")
+    analytics_domain: str | None = Field(default=None, alias="ANALYTICS_DOMAIN")
+    analytics_src: str = Field(default="https://plausible.io/js/script.js", alias="ANALYTICS_SRC")
 
     @property
     def package_root(self) -> Path:

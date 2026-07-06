@@ -108,6 +108,8 @@ export type ListingItem = {
   auth_label: string;
   match_confidence: string | null;
   variant: { id: number; name: string; is_separate_market: boolean } | null;
+  seller_id: string | null;
+  item_location: string | null;
   item_url: string | null;
   last_observed: string;
   verdict: { percent_diff: string; band: ConditionBand; label: "below" | "near" | "above" } | null;
@@ -150,6 +152,28 @@ export type ContextNotesResponse = {
   total: number;
 };
 
+export type DiscoverItem = {
+  slug: string;
+  model_name: string;
+  brand: { slug: string; name: string };
+  tracking_since: string | null;
+  editorial_summary: string | null;
+  metric_label: string;
+  metric_value: string;
+  caption?: string;
+  status: "ok" | "insufficient_data";
+};
+
+export type DiscoverResponse = {
+  as_of_date: string | null;
+  modules: Array<{
+    key: "featured" | "rising_asking_interest" | "under_the_radar";
+    title: string;
+    description: string;
+    items: DiscoverItem[];
+  }>;
+};
+
 const apiBase = process.env.PIPELINE_API_URL ?? "http://localhost:8000";
 
 async function publicFetch<T>(path: string): Promise<T> {
@@ -161,6 +185,12 @@ async function publicFetch<T>(path: string): Promise<T> {
 }
 
 export const getBags = cache(async () => publicFetch<{ items: BagSummary[]; total: number }>("/bags"));
+
+export const searchBags = cache(async (query: string) =>
+  publicFetch<{ items: BagSummary[]; total: number }>(`/bags?q=${encodeURIComponent(query)}`),
+);
+
+export const getDiscover = cache(async () => publicFetch<DiscoverResponse>("/discover"));
 
 export const getBag = cache(async (slug: string) => publicFetch<BagDetail>(`/bags/${slug}`));
 

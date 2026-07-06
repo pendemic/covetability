@@ -182,7 +182,7 @@ export default async function BagPage({ params }: PageProps) {
 
         <section className="contentSection" aria-labelledby="auction-heading">
           <div className="sectionHeader">
-            <h2 id="auction-heading">{metricDisplayVocabulary.notableSales}</h2>
+            <h2 id="auction-heading">{metricDisplayVocabulary.notableAuctionResults}</h2>
             <span className="muted">Auction records are context anchors only.</span>
           </div>
           <AuctionRecordsTable records={auctionRecords.items} />

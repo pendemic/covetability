@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from fastapi import APIRouter, HTTPException
-from sqlalchemy import select
+from fastapi import APIRouter, HTTPException, Query
+from sqlalchemy import or_, select
 from sqlalchemy.orm import selectinload
 
 from app.api.deps import SessionDep
@@ -12,16 +12,33 @@ from app.api.public.schemas import (
     BrandSummary,
     VariantSummary,
 )
-from app.models import BagModel
+from app.models import BagAlias, BagModel, Brand
 
 router = APIRouter()
 
 
 @router.get("/bags", response_model=BagListResponse, response_model_exclude_none=True)
-def list_bags(session: SessionDep) -> BagListResponse:
-    bags = session.scalars(
-        select(BagModel).options(selectinload(BagModel.brand)).order_by(BagModel.slug)
-    ).all()
+def list_bags(
+    session: SessionDep,
+    q: str | None = Query(default=None, min_length=1, max_length=120),
+) -> BagListResponse:
+    stmt = select(BagModel).options(selectinload(BagModel.brand)).order_by(BagModel.slug)
+    if q:
+        pattern = f"%{q.strip()}%"
+        stmt = (
+            stmt.join(BagModel.brand)
+            .outerjoin(BagModel.aliases)
+            .where(
+                or_(
+                    BagModel.slug.ilike(pattern),
+                    BagModel.model_name.ilike(pattern),
+                    Brand.name.ilike(pattern),
+                    BagAlias.alias.ilike(pattern),
+                )
+            )
+            .distinct()
+        )
+    bags = session.scalars(stmt).all()
     return BagListResponse(
         items=[
             BagListItem(

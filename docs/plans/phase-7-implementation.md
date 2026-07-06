@@ -15,11 +15,11 @@ So `master` has Phase 6 but is **missing the entire Phase 5 scoring engine**, an
 
 Produce one integrated baseline (merge the branches, or replay Phase 5 onto `master`) with:
 
-- **Linearized migrations.** Keep `006_manual_evidence` as-is; renumber the Phase 5 migration to **`007_score_shadow`** with `down_revision = "006_manual_evidence"`. Phase 7's own migration becomes `008_launch`. Verify `alembic heads` reports a single head and `upgrade head` + full downgrade roundtrips.
+- **Linearized migrations.** Keep `006_manual_evidence` as-is; renumber the Phase 5 migration to **`007_score_shadow`** with `down_revision = "006_manual_evidence"`. Because `008_sold_confirmed_guard` is already present, Phase 7's own migration becomes `009_launch`. Verify `alembic heads` reports a single head and `upgrade head` + full downgrade roundtrips.
 - **One breadth implementation.** Phase 6's `scoring/breadth.py::marketplace_breadth` correctly excludes `auction_record`; Phase 5's `components.py::compute_breadth` does **not** (it counts every manual source - a latent bug). Unify on the auction-excluding logic: have the score compute call `marketplace_breadth` (or fold its `source_type != auction_record` filter into `compute_breadth`) and delete the duplicate. Add the `user_submitted` exclusion too (no channel exists yet, ADR-007).
 - **Merge-conflict resolution** in the files both phases touched: `app/api/admin/__init__.py` (score + evidence routers), `app/models/__init__.py` (score + `CulturalNote` exports), `web/lib/{adminApi,adminVocabulary}.ts`, `web/app/admin/(app)/layout.tsx` (both nav links), and the `docs/development-plan.md` checkbox block (5.1-5.8 and 6.1-6.4).
 - **Two contract fixes surfaced in the Phase 6 review** (fold in here):
-  1. The public heading `notableSales: "Notable sales"` uses "sales", which data-contract §6 prohibits site-wide (ADR-005 makes §6 binding). It only passes CI because `vocab-lint` allowlists `lib/vocabulary.ts` and callers reference the key, not the literal - a mechanical gap, not a clean pass. Rename to **"Notable auction results"** (route `/auction-records` already avoids it) so the copy honors §6, and keep the auction section clearly separated from asking data.
+  1. The public heading formerly keyed as `notableSales` used a prohibited public noun. Rename it to `notableAuctionResults` with display copy **"Notable auction results"** (route `/auction-records` already avoids the prohibited wording) so the copy honors §6, and keep the auction section clearly separated from asking data.
   2. Add the missing `sold_confirmed => auction_record` DB CHECK (data-contract §4: `sold_confirmed` is true ONLY for auction records) so no non-auction path can flag a row as confirmed.
 
 **Exit:** the integrated tree is green (ruff, full pytest incl. both phases' suites, migrate/seed, e2e pipeline snapshot -> match -> conditions -> aggregates -> trends -> daily_score with evidence present, web tsc/eslint/vocab/build); one simulated day runs end to end; `score_daily.published` stays false.
@@ -41,7 +41,7 @@ Produce one integrated baseline (merge the branches, or replay Phase 5 onto `mas
 
 ## Design
 
-Migration `008_launch` is small: optional discover/search support indexes if query plans need them (e.g. a trigram or `lower()` index on `bag_models.model_name`/`bag_aliases.alias` for search) plus any settings-backed columns; most of Phase 7 is API + web + ops, not schema.
+Migration `009_launch` is small because `008_sold_confirmed_guard` already exists: discover/search support indexes if query plans need them (e.g. `lower()` indexes on `bag_models.model_name`/`bag_aliases.alias` for search) plus any settings-backed columns; most of Phase 7 is API + web + ops, not schema.
 
 Public read path: a new `app/api/public/discover.py` exposing `GET /discover` with exactly three modules computed from `daily_aggregates` (no composite score): **Featured** (curated/editorial standin for "Most Covetable" until score publication), **Rising asking interest** (largest 30-day rise in blended asking median or active matched count), **Under the radar** (thin active inventory / low coverage). A `GET /bags?q=` (or `app/api/public/search.py`) does brand/model/alias substring match over the 5 (later 30) bags - no facet wall. Schemas in `app/api/public/schemas.py`.
 
@@ -54,7 +54,7 @@ Ops: `docs/runbooks/production-deploy.md` (hosted Postgres migration, API + web 
 ## Build order
 
 1. **Integration + reconciliation** (the prerequisite above): linearize migrations to `007_score_shadow`, unify breadth, resolve merge conflicts, apply the two contract fixes, get the combined tree fully green.
-2. **7.2 Catalog search.** `/bags?q=` brand/model/alias substring match; migration `008_launch` index if needed; home/discover search box; tests.
+2. **7.2 Catalog search.** `/bags?q=` brand/model/alias substring match; migration `009_launch` index if needed; home/discover search box; tests.
 3. **7.1 Discover page.** `/discover` three-module API from aggregates + `web/app/discover/page.tsx`; "Featured" is the score-free placeholder until Phase 8; tests assert modules compute without the composite score and honor insufficient-data.
 4. **7.4 EPN affiliate links.** `epn_wrap` + `EPN_CAMPAIGN_ID` setting; wrapped outbound URLs; affiliate-disclosure page + inline disclosure; test that links carry tracking when configured and pass through untouched when not.
 5. **7.5 Legal pass.** Terms/privacy pages; eBay Browse display compliance (item location + seller attribution on listings); confirm the 90-day retention posture (already in `jobs/expire_raw.py`); affiliate disclosure linked site-wide.
@@ -74,7 +74,7 @@ Ops: `docs/runbooks/production-deploy.md` (hosted Postgres migration, API + web 
 
 ## Key files
 
-New: `pipeline/alembic/versions/008_launch.py`, `pipeline/app/api/public/{discover,search,epn}.py`, `web/app/discover/page.tsx`, `web/app/affiliate-disclosure/page.tsx`, `web/app/terms/page.tsx`, `web/app/privacy/page.tsx`, `pipeline/tests/test_{discover_api,search_api,epn_links}.py`, `docs/runbooks/{production-deploy,job-failure-backfill}.md`.
+New: `pipeline/alembic/versions/009_launch.py`, `pipeline/app/api/public/{discover,epn}.py`, `web/app/discover/page.tsx`, `web/app/affiliate-disclosure/page.tsx`, `web/app/terms/page.tsx`, `web/app/privacy/page.tsx`, `pipeline/tests/test_phase7_public_launch.py`, `docs/runbooks/{production-deploy,job-failure-backfill}.md`.
 
 Changed (integration + Phase 7): renamed `006_score_shadow.py` -> `007_score_shadow.py`; `pipeline/app/scoring/{components,compute}.py` (single breadth path); `pipeline/app/api/public/{__init__,listings,schemas}.py`; `pipeline/app/settings.py` (`EPN_CAMPAIGN_ID`, analytics config); `pipeline/app/models/market.py` (`sold_confirmed => auction_record` CHECK, via migration `008`); `web/lib/{publicApi,vocabulary}.ts` (rename "Notable sales" -> "Notable auction results"); `web/app/components/MarketComponents.tsx`; `web/app/layout.tsx` (analytics); `web/app/page.tsx` (search + discover entry); `docs/development-plan.md`.
 

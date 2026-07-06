@@ -8,6 +8,7 @@ from sqlalchemy import func, select
 
 from app.api.deps import SessionDep
 from app.api.public.bags import get_bag
+from app.api.public.epn import epn_wrap
 from app.api.public.market import latest_aggregate_date, money
 from app.api.public.schemas import (
     ListingItem,
@@ -23,6 +24,7 @@ from app.contract import (
 )
 from app.matching.engine import ACCEPTED_STATUSES
 from app.models import BagVariant, DailyAggregate, ListingRaw, SnapshotRun
+from app.settings import Settings, get_settings
 
 router = APIRouter()
 
@@ -66,9 +68,10 @@ def bag_listings(
             ListingRaw.last_observed >= cutoff,
         )
     ).all()
+    settings = get_settings()
 
     serialized = [
-        serialize_listing(listing, variants, separate_variant_ids, rows_by_key)
+        serialize_listing(listing, variants, separate_variant_ids, rows_by_key, settings)
         for listing in listings
     ]
     serialized.sort(key=listing_sort_key)
@@ -87,6 +90,7 @@ def serialize_listing(
     variants: dict[int, BagVariant],
     separate_variant_ids: set[int],
     rows_by_key: dict[tuple[int | None, ConditionBand], DailyAggregate],
+    settings: Settings,
 ) -> ListingItem:
     shipping_price = Decimal(listing.shipping_price) if listing.shipping_price is not None else None
     total_price = Decimal(listing.price) + shipping_price if shipping_price is not None else None
@@ -114,10 +118,31 @@ def serialize_listing(
             if variant
             else None
         ),
-        item_url=listing.item_url,
+        seller_id=listing.seller_id,
+        item_location=item_location(listing.raw_payload),
+        item_url=epn_wrap(listing.item_url, settings),
         last_observed=listing.last_observed.isoformat(),
         verdict=listing_verdict(listing, separate_variant_ids, rows_by_key),
     )
+
+
+def item_location(raw_payload: dict | None) -> str | None:
+    if not raw_payload:
+        return None
+    raw_location = raw_payload.get("itemLocation") or raw_payload.get("item_location")
+    if raw_location is None:
+        return None
+    if isinstance(raw_location, str):
+        return raw_location
+    if not isinstance(raw_location, dict):
+        return None
+    parts = [
+        raw_location.get("city"),
+        raw_location.get("stateOrProvince"),
+        raw_location.get("postalCode"),
+        raw_location.get("country"),
+    ]
+    return ", ".join(str(part) for part in parts if part) or None
 
 
 def listing_verdict(

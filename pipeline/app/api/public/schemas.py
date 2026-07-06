@@ -116,6 +116,30 @@ class MarketResponse(BaseModel):
     observations: list[Observation]
 
 
+class DiscoveryBagItem(BaseModel):
+    slug: str
+    model_name: str
+    brand: BrandSummary
+    tracking_since: str | None
+    editorial_summary: str | None
+    metric_label: str
+    metric_value: str
+    caption: str | None = None
+    status: PriceStatus
+
+
+class DiscoverModule(BaseModel):
+    key: Literal["featured", "rising_asking_interest", "under_the_radar"]
+    title: str
+    description: str
+    items: list[DiscoveryBagItem]
+
+
+class DiscoverResponse(BaseModel):
+    as_of_date: str | None
+    modules: list[DiscoverModule]
+
+
 class HistoryPoint(BaseModel):
     date: str
     median: str | None
@@ -175,6 +199,8 @@ class ListingItem(BaseModel):
     auth_label: AuthLabel
     match_confidence: str | None
     variant: ListingVariant | None
+    seller_id: str | None
+    item_location: str | None
     item_url: str | None
     last_observed: str
     verdict: ListingVerdict | None

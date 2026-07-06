@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { SiteFooter, SiteHeader, StatCard } from "@/app/components/MarketComponents";
-import { getBags, type BagSummary } from "@/lib/publicApi";
+import { getBags, searchBags, type BagSummary } from "@/lib/publicApi";
 import { metricDisplayVocabulary } from "@/lib/vocabulary";
 
 export const dynamic = "force-dynamic";
@@ -49,8 +49,14 @@ const fallbackBags: BagSummary[] = [
   },
 ];
 
-export default async function Home() {
-  const bags = await loadBags();
+type HomeProps = {
+  searchParams?: Promise<{ q?: string }>;
+};
+
+export default async function Home({ searchParams }: HomeProps) {
+  const params = await searchParams;
+  const query = params?.q?.trim() ?? "";
+  const bags = await loadBags(query);
   return (
     <>
       <SiteHeader />
@@ -63,6 +69,21 @@ export default async function Home() {
               Active-market intelligence for vintage designer handbags, with condition-banded
               asking ranges and score shadow mode from day one.
             </p>
+            <form className="searchForm" action="/" method="get">
+              <input
+                aria-label="Search catalog"
+                defaultValue={query}
+                name="q"
+                placeholder="Search brand, model, or alias"
+                type="search"
+              />
+              <button className="btn" type="submit">
+                Search
+              </button>
+              <Link className="btn" href="/discover">
+                Discover
+              </Link>
+            </form>
           </div>
           <div className="statgrid">
             <StatCard label="Catalog" value={String(bags.length)} caption="pilot models" />
@@ -74,7 +95,9 @@ export default async function Home() {
         <section className="contentSection">
           <div className="sectionHeader">
             <h2>Catalog</h2>
-            <span className="muted">{metricDisplayVocabulary.typicalAskingRange}</span>
+            <span className="muted">
+              {query ? `${bags.length} matches` : metricDisplayVocabulary.typicalAskingRange}
+            </span>
           </div>
           <div className="rangeGrid">
             {bags.map((bag) => (
@@ -92,11 +115,16 @@ export default async function Home() {
   );
 }
 
-async function loadBags() {
+async function loadBags(query = "") {
   try {
-    const response = await getBags();
+    const response = query ? await searchBags(query) : await getBags();
     return response.items;
   } catch {
-    return fallbackBags;
+    if (!query) {
+      return fallbackBags;
+    }
+    return fallbackBags.filter((bag) =>
+      `${bag.brand.name} ${bag.model_name} ${bag.slug}`.toLowerCase().includes(query.toLowerCase()),
+    );
   }
 }

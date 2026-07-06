@@ -21,7 +21,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
   return [
     { url: base, lastModified: new Date() },
+    { url: `${base}/discover`, lastModified: new Date() },
     { url: `${base}/methodology`, lastModified: new Date() },
+    { url: `${base}/affiliate-disclosure`, lastModified: new Date() },
+    { url: `${base}/terms`, lastModified: new Date() },
+    { url: `${base}/privacy`, lastModified: new Date() },
     ...slugs.map((slug) => ({ url: `${base}/bags/${slug}`, lastModified: new Date() })),
   ];
 }

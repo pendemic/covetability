@@ -129,6 +129,61 @@ a {
   font-size: 0.82rem;
 }
 
+.searchForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 640px;
+  margin-top: 22px;
+}
+
+.searchForm input {
+  flex: 1 1 260px;
+  min-height: 42px;
+  padding: 10px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+}
+
+.discoverGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.discoverDate {
+  display: block;
+  margin: 10px 0;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 2.2rem;
+}
+
+.discoverMetric {
+  color: var(--ink);
+  font-family: var(--font-mono), monospace;
+  font-size: 0.82rem;
+}
+
+.legalPage {
+  max-width: 820px;
+}
+
+.legalPage h1 {
+  margin: 8px 0 18px;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(3rem, 8vw, 5.6rem);
+  line-height: 0.95;
+}
+
+.legalPage p {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
 .chip.on,
 .badge {
   border-color: rgb(89 107 78 / 42%);
@@ -405,7 +460,7 @@ a {
 
 .listingsTable {
   width: 100%;
-  min-width: 920px;
+  min-width: 1120px;
   border-collapse: collapse;
   font-size: 0.92rem;
 }
@@ -667,6 +722,7 @@ dd {
   .bagHero,
   .homeHero,
   .rangeGrid,
+  .discoverGrid,
   .variantGrid,
   .scorePanel,
   .componentGrid,

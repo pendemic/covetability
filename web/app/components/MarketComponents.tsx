@@ -23,6 +23,7 @@ export function SiteHeader() {
         Covetability
       </Link>
       <nav className="nav" aria-label="Public">
+        <Link href="/discover">Discover</Link>
         <Link href="/methodology">Methodology</Link>
         <Link href="/admin">Admin</Link>
       </nav>
@@ -36,6 +37,8 @@ export function SiteFooter({ trackingSince }: { trackingSince?: string | null })
       <p>{metricDisplayVocabulary.authenticationDisclosure}</p>
       {trackingSince ? <p>{trackingSinceLabel(trackingSince)}</p> : null}
       <Link href="/methodology">Methodology</Link>
+      <Link href="/affiliate-disclosure">Partner link disclosure</Link>
+      <Link href="/privacy">Privacy</Link>
     </footer>
   );
 }
@@ -173,6 +176,8 @@ export function ListingsTable({ listings }: { listings: ListingItem[] }) {
             <th>Band</th>
             <th>Price</th>
             <th>Authentication label</th>
+            <th>Seller</th>
+            <th>Location</th>
             <th>Read</th>
             <th>Last verified</th>
           </tr>
@@ -189,11 +194,19 @@ export function ListingsTable({ listings }: { listings: ListingItem[] }) {
               <td>
                 <AuthLabelBadge label={listing.auth_label} />
               </td>
+              <td>{listing.seller_id ?? ""}</td>
+              <td>{listing.item_location ?? ""}</td>
               <td>{listing.verdict ? <VerdictChip verdict={listing.verdict} /> : null}</td>
               <td>
                 <span className="mono">{formatDateTime(listing.last_observed)}</span>
                 {listing.item_url ? (
-                  <a className="outboundLink" href={listing.item_url} rel="nofollow noopener" target="_blank">
+                  <a
+                    className="outboundLink"
+                    data-analytics-event="outbound_click"
+                    href={listing.item_url}
+                    rel="nofollow noopener"
+                    target="_blank"
+                  >
                     Open listing
                   </a>
                 ) : null}
@@ -306,7 +319,13 @@ export function AuctionRecordsTable({ records }: { records: AuctionRecord[] }) {
               <td>
                 {record.notes ? <span>{record.notes}</span> : null}
                 {record.listing_url ? (
-                  <a className="outboundLink" href={record.listing_url} rel="nofollow noopener" target="_blank">
+                  <a
+                    className="outboundLink"
+                    data-analytics-event="outbound_click"
+                    href={record.listing_url}
+                    rel="nofollow noopener"
+                    target="_blank"
+                  >
                     Open record
                   </a>
                 ) : null}

@@ -195,12 +195,12 @@ covetability/
 - Vocabulary lint green; methodology + disclosure pages live
 
 Tasks:
-- [ ] **7.1 Discover page.** Three modules only (ADR/settled scope): Most Covetable placeholder becomes "Featured" until score publication, Rising Asking Interest, Under the Radar — all computable from aggregates without the composite score.
-- [ ] **7.2 Catalog search.** Simple: brand/model/alias text match over the 5 (later 30) bags. No facet wall.
+- [x] **7.1 Discover page.** Three modules only (ADR/settled scope): Most Covetable placeholder becomes "Featured" until score publication, Rising Asking Interest, Under the Radar — all computable from aggregates without the composite score.
+- [x] **7.2 Catalog search.** Simple: brand/model/alias text match over the 5 (later 30) bags. No facet wall.
 - [ ] **7.3 Production deploy.** Hosted Postgres (migrate from local), pipeline API to Railway/Fly, web to Vercel, GitHub Actions jobs pointed at prod DB, uptime + job-failure alerting (a failed snapshot day is a data-integrity event: alert → backfill procedure documented).
-- [ ] **7.4 EPN affiliate links.** Outbound eBay links carry EPN tracking (revenue + the partnership posture from ADR-001). Affiliate disclosure page.
+- [x] **7.4 EPN affiliate links.** Outbound eBay links carry EPN tracking (revenue + the partnership posture from ADR-001). Affiliate disclosure page.
 - [ ] **7.5 Legal pass.** Terms/privacy; confirm eBay API license compliance posture (retention window implemented in 1.4; display requirements—item location/seller attribution—checked against current Browse API policy).
-- [ ] **7.6 Analytics.** Privacy-light analytics (Plausible or similar): the metric that matters is bag-page depth + outbound clicks (the "screenshot moment" proxy).
+- [x] **7.6 Analytics.** Privacy-light analytics (Plausible or similar): the metric that matters is bag-page depth + outbound clicks (the "screenshot moment" proxy).
 
 **Phase 7 verification:** production smoke: a full scheduled day (snapshot → aggregates → score-shadow) runs unattended in prod; the public Paddington page shows live data; a deliberate job failure triggers the alert; EPN link resolves with tracking intact.
 
