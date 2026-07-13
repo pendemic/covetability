@@ -135,19 +135,65 @@ class DiscoveryBagItem(BaseModel):
     metric_label: str
     metric_value: str
     caption: str | None = None
+    sparkline: list[int] = []
     status: PriceStatus
 
 
 class DiscoverModule(BaseModel):
-    key: Literal["featured", "rising_asking_interest", "under_the_radar"]
+    key: Literal[
+        "featured",
+        "fastest_rising",
+        "rising_price",
+        "emerging",
+        "cooling",
+        "under_the_radar",
+    ]
     title: str
     description: str
     items: list[DiscoveryBagItem]
 
 
+class DiscoverTotals(BaseModel):
+    models_tracked: int
+    active_listings: int
+    median_score: int | None = None
+    surging_now: int
+
+
 class DiscoverResponse(BaseModel):
     as_of_date: str | None
+    totals: DiscoverTotals
     modules: list[DiscoverModule]
+
+
+class BrandInterestPoint(BaseModel):
+    date: str
+    active_listing_count: int
+
+
+class BrandModelItem(BaseModel):
+    slug: str
+    model_name: str
+    era: str | None = None
+    active_listings: int
+    median_asking_price: str | None = None
+    score_status: Literal["not_yet_scored", "published"]
+    score_value: int | None = None
+    classification: str | None = None
+    sparkline: list[int]
+    status: PriceStatus
+
+
+class BrandResponse(BaseModel):
+    slug: str
+    name: str
+    as_of_date: str | None
+    models_tracked: int
+    active_listings: int
+    house_momentum_pct: str | None = None
+    average_published_score: int | None = None
+    interest: list[BrandInterestPoint]
+    models: list[BrandModelItem]
 
 
 class HistoryPoint(BaseModel):
@@ -175,6 +221,11 @@ class HistoryVariant(BaseModel):
     series: list[HistorySeries]
 
 
+class SearchInterestPoint(BaseModel):
+    week_start: str
+    value: float
+
+
 class HistoryResponse(BaseModel):
     slug: str
     tracking_since: str | None
@@ -182,6 +233,7 @@ class HistoryResponse(BaseModel):
     series: list[HistorySeries]
     activity: list[ActivityPoint]
     variants: list[HistoryVariant]
+    search_interest: list[SearchInterestPoint] = []
 
 
 class ListingVariant(BaseModel):
@@ -212,6 +264,7 @@ class ListingItem(BaseModel):
     seller_id: str | None
     item_location: str | None
     item_url: str | None
+    image_url: str | None = None
     last_observed: str
     verdict: ListingVerdict | None
 

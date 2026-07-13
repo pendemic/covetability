@@ -20,6 +20,7 @@ from app.api.public.schemas import (
     MarketVariant,
     ScoreBlock,
     ScoreComponent,
+    SearchInterestPoint,
 )
 from app.contract import (
     AGGREGATE_WINDOW_DAYS,
@@ -29,7 +30,7 @@ from app.contract import (
 )
 from app.insights.observations import generate_observations
 from app.insights.score_observations import generate_score_observations
-from app.models import DailyAggregate, ScoreDaily
+from app.models import DailyAggregate, ScoreDaily, SearchSignalWeekly
 
 router = APIRouter()
 
@@ -131,7 +132,24 @@ def bag_history(
             )
             for variant in sorted(separate_variants, key=lambda row: row.name)
         ],
+        search_interest=search_interest_points(session, bag.id),
     )
+
+
+def search_interest_points(session: SessionDep, bag_id: int, weeks: int = 26) -> list[SearchInterestPoint]:
+    rows = session.scalars(
+        select(SearchSignalWeekly)
+        .where(
+            SearchSignalWeekly.bag_model_id == bag_id,
+            SearchSignalWeekly.stitched_value.is_not(None),
+        )
+        .order_by(SearchSignalWeekly.week_start.desc())
+        .limit(weeks)
+    ).all()
+    return [
+        SearchInterestPoint(week_start=row.week_start.isoformat(), value=float(row.stitched_value))
+        for row in reversed(rows)
+    ]
 
 
 def latest_aggregate_date(session: SessionDep, bag_id: int):

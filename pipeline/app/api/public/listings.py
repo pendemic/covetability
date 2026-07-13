@@ -121,9 +121,24 @@ def serialize_listing(
         seller_id=listing.seller_id,
         item_location=item_location(listing.raw_payload),
         item_url=epn_wrap(listing.item_url, settings),
+        image_url=listing_image(listing.raw_payload),
         last_observed=listing.last_observed.isoformat(),
         verdict=listing_verdict(listing, separate_variant_ids, rows_by_key),
     )
+
+
+def listing_image(raw_payload: dict | None) -> str | None:
+    if not raw_payload:
+        return None
+    image = raw_payload.get("image")
+    if isinstance(image, dict) and image.get("imageUrl"):
+        return str(image["imageUrl"])
+    thumbnails = raw_payload.get("thumbnailImages")
+    if isinstance(thumbnails, list) and thumbnails:
+        first = thumbnails[0]
+        if isinstance(first, dict) and first.get("imageUrl"):
+            return str(first["imageUrl"])
+    return None
 
 
 def item_location(raw_payload: dict | None) -> str | None:
