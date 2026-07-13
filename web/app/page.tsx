@@ -1,8 +1,16 @@
 import Link from "next/link";
 
-import { SiteFooter, SiteHeader, StatCard } from "@/app/components/MarketComponents";
-import { getBags, searchBags, type BagSummary } from "@/lib/publicApi";
-import { metricDisplayVocabulary } from "@/lib/vocabulary";
+import { SiteFooter, SiteHeader, Sparkline } from "@/app/components/MarketComponents";
+import {
+  getBags,
+  getHistory,
+  getMarket,
+  type BagSummary,
+  type HistoryResponse,
+  type MarketResponse,
+} from "@/lib/publicApi";
+import { swatchColor } from "@/lib/swatch";
+import { metricDisplayVocabulary, scoreClassificationLabels } from "@/lib/vocabulary";
 
 export const dynamic = "force-dynamic";
 
@@ -49,14 +57,54 @@ const fallbackBags: BagSummary[] = [
   },
 ];
 
-type HomeProps = {
-  searchParams?: Promise<{ q?: string }>;
+type ModelCardData = {
+  bag: BagSummary;
+  range: { low: number; high: number } | null;
+  bandsPriced: number;
+  classification: string | null;
+  sparkline: Array<number | null>;
 };
 
-export default async function Home({ searchParams }: HomeProps) {
-  const params = await searchParams;
-  const query = params?.q?.trim() ?? "";
-  const bags = await loadBags(query);
+// Model-level typical asking series: the median of the priced-band medians per day.
+function medianSeries(history: HistoryResponse): Array<number | null> {
+  const byDate = new Map<string, number[]>();
+  for (const series of history.series) {
+    for (const point of series.points) {
+      if (point.median != null) {
+        const list = byDate.get(point.date) ?? [];
+        list.push(Number(point.median));
+        byDate.set(point.date, list);
+      }
+    }
+  }
+  return [...byDate.keys()]
+    .sort()
+    .map((date) => {
+      const values = (byDate.get(date) ?? []).sort((a, b) => a - b);
+      if (values.length === 0) return null;
+      const mid = Math.floor(values.length / 2);
+      return values.length % 2 ? values[mid] : (values[mid - 1] + values[mid]) / 2;
+    });
+}
+
+function modelRange(market: MarketResponse): { low: number; high: number } | null {
+  const ok = market.bands.filter((band) => band.status === "ok");
+  const lows = ok.map((band) => Number(band.p25_asking_price ?? band.median_asking_price));
+  const highs = ok.map((band) => Number(band.p75_asking_price ?? band.median_asking_price));
+  if (lows.length === 0) return null;
+  return { low: Math.min(...lows), high: Math.max(...highs) };
+}
+
+function classificationOf(market: MarketResponse): string | null {
+  const score = market.score;
+  if (score.status !== "published" || !score.classification) return null;
+  return score.classification in scoreClassificationLabels
+    ? scoreClassificationLabels[score.classification as keyof typeof scoreClassificationLabels]
+    : null;
+}
+
+export default async function Home() {
+  const { bags, cards, live } = await loadCatalog();
   return (
     <>
       <SiteHeader />
@@ -66,45 +114,60 @@ export default async function Home({ searchParams }: HomeProps) {
             <span className="kicker-lg">Five-bag pilot</span>
             <h1>Covetability</h1>
             <p>
-              Active-market intelligence for vintage designer handbags, with condition-banded
-              asking ranges and score shadow mode from day one.
+              Active-market intelligence for vintage designer handbags — condition-banded asking
+              ranges and a transparent {metricDisplayVocabulary.score}, in shadow mode from day one.
+              An activity index, not a price estimate.
             </p>
-            <form className="searchForm" action="/" method="get">
-              <input
-                aria-label="Search catalog"
-                defaultValue={query}
-                name="q"
-                placeholder="Search brand, model, or alias"
-                type="search"
-              />
-              <button className="btn" type="submit">
-                Search
-              </button>
-              <Link className="btn" href="/discover">
-                Discover
-              </Link>
-            </form>
           </div>
-          <div className="statgrid">
-            <StatCard label="Catalog" value={String(bags.length)} caption="pilot models" />
-            <StatCard label="Display rule" value="6" caption="condition bands" />
-            <StatCard label="Score" value="Shadow" caption="pre-publication" />
+          <div className="homeStatRail">
+            <div className="homeStatRow">
+              <span className="kicker">Catalog</span>
+              <strong>{bags.length}</strong>
+            </div>
+            <div className="homeStatRow">
+              <span className="kicker">Condition bands</span>
+              <strong>6</strong>
+            </div>
+            <div className="homeStatRow">
+              <span className="kicker">Score</span>
+              <span className="shadowBadge">Shadow</span>
+            </div>
           </div>
         </section>
 
         <section className="contentSection">
           <div className="sectionHeader">
             <h2>Catalog</h2>
-            <span className="muted">
-              {query ? `${bags.length} matches` : metricDisplayVocabulary.typicalAskingRange}
-            </span>
+            <span className="muted">{metricDisplayVocabulary.typicalAskingRange} · model level</span>
           </div>
-          <div className="rangeGrid">
-            {bags.map((bag) => (
-              <Link className="rangeCard" href={`/bags/${bag.slug}`} key={bag.slug}>
-                <span className="kicker">{bag.brand.name}</span>
-                <strong className="rangePrice">{bag.model_name}</strong>
-                <span className="muted">{bag.editorial_summary}</span>
+          <div className="catalogGrid">
+            {cards.map((card) => (
+              <Link className="modelCard" href={`/bags/${card.bag.slug}`} key={card.bag.slug}>
+                <span
+                  className="modelSwatch"
+                  style={{ background: swatchColor(`${card.bag.brand.name} ${card.bag.model_name}`) }}
+                  aria-hidden="true"
+                />
+                <div className="modelCardMain">
+                  <div className="modelCardTop">
+                    <span className="kicker">{card.bag.brand.name}</span>
+                    {card.classification ? <span className="tag">{card.classification}</span> : null}
+                  </div>
+                  <strong className="modelCardName">{card.bag.model_name}</strong>
+                  <span className="muted modelCardMeta">
+                    {card.range
+                      ? `$${card.range.low.toLocaleString()} – $${card.range.high.toLocaleString()}`
+                      : live
+                        ? "Range pending"
+                        : card.bag.editorial_summary}
+                    {card.range ? ` · ${card.bandsPriced}/6 bands` : ""}
+                  </span>
+                  {card.sparkline.length ? (
+                    <div className="modelCardSpark">
+                      <Sparkline values={card.sparkline} />
+                    </div>
+                  ) : null}
+                </div>
               </Link>
             ))}
           </div>
@@ -115,16 +178,38 @@ export default async function Home({ searchParams }: HomeProps) {
   );
 }
 
-async function loadBags(query = "") {
+async function loadCatalog(): Promise<{ bags: BagSummary[]; cards: ModelCardData[]; live: boolean }> {
+  let bags: BagSummary[];
   try {
-    const response = query ? await searchBags(query) : await getBags();
-    return response.items;
+    bags = (await getBags()).items;
   } catch {
-    if (!query) {
-      return fallbackBags;
-    }
-    return fallbackBags.filter((bag) =>
-      `${bag.brand.name} ${bag.model_name} ${bag.slug}`.toLowerCase().includes(query.toLowerCase()),
-    );
+    return {
+      bags: fallbackBags,
+      cards: fallbackBags.map((bag) => ({
+        bag,
+        range: null,
+        bandsPriced: 0,
+        classification: null,
+        sparkline: [],
+      })),
+      live: false,
+    };
   }
+  const cards = await Promise.all(
+    bags.map(async (bag) => {
+      try {
+        const [market, history] = await Promise.all([getMarket(bag.slug), getHistory(bag.slug)]);
+        return {
+          bag,
+          range: modelRange(market),
+          bandsPriced: market.totals.bands_with_sufficient_data,
+          classification: classificationOf(market),
+          sparkline: medianSeries(history),
+        } satisfies ModelCardData;
+      } catch {
+        return { bag, range: null, bandsPriced: 0, classification: null, sparkline: [] };
+      }
+    }),
+  );
+  return { bags, cards, live: true };
 }

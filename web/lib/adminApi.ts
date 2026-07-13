@@ -334,6 +334,45 @@ export function getIngestionSummary() {
   return adminFetch<Summary>("ingestion/summary");
 }
 
+export type RefreshStep = {
+  key: string;
+  label: string;
+  status: "pending" | "running" | "succeeded" | "failed";
+  summary: string | null;
+  finished_at: string | null;
+};
+
+export type RefreshStatus = {
+  status: "idle" | "running" | "succeeded" | "failed";
+  run_id?: string;
+  source?: string;
+  started_at?: string;
+  finished_at?: string | null;
+  steps: RefreshStep[];
+};
+
+export function getRefreshStatus() {
+  return adminFetch<RefreshStatus>("ingestion/refresh");
+}
+
+export async function startRefresh(
+  source: "fixtures" | "live",
+): Promise<{ started: boolean; conflict: boolean }> {
+  const response = await fetch("/api/admin/ingestion/refresh", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ source }),
+    cache: "no-store",
+  });
+  if (response.status === 401 && typeof window !== "undefined") {
+    window.location.assign("/admin/login");
+  }
+  if (response.status === 409) {
+    return { started: false, conflict: true };
+  }
+  return { started: response.ok, conflict: false };
+}
+
 export function getCatalogBags() {
   return adminFetch<{ items: BagOption[]; total: number }>("catalog/bags");
 }

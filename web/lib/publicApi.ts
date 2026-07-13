@@ -106,6 +106,7 @@ export type HistoryResponse = {
     name: string;
     series: HistorySeries[];
   }>;
+  search_interest?: Array<{ week_start: string; value: number }>;
 };
 
 export type ListingItem = {
@@ -124,6 +125,7 @@ export type ListingItem = {
   seller_id: string | null;
   item_location: string | null;
   item_url: string | null;
+  image_url?: string | null;
   last_observed: string;
   verdict: { percent_diff: string; band: ConditionBand; label: "below" | "near" | "above" } | null;
 };
@@ -174,17 +176,57 @@ export type DiscoverItem = {
   metric_label: string;
   metric_value: string;
   caption?: string;
+  sparkline?: number[];
   status: "ok" | "insufficient_data";
+};
+
+export type DiscoverTotals = {
+  models_tracked: number;
+  active_listings: number;
+  median_score?: number | null;
+  surging_now: number;
 };
 
 export type DiscoverResponse = {
   as_of_date: string | null;
+  totals: DiscoverTotals;
   modules: Array<{
-    key: "featured" | "rising_asking_interest" | "under_the_radar";
+    key:
+      | "featured"
+      | "fastest_rising"
+      | "rising_price"
+      | "emerging"
+      | "cooling"
+      | "under_the_radar";
     title: string;
     description: string;
     items: DiscoverItem[];
   }>;
+};
+
+export type BrandModelItem = {
+  slug: string;
+  model_name: string;
+  era: string | null;
+  active_listings: number;
+  median_asking_price?: string;
+  score_status: "not_yet_scored" | "published";
+  score_value?: number | null;
+  classification?: string | null;
+  sparkline: number[];
+  status: "ok" | "insufficient_data";
+};
+
+export type BrandResponse = {
+  slug: string;
+  name: string;
+  as_of_date: string | null;
+  models_tracked: number;
+  active_listings: number;
+  house_momentum_pct?: string;
+  average_published_score?: number | null;
+  interest: Array<{ date: string; active_listing_count: number }>;
+  models: BrandModelItem[];
 };
 
 const apiBase = process.env.PIPELINE_API_URL ?? "http://localhost:8000";
@@ -206,6 +248,8 @@ export const searchBags = cache(async (query: string) =>
 export const getDiscover = cache(async () => publicFetch<DiscoverResponse>("/discover"));
 
 export const getBag = cache(async (slug: string) => publicFetch<BagDetail>(`/bags/${slug}`));
+
+export const getBrand = cache(async (slug: string) => publicFetch<BrandResponse>(`/brands/${slug}`));
 
 export const getMarket = cache(async (slug: string) => publicFetch<MarketResponse>(`/bags/${slug}/market`));
 

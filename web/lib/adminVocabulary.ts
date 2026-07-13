@@ -1,5 +1,8 @@
 export const adminCopy = {
   dashboard: "Dashboard",
+  dataRefresh: "Data refresh",
+  runRefresh: "Run refresh",
+  source: "Source",
   labeling: "Labeling",
   review: "Review",
   quality: "Data quality",

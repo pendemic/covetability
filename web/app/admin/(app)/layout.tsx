@@ -24,6 +24,7 @@ export default async function AdminLayout({ children }: { children: ReactNode })
         </div>
         <nav className="adminNav" aria-label="Admin">
           <Link href="/admin">{adminCopy.dashboard}</Link>
+          <Link href="/admin/refresh">{adminCopy.dataRefresh}</Link>
           <Link href="/admin/labeling">{adminCopy.labeling}</Link>
           <Link href="/admin/review">{adminCopy.review}</Link>
           <Link href="/admin/quality">{adminCopy.quality}</Link>

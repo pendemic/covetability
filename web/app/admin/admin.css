@@ -1,31 +1,30 @@
-.adminShell {
-  min-height: 100vh;
-  background: var(--paper);
-  color: var(--ink);
-}
 
-.adminTopbar {
+.adminActions {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 18px 28px;
-  border-bottom: 1px solid var(--line);
-  background: var(--surface);
+  align-items: flex-end;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
-.adminBrand {
-  display: grid;
-  gap: 2px;
+.adminField {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.85rem;
 }
 
-.adminBrand strong {
-  font-size: 1.05rem;
+.adminField select {
+  min-height: 38px;
+  padding: 8px 10px;
+  border: 1px solid var(--admin-border, #d2c2a8);
+  border-radius: 6px;
+  background: #fff;
+  font: inherit;
 }
 
-.adminBrand span,
-.adminMuted {
-  color: var(--muted);
+.adminMono {
+  font-family: var(--font-mono, ui-monospace), monospace;
+  font-size: 0.8rem;
 }
 
 .adminNav {

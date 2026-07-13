@@ -1,24 +1,24 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import {
   AuctionRecordsTable,
   BandRangeCard,
   Chip,
+  ColorwayBars,
   ContextNotes,
   HistoryCharts,
-  ListingsTable,
   ObservationList,
-  ScoreBreakdown,
-  ScoreRing,
   SiteFooter,
   SiteHeader,
   StatCard,
-  VariantPanel,
+  VariantTable,
   monthLabel,
   trackingSinceLabel,
 } from "@/app/components/MarketComponents";
 import { CovetListForm } from "@/app/components/CovetListForm";
+import { VariantDetail } from "@/app/components/VariantDetail";
 import {
   getAuctionRecords,
   getBag,
@@ -92,7 +92,9 @@ export default async function BagPage({ params }: PageProps) {
         />
         <section className="bagHero">
           <div>
-            <span className="kicker-lg">{bag.brand.name}</span>
+            <span className="kicker-lg">
+              <Link href={`/brands/${bag.brand.slug}`}>{bag.brand.name}</Link>
+            </span>
             <h1>{bag.model_name}</h1>
             <p>{bag.editorial.summary}</p>
             <div className="chipRow">
@@ -114,14 +116,31 @@ export default async function BagPage({ params }: PageProps) {
               value={`${market.totals.bands_with_sufficient_data}/6`}
               caption={`${market.window_days}-day window`}
             />
-            <StatCard label="Listings shown" value={String(listings.total)} caption="active filter" />
+            <StatCard
+              label="Colorways"
+              value={String(bag.variants.length)}
+              caption={`${listings.total} listings shown`}
+            />
           </div>
         </section>
+
+        <VariantDetail
+          slug={bag.slug}
+          modelName={bag.model_name}
+          bands={market.bands}
+          variants={market.variants}
+          history={history}
+          listings={listings.items}
+          score={market.score}
+          observations={market.observations}
+        />
 
         <section className="contentSection" aria-labelledby="pay-heading">
           <div className="sectionHeader">
             <h2 id="pay-heading">What should I pay</h2>
-            <span className="muted">{metricDisplayVocabulary.typicalAskingRange}</span>
+            <Link className="muted" href={`/bags/${bag.slug}/conditions`}>
+              By condition &rsaquo;
+            </Link>
           </div>
           <div className="rangeGrid">
             {market.bands.map((band) => (
@@ -132,39 +151,15 @@ export default async function BagPage({ params }: PageProps) {
             <>
               <div className="hr" />
               <div className="sectionHeader">
-                <h2>Separate markets</h2>
+                <h2>Colorways</h2>
                 <span className="muted">{metricDisplayVocabulary.colorwayAttributionBestEffort}</span>
               </div>
-              <div className="variantGrid">
-                {market.variants.map((variant) => (
-                  <VariantPanel key={variant.variant_id} variant={variant} />
-                ))}
+              <div className="variant2col">
+                <VariantTable variants={market.variants} history={history} />
+                <ColorwayBars variants={market.variants} />
               </div>
             </>
           ) : null}
-        </section>
-
-        <section className="contentSection" aria-labelledby="score-heading">
-          <div className="sectionHeader">
-            <h2 id="score-heading">Covetability status</h2>
-          </div>
-          <ScoreRing score={market.score} />
-          {market.score.status === "published" ? (
-            <ScoreBreakdown score={market.score} />
-          ) : (
-            <div className="componentGrid">
-              {market.score.components.map((component) => (
-                <div className="componentPanel" key={component.key}>
-                  <strong>{component.key.replaceAll("_", " ")}</strong>
-                  <span className="muted">
-                    {component.state === "insufficient_stable_search_data"
-                      ? metricDisplayVocabulary.insufficientSearchData
-                      : "Not yet computed"}
-                  </span>
-                </div>
-              ))}
-            </div>
-          )}
         </section>
 
         <section className="contentSection" aria-labelledby="covet-list-heading">
@@ -177,21 +172,13 @@ export default async function BagPage({ params }: PageProps) {
 
         <section className="contentSection" aria-labelledby="moving-heading">
           <div className="sectionHeader">
-            <h2 id="moving-heading">Why it&apos;s moving</h2>
+            <h2 id="moving-heading">Movement &amp; context</h2>
             <span className="muted">
               {history.days_of_history} {metricDisplayVocabulary.daysOfTracking}
             </span>
           </div>
           <ObservationList observations={market.observations} daysOfHistory={history.days_of_history} />
           <ContextNotes notes={contextNotes.items} />
-        </section>
-
-        <section className="contentSection" aria-labelledby="listings-heading">
-          <div className="sectionHeader">
-            <h2 id="listings-heading">Listings to consider</h2>
-            <span className="muted">{metricDisplayVocabulary.authenticationDisclosure}</span>
-          </div>
-          <ListingsTable listings={listings.items} />
         </section>
 
         <section className="contentSection" aria-labelledby="auction-heading">
@@ -235,7 +222,7 @@ async function loadBagPage(slug: string) {
     getBag(slug),
     getMarket(slug),
     getHistory(slug),
-    getListings(slug),
+    getListings(slug, 200),
     getAuctionRecords(slug),
     getContextNotes(slug),
   ]);
