@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from decimal import Decimal
 from typing import Any
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 from app.contract import AuthLabel
 
@@ -42,6 +42,8 @@ class ItemSummary(EbayModel):
     image: Image | None = None
     fixture_phash: str | None = Field(default=None, alias="fixturePhash")
     qualified_programs: list[str] = Field(default_factory=list, alias="qualifiedPrograms")
+    # Non-eBay sources can assert the authentication posture directly.
+    auth_hint: AuthLabel | None = Field(default=None, alias="authHint")
 
 
 class SearchResponse(EbayModel):
@@ -51,6 +53,15 @@ class SearchResponse(EbayModel):
     offset: int | None = None
     next: str | None = None
     item_summaries: list[ItemSummary] = Field(default_factory=list, alias="itemSummaries")
+
+    @field_validator("item_summaries", mode="before")
+    @classmethod
+    def skip_unpriced_summaries(cls, value: Any) -> Any:
+        if value is None:
+            return []
+        if not isinstance(value, list):
+            return value
+        return [item for item in value if not isinstance(item, dict) or item.get("price") is not None]
 
 
 class Item(ItemSummary):
@@ -99,7 +110,7 @@ def to_candidate(summary: ItemSummary) -> ListingCandidate:
         item_url=summary.item_web_url,
         image_url=summary.image.image_url if summary.image else None,
         condition_raw=summary.condition,
-        auth_label=auth_label(summary),
+        auth_label=summary.auth_hint or auth_label(summary),
         raw_payload=summary.model_dump(mode="json", by_alias=True, exclude_none=True),
     )
 

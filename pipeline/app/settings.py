@@ -12,6 +12,9 @@ class Settings(BaseSettings):
         default="postgresql+psycopg://covetability:covetability@localhost:55432/covetability",
         alias="DATABASE_URL",
     )
+    # Tests run against this DB, never the main one (they truncate/rematch data).
+    # Defaults to None; conftest requires it to be set and different from database_url.
+    test_database_url: str | None = Field(default=None, alias="TEST_DATABASE_URL")
     admin_secret: str = Field(default="change-me", alias="ADMIN_SECRET")
     ebay_app_id: str | None = Field(default=None, alias="EBAY_APP_ID")
     ebay_cert_id: str | None = Field(default=None, alias="EBAY_CERT_ID")
@@ -22,6 +25,10 @@ class Settings(BaseSettings):
     ebay_category_ids: str = Field(default="169291", alias="EBAY_CATEGORY_IDS")
     ebay_fixtures_dir: str = Field(default="fixtures/ebay", alias="EBAY_FIXTURES_DIR")
     ebay_record_dir: str | None = Field(default=None, alias="EBAY_RECORD_DIR")
+    ebay_image_phash_enabled: bool = Field(default=True, alias="EBAY_IMAGE_PHASH_ENABLED")
+    # JSON file listing additional affiliate-feed sources (Vestiaire, TRR, …).
+    # See sources.example.json. Absent/empty ⇒ eBay only.
+    sources_config: str | None = Field(default=None, alias="SOURCES_CONFIG")
     trends_source: str = Field(default="fixtures", alias="TRENDS_SOURCE")
     trends_fixtures_dir: str = Field(default="fixtures/trends", alias="TRENDS_FIXTURES_DIR")
     trends_csv_dir: str | None = Field(default=None, alias="TRENDS_CSV_DIR")

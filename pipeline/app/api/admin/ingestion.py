@@ -1,14 +1,68 @@
 from __future__ import annotations
 
-from typing import Any
+import os
+import subprocess
+import sys
+import uuid
+from typing import Any, Literal
 
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
+from pydantic import BaseModel
 from sqlalchemy import func, select
 
 from app.api.admin.deps import SessionDep
 from app.models import BagModel, GoldLabel, ListingRaw, MatchRun, SnapshotRun
+from app.refresh_status import PIPELINE_ROOT, is_running, new_run, read_status, write_status
 
 router = APIRouter()
+
+
+class RefreshRequest(BaseModel):
+    source: Literal["fixtures", "live"] = "fixtures"
+
+
+@router.get("/ingestion/refresh")
+def refresh_status() -> dict[str, Any]:
+    status = read_status()
+    if status is None:
+        return {"status": "idle", "steps": []}
+    return status
+
+
+@router.post("/ingestion/refresh")
+def start_refresh(body: RefreshRequest) -> dict[str, Any]:
+    if is_running(read_status()):
+        raise HTTPException(status_code=409, detail="a refresh is already running")
+
+    run_id = uuid.uuid4().hex[:12]
+    env = os.environ.copy()
+    env["EBAY_SOURCE"] = body.source
+    env["REFRESH_RUN_ID"] = run_id
+    if body.source == "live":
+        env.setdefault("EBAY_ENVIRONMENT", "production")
+        env.setdefault("EBAY_IMAGE_PHASH_ENABLED", "false")
+
+    # Publish an initial "running" status so the UI reflects immediately, before
+    # the detached orchestrator gets a chance to write its own.
+    write_status(new_run(run_id, body.source))
+
+    popen_kwargs: dict[str, Any] = {}
+    if os.name == "nt":
+        popen_kwargs["creationflags"] = (
+            subprocess.CREATE_NEW_PROCESS_GROUP | subprocess.DETACHED_PROCESS
+        )
+    else:
+        popen_kwargs["start_new_session"] = True
+
+    subprocess.Popen(  # noqa: S603 - fixed module target, admin-guarded
+        [sys.executable, "-m", "jobs.refresh"],
+        cwd=str(PIPELINE_ROOT),
+        env=env,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+        **popen_kwargs,
+    )
+    return {"status": "running", "run_id": run_id, "source": body.source}
 
 
 @router.get("/ingestion/summary")

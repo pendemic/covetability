@@ -1,11 +1,12 @@
 from __future__ import annotations
 
+import json
 import re
 import unicodedata
 from collections.abc import Iterable
 from typing import Protocol
 
-from app.contract import IngestionMode
+from app.contract import AuthLabel, IngestionMode
 from app.ingestion.models import ItemSummary
 from app.settings import Settings
 
@@ -54,7 +55,45 @@ def get_listing_source(settings: Settings) -> ListingSource:
             environment=settings.ebay_environment,
             marketplace_id=settings.ebay_marketplace_id,
             category_ids=settings.ebay_category_ids,
+            image_phash_enabled=settings.ebay_image_phash_enabled,
             record_dir=record_dir,
         )
 
     raise RuntimeError("EBAY_SOURCE must be 'fixtures' or 'live'.")
+
+
+def load_feed_sources(settings: Settings) -> list[ListingSource]:
+    """Build FeedSource instances from the JSON file named by SOURCES_CONFIG."""
+    if not settings.sources_config:
+        return []
+    config_path = settings.resolve_pipeline_path(settings.sources_config)
+    if not config_path.exists():
+        return []
+
+    from app.ingestion.feed import FeedSource, FeedSourceConfig
+
+    entries = json.loads(config_path.read_text(encoding="utf-8"))
+    sources: list[ListingSource] = []
+    for entry in entries:
+        if entry.get("enabled") is False:
+            continue
+        sources.append(
+            FeedSource(
+                FeedSourceConfig(
+                    source_name=entry["source_name"],
+                    feed_path=entry["feed_path"],
+                    columns=entry["columns"],
+                    auth_label=AuthLabel(entry.get("auth_label", AuthLabel.authentication_status_unknown.value)),
+                    default_currency=entry.get("default_currency", "USD"),
+                    delimiter=entry.get("delimiter", ","),
+                    gzip=entry.get("gzip", False),
+                ),
+                base_dir=config_path.parent,
+            )
+        )
+    return sources
+
+
+def get_listing_sources(settings: Settings) -> list[ListingSource]:
+    """The primary source (fixtures / live eBay) plus any configured feed sources."""
+    return [get_listing_source(settings), *load_feed_sources(settings)]

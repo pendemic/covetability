@@ -3,7 +3,7 @@ EBAY_SOURCE ?= fixtures
 TRENDS_SOURCE ?= fixtures
 GOLD ?= all
 
-.PHONY: db-up db-down migrate seed snapshot match rematch normalize-conditions load-fixture-gold evaluate evaluate-fixtures evaluate-conditions aggregate recompute verify-aggregates expire expire-dry trends score stability apply-stability covet-digest test lint api web
+.PHONY: db-up db-down db-test-setup migrate seed seed-history refresh reset-live snapshot match rematch normalize-conditions load-fixture-gold evaluate evaluate-fixtures evaluate-conditions aggregate recompute verify-aggregates expire expire-dry trends score stability apply-stability covet-digest test lint api web
 
 db-up:
 	$(DB_COMPOSE) up -d
@@ -16,6 +16,15 @@ migrate:
 
 seed:
 	cd pipeline && uv run python -m seeds.catalog
+
+seed-history:
+	cd pipeline && uv run python -m jobs.seed_history --days $(if $(DAYS),$(DAYS),120) $(if $(END),--end $(END),)
+
+refresh:
+	cd pipeline && EBAY_SOURCE=$(EBAY_SOURCE) uv run python -m jobs.refresh
+
+reset-live:
+	cd pipeline && uv run python -m jobs.reset_live $(if $(YES),--yes,) $(if $(LISTINGS),--listings,)
 
 snapshot:
 	cd pipeline && EBAY_SOURCE=$(EBAY_SOURCE) uv run python -m jobs.daily_snapshot
@@ -72,8 +81,16 @@ apply-stability:
 covet-digest:
 	cd pipeline && uv run python -m jobs.covet_digest
 
+TEST_DB_URL ?= postgresql+psycopg://covetability:covetability@localhost:15432/covetability_test
+
+# Create + migrate a dedicated test database (safe to re-run). Tests refuse to
+# run against the main DB, so this must exist first.
+db-test-setup:
+	docker exec covetability-postgres psql -U covetability -d covetability -tc "SELECT 1 FROM pg_database WHERE datname='covetability_test'" | grep -q 1 || docker exec covetability-postgres createdb -U covetability covetability_test
+	cd pipeline && DATABASE_URL=$(TEST_DB_URL) uv run alembic upgrade head
+
 test:
-	cd pipeline && uv run pytest
+	cd pipeline && TEST_DATABASE_URL=$(TEST_DB_URL) uv run pytest
 
 lint:
 	cd pipeline && uv run ruff check .

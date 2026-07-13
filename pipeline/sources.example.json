@@ -1,0 +1,84 @@
+[
+  {
+    "source_name": "vestiaire",
+    "enabled": false,
+    "//feed_path": "Local path (relative to this file) OR an http(s) URL. .gz is auto-decompressed; set gzip:true to force.",
+    "feed_path": "https://feeds.affiliate-network.example/vestiaire-us.csv.gz",
+    "gzip": true,
+    "auth_label": "marketplace_authentication_program",
+    "default_currency": "USD",
+    "delimiter": ",",
+    "columns": {
+      "id": "sku",
+      "title": "name",
+      "price": "price",
+      "currency": "currency",
+      "url": "link",
+      "image": "image_link",
+      "condition": "condition",
+      "seller": "seller"
+    }
+  },
+  {
+    "source_name": "therealreal",
+    "enabled": false,
+    "feed_path": "feeds/therealreal.csv",
+    "auth_label": "platform_authenticated",
+    "default_currency": "USD",
+    "columns": {
+      "id": "id",
+      "title": "title",
+      "price": "sale_price",
+      "currency": "currency",
+      "url": "link",
+      "image": "image_link",
+      "condition": "condition"
+    }
+  },
+  {
+    "source_name": "fashionphile",
+    "enabled": false,
+    "feed_path": "feeds/fashionphile.csv",
+    "auth_label": "platform_authenticated",
+    "default_currency": "USD",
+    "columns": {
+      "id": "product_id",
+      "title": "product_name",
+      "price": "price",
+      "url": "product_url",
+      "image": "image_url",
+      "condition": "condition"
+    }
+  },
+  {
+    "source_name": "rebag",
+    "enabled": false,
+    "feed_path": "feeds/rebag.csv",
+    "auth_label": "platform_authenticated",
+    "default_currency": "USD",
+    "columns": {
+      "id": "id",
+      "title": "title",
+      "price": "price",
+      "url": "link",
+      "image": "image_link",
+      "condition": "condition"
+    }
+  },
+  {
+    "source_name": "poshmark",
+    "enabled": false,
+    "feed_path": "feeds/poshmark.csv",
+    "auth_label": "seller_claim_only",
+    "default_currency": "USD",
+    "columns": {
+      "id": "listing_id",
+      "title": "title",
+      "price": "price",
+      "url": "url",
+      "image": "cover_shot",
+      "condition": "condition",
+      "seller": "seller"
+    }
+  }
+]

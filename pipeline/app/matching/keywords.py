@@ -11,6 +11,23 @@ BRAND_TOKENS: dict[str, tuple[str, ...]] = {
     "fendi-baguette": ("fendi",),
     "dior-saddle": ("dior", "christian dior"),
     "louis-vuitton-pochette-accessoires": ("louis vuitton", "lv"),
+    # Extended catalog
+    "chanel-25": ("chanel",),
+    "chanel-suede-flap": ("chanel",),
+    "dior-gaucho": ("dior", "christian dior"),
+    "dior-columbus": ("dior", "christian dior"),
+    "ysl-mombasa": ("ysl", "yves saint laurent", "saint laurent"),
+    "miu-miu-vitello": ("miu miu",),
+    "miu-miu-nappa": ("miu miu",),
+    "miu-miu-pocket": ("miu miu",),
+    "chloe-silverado": ("chloe",),
+    "gucci-indy": ("gucci",),
+    "gucci-jackie": ("gucci",),
+    "prada-bonnie": ("prada",),
+    "prada-bowling": ("prada",),
+    "louis-vuitton-pochette": ("louis vuitton", "lv"),
+    "fendi-spy": ("fendi",),
+    "balenciaga-rodeo": ("balenciaga",),
 }
 
 CONFIRMING_SIGNALS: dict[str, tuple[str, ...]] = {
@@ -89,6 +106,23 @@ CONFIRMING_SIGNALS: dict[str, tuple[str, ...]] = {
         "date code",
         "canvas",
     ),
+    # Extended catalog
+    "chanel-25": ("flap", "cc", "chain", "quilted", "turnlock", "lambskin", "caviar", "leather"),
+    "chanel-suede-flap": ("suede", "flap", "cc", "chain", "quilted", "classic", "turnlock", "vintage"),
+    "dior-gaucho": ("gaucho", "saddle", "buckle", "double", "galliano", "distressed", "leather"),
+    "dior-columbus": ("columbus", "avenue", "logo", "trotter", "canvas", "shoulder"),
+    "ysl-mombasa": ("mombasa", "horn", "hobo", "tom ford", "crescent", "leather", "suede"),
+    "miu-miu-vitello": ("vitello", "lux", "shine", "bow", "matelasse", "leather", "bugatti"),
+    "miu-miu-nappa": ("nappa", "coffer", "bow", "gathered", "matelasse", "leather"),
+    "miu-miu-pocket": ("pocket", "nappa", "hobo", "leather", "smooth", "strap"),
+    "chloe-silverado": ("silverado", "ring", "wooden", "hobo", "leather", "phoebe philo"),
+    "gucci-indy": ("indy", "hobo", "tassel", "fringe", "buckle", "canvas", "leather"),
+    "gucci-jackie": ("jackie", "piston", "hobo", "canvas", "leather", "1961", "new jackie"),
+    "prada-bonnie": ("bonnie", "bauletto", "saffiano", "leather", "bowling"),
+    "prada-bowling": ("bowling", "bauletto", "tessuto", "nylon", "leather", "doctor"),
+    "louis-vuitton-pochette": ("pochette", "monogram", "multicolore", "murakami", "vachetta", "canvas", "cles"),
+    "fendi-spy": ("spy", "hobo", "leather", "secret", "compartment", "rope", "handle"),
+    "balenciaga-rodeo": ("rodeo", "le rodeo", "hobo", "studded", "knot", "strap", "leather"),
 }
 
 SIZE_TERMS: dict[str, tuple[tuple[str, str], ...]] = {

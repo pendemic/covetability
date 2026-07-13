@@ -32,6 +32,7 @@ class EbayBrowseClient:
         environment: str = "production",
         marketplace_id: str = "EBAY_US",
         category_ids: str = "169291",
+        image_phash_enabled: bool = True,
         record_dir: Path | None = None,
         transport: httpx.BaseTransport | None = None,
     ) -> None:
@@ -40,6 +41,7 @@ class EbayBrowseClient:
         self.environment = environment
         self.marketplace_id = marketplace_id
         self.category_ids = category_ids
+        self.image_phash_enabled = image_phash_enabled
         self.record_dir = record_dir
         self._access_token: str | None = None
         self._token_expires_at = datetime.min.replace(tzinfo=UTC)
@@ -73,6 +75,8 @@ class EbayBrowseClient:
         return ItemSummary.model_validate(response.json())
 
     def image_phash(self, summary: ItemSummary) -> str | None:
+        if not self.image_phash_enabled:
+            return None
         if summary.image is None or summary.image.image_url is None:
             return None
         try:
