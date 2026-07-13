@@ -1,6 +1,12 @@
 .env
 .venv/
 __pycache__/
+
+# Pipeline runtime state + downloaded affiliate feeds (may be large / contain keys)
+pipeline/.runtime/
+pipeline/feeds/
+pipeline/sources.json
+
 .pytest_cache/
 .ruff_cache/
 *.pyc
