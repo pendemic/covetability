@@ -8,6 +8,7 @@ from sqlalchemy.orm import Session
 from app.contract import AliasType, ExclusionScope, RejectionReason, VariantKind
 from app.db import SessionLocal
 from app.models import BagAlias, BagModel, BagVariant, Brand, ExclusionTerm
+from seeds.catalog_extra import EXTRA_CATALOG
 
 TRACKING_START = date(2026, 7, 1)
 
@@ -386,6 +387,8 @@ CATALOG = [
         ],
     },
 ]
+
+CATALOG.extend(EXTRA_CATALOG)
 
 
 def upsert_brand(session: Session, brand_data: dict[str, str]) -> Brand:
