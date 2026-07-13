@@ -31,20 +31,32 @@ def test_catalog_search_matches_brand_model_and_alias(db_engine: Engine) -> None
     cleanup_fixture_rows(db_engine)
 
 
-def test_discover_modules_are_score_free_and_fixture_renderable(db_engine: Engine) -> None:
+def test_discover_modules_render_without_leaking_internal_scoring(db_engine: Engine) -> None:
     prepare_public_fixture(db_engine)
     with TestClient(app) as client:
         response = client.get("/discover")
 
     assert response.status_code == 200
     payload = response.json()
+    assert payload["totals"]["models_tracked"] >= 1
+    assert "active_listings" in payload["totals"]
     assert [module["key"] for module in payload["modules"]] == [
         "featured",
-        "rising_asking_interest",
+        "fastest_rising",
+        "rising_price",
+        "emerging",
+        "cooling",
         "under_the_radar",
     ]
-    assert all(module["items"] for module in payload["modules"])
-    assert "score" not in json.dumps(payload).lower()
+    # Featured/under-radar/emerging always populate from tracked bags; movement
+    # modules (fastest_rising, rising_price, cooling) may legitimately be empty.
+    assert payload["modules"][0]["items"]
+    assert payload["modules"][-1]["items"]
+    # Discover may surface *published* scores (post-launch, per the design), but it
+    # must never leak internal/raw scoring machinery.
+    dumped = json.dumps(payload).lower()
+    for internal in ("raw_score", "smoothed_score", "component_trace", "publication_value", "unscored_reason"):
+        assert internal not in dumped
     cleanup_fixture_rows(db_engine)
 
 

@@ -6,6 +6,7 @@ import httpx
 import pytest
 
 from app.ingestion.ebay import EbayApiError, EbayBrowseClient
+from app.ingestion.models import ItemSummary
 
 
 def token_response() -> httpx.Response:
@@ -116,3 +117,25 @@ def test_ebay_client_records_fixture_compatible_payload(tmp_path) -> None:
     payload = json.loads((tmp_path / "search" / "dior-saddle-bag.json").read_text())
 
     assert payload["itemSummaries"][0]["itemId"] == "v1|fx-ebay-client|0"
+
+
+def test_ebay_client_can_skip_image_phash_fetches() -> None:
+    def handler(request: httpx.Request) -> httpx.Response:
+        raise AssertionError(f"unexpected request: {request.url}")
+
+    client = EbayBrowseClient(
+        app_id="app",
+        cert_id="cert",
+        image_phash_enabled=False,
+        transport=httpx.MockTransport(handler),
+    )
+    summary = ItemSummary.model_validate(
+        {
+            "itemId": "v1|fx-ebay-client|0",
+            "title": "Dior Saddle vintage blue oblique",
+            "price": {"value": "1500.00", "currency": "USD"},
+            "image": {"imageUrl": "https://i.ebayimg.example/test.jpg"},
+        }
+    )
+
+    assert client.image_phash(summary) is None

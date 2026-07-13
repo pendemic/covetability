@@ -1,6 +1,6 @@
 from decimal import Decimal
 
-from app.ingestion.models import ItemSummary, to_candidate
+from app.ingestion.models import ItemSummary, SearchResponse, to_candidate
 
 
 def test_browse_summary_normalizes_to_listing_candidate() -> None:
@@ -24,3 +24,23 @@ def test_browse_summary_normalizes_to_listing_candidate() -> None:
     assert candidate.shipping_included is False
     assert candidate.seller_id == "archive-seller"
     assert candidate.raw_payload["itemId"] == "v1|fx-test|0"
+
+
+def test_search_response_skips_unpriced_summaries() -> None:
+    response = SearchResponse.model_validate(
+        {
+            "itemSummaries": [
+                {
+                    "itemId": "v1|priced|0",
+                    "title": "Chloe Paddington bag",
+                    "price": {"value": "725.00", "currency": "USD"},
+                },
+                {
+                    "itemId": "v1|unpriced|0",
+                    "title": "Chloe Paddington listing without a displayed price",
+                },
+            ]
+        }
+    )
+
+    assert [item.item_id for item in response.item_summaries] == ["v1|priced|0"]
