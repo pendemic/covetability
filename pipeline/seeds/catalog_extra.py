@@ -55,7 +55,27 @@ EXTRA_CATALOG: list[dict] = [
         queries=["chanel 25 bag", "chanel 25 flap"],
         aliases=[("Chanel 25 Handbag", A.alias), ("chanel 25 medium", A.marketplace_term)],
         variants=[("Small", V.size, "Canonical smaller size.", False), ("Medium", V.size, "Larger everyday size.", False)],
-        exclusions=[("Chanel 19", R.wrong_model), ("Chanel 22", R.wrong_model), ("classic flap", R.wrong_model)],
+        # "25" is also the Classic Flap's 25cm size, so classic-flap markers must
+        # hard-exclude or this bag aggregates the wrong model (observed 82%).
+        exclusions=[
+            ("Chanel 19", R.wrong_model),
+            ("Chanel 22", R.wrong_model),
+            ("classic flap", R.wrong_model),
+            ("classic", R.wrong_model),
+            ("matelasse", R.wrong_model),
+            ("matrasse", R.wrong_model),
+            ("matelass", R.wrong_model),
+            ("double flap", R.wrong_model),
+            ("single flap", R.wrong_model),
+            ("w flap", R.wrong_model),
+            ("w-flap", R.wrong_model),
+            ("A01112", R.wrong_model),
+            ("2.55", R.wrong_model),
+            ("reissue", R.wrong_model),
+            ("diana", R.wrong_model),
+            ("boy", R.wrong_model),
+            ("coco handle", R.wrong_model),
+        ],
     ),
     _bag(
         brand_slug="dior", brand_name="Dior", slug="dior-gaucho", model_name="Gaucho",
@@ -143,7 +163,28 @@ EXTRA_CATALOG: list[dict] = [
         queries=["louis vuitton pochette", "lv pochette bag"],
         aliases=[("LV Pochette", A.alias), ("louis vuitton pochette monogram", A.marketplace_term)],
         variants=[("Monogram", V.color_family, "Classic Monogram.", False), ("Multicolore", V.color_family, "Murakami Multicolore.", False)],
-        exclusions=[("Pochette Accessoires", R.wrong_model), ("Pochette Metis", R.wrong_model), ("wallet", R.wrong_product_category)],
+        # Named pochette models are tracked separately (Accessoires) or out of
+        # scope; both English and French spellings appear in titles.
+        # Single-word terms because titles flip word order ("Accessories
+        # Pochette", "Twin PM ... Pochette", "Metis Pochette").
+        exclusions=[
+            ("Accessoires", R.wrong_model),
+            ("Accessories", R.wrong_model),
+            ("Multi Pochette", R.wrong_model),
+            ("Metis", R.wrong_model),
+            ("Felicie", R.wrong_model),
+            ("Toilette", R.wrong_model),
+            ("Twin", R.wrong_model),
+            ("Cles", R.wrong_model),
+            ("Neverfull", R.wrong_model),
+            ("Neverful", R.wrong_model),
+            ("Marly", R.wrong_model),
+            ("Bosphore", R.wrong_model),
+            ("Bosphorele", R.wrong_model),
+            ("Papillon", R.wrong_model),
+            ("Tulum", R.wrong_model),
+            ("wallet", R.wrong_product_category),
+        ],
     ),
     _bag(
         brand_slug="fendi", brand_name="Fendi", slug="fendi-spy", model_name="Spy",
@@ -187,7 +228,13 @@ EXTRA_CATALOG: list[dict] = [
         queries=["miu miu nappa bag", "miu miu coffer"],
         aliases=[("Miu Miu Nappa Leather Bag", A.alias), ("miu miu coffer", A.marketplace_term)],
         variants=[("Coffer", V.edition, "Gathered Coffer shape.", False), ("Bow", V.edition, "Bow-detail styles.", False)],
-        exclusions=[("Miu Miu Vitello", R.wrong_model)],
+        # Named non-Coffer models ride the "nappa" material word; keep them out.
+        exclusions=[
+            ("Miu Miu Vitello", R.wrong_model),
+            ("wander", R.wrong_model),
+            ("wonder", R.wrong_model),
+            ("arcadie", R.wrong_model),
+        ],
     ),
     _bag(
         brand_slug="miu-miu", brand_name="Miu Miu", slug="miu-miu-pocket", model_name="Pocket",
@@ -198,7 +245,22 @@ EXTRA_CATALOG: list[dict] = [
         queries=["miu miu pocket bag", "miu miu pocket nappa"],
         aliases=[("Miu Miu Pocket Hobo", A.alias)],
         variants=[("Small", V.size, "Small pocket bag.", False), ("Medium", V.size, "Medium pocket bag.", False)],
-        exclusions=[("Miu Miu Wander", R.wrong_model), ("Miu Miu Arcadie", R.wrong_model)],
+        # "pocket" appears descriptively in unrelated titles ("with zipper
+        # pocket"); exclude those phrasings so only the Pocket Bag model matches.
+        exclusions=[
+            ("Miu Miu Wander", R.wrong_model),
+            ("Miu Miu Arcadie", R.wrong_model),
+            ("zipper pocket", R.wrong_model),
+            ("zip pocket", R.wrong_model),
+            ("inner pocket", R.wrong_model),
+            ("interior pocket", R.wrong_model),
+            ("exterior pocket", R.wrong_model),
+            ("front pocket", R.wrong_model),
+            ("back pocket", R.wrong_model),
+            ("with pocket", R.wrong_model),
+            ("coin pocket", R.wrong_model),
+            ("drawstring", R.wrong_model),
+        ],
     ),
     _bag(
         brand_slug="balenciaga", brand_name="Balenciaga", slug="balenciaga-rodeo", model_name="Rodeo",
