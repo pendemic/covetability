@@ -1,0 +1,2272 @@
+[
+  {
+    "id": 164,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "168529943362",
+    "title": "BALENCIAGA Mini City Gray Leather 2 Way Shoulder Handbag Strap Dust Bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/168529943362?_skw=balenciaga+city+bag&itmmeta=01KXGPQPA0PNC5TWVTVF74GDVX&hash=item273d2adb42:g:VMMAAeSwDB5qUqd1&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xALc0GABgRewxwDfkUjB3KUBqT0vyRoSseWs7EKHv23TXi7R7cLCrD7UJjJnqFBMO4zo2m8bO7EASyQNf8ENpZG%2BnHvLNuouqw%2FdEkZtfHCnhanJQEejAFdWy%2B22zsjruRrxFRlvIo39ppVPnXeauPSrnzixiMHYCXnt379VbXU8DzfHoZCNqdyf1ZCTzFOITEKFaM4gmH8E7vZcQPYffj5hfuTDtQthSVY6oroYcjwn4%2F6JDUIE2UU1SU31mYUOHcDLBeFF0qfYbQuqGbTPEskAh%2Br47IhJOA8s6EyIW2x%2FA%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "168529943362",
+      "title": "BALENCIAGA Mini City Gray Leather 2 Way Shoulder Handbag Strap Dust Bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/168529943362?_skw=balenciaga+city+bag&itmmeta=01KXGPQPA0PNC5TWVTVF74GDVX&hash=item273d2adb42:g:VMMAAeSwDB5qUqd1&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xALc0GABgRewxwDfkUjB3KUBqT0vyRoSseWs7EKHv23TXi7R7cLCrD7UJjJnqFBMO4zo2m8bO7EASyQNf8ENpZG%2BnHvLNuouqw%2FdEkZtfHCnhanJQEejAFdWy%2B22zsjruRrxFRlvIo39ppVPnXeauPSrnzixiMHYCXnt379VbXU8DzfHoZCNqdyf1ZCTzFOITEKFaM4gmH8E7vZcQPYffj5hfuTDtQthSVY6oroYcjwn4%2F6JDUIE2UU1SU31mYUOHcDLBeFF0qfYbQuqGbTPEskAh%2Br47IhJOA8s6EyIW2x%2FA%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 118,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "227418020688",
+    "title": "BALENCIAGA LE CITY BAG - MINI - BLACK LEATHER w/GOLD HARDWARE - 2018",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/227418020688?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9X6DNHN566XF7RJS5Z&hash=item34f32b9b50:g:5vIAAeSwQIBqSq9N&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAMjlXotlYkh3NtNUtC9bXtIWWJkOgw3yVRxjxQDxxgeNlQU9xULQu%2BwBQeWG6JFjMKmBeOAoGt7s25gf%2BAG6UO%2BJ%2BL3GYCgAYznQi21bOlGMNeu7sts1iSe5Y0oTb%2BGy2Dgt4spAWSxa64054WjT4LCDyfylyTqREro%2F5QMvYvC4g5bpKAQeF5v5yUlbsr1Stj1Lc4eGLsL9Z61doVNfAKYRwT1z0ZO95IrWhiYusa%2F2XERlROB%2FPbT2XfWezkz9qtZOyyMxkqH0w0WU6yeRe6wz%2Fc6b50Y5a0RKEPPUlOaw%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "227418020688",
+      "title": "BALENCIAGA LE CITY BAG - MINI - BLACK LEATHER w/GOLD HARDWARE - 2018",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/227418020688?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9X6DNHN566XF7RJS5Z&hash=item34f32b9b50:g:5vIAAeSwQIBqSq9N&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAMjlXotlYkh3NtNUtC9bXtIWWJkOgw3yVRxjxQDxxgeNlQU9xULQu%2BwBQeWG6JFjMKmBeOAoGt7s25gf%2BAG6UO%2BJ%2BL3GYCgAYznQi21bOlGMNeu7sts1iSe5Y0oTb%2BGy2Dgt4spAWSxa64054WjT4LCDyfylyTqREro%2F5QMvYvC4g5bpKAQeF5v5yUlbsr1Stj1Lc4eGLsL9Z61doVNfAKYRwT1z0ZO95IrWhiYusa%2F2XERlROB%2FPbT2XfWezkz9qtZOyyMxkqH0w0WU6yeRe6wz%2Fc6b50Y5a0RKEPPUlOaw%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 170,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "236739074564",
+    "title": "Balenciaga city bag shoulder hand bag black",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/236739074564?_skw=balenciaga+city+bag&itmmeta=01KXGPQPA03JX734D1HCP08ASQ&hash=item371ebf9a04:g:E3cAAeSwTh5p0w1w&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xC%2BpRTkXbahmZNTMYBS4lKUKZJoOD6sLQbzaYXFdSShtQj3L5dW3jTugzuZYh9antTLwznCfFz9iP2VT8FwddtzcBnJr%2Fsb9OMXEpkRzxXtflMkRvTlVVDpMcVLct7LXefTAsh0ULXamPswBzeI7gerouGFX3D6%2BwHweirBx5dX1HhuLE6Tmq03ZvmUI4TFkWvHpHlqvuAtwtP4FRYIIaXRu1ugD%2B%2FjHTRdxyp30ioHO0tAr%2FZ7pD1SJ6ey%2BU2KwSc%3D%7Ctkp%3ABk9SR5Ll3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "236739074564",
+      "title": "Balenciaga city bag shoulder hand bag black",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/236739074564?_skw=balenciaga+city+bag&itmmeta=01KXGPQPA03JX734D1HCP08ASQ&hash=item371ebf9a04:g:E3cAAeSwTh5p0w1w&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xC%2BpRTkXbahmZNTMYBS4lKUKZJoOD6sLQbzaYXFdSShtQj3L5dW3jTugzuZYh9antTLwznCfFz9iP2VT8FwddtzcBnJr%2Fsb9OMXEpkRzxXtflMkRvTlVVDpMcVLct7LXefTAsh0ULXamPswBzeI7gerouGFX3D6%2BwHweirBx5dX1HhuLE6Tmq03ZvmUI4TFkWvHpHlqvuAtwtP4FRYIIaXRu1ugD%2B%2FjHTRdxyp30ioHO0tAr%2FZ7pD1SJ6ey%2BU2KwSc%3D%7Ctkp%3ABk9SR5Ll3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 119,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "257615840945",
+    "title": "100% AUTHENTIC BALENCIAGA Classic Paris City Bag in Black Colour",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/257615840945?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XT3WMP8GDX1G6YA2P&hash=item3bfb19c6b1:g:7psAAeSw6JVqUKV8&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAYYF%2B7ulKh7rsWz4lVugfOHee5j6M%2B5affm%2FdMzHVnghbyXSINmM9xoQnELMm2WI%2BaxvfYqGa%2FnX5cnrjoGqvzoSSmiZrAcV2RgeIDCHvkfOUxj82GKQXSvk4jBgzR1dTPCtPHVCPlCloBlf1wrotUUz5qVhe6CnxeYg%2FFclzNVQZ3a%2BVMbkymMcGC0zqTUzkboorvOt9lFgMMEYtVcLSH61m00SHln2cyU5E%2B1xpq%2FNFgzruS0o6JRgMpwiihiVTOnSxMiKe5IwvOOSDOVVITeMn7%2BScInAbzRFW%2BBEByFg%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "257615840945",
+      "title": "100% AUTHENTIC BALENCIAGA Classic Paris City Bag in Black Colour",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/257615840945?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XT3WMP8GDX1G6YA2P&hash=item3bfb19c6b1:g:7psAAeSw6JVqUKV8&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAYYF%2B7ulKh7rsWz4lVugfOHee5j6M%2B5affm%2FdMzHVnghbyXSINmM9xoQnELMm2WI%2BaxvfYqGa%2FnX5cnrjoGqvzoSSmiZrAcV2RgeIDCHvkfOUxj82GKQXSvk4jBgzR1dTPCtPHVCPlCloBlf1wrotUUz5qVhe6CnxeYg%2FFclzNVQZ3a%2BVMbkymMcGC0zqTUzkboorvOt9lFgMMEYtVcLSH61m00SHln2cyU5E%2B1xpq%2FNFgzruS0o6JRgMpwiihiVTOnSxMiKe5IwvOOSDOVVITeMn7%2BScInAbzRFW%2BBEByFg%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 132,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "267724333683",
+    "title": "Balenciaga Motocross City Bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/267724333683?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9Y169SDJY3GFCB4BZA&hash=item3e559d2273:g:tjUAAeSwZLVp2meG&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xA1cnPFLX%2BySbDLLha1e7b70LnY%2B2GTzOTN5643kb0fP%2FTY%2BdzXzUyvAhViKaFNkYOMUN7SyiT2krgtTLHB%2BOaj4WxaufhsY5v282J9e6VLCKHGCjEh%2FxKBXfLlh2SzJakmIbXqrQJ4KZLroXiz1RgRXTcTcg6maPi4EsiX7eVHpIKzlP7Trf8s3nbdiItA3OB5dbFtX6T4iLWFLhpr1ggoF1tShV6wWYWHufSZLZ1GenWWn6FFwMS3l8rU8jh7QI8%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "267724333683",
+      "title": "Balenciaga Motocross City Bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/267724333683?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9Y169SDJY3GFCB4BZA&hash=item3e559d2273:g:tjUAAeSwZLVp2meG&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xA1cnPFLX%2BySbDLLha1e7b70LnY%2B2GTzOTN5643kb0fP%2FTY%2BdzXzUyvAhViKaFNkYOMUN7SyiT2krgtTLHB%2BOaj4WxaufhsY5v282J9e6VLCKHGCjEh%2FxKBXfLlh2SzJakmIbXqrQJ4KZLroXiz1RgRXTcTcg6maPi4EsiX7eVHpIKzlP7Trf8s3nbdiItA3OB5dbFtX6T4iLWFLhpr1ggoF1tShV6wWYWHufSZLZ1GenWWn6FFwMS3l8rU8jh7QI8%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 161,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287433766127",
+    "title": "Balenciaga The City 115748 Leather Gray Shoulder Bag Women's #TB3236",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287433766127?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9Z76EDKVMVAAMAK41D&hash=item42ec6334ef:g:R-QAAeSwHitqRp4r&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xABHN857QHs9c9ADf39G6uzaNtT8RXp7%2BBUWIOBY%2B%2FItqxEKLyVAQoh%2B7RkB3Bfl7AG2jcZ8GqHfmAEglBcu8HjSZ--%2BHUPbN3DI6vKmJVVch7A95GjDVA5TsyJrGHavBmH9zH8qneJvjK%2BAqoW3ERcBQfDeV7ytpifTKg69z8jRpfU4ukgqOZzxb%2BTL1zOHHX3j60x7dhOAY22pjhRMjLjltTqQrQLtjW5Ch%2FFuU11aOTa%2Bbdyu0Kf59L%2B2ALHkwY%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "287433766127",
+      "title": "Balenciaga The City 115748 Leather Gray Shoulder Bag Women's #TB3236",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287433766127?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9Z76EDKVMVAAMAK41D&hash=item42ec6334ef:g:R-QAAeSwHitqRp4r&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xABHN857QHs9c9ADf39G6uzaNtT8RXp7%2BBUWIOBY%2B%2FItqxEKLyVAQoh%2B7RkB3Bfl7AG2jcZ8GqHfmAEglBcu8HjSZ--%2BHUPbN3DI6vKmJVVch7A95GjDVA5TsyJrGHavBmH9zH8qneJvjK%2BAqoW3ERcBQfDeV7ytpifTKg69z8jRpfU4ukgqOZzxb%2BTL1zOHHX3j60x7dhOAY22pjhRMjLjltTqQrQLtjW5Ch%2FFuU11aOTa%2Bbdyu0Kf59L%2B2ALHkwY%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 168,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287443056425",
+    "title": "Balenciaga Giant City 173084 1202 Leather Green Shoulder Bag 2001 #KNB6886",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287443056425?_skw=balenciaga+city+bag&itmmeta=01KXGPQPA05AR9VBHEC5Z0MN5K&hash=item42ecf0f729:g:6Y8AAeSwGGJqTFdG&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAwH9NzXN4p38I%2FWteWDd6djHreszS0QWToZpFe12WBXZDiq1RXwjMIgYm79xwIYGUC8w0NwhWfZNOGi7OZGBDcpzuW2G%2FmlMhjg1hGVDGbE6cV0vEer6kZ0iMbTDvyN360IPb5aySp74Ms87hABFjyC4wR57RP0UpxQyw0QojbnWyU4S2BvocouFv%2BPiD%2Bm6f60erpKwepN7IS%2Bu%2BCgz6CupHL8PkYpn4cM2O0RemXYGOsulknjO86WtthYRm2jMQ%3D%7Ctkp%3ABk9SR5Ll3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "287443056425",
+      "title": "Balenciaga Giant City 173084 1202 Leather Green Shoulder Bag 2001 #KNB6886",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287443056425?_skw=balenciaga+city+bag&itmmeta=01KXGPQPA05AR9VBHEC5Z0MN5K&hash=item42ecf0f729:g:6Y8AAeSwGGJqTFdG&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAwH9NzXN4p38I%2FWteWDd6djHreszS0QWToZpFe12WBXZDiq1RXwjMIgYm79xwIYGUC8w0NwhWfZNOGi7OZGBDcpzuW2G%2FmlMhjg1hGVDGbE6cV0vEer6kZ0iMbTDvyN360IPb5aySp74Ms87hABFjyC4wR57RP0UpxQyw0QojbnWyU4S2BvocouFv%2BPiD%2Bm6f60erpKwepN7IS%2Bu%2BCgz6CupHL8PkYpn4cM2O0RemXYGOsulknjO86WtthYRm2jMQ%3D%7Ctkp%3ABk9SR5Ll3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 116,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287443056582",
+    "title": "Balenciaga The City 115748 Lambskin Leather Purple Shoulder Bag Women's #KNB7230",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287443056582?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XWG7X18CJ1K5TMBD3&hash=item42ecf0f7c6:g:IhwAAeSwejpqTFcD&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xB6RKSEiaFcsyIX5oKwXZnRRdpRGXCU28OpHKVNLHR65Y03fQxMMR4wGBi4f%2BZD7aqOBNJ6ibzSXu4PsGq1BvNxQeiKhcXB0EFOdrOeIR8cjdURA30t2sRRONuCxpZcLcRzK8%2FYkzbpV8L%2FL1HVly0X3kZI6%2BxFZqxFWXqP35%2BbNar8Ll3Mxx%2Fpe9Bk2rhEiJK0RpBsfNFXQ1DvUPAYZRUPdxQf6a97TOe%2FoHbjKq01o9D0Bq6YeYaVvGvJS%2FJn3SOFfUa8%2FEZdQr3OHFCjHLPN52U4OfsRpWyH%2FxbVy1qS4g%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "287443056582",
+      "title": "Balenciaga The City 115748 Lambskin Leather Purple Shoulder Bag Women's #KNB7230",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287443056582?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XWG7X18CJ1K5TMBD3&hash=item42ecf0f7c6:g:IhwAAeSwejpqTFcD&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xB6RKSEiaFcsyIX5oKwXZnRRdpRGXCU28OpHKVNLHR65Y03fQxMMR4wGBi4f%2BZD7aqOBNJ6ibzSXu4PsGq1BvNxQeiKhcXB0EFOdrOeIR8cjdURA30t2sRRONuCxpZcLcRzK8%2FYkzbpV8L%2FL1HVly0X3kZI6%2BxFZqxFWXqP35%2BbNar8Ll3Mxx%2Fpe9Bk2rhEiJK0RpBsfNFXQ1DvUPAYZRUPdxQf6a97TOe%2FoHbjKq01o9D0Bq6YeYaVvGvJS%2FJn3SOFfUa8%2FEZdQr3OHFCjHLPN52U4OfsRpWyH%2FxbVy1qS4g%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 125,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287443056729",
+    "title": "Balenciaga The City 115748 Leather Pink Shoulder Bag Women's #KNB6898",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287443056729?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XXMH7J21K0474GZ6R&hash=item42ecf0f859:g:s-QAAeSwCDpqTFdJ&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAH5%2FjZNppJ23HgAipRXCOriKehCkgvLq65vvzkbR2XQMtCw6X2y%2FqRsKh1XRjhT8fIWZR%2B6s%2FhDpC3rmm%2FApvzDl2nCPF7LTepCM61mXvaYo2VZ5r0ANdN%2BOnvfr%2FmrirE1ch1dW01XA0ALaAnvAoyJwIqtLZEW7cz4ydbgs5g%2F3OgilM5AkP%2FIMwExOruFruuuKQ3P0aUvVuazWMiNpziZXTpmXytVPMlMOs8IEGfChxXMrLfqVWF4zJgKvvPr8T5zX7yeX7%2B0oydqs8GYC1qq4h3hCPDAO4MUGNxrVI%2FiA%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "287443056729",
+      "title": "Balenciaga The City 115748 Leather Pink Shoulder Bag Women's #KNB6898",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287443056729?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XXMH7J21K0474GZ6R&hash=item42ecf0f859:g:s-QAAeSwCDpqTFdJ&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAH5%2FjZNppJ23HgAipRXCOriKehCkgvLq65vvzkbR2XQMtCw6X2y%2FqRsKh1XRjhT8fIWZR%2B6s%2FhDpC3rmm%2FApvzDl2nCPF7LTepCM61mXvaYo2VZ5r0ANdN%2BOnvfr%2FmrirE1ch1dW01XA0ALaAnvAoyJwIqtLZEW7cz4ydbgs5g%2F3OgilM5AkP%2FIMwExOruFruuuKQ3P0aUvVuazWMiNpziZXTpmXytVPMlMOs8IEGfChxXMrLfqVWF4zJgKvvPr8T5zX7yeX7%2B0oydqs8GYC1qq4h3hCPDAO4MUGNxrVI%2FiA%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 136,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287459599009",
+    "title": "BALENCIAGA City Nano Handbag White Leather Shoulder Bag 819671 #OKB3095",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287459599009?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YM1G6JP707F00DRVC&hash=item42eded62a1:g:WbwAAeSwo9lqVX9z&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBVTx1y2OceZlZnL59%2B%2BoAghnWIcHr7muUmtXxAw525W3w%2FkTTQNzN8djt%2B9QA8mvjEKNFLs0PNwCsq2ukmWfKz8gy6MMgsxpOLCgttU57HA%2FCruOPgqJ6JNr0HZlCkotghFHFprISWQW4osHvhopTWOJ8X%2BRB1MeUlrhwgp0q8hxi1Ba%2BuMiPVPCXRU%2FIDVQVHqFbyBuTgcdKWlIqhAS56rRLy4rXfo371TUaKYEJ8M7mjNSaJkcZA3PrMroD%2B%2BGk%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "287459599009",
+      "title": "BALENCIAGA City Nano Handbag White Leather Shoulder Bag 819671 #OKB3095",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287459599009?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YM1G6JP707F00DRVC&hash=item42eded62a1:g:WbwAAeSwo9lqVX9z&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBVTx1y2OceZlZnL59%2B%2BoAghnWIcHr7muUmtXxAw525W3w%2FkTTQNzN8djt%2B9QA8mvjEKNFLs0PNwCsq2ukmWfKz8gy6MMgsxpOLCgttU57HA%2FCruOPgqJ6JNr0HZlCkotghFHFprISWQW4osHvhopTWOJ8X%2BRB1MeUlrhwgp0q8hxi1Ba%2BuMiPVPCXRU%2FIDVQVHqFbyBuTgcdKWlIqhAS56rRLy4rXfo371TUaKYEJ8M7mjNSaJkcZA3PrMroD%2B%2BGk%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 166,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "298230685875",
+    "title": "Balenciaga City Bag Medium in Pink with Strap in Motorcycle Gold Hardware",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/298230685875?_skw=balenciaga+city+bag&itmmeta=01KXGPQPA03RKWA0XNFYK2KWGZ&hash=item456fef20b3:g:P~kAAeSwWIZp4B~F&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xA2Q7yWW4R1KQ8FfeRO1MtgQPG1OtpERYmS6GKrjnFUivYSW%2F3J4hLIjCsyL6Ha%2B0uEd%2BP1eY9HYVSjcaeSmU4lJofo2rh4nwkdi3qCzCzl6QHgkcHOq%2B8ofqq2mOvjiyNMfZZ6qTNzabksS808oza1EdYOE9jiWzaZMqu4sx5jluOqYULwDM8mULax%2B8j%2FoTdjZGR28R76SXNAVmb7Eb86ZcYCPUb37G%2FhXU3FCe6Bu%2F78TI6o6T2fe5ZPViS1mcM%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "298230685875",
+      "title": "Balenciaga City Bag Medium in Pink with Strap in Motorcycle Gold Hardware",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/298230685875?_skw=balenciaga+city+bag&itmmeta=01KXGPQPA03RKWA0XNFYK2KWGZ&hash=item456fef20b3:g:P~kAAeSwWIZp4B~F&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xA2Q7yWW4R1KQ8FfeRO1MtgQPG1OtpERYmS6GKrjnFUivYSW%2F3J4hLIjCsyL6Ha%2B0uEd%2BP1eY9HYVSjcaeSmU4lJofo2rh4nwkdi3qCzCzl6QHgkcHOq%2B8ofqq2mOvjiyNMfZZ6qTNzabksS808oza1EdYOE9jiWzaZMqu4sx5jluOqYULwDM8mULax%2B8j%2FoTdjZGR28R76SXNAVmb7Eb86ZcYCPUb37G%2FhXU3FCe6Bu%2F78TI6o6T2fe5ZPViS1mcM%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 160,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "298249154490",
+    "title": "Balenciaga City Part Time Shoulder Bag in Peachy Coral with Silver Hardware",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/298249154490?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZJD50YKBXSW86E6BS&hash=item457108efba:g:ehwAAeSweM9p4COs&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDCmfoL6ExnHSM85eWxrOw0Q4MXnLV0Fn3sQJqWYJj2tJkDXARN9T%2BlWWE%2FZLv6zXUcHdzBynkZ82DXd0znf7FCao9GHpZ8lGxnvM5Odxhk5VqE7nGQZ2AEq7Eq3GKLATJkYlSiYSFOSkCwLd0R30tUoUT061MpqezfoJwTt926DZugn3xWeStNFmZRUtZ7cd%2BMNfvFsId6F9AoeIO7zFSgISGuTTSoWx4WV5LIx7gg68DLEmKasxAntSZTUYNy4xiYXsY58BN90UQ8Ph%2F4V3j%2B9sR5ZQeKDnnp4CaC4pJm0A%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "298249154490",
+      "title": "Balenciaga City Part Time Shoulder Bag in Peachy Coral with Silver Hardware",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/298249154490?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZJD50YKBXSW86E6BS&hash=item457108efba:g:ehwAAeSweM9p4COs&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDCmfoL6ExnHSM85eWxrOw0Q4MXnLV0Fn3sQJqWYJj2tJkDXARN9T%2BlWWE%2FZLv6zXUcHdzBynkZ82DXd0znf7FCao9GHpZ8lGxnvM5Odxhk5VqE7nGQZ2AEq7Eq3GKLATJkYlSiYSFOSkCwLd0R30tUoUT061MpqezfoJwTt926DZugn3xWeStNFmZRUtZ7cd%2BMNfvFsId6F9AoeIO7zFSgISGuTTSoWx4WV5LIx7gg68DLEmKasxAntSZTUYNy4xiYXsY58BN90UQ8Ph%2F4V3j%2B9sR5ZQeKDnnp4CaC4pJm0A%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 163,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "298455079991",
+    "title": "Balenciaga Part Time City Bag in Red with Rose Gold Giant Hardware",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/298455079991?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZVSC8ZS2D06MZAF5N&hash=item457d4f1c37:g:n7AAAeSwBZ1qPp7E&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAN5vFNifkqoNHH%2F7jf4mW%2BbyDQiIjF%2FouBJxX1ydBSAuhHivY9UaUNntuE34LCxWMUgR9o4ScrZvdVc6%2BVXjwEnDC0eSDXZLsHpyzLJxf%2Bkta60E%2BZlWDBJb6Q7KYX3m0Y5JtLCAyasEONTodeuhS0%2FrwoI4VQtZjFQLJRGXZzZ41rySq%2FQXxFmArDMv7fqU1BdwpV%2FaVLip39KmTCehOEgP2WE9lbVfn9ZK6XKUjWq4Oed6WoqAOgyMImlkkOxfo%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "298455079991",
+      "title": "Balenciaga Part Time City Bag in Red with Rose Gold Giant Hardware",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/298455079991?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZVSC8ZS2D06MZAF5N&hash=item457d4f1c37:g:n7AAAeSwBZ1qPp7E&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAN5vFNifkqoNHH%2F7jf4mW%2BbyDQiIjF%2FouBJxX1ydBSAuhHivY9UaUNntuE34LCxWMUgR9o4ScrZvdVc6%2BVXjwEnDC0eSDXZLsHpyzLJxf%2Bkta60E%2BZlWDBJb6Q7KYX3m0Y5JtLCAyasEONTodeuhS0%2FrwoI4VQtZjFQLJRGXZzZ41rySq%2FQXxFmArDMv7fqU1BdwpV%2FaVLip39KmTCehOEgP2WE9lbVfn9ZK6XKUjWq4Oed6WoqAOgyMImlkkOxfo%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 127,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "307047379786",
+    "title": "BALENCIAGA Velo City Leather Two Way Bag - Grey Blue",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/307047379786?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XVTM4C40793FDZ3Q3&hash=item477d73334a:g:V9IAAeSwhLBqJlty&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCpnoaQy20BGzK%2BZ6GzF96gkx%2BvKTyqhvva5CJmJYg9XrgnhIx5S7f5dhy1scsmd6qYdfFheeVRioeyObdmlbERY3YTgGkzn8TU7i9okaJcNVmDejDEHLvcTiCPZ93p0JH%2BbNlE%2B%2B4Kmf%2FFvSuaIdNppNfKRCyTC0DYlJ2PaoSmH9WNHGtnIZ06w5EGpQUsb3OSHx3zjOH3%2FLtyzO4m6ZQJgmiA%2F5G8bcJKiWVC20X%2FrinHnlPV14GZSlxt6%2BGPCoU%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "307047379786",
+      "title": "BALENCIAGA Velo City Leather Two Way Bag - Grey Blue",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/307047379786?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XVTM4C40793FDZ3Q3&hash=item477d73334a:g:V9IAAeSwhLBqJlty&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCpnoaQy20BGzK%2BZ6GzF96gkx%2BvKTyqhvva5CJmJYg9XrgnhIx5S7f5dhy1scsmd6qYdfFheeVRioeyObdmlbERY3YTgGkzn8TU7i9okaJcNVmDejDEHLvcTiCPZ93p0JH%2BbNlE%2B%2B4Kmf%2FFvSuaIdNppNfKRCyTC0DYlJ2PaoSmH9WNHGtnIZ06w5EGpQUsb3OSHx3zjOH3%2FLtyzO4m6ZQJgmiA%2F5G8bcJKiWVC20X%2FrinHnlPV14GZSlxt6%2BGPCoU%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 124,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "358473317807",
+    "title": "Balenciaga The City Velo Black Leather Handbag Shoulder Bag Classic Style",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/358473317807?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XGXYTD1VGYTMK3RP3&hash=item5376acbdaf:g:Og4AAeSwA7pp6F3X&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDZ5SyF3I2rQIjoEf52lvzEF6LyzaqMUfpQThTHQL02VmBBtM1%2BDI4JqIO89%2Fxkc8VKoPU2CAE0dnKoco8tS4J0XEVOMeJ2kflA1AZpKvNCUm9fVEOP2Y2C8wePg4dnEmDL3EluXARlF%2FOwjueFNEsoa1JqiwSE1NRX5B%2Bal2DQZT6%2FbcKzxSiUryTz7Eo2sKVgBz1NqiBcGovm0jN0Cv7JwZ8rwxWphqBfeBhGk2mgkXeov8cR3fopfnAJAHPOkYJm35TTf2BKtdAfubhMmHxFPWzaIXfLF4iCBy80l6ureQ%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "358473317807",
+      "title": "Balenciaga The City Velo Black Leather Handbag Shoulder Bag Classic Style",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/358473317807?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XGXYTD1VGYTMK3RP3&hash=item5376acbdaf:g:Og4AAeSwA7pp6F3X&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDZ5SyF3I2rQIjoEf52lvzEF6LyzaqMUfpQThTHQL02VmBBtM1%2BDI4JqIO89%2Fxkc8VKoPU2CAE0dnKoco8tS4J0XEVOMeJ2kflA1AZpKvNCUm9fVEOP2Y2C8wePg4dnEmDL3EluXARlF%2FOwjueFNEsoa1JqiwSE1NRX5B%2Bal2DQZT6%2FbcKzxSiUryTz7Eo2sKVgBz1NqiBcGovm0jN0Cv7JwZ8rwxWphqBfeBhGk2mgkXeov8cR3fopfnAJAHPOkYJm35TTf2BKtdAfubhMmHxFPWzaIXfLF4iCBy80l6ureQ%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 169,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "358692148938",
+    "title": "Balenciaga Motorcycle Classic City Bag C Tag Olive Grey Chevre Leather Rare 2004",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/358692148938?_skw=balenciaga+city+bag&itmmeta=01KXGPQPA0YVJT6A53Z89T5RG1&hash=item5383b7d6ca:g:PcMAAeSwBhJqMt53&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAjPdcavx3PEsy%2BZpVrWh2qP5ZvVSyPX6EVHLC2NsCFiEH2pffIx6Bn2Bc6HwDZmiu0AXQOVRSfQpE2scxaR83zHVd%2BH%2BUuneJh8E8alIfL1sDu7tQKgvNlJoFQqWjYCRDqhwtBYQjsw62wggbFdzWiUWwfCYa2mdo8J%2B35FFfHpY8csxudCxYBmByzNNwxlpd4m260K8jRCJ4cUFajqJlvjmcxD3ysmnu1a%2BxYwOLwZR45vIdJtqxcXoEJHKPdL70%3D%7Ctkp%3ABk9SR5Ll3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "358692148938",
+      "title": "Balenciaga Motorcycle Classic City Bag C Tag Olive Grey Chevre Leather Rare 2004",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/358692148938?_skw=balenciaga+city+bag&itmmeta=01KXGPQPA0YVJT6A53Z89T5RG1&hash=item5383b7d6ca:g:PcMAAeSwBhJqMt53&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAjPdcavx3PEsy%2BZpVrWh2qP5ZvVSyPX6EVHLC2NsCFiEH2pffIx6Bn2Bc6HwDZmiu0AXQOVRSfQpE2scxaR83zHVd%2BH%2BUuneJh8E8alIfL1sDu7tQKgvNlJoFQqWjYCRDqhwtBYQjsw62wggbFdzWiUWwfCYa2mdo8J%2B35FFfHpY8csxudCxYBmByzNNwxlpd4m260K8jRCJ4cUFajqJlvjmcxD3ysmnu1a%2BxYwOLwZR45vIdJtqxcXoEJHKPdL70%3D%7Ctkp%3ABk9SR5Ll3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 153,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "358784745203",
+    "title": "Balenciaga City Blackout Stud-Free Bag Navy",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/358784745203?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZNEBXWCJBBSWTH6XM&hash=item53893cbef3:g:qawAAeSwzmFqUr0J&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCyewF4mu1Tn7BOZ3J%2BirHSETkt1xB35PpTlx4uRuBuAvV4%2FeMuC28b%2FEuh82l%2BOejy9sAGj7p7I%2FwL2%2FC8fkxyrliZM%2BnkhA8e1mVL7d5tMa4anug0GG0p8WflAj31QdgLc%2FrQU7wsyps3M%2FhG5xv%2FPwRbcDvjzKBrdrpP4lZKNWm5PmPz1xR2zbt6M9C1lNOftwzmtBJloN5BNq1wZ1lc734JoUj728fVrJjO5kbPqt50E80YsDz%2FKh6sVb5bqAo%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "358784745203",
+      "title": "Balenciaga City Blackout Stud-Free Bag Navy",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/358784745203?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZNEBXWCJBBSWTH6XM&hash=item53893cbef3:g:qawAAeSwzmFqUr0J&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCyewF4mu1Tn7BOZ3J%2BirHSETkt1xB35PpTlx4uRuBuAvV4%2FeMuC28b%2FEuh82l%2BOejy9sAGj7p7I%2FwL2%2FC8fkxyrliZM%2BnkhA8e1mVL7d5tMa4anug0GG0p8WflAj31QdgLc%2FrQU7wsyps3M%2FhG5xv%2FPwRbcDvjzKBrdrpP4lZKNWm5PmPz1xR2zbt6M9C1lNOftwzmtBJloN5BNq1wZ1lc734JoUj728fVrJjO5kbPqt50E80YsDz%2FKh6sVb5bqAo%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 115,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "366359362285",
+    "title": "balenciaga le city bag medium green",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/366359362285?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XAXX9DP8QQDQ5PCH6&hash=item554cb83aed:g:MCYAAeSwcxBpp8IV&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBI9K3nwRSWCqyqht60lXZFjqisdHUd0GzcLz0HXUHdMbvEW49xG3E1WEyoVSjqcq%2B6cIVdGR1sIgVnH3qmKwkg%2BzSDGItzbQbSz2Q7UCLRlIjr6nYlfK%2F2qaoS6GhYlXFgFR6vKDsPIWrc3IHAmeJHGPA8Ypbv8sit7ooh0DNFxM%2FhB%2B3oZBQnBYZCONAVgBjQZllLvVDN311U6CXGREO2cAutc4XGQYrTTMYzDaakl%2FYtvuJXutPWNreo6cnunFxJx4gNcQMZr%2BFrenzmcvbvpb2GBf7SDcNCqd0S8tsjOw%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "366359362285",
+      "title": "balenciaga le city bag medium green",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/366359362285?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XAXX9DP8QQDQ5PCH6&hash=item554cb83aed:g:MCYAAeSwcxBpp8IV&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBI9K3nwRSWCqyqht60lXZFjqisdHUd0GzcLz0HXUHdMbvEW49xG3E1WEyoVSjqcq%2B6cIVdGR1sIgVnH3qmKwkg%2BzSDGItzbQbSz2Q7UCLRlIjr6nYlfK%2F2qaoS6GhYlXFgFR6vKDsPIWrc3IHAmeJHGPA8Ypbv8sit7ooh0DNFxM%2FhB%2B3oZBQnBYZCONAVgBjQZllLvVDN311U6CXGREO2cAutc4XGQYrTTMYzDaakl%2FYtvuJXutPWNreo6cnunFxJx4gNcQMZr%2BFrenzmcvbvpb2GBf7SDcNCqd0S8tsjOw%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 167,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "377339022797",
+    "title": "BALENCIAGA The City 2Way Leather Shoulder Bag Black 115748 Authentic",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/377339022797?_skw=balenciaga+city+bag&itmmeta=01KXGPQPA0SE7BZJ420382PBGQ&hash=item57db288dcd:g:DpkAAeSwrBNqVI8a&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xB0cZ8u5olTI4hEGNGpc%2BXJddh627n4CgrmcIaO%2BMEXyEaMR9twbbg7opd5Fupw3jXd2BGsBJOPo%2FokxF6ffx4vIw6yV4W5BQ5obw0%2FWiMIyGvH%2Bj9%2FACd%2Fw9%2B25HRFZ%2B4B0HB4qbPGZ%2BMx7xL2xooDiYYLX3mTQFAVspGRnZ8Wqe2yCtRMB78%2Byu%2BcaLv%2FXPSdTJ545VojgAFLNaXxSLWxU9Ao9UxCpoGmdBog1PIXfZda%2B36SAvFMNf%2BxXVK0o3Q%3D%7Ctkp%3ABk9SR5Ll3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "377339022797",
+      "title": "BALENCIAGA The City 2Way Leather Shoulder Bag Black 115748 Authentic",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/377339022797?_skw=balenciaga+city+bag&itmmeta=01KXGPQPA0SE7BZJ420382PBGQ&hash=item57db288dcd:g:DpkAAeSwrBNqVI8a&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xB0cZ8u5olTI4hEGNGpc%2BXJddh627n4CgrmcIaO%2BMEXyEaMR9twbbg7opd5Fupw3jXd2BGsBJOPo%2FokxF6ffx4vIw6yV4W5BQ5obw0%2FWiMIyGvH%2Bj9%2FACd%2Fw9%2B25HRFZ%2B4B0HB4qbPGZ%2BMx7xL2xooDiYYLX3mTQFAVspGRnZ8Wqe2yCtRMB78%2Byu%2BcaLv%2FXPSdTJ545VojgAFLNaXxSLWxU9Ao9UxCpoGmdBog1PIXfZda%2B36SAvFMNf%2BxXVK0o3Q%3D%7Ctkp%3ABk9SR5Ll3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 128,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "398147075626",
+    "title": "Balenciaga Classic City Parchemin Distressed Leather Vintage",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/398147075626?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YEXSRSQ4JHV6ZVRK2&hash=item5cb36a3e2a:g:-B0AAeSw9zVqTBN6&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBR7BjuVYY3024a%2FsMnD8ZjuJtZ98ef9NLXhMiHRY13UDsfewiDYRZr9M%2Fz4I42CkgMqzyNKjX6FqckV%2BzfCp3hqxrTUhyAsT2VJ8ktnWZ24wNdLmW%2FXcjgLsHO2gs9gQ6bf1beM%2FB2%2FsAwahqGafFrdA%2BOB64Vdw82FjKNBPLNWLPRGYewN67f0pFlBYPFfqqA0gUezK94i0HUGufakZ4wGudV%2F%2BnvlE6XO2MfDbeUMxxaYP7X6xWJNcSzHhsrxrM%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "398147075626",
+      "title": "Balenciaga Classic City Parchemin Distressed Leather Vintage",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/398147075626?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YEXSRSQ4JHV6ZVRK2&hash=item5cb36a3e2a:g:-B0AAeSw9zVqTBN6&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBR7BjuVYY3024a%2FsMnD8ZjuJtZ98ef9NLXhMiHRY13UDsfewiDYRZr9M%2Fz4I42CkgMqzyNKjX6FqckV%2BzfCp3hqxrTUhyAsT2VJ8ktnWZ24wNdLmW%2FXcjgLsHO2gs9gQ6bf1beM%2FB2%2FsAwahqGafFrdA%2BOB64Vdw82FjKNBPLNWLPRGYewN67f0pFlBYPFfqqA0gUezK94i0HUGufakZ4wGudV%2F%2BnvlE6XO2MfDbeUMxxaYP7X6xWJNcSzHhsrxrM%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 120,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "800332076108",
+    "title": "BALENCIAGA Rodeo Medium Luxury Black Genuine Leather Shoulder Handbag Women`s",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/800332076108?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XKAHXS3JVZT68WVNR&hash=itemba5782544c:g:FE4AAeSwENVqVIBV&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAiQAQhRdBx8j6DcGloZN6jdsrxiOJRHe2zaTXaJ8Z0jqK0tA2ioN1IR0Sd4UMx--H5MLaCcxHPbPr1TbgtO85A8s4rr543BTK6L2sUwDnz%2BYbTq7VoK6L4rV1HDyZ4dVyLIs1prqOmDDQN%2BCqvu1ZGUgxiAr1Y8a%2Bup6xkXMhi2KlQLPOd%2FnGnYPM06cgbeLKEi2vzDWD42QHuq4oCjXA8O%2Fmuyc%2B9W8tAtv1kT140gOAJyF%2BZw3gulYz%2BDXfqx%2BjJG8X60eOTAEOISfsdTccqEVPCOAH1jr%2BS2ss3Pr%2BHhQ%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "800332076108",
+      "title": "BALENCIAGA Rodeo Medium Luxury Black Genuine Leather Shoulder Handbag Women`s",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/800332076108?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XKAHXS3JVZT68WVNR&hash=itemba5782544c:g:FE4AAeSwENVqVIBV&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAiQAQhRdBx8j6DcGloZN6jdsrxiOJRHe2zaTXaJ8Z0jqK0tA2ioN1IR0Sd4UMx--H5MLaCcxHPbPr1TbgtO85A8s4rr543BTK6L2sUwDnz%2BYbTq7VoK6L4rV1HDyZ4dVyLIs1prqOmDDQN%2BCqvu1ZGUgxiAr1Y8a%2Bup6xkXMhi2KlQLPOd%2FnGnYPM06cgbeLKEi2vzDWD42QHuq4oCjXA8O%2Fmuyc%2B9W8tAtv1kT140gOAJyF%2BZw3gulYz%2BDXfqx%2BjJG8X60eOTAEOISfsdTccqEVPCOAH1jr%2BS2ss3Pr%2BHhQ%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 111,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "358793314460",
+    "title": "BALENCIAGA The city Handbag 115748 leather blue",
+    "price": 673.5,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/358793314460?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XBEGJBFS2ZYFQNK36&hash=item5389bf809c:g:mokAAeSwJM5qVavg&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCfAH1Ef03l2wvmEB7hLfUCmJsUm5SKagueN5KOr6wQLEXnS1opY6CEHqATvgbHuFkK5x4oCiltvYma7ko0VemSaomI3hkTI4uLFOq0dFO69pMAWtujhbi%2FYlj3uJjkXsjbkYEtM%2FyoXZXoesK0CEaCzVtK4Qvdj4DiLC8x3Wl00hJj98xM1J6VMzv7Yj5GczRWy%2BmzsbFQ82rYrs1fvfPgngdtSqFNWnoeltuAGeJevx9zG8DU60I21%2FZb0G07sSc%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "358793314460",
+      "title": "BALENCIAGA The city Handbag 115748 leather blue",
+      "price": {
+        "value": "673.50",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/358793314460?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XBEGJBFS2ZYFQNK36&hash=item5389bf809c:g:mokAAeSwJM5qVavg&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCfAH1Ef03l2wvmEB7hLfUCmJsUm5SKagueN5KOr6wQLEXnS1opY6CEHqATvgbHuFkK5x4oCiltvYma7ko0VemSaomI3hkTI4uLFOq0dFO69pMAWtujhbi%2FYlj3uJjkXsjbkYEtM%2FyoXZXoesK0CEaCzVtK4Qvdj4DiLC8x3Wl00hJj98xM1J6VMzv7Yj5GczRWy%2BmzsbFQ82rYrs1fvfPgngdtSqFNWnoeltuAGeJevx9zG8DU60I21%2FZb0G07sSc%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 126,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "227429342388",
+    "title": "BALENCIAGA Classic City Small 2 Way Shoulder 431621 Calfskin Black Multicolor",
+    "price": 770,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/227429342388?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XWBRWB6MYCYFFHHX1&hash=item34f3d85cb4:g:cyYAAeSwDSdqL9GB&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xC%2FdTW7EJzSqPqsW8jmrRh28vOfD8MAdnrdQuIUyvrtqh2bouMG5A43EUfRPOffxwxf7r%2FSRzgpvehZa%2BoQRf3J767%2B3T2Vl86jHHAFp4c9ACBOBavoVREW1Wm0odDAkJXthKd47ZF9SkRLbrqx0tcZij1Go7%2FaOtXZusVL8d%2BVZ9OUEtQJFKpk1YgqUxcytaEWKTFNZfiIaZPV7RX4PRwEm6ywgiBhIwjxLPaS0xNL1fBJE2isaB5utt3%2B88P6S8A%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "227429342388",
+      "title": "BALENCIAGA Classic City Small 2 Way Shoulder 431621 Calfskin Black Multicolor",
+      "price": {
+        "value": "770.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/227429342388?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XWBRWB6MYCYFFHHX1&hash=item34f3d85cb4:g:cyYAAeSwDSdqL9GB&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xC%2FdTW7EJzSqPqsW8jmrRh28vOfD8MAdnrdQuIUyvrtqh2bouMG5A43EUfRPOffxwxf7r%2FSRzgpvehZa%2BoQRf3J767%2B3T2Vl86jHHAFp4c9ACBOBavoVREW1Wm0odDAkJXthKd47ZF9SkRLbrqx0tcZij1Go7%2FaOtXZusVL8d%2BVZ9OUEtQJFKpk1YgqUxcytaEWKTFNZfiIaZPV7RX4PRwEm6ywgiBhIwjxLPaS0xNL1fBJE2isaB5utt3%2B88P6S8A%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 123,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "137490342660",
+    "title": "Balenciaga The City Handbag Shoulder Bag 2way Blue Leather Auth 115748",
+    "price": 773,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/137490342660?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XQAS057NY1KWTTWJA&hash=item2003102304:g:ld4AAeSwyehqTHiK&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCjZTIpPu4aNzywNSye8DXYvX85dug1QFDvg66ecibZVw2khjSf7025jAhU4PQ1xNPy95HCUZyBRjZiCLPqZP5rmifnRikwYuEzVCUGvsKko3tjIhq7XnNZTfKaGDgKFrOSv84gjmIBxkBEqrQ4lLb1CrCqq4terFH75rhYn0aq9z8h4Iv5ATCZF2ESxcrYGu9SAiscud%2FYTfvBhLw0AIix8nd6dotdqQAnpzPfDeH3UQpCjnR3HnFfPYc5H6zFq4k%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "137490342660",
+      "title": "Balenciaga The City Handbag Shoulder Bag 2way Blue Leather Auth 115748",
+      "price": {
+        "value": "773.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/137490342660?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XQAS057NY1KWTTWJA&hash=item2003102304:g:ld4AAeSwyehqTHiK&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCjZTIpPu4aNzywNSye8DXYvX85dug1QFDvg66ecibZVw2khjSf7025jAhU4PQ1xNPy95HCUZyBRjZiCLPqZP5rmifnRikwYuEzVCUGvsKko3tjIhq7XnNZTfKaGDgKFrOSv84gjmIBxkBEqrQ4lLb1CrCqq4terFH75rhYn0aq9z8h4Iv5ATCZF2ESxcrYGu9SAiscud%2FYTfvBhLw0AIix8nd6dotdqQAnpzPfDeH3UQpCjnR3HnFfPYc5H6zFq4k%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 150,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "157960407616",
+    "title": "BALENCIAGA Town Bag Red Leather Motorcycle Shoulder Y2K Vintage Used Japan",
+    "price": 799.99,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/157960407616?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZZ7TC3JQABZD1T9QA&hash=item24c72c8a40:g:5JIAAeSwLDppw8f-&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBLTf7or2YkHVPozn1uW6vRzuHYIBSek2SKLMZn51l0GLQmYAZWLV4iX%2B8Cf7fB940gMC2BzBpiic8c%2BoWRBoDwbKHSUgryOOepC%2Bew8WlRCdvfFS3fIEA3J%2BIrjVzWMdZvMKwy9IdKN7AyBaP71ymXVwnMmrXgXxaM8GJwBx4G2x%2BLIADiaSGTme9XKnFJSgfk%2F1RB7oajv3oB7UYEM3r2BOmQdx1ltfPBM4wzg1k%2B4ga9o2JRe8O8Rp0ytlgmK9HNDOUUKCDDrevOnxLosE%2FWZ55qpouq99vy6G211Uk7OA%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "157960407616",
+      "title": "BALENCIAGA Town Bag Red Leather Motorcycle Shoulder Y2K Vintage Used Japan",
+      "price": {
+        "value": "799.99",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/157960407616?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZZ7TC3JQABZD1T9QA&hash=item24c72c8a40:g:5JIAAeSwLDppw8f-&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBLTf7or2YkHVPozn1uW6vRzuHYIBSek2SKLMZn51l0GLQmYAZWLV4iX%2B8Cf7fB940gMC2BzBpiic8c%2BoWRBoDwbKHSUgryOOepC%2Bew8WlRCdvfFS3fIEA3J%2BIrjVzWMdZvMKwy9IdKN7AyBaP71ymXVwnMmrXgXxaM8GJwBx4G2x%2BLIADiaSGTme9XKnFJSgfk%2F1RB7oajv3oB7UYEM3r2BOmQdx1ltfPBM4wzg1k%2B4ga9o2JRe8O8Rp0ytlgmK9HNDOUUKCDDrevOnxLosE%2FWZ55qpouq99vy6G211Uk7OA%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 141,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147310079567",
+    "title": "BALENCIAGA Giant 21 The City Multicolor Canvas Satin & Leather Two Way Bag",
+    "price": 835.71,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147310079567?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YXYP8WEXV0A94NWE8&hash=item224c5d6e4f:g:pywAAeSwqBdqBXR3&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDt06RcRVF%2B8Am4NKql%2B0nXQpgTcRbzm%2FNT9YV0rxU%2B6shBEY9Q292xPDndRLQfHpO1JTEsmPU77woGi12frwIQfK9if2QXwvGbv1Z8DGoFdme4SwOntUGpmPCl3dT20NPNZG8ffdBUz6pd6ZI4u1elAWbcZQhfNR0Of0ZqHU6RvKxge8uG%2Fymcbx0jVRxl7c1MHFRGhfIumWhLcVrc%2FSJKncddy85kAcKKdhIsQ0Trkp6Bya9GHYKu1nxj3Y8fsVwxIt3r%2B0unmrQEUMgRXp7wEDouNDjzeh%2BD0EQbjUDCTQ%3D%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "147310079567",
+      "title": "BALENCIAGA Giant 21 The City Multicolor Canvas Satin & Leather Two Way Bag",
+      "price": {
+        "value": "835.71",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147310079567?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YXYP8WEXV0A94NWE8&hash=item224c5d6e4f:g:pywAAeSwqBdqBXR3&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDt06RcRVF%2B8Am4NKql%2B0nXQpgTcRbzm%2FNT9YV0rxU%2B6shBEY9Q292xPDndRLQfHpO1JTEsmPU77woGi12frwIQfK9if2QXwvGbv1Z8DGoFdme4SwOntUGpmPCl3dT20NPNZG8ffdBUz6pd6ZI4u1elAWbcZQhfNR0Of0ZqHU6RvKxge8uG%2Fymcbx0jVRxl7c1MHFRGhfIumWhLcVrc%2FSJKncddy85kAcKKdhIsQ0Trkp6Bya9GHYKu1nxj3Y8fsVwxIt3r%2B0unmrQEUMgRXp7wEDouNDjzeh%2BD0EQbjUDCTQ%3D%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 122,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287424277442",
+    "title": "Used BALENCIAGA The City Leather Hand Bag Women's Yellow Japan",
+    "price": 848.3,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287424277442?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9X5YKMWPPJ2BTWB9MY&hash=item42ebd26bc2:g:~QsAAeSwwQVqQQry&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCIIPYMQt9dlicYv0ZK2gkry6fIA2IVbJYYyz2V56buw6uUhCk%2BQck3sgMMZLhVnFDV4FfhzwP8jAqWEQ4eCrnNGU4URsRVTqMCTBuQb%2FpUbk%2FbjikTVoMN9OvHn%2FlkSZ5IdZvg6ay2hgIa5qA1DiuarUJNRcu1kQ3RX%2B28eUUtg6PnPG3lq0WkOFSVDuca53QF75mVo7VcSGQRuvzwlJW2DKwvvouGRYek5UttS6xhF6PrGvCKjGl2clhw8rVgu5s%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "287424277442",
+      "title": "Used BALENCIAGA The City Leather Hand Bag Women's Yellow Japan",
+      "price": {
+        "value": "848.30",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287424277442?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9X5YKMWPPJ2BTWB9MY&hash=item42ebd26bc2:g:~QsAAeSwwQVqQQry&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCIIPYMQt9dlicYv0ZK2gkry6fIA2IVbJYYyz2V56buw6uUhCk%2BQck3sgMMZLhVnFDV4FfhzwP8jAqWEQ4eCrnNGU4URsRVTqMCTBuQb%2FpUbk%2FbjikTVoMN9OvHn%2FlkSZ5IdZvg6ay2hgIa5qA1DiuarUJNRcu1kQ3RX%2B28eUUtg6PnPG3lq0WkOFSVDuca53QF75mVo7VcSGQRuvzwlJW2DKwvvouGRYek5UttS6xhF6PrGvCKjGl2clhw8rVgu5s%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 140,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147133276550",
+    "title": "BALENCIAGA The City Light Grey Suede Hand Bag",
+    "price": 859.94,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147133276550?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YTS0FFGSRQKWZDGA3&hash=item2241d3a186:g:SekAAeSwnR9pgaU5&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCDwTbxTHaLMvNmAGNwP1qV7I5svcpk18mf7VMKG4TcwHUTvbC0vwJi%2BVjNyPo%2B2fP2aTmg%2Fm%2BCK5yWRDQ%2BKN83ts8zu%2BUahlpYhHNHcrPRTFi8q%2BEVCW3kS3UVRSooqsgSZ7%2FzV2CUEo2mtBVhSKAL12eFmFUFUclHEsQg3Y716Ih7Bo7cRThxqTPA65091iA6XjDGzG%2BncUVxdViBrJYc9a2VHKQAe7IC7zm4eIuEoQhMbcDetC6a7NetWEpmHHg%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "147133276550",
+      "title": "BALENCIAGA The City Light Grey Suede Hand Bag",
+      "price": {
+        "value": "859.94",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147133276550?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YTS0FFGSRQKWZDGA3&hash=item2241d3a186:g:SekAAeSwnR9pgaU5&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCDwTbxTHaLMvNmAGNwP1qV7I5svcpk18mf7VMKG4TcwHUTvbC0vwJi%2BVjNyPo%2B2fP2aTmg%2Fm%2BCK5yWRDQ%2BKN83ts8zu%2BUahlpYhHNHcrPRTFi8q%2BEVCW3kS3UVRSooqsgSZ7%2FzV2CUEo2mtBVhSKAL12eFmFUFUclHEsQg3Y716Ih7Bo7cRThxqTPA65091iA6XjDGzG%2BncUVxdViBrJYc9a2VHKQAe7IC7zm4eIuEoQhMbcDetC6a7NetWEpmHHg%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 165,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "158065456330",
+    "title": "Balenciaga The City 115748 Blue Distressed Leather Studded Shoulder Bag Used",
+    "price": 867.99,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/158065456330?_skw=balenciaga+city+bag&itmmeta=01KXGPQPA0MHXVEYJ2SR8C5QYT&hash=item24cd6f74ca:g:kmQAAeSw9wNqTdvj&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xC1F32pa2ffc4Go5bfdb6qjiDDKmgBrohkw95sxVQ%2B4JYTNjKnDsDVlXK33%2BEXx5dYfDlR8I6ldI%2Fjq2CvMXgRUk5eTN%2Fd%2B78AJ8vortp7LWgwMjRltocovHkrIj8%2F%2BCX3XAi6ugpjTpPYnBKFd6tdsbMU2lrKCkrUrxx4ekI9J%2F%2BR%2BDeoYPSlpdL2QF5cQwZz9y%2FlkExubnSs3MjJ65XnIyB2ZtiF6P7usWKWh07RIq%2FFhhDI%2FjWzd19dePDBKSqAG%2BRIeRNVMWgKoteqS6cXopcAl1%2FKw76cWoFCJpvZmeQ%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "158065456330",
+      "title": "Balenciaga The City 115748 Blue Distressed Leather Studded Shoulder Bag Used",
+      "price": {
+        "value": "867.99",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/158065456330?_skw=balenciaga+city+bag&itmmeta=01KXGPQPA0MHXVEYJ2SR8C5QYT&hash=item24cd6f74ca:g:kmQAAeSw9wNqTdvj&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xC1F32pa2ffc4Go5bfdb6qjiDDKmgBrohkw95sxVQ%2B4JYTNjKnDsDVlXK33%2BEXx5dYfDlR8I6ldI%2Fjq2CvMXgRUk5eTN%2Fd%2B78AJ8vortp7LWgwMjRltocovHkrIj8%2F%2BCX3XAi6ugpjTpPYnBKFd6tdsbMU2lrKCkrUrxx4ekI9J%2F%2BR%2BDeoYPSlpdL2QF5cQwZz9y%2FlkExubnSs3MjJ65XnIyB2ZtiF6P7usWKWh07RIq%2FFhhDI%2FjWzd19dePDBKSqAG%2BRIeRNVMWgKoteqS6cXopcAl1%2FKw76cWoFCJpvZmeQ%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 146,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "257584656859",
+    "title": "BALENCIAGA Motocross Giant 21 rose gold hardware black lambskin city tote bag",
+    "price": 883,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/257584656859?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZJ6HVQ5S89Q6EDYSJ&hash=item3bf93df1db:g:HcAAAeSwcW9qO-Vf&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCrMQk039a1vh6H3HhHp6mDEHD171EPInMdjho8E4K5xagn5ngI9f4rZw9b0o49gbHUQ01%2Fh2SLBRIELwGgBdpIxb%2B45umbIVMfoTvbZNsamIqiXULIzuibCUGvFcDeexgEcZgkfXEbzQK6moQUTmk%2BNJQ212vLPu%2BPfJlhoc0yXX9XWnNLh%2FE9NkX085nL1jB4lzwilqeG1N08UNTPGnhbrFrbrLxRmNJPgPfZ%2F4L3xd%2FCgsTwEHsa1w9foRtbQ13r4eaKy5bl0FuH0LA%2FgX%2FMcMAhxWV1lVOOFC3WvwMb0w%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "257584656859",
+      "title": "BALENCIAGA Motocross Giant 21 rose gold hardware black lambskin city tote bag",
+      "price": {
+        "value": "883.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/257584656859?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZJ6HVQ5S89Q6EDYSJ&hash=item3bf93df1db:g:HcAAAeSwcW9qO-Vf&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCrMQk039a1vh6H3HhHp6mDEHD171EPInMdjho8E4K5xagn5ngI9f4rZw9b0o49gbHUQ01%2Fh2SLBRIELwGgBdpIxb%2B45umbIVMfoTvbZNsamIqiXULIzuibCUGvFcDeexgEcZgkfXEbzQK6moQUTmk%2BNJQ212vLPu%2BPfJlhoc0yXX9XWnNLh%2FE9NkX085nL1jB4lzwilqeG1N08UNTPGnhbrFrbrLxRmNJPgPfZ%2F4L3xd%2FCgsTwEHsa1w9foRtbQ13r4eaKy5bl0FuH0LA%2FgX%2FMcMAhxWV1lVOOFC3WvwMb0w%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 117,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "137503850157",
+    "title": "BALENCIAGA Black Chevre Leather Twiggy Motorcycle Bag",
+    "price": 884,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/137503850157?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XCZXP040K8GQYCH33&hash=item2003de3ead:g:DfAAAeSwusNqUh4L&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xD5QQ%2BIcx%2FAr19Uf2SSeHhQHf5PQw35mhMXYtvHvrV97TbG8Ka6ByU02dv49wBZX794w1voYf67S%2B9gDhqOcE0cqZR8w2%2Fv%2BFFBJVtut2S%2Fl47jDDnWxbB%2B5E5vQX9f5wYa%2FobnKxRgMfeVlgD27FQyBQXQxIfrPTcc3PAs8iOsFjkqsb4gpPYLUMSY8llkmbMIvJRscAYjyC2O8V0ir5VLhrWlVrvfRDJCRNiN1n6jCl7oN%2Fs5RZacsiCtqkD7qb%2BbS6HnB%2FSlsmua4orrLjzuZFdCZaLPZeFjN5D89d%2BmQg%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "137503850157",
+      "title": "BALENCIAGA Black Chevre Leather Twiggy Motorcycle Bag",
+      "price": {
+        "value": "884.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/137503850157?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XCZXP040K8GQYCH33&hash=item2003de3ead:g:DfAAAeSwusNqUh4L&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xD5QQ%2BIcx%2FAr19Uf2SSeHhQHf5PQw35mhMXYtvHvrV97TbG8Ka6ByU02dv49wBZX794w1voYf67S%2B9gDhqOcE0cqZR8w2%2Fv%2BFFBJVtut2S%2Fl47jDDnWxbB%2B5E5vQX9f5wYa%2FobnKxRgMfeVlgD27FQyBQXQxIfrPTcc3PAs8iOsFjkqsb4gpPYLUMSY8llkmbMIvJRscAYjyC2O8V0ir5VLhrWlVrvfRDJCRNiN1n6jCl7oN%2Fs5RZacsiCtqkD7qb%2BbS6HnB%2FSlsmua4orrLjzuZFdCZaLPZeFjN5D89d%2BmQg%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 138,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147186180792",
+    "title": "BALENCIAGA The City White & Purple Winged Print Nylon and Leather Two Way Bag",
+    "price": 924.33,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147186180792?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YQ83ME267P5D1MRK7&hash=item2244fae2b8:g:Iy8AAeSwr-tpqTEb&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDInfwx4dtgsLFYj3UDtGKdwpqc5%2BCeVTLYG2438YHUPuSzedAIKUuJfMOWTm9IXq8dTrHA1GNpf6Swd3auusogxvC4Raq1uVa%2BdcvPF8wv844SGizaA1qClT4bGHdN3q0zWIgGTSOsqaxZNa6UC8JrEBHpokqC%2B3jdvkP5MsOma1BT9p%2B8MN1m6gAM3WzEYxDlTy7%2FWsPIoTf7%2FOJVICHu%2BtZqXz6%2FVD3q73hGyfgdKeLtV53CDaz2wPO1DYknmCxvejW5MW4JiFjye0zR1dCUnBsYFHBxD5tZY3QifwxROg%3D%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "147186180792",
+      "title": "BALENCIAGA The City White & Purple Winged Print Nylon and Leather Two Way Bag",
+      "price": {
+        "value": "924.33",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147186180792?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YQ83ME267P5D1MRK7&hash=item2244fae2b8:g:Iy8AAeSwr-tpqTEb&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDInfwx4dtgsLFYj3UDtGKdwpqc5%2BCeVTLYG2438YHUPuSzedAIKUuJfMOWTm9IXq8dTrHA1GNpf6Swd3auusogxvC4Raq1uVa%2BdcvPF8wv844SGizaA1qClT4bGHdN3q0zWIgGTSOsqaxZNa6UC8JrEBHpokqC%2B3jdvkP5MsOma1BT9p%2B8MN1m6gAM3WzEYxDlTy7%2FWsPIoTf7%2FOJVICHu%2BtZqXz6%2FVD3q73hGyfgdKeLtV53CDaz2wPO1DYknmCxvejW5MW4JiFjye0zR1dCUnBsYFHBxD5tZY3QifwxROg%3D%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 159,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147311645029",
+    "title": "BALENCIAGA Micro City Black Suede Two Way Bag",
+    "price": 947.64,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147311645029?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZQM096VAWH7EP94AQ&hash=item224c755165:g:QNoAAeSw--9qBsHT&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAUq4RL0QvP6IC%2B2AUG9cndzE%2F9LfqlzBVmyqxTkTm1FyjP%2B0cJE%2BRPpG8Vk4gh6aHyJN3ptf43CYt0z%2F4%2BRRMJBMvrU7%2Bqv8kHI0dr3X6PB84VDjtqOv9yuNYpslR21%2FM%2FtB%2FymFEBLCAcUUDZJq5EhJKn9dOBkCL%2FFANhYZ3B007%2BDvWGCwqybgkSUEdR%2FXu7GM%2BV%2B9MqQDi68NujYKA%2BSRxDqbCSMr08dnzoQvjyxjsTM27ucvTXveJjFYk%2FMO8%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "147311645029",
+      "title": "BALENCIAGA Micro City Black Suede Two Way Bag",
+      "price": {
+        "value": "947.64",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147311645029?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZQM096VAWH7EP94AQ&hash=item224c755165:g:QNoAAeSw--9qBsHT&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAUq4RL0QvP6IC%2B2AUG9cndzE%2F9LfqlzBVmyqxTkTm1FyjP%2B0cJE%2BRPpG8Vk4gh6aHyJN3ptf43CYt0z%2F4%2BRRMJBMvrU7%2Bqv8kHI0dr3X6PB84VDjtqOv9yuNYpslR21%2FM%2FtB%2FymFEBLCAcUUDZJq5EhJKn9dOBkCL%2FFANhYZ3B007%2BDvWGCwqybgkSUEdR%2FXu7GM%2BV%2B9MqQDi68NujYKA%2BSRxDqbCSMr08dnzoQvjyxjsTM27ucvTXveJjFYk%2FMO8%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 144,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147401974411",
+    "title": "BALENCIAGA The City Light Grey Two Way Bag",
+    "price": 947.64,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147401974411?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9Z5PASJ2S43X15HTA7&hash=item2251d7a28b:g:NE8AAeSwAslqQIJe&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAfq9nzNm8DAsKvJEJ16VhmfJH5sSmjVo4yZy0I8dLhkHd5fsCHb97KzTTZUlK3%2FEYO%2B8dLDWHOdF4pNpMyAzzHd4XQ3VEqOUttzvuvZp5759wRLNkAxda%2FAx6kztqnDr27hpI9qwF%2FMgCIT7n5vvZHn67IDOQPFRnR2EHtQlLp23NklifvUbj59ZqmmSZD%2BR5qL5IAMN7gLXOXzcaXg%2Fh57AVIjuPBdRhuRErOv81TWOkblPsKZipWcq9WnTsKq9m9VUHBc7MzK674eO8RJWoPOdutw2C%2BqxQMzJXalgfZaQ%3D%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "147401974411",
+      "title": "BALENCIAGA The City Light Grey Two Way Bag",
+      "price": {
+        "value": "947.64",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147401974411?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9Z5PASJ2S43X15HTA7&hash=item2251d7a28b:g:NE8AAeSwAslqQIJe&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAfq9nzNm8DAsKvJEJ16VhmfJH5sSmjVo4yZy0I8dLhkHd5fsCHb97KzTTZUlK3%2FEYO%2B8dLDWHOdF4pNpMyAzzHd4XQ3VEqOUttzvuvZp5759wRLNkAxda%2FAx6kztqnDr27hpI9qwF%2FMgCIT7n5vvZHn67IDOQPFRnR2EHtQlLp23NklifvUbj59ZqmmSZD%2BR5qL5IAMN7gLXOXzcaXg%2Fh57AVIjuPBdRhuRErOv81TWOkblPsKZipWcq9WnTsKq9m9VUHBc7MzK674eO8RJWoPOdutw2C%2BqxQMzJXalgfZaQ%3D%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 143,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287459936311",
+    "title": "Balenciaga Le City Handbag Shoulder Bag White 103208 Auth Used",
+    "price": 956.16,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287459936311?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZQTYCFX93WZZJ8G22&hash=item42edf28837:g:zLwAAeSw9ABqVbNf&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCvbWv8zm6ZZoY2q%2BhiBnBccw0GKkKS%2F3LgJEactf0f%2BjhDy1j02xfQY6sc1oKqL%2F0LxVhMUEjrAWb9ERJaVMPb3xgchmp1hIA0Vqr2PfmdNEf6S%2F2rncNcibzqDf6g2xBVz5THj7yweZE0NnYc9vKOJNMTp%2FPzy58uOl8wKYq9fiV%2B9XzbsvW0V0wNBr4U%2F7cJmC7Ied%2FAp7vlDAhnOuxUwwaypewshdW6HF%2BppXtpr7y2163lJNoy8JV8rAZDbTE%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "287459936311",
+      "title": "Balenciaga Le City Handbag Shoulder Bag White 103208 Auth Used",
+      "price": {
+        "value": "956.16",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287459936311?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZQTYCFX93WZZJ8G22&hash=item42edf28837:g:zLwAAeSw9ABqVbNf&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCvbWv8zm6ZZoY2q%2BhiBnBccw0GKkKS%2F3LgJEactf0f%2BjhDy1j02xfQY6sc1oKqL%2F0LxVhMUEjrAWb9ERJaVMPb3xgchmp1hIA0Vqr2PfmdNEf6S%2F2rncNcibzqDf6g2xBVz5THj7yweZE0NnYc9vKOJNMTp%2FPzy58uOl8wKYq9fiV%2B9XzbsvW0V0wNBr4U%2F7cJmC7Ied%2FAp7vlDAhnOuxUwwaypewshdW6HF%2BppXtpr7y2163lJNoy8JV8rAZDbTE%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 148,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287424288109",
+    "title": "Used BALENCIAGA Classic Mini City 2WAY Shoulder Bag Pink Leather Japan",
+    "price": 967.3,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287424288109?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZBT9VXAS80WH4KWAW&hash=item42ebd2956d:g:25IAAeSwcLlqQQ2u&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDMXHNgGRA96NOtHim6vwNECGRiMCxD573JLu63qA7bLHYaXmxRExAjw1P5WKFCXA13Gpp%2FwRX%2FVL1sKmFfQMQkPvvbZwRAaTTo%2FxajiTtXD3vljDfQyQcQboFRJ5wWht%2FI1%2BYsOF30NNAgnUTKwRguHzwSG9EqZmtQzOTdnQ5JZDz8rXnYy4VAFH4%2FyxKw9SpKMlN6xK7YgeIaR1r7P5uukxFB2VG860gzPKLOZgvb8t827p1j8AeuS9ousxJ9IZ8C6OMS66hbk4XP9phhsyr1%2BNz3eFOfOZtEDKm8qZgvxw%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "287424288109",
+      "title": "Used BALENCIAGA Classic Mini City 2WAY Shoulder Bag Pink Leather Japan",
+      "price": {
+        "value": "967.30",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287424288109?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZBT9VXAS80WH4KWAW&hash=item42ebd2956d:g:25IAAeSwcLlqQQ2u&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDMXHNgGRA96NOtHim6vwNECGRiMCxD573JLu63qA7bLHYaXmxRExAjw1P5WKFCXA13Gpp%2FwRX%2FVL1sKmFfQMQkPvvbZwRAaTTo%2FxajiTtXD3vljDfQyQcQboFRJ5wWht%2FI1%2BYsOF30NNAgnUTKwRguHzwSG9EqZmtQzOTdnQ5JZDz8rXnYy4VAFH4%2FyxKw9SpKMlN6xK7YgeIaR1r7P5uukxFB2VG860gzPKLOZgvb8t827p1j8AeuS9ousxJ9IZ8C6OMS66hbk4XP9phhsyr1%2BNz3eFOfOZtEDKm8qZgvxw%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 129,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "178240513352",
+    "title": "BALENCIAGA Mini City Shoulder Handbag Calfskin Grey",
+    "price": 979.84,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/178240513352?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9Y4DZ94C0X36SXDJW3&hash=item297ff66548:g:nDoAAeSwB3FqCX7e&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDuk9SwWydDnBGPy0U6prjNH2Kv7%2FcLGfpPvBXOVFfuIKBfFLnbdCHJfiBuvgx877sIyeLhyGbznTaI0wLoHFWFyMEwXjm2a39aqLPoeueFUWJEp%2Bo6UZCV%2BePpof9lyZ2%2FJnXj5XqL3%2FPT9MlUWAJQSJnSDu1klbu2Pfg067eHxq0OABES%2FDeTfkfxA9cl7j51ndyZ8KJJGeE9xdZwq2PuhyQ%2Bfs0zwa1wLKje%2BgYTmxjq0GDPA9XPSyGkJrHaF%2Bo%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "178240513352",
+      "title": "BALENCIAGA Mini City Shoulder Handbag Calfskin Grey",
+      "price": {
+        "value": "979.84",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/178240513352?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9Y4DZ94C0X36SXDJW3&hash=item297ff66548:g:nDoAAeSwB3FqCX7e&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDuk9SwWydDnBGPy0U6prjNH2Kv7%2FcLGfpPvBXOVFfuIKBfFLnbdCHJfiBuvgx877sIyeLhyGbznTaI0wLoHFWFyMEwXjm2a39aqLPoeueFUWJEp%2Bo6UZCV%2BePpof9lyZ2%2FJnXj5XqL3%2FPT9MlUWAJQSJnSDu1klbu2Pfg067eHxq0OABES%2FDeTfkfxA9cl7j51ndyZ8KJJGeE9xdZwq2PuhyQ%2Bfs0zwa1wLKje%2BgYTmxjq0GDPA9XPSyGkJrHaF%2Bo%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 157,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "137391342286",
+    "title": "BALENCIAGA Part Time City Bag Navy Leather 2Way Shoulder Handbag",
+    "price": 980,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/137391342286?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZWP6QTTBZ6GF557BZ&hash=item1ffd2982ce:g:dtQAAeSwpwpqKjkE&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCdSN7x40xZjGtEacL%2BmdT%2BEQYgRzvqxT2F0PDPIRkpqUbo2dqmjNL8LjjjMhkStzOsP5C7TMXaBZrm6Tfrz7776fiaM5G0pW%2F5kf4M6a6XmPIxLE%2F4iL%2B6vsK7yKI1rGLLZe%2BGXtfi7L49QXDXy9S9g%2BEw9yY51tenJ3WjIdIXT91z6TmjwkuALQwkcURx%2FmwUcvlpsqz%2BfqnRS%2B9ceO2DFfpMlr2R5TAlYH1PAmHXsAN5jG4KkGDl%2Fz0h4G%2BajoIZkiqYuLShNIaWifNSMayvXwtstibeKwh2E5WoUgNEEg%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "137391342286",
+      "title": "BALENCIAGA Part Time City Bag Navy Leather 2Way Shoulder Handbag",
+      "price": {
+        "value": "980.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/137391342286?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZWP6QTTBZ6GF557BZ&hash=item1ffd2982ce:g:dtQAAeSwpwpqKjkE&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCdSN7x40xZjGtEacL%2BmdT%2BEQYgRzvqxT2F0PDPIRkpqUbo2dqmjNL8LjjjMhkStzOsP5C7TMXaBZrm6Tfrz7776fiaM5G0pW%2F5kf4M6a6XmPIxLE%2F4iL%2B6vsK7yKI1rGLLZe%2BGXtfi7L49QXDXy9S9g%2BEw9yY51tenJ3WjIdIXT91z6TmjwkuALQwkcURx%2FmwUcvlpsqz%2BfqnRS%2B9ceO2DFfpMlr2R5TAlYH1PAmHXsAN5jG4KkGDl%2Fz0h4G%2BajoIZkiqYuLShNIaWifNSMayvXwtstibeKwh2E5WoUgNEEg%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 112,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147427851131",
+    "title": "BALENCIAGA The City Brown Leather Handle Bag",
+    "price": 1057.59,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147427851131?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9X4GVQ6Z5C4BJRKX4D&hash=item2253627b7b:g:-wMAAeSwUEVqUD~f&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xC%2FjCT6%2BxxU4wSgF2c2BKltsRRJj2%2F5dbP%2B0T6f5n67%2FO%2BNCjtxSX2xA71ibJAxcXTjN8mA1zHlsGzTe6NksdVOOccnY8nlDoVhlPRGB%2FnfdNVn1C2%2FDhnmSewZU3W4UqmRzektGuVkMqdJ9JcgO4ZGsld1vmJVOelBGY4VpZK9WAV7GiI9GXMc%2BPZRGtcuChAWMWxzSt74XGRzACgKT1JNPq6bcVyTAxFvvycnqsumz2s0Z2%2BkpeZ6UdDHD14wxXE%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "147427851131",
+      "title": "BALENCIAGA The City Brown Leather Handle Bag",
+      "price": {
+        "value": "1057.59",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147427851131?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9X4GVQ6Z5C4BJRKX4D&hash=item2253627b7b:g:-wMAAeSwUEVqUD~f&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xC%2FjCT6%2BxxU4wSgF2c2BKltsRRJj2%2F5dbP%2B0T6f5n67%2FO%2BNCjtxSX2xA71ibJAxcXTjN8mA1zHlsGzTe6NksdVOOccnY8nlDoVhlPRGB%2FnfdNVn1C2%2FDhnmSewZU3W4UqmRzektGuVkMqdJ9JcgO4ZGsld1vmJVOelBGY4VpZK9WAV7GiI9GXMc%2BPZRGtcuChAWMWxzSt74XGRzACgKT1JNPq6bcVyTAxFvvycnqsumz2s0Z2%2BkpeZ6UdDHD14wxXE%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 134,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "257587757504",
+    "title": "BALENCIAGA Classic City Mini 2way Hand Shoulder Bag Blue 300295 Purse 90328479",
+    "price": 1063.44,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/257587757504?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YGGK6RY7ZW8HK23AA&hash=item3bf96d41c0:g:IyMAAeSwvLpqPgs2&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDhYzWnLAq9f63ZSWIOpmsTFBeaOBz1V4VZZ16LyZ%2FjNoTZycDEN0VGb68QntlbX%2BFtQnjg4symyNYJk127FzToVZ58PRtNVGPVzdRuy6ik6axsf4%2FRLO9nqCyuM9DC7aCIaEctENCHVOt0qsJ%2BS9hxf5jtcXgDDHepK%2BEzbLncXlLzcAr86jluw%2B37Lq53R9DWa121ObpvsTkbUmpHAfa9eI5B3Ees%2FJ6qrnHzHbxPrUQKZnMYjG4qN096OcyTvSN%2BaoSUBNik5hcviLpWgua0GYHyWO%2B3fD1yv7NVvlNXeg%3D%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "257587757504",
+      "title": "BALENCIAGA Classic City Mini 2way Hand Shoulder Bag Blue 300295 Purse 90328479",
+      "price": {
+        "value": "1063.44",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/257587757504?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YGGK6RY7ZW8HK23AA&hash=item3bf96d41c0:g:IyMAAeSwvLpqPgs2&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDhYzWnLAq9f63ZSWIOpmsTFBeaOBz1V4VZZ16LyZ%2FjNoTZycDEN0VGb68QntlbX%2BFtQnjg4symyNYJk127FzToVZ58PRtNVGPVzdRuy6ik6axsf4%2FRLO9nqCyuM9DC7aCIaEctENCHVOt0qsJ%2BS9hxf5jtcXgDDHepK%2BEzbLncXlLzcAr86jluw%2B37Lq53R9DWa121ObpvsTkbUmpHAfa9eI5B3Ees%2FJ6qrnHzHbxPrUQKZnMYjG4qN096OcyTvSN%2BaoSUBNik5hcviLpWgua0GYHyWO%2B3fD1yv7NVvlNXeg%3D%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 133,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147275473230",
+    "title": "BALENCIAGA The City Cigar Brown Leather Two Way Bag",
+    "price": 1095.41,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147275473230?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YN9XJ1968DYKX4PVB&hash=item224a4d614e:g:gs0AAeSwntxp6wnI&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAlY0GH1z80r0KzAg5eWUy4ouAMqVprSSxHDpUscZojuilQeE3ExtoToMyHDCgCiG42minkxBYd24QmrI3DqTCyTWRYbMsjtK5Fw%2BTy7MF4TKaGWjHE0PwKfIkiVa3O7figaevwqrlA78DCkrGYo3TCIDLMyYA9b12aHdIHtNMryLKazVKedis7%2FddCJ7wPC3A9dcEZhS%2BdZ7txKlZsRONfr7%2FS1sr%2BfdcOEgO6K9E1FJ8yl0JUng2GqU8YQCFJ2nU%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "147275473230",
+      "title": "BALENCIAGA The City Cigar Brown Leather Two Way Bag",
+      "price": {
+        "value": "1095.41",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147275473230?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YN9XJ1968DYKX4PVB&hash=item224a4d614e:g:gs0AAeSwntxp6wnI&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAlY0GH1z80r0KzAg5eWUy4ouAMqVprSSxHDpUscZojuilQeE3ExtoToMyHDCgCiG42minkxBYd24QmrI3DqTCyTWRYbMsjtK5Fw%2BTy7MF4TKaGWjHE0PwKfIkiVa3O7figaevwqrlA78DCkrGYo3TCIDLMyYA9b12aHdIHtNMryLKazVKedis7%2FddCJ7wPC3A9dcEZhS%2BdZ7txKlZsRONfr7%2FS1sr%2BfdcOEgO6K9E1FJ8yl0JUng2GqU8YQCFJ2nU%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 114,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147318052723",
+    "title": "BALENCIAGA The City Ocean Blue Leather Two Way Bag",
+    "price": 1095.41,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147318052723?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XTVR42KYTPQDRJ3AE&hash=item224cd71773:g:mOsAAeSweUpqC-~K&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAau7%2BweL1yZZBDdh5Ui2C8Mm%2F8OiInvVtQbQwueT4wL0wHo%2BiC54ZGrmk7ZcwKjqDYduwlWsNC5Ac7fxb%2BycUN6ON0ca4QbupBOSmwiCPflftWa3wWJfH6RTWi1cNslJqn150QNZ55pFUbNfmjJIEmBbJ2hm94rdx4OPvsrZgcl7XcnHu5vjJdLXcH0JBcwvRFpjXWSNgDByPdsUsg8NNMzetkqTGGDEgsg6w2zpQvdSxzquaqrAfgxIA5WFYE41M%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "147318052723",
+      "title": "BALENCIAGA The City Ocean Blue Leather Two Way Bag",
+      "price": {
+        "value": "1095.41",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147318052723?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XTVR42KYTPQDRJ3AE&hash=item224cd71773:g:mOsAAeSweUpqC-~K&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAau7%2BweL1yZZBDdh5Ui2C8Mm%2F8OiInvVtQbQwueT4wL0wHo%2BiC54ZGrmk7ZcwKjqDYduwlWsNC5Ac7fxb%2BycUN6ON0ca4QbupBOSmwiCPflftWa3wWJfH6RTWi1cNslJqn150QNZ55pFUbNfmjJIEmBbJ2hm94rdx4OPvsrZgcl7XcnHu5vjJdLXcH0JBcwvRFpjXWSNgDByPdsUsg8NNMzetkqTGGDEgsg6w2zpQvdSxzquaqrAfgxIA5WFYE41M%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 158,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "137507672283",
+    "title": "Balenciaga Le City Handbag Shoulder Bag White 103208 Auth Used",
+    "price": 1110.5,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/137507672283?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZWNDG6JGAFY0RVCX3&hash=item20041890db:g:ZjEAAeSwgm9qVGBD&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAoCl6QtWg3SCwn5bPvqH6f7C%2FApySzb4K1WDRzPT%2FRJNi%2FIYDtukV1f7w16u%2BzXpuuhCUDXkHDTo1Bts1LO2hOhYHtpoRPvrSApfXGFZgo6XAw6WhBuNdruTfwPBPBYsaMx7cVH%2FQzNOHngZupnRvkTZDsB6Ktj5FabOt%2FdWM0hnl8hkW%2F0cyF%2FilvB0iZsRxwumisIDlcvhNxYC1yEjYto9C8N7psYJ5a0l0MH8ahBgaq%2Fwsz1SMfkow%2FthO1Z%2FY%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "137507672283",
+      "title": "Balenciaga Le City Handbag Shoulder Bag White 103208 Auth Used",
+      "price": {
+        "value": "1110.50",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/137507672283?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZWNDG6JGAFY0RVCX3&hash=item20041890db:g:ZjEAAeSwgm9qVGBD&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAoCl6QtWg3SCwn5bPvqH6f7C%2FApySzb4K1WDRzPT%2FRJNi%2FIYDtukV1f7w16u%2BzXpuuhCUDXkHDTo1Bts1LO2hOhYHtpoRPvrSApfXGFZgo6XAw6WhBuNdruTfwPBPBYsaMx7cVH%2FQzNOHngZupnRvkTZDsB6Ktj5FabOt%2FdWM0hnl8hkW%2F0cyF%2FilvB0iZsRxwumisIDlcvhNxYC1yEjYto9C8N7psYJ5a0l0MH8ahBgaq%2Fwsz1SMfkow%2FthO1Z%2FY%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 137,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147334451618",
+    "title": "BALENCIAGA The City Grey Leather Two Way Bag",
+    "price": 1131.22,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147334451618?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YTNBNYTQQZ30BNV06&hash=item224dd151a2:g:460AAeSwqClqFrLI&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDI0wV2bPfHm2Enr9wev8qbEqnqDmofrlW89VXjKn%2BDpXW87w8hSy9DtgQCYjESmRGNnyjS55iwnrN5PUCBB9NFmXtmXkq3iOeTizaZsCy2WiSPfsFctt13VWAdatmHXO7Acwh3251YVfpj374mwNfGzjacJyHIBdd4DL0UxJksy5LbkcoeCvLw1WubHBQ%2BDUfzeueRvHDbeFjPgHu0TfCPEGFLvoWkJWI2KlLl%2FWoOEKFkuSt6M1M5rvvjZNkMsarpwq0OkzEa0Hq3KtvlqHEwJ62Xvlt3pNldLx87kaSMDw%3D%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "147334451618",
+      "title": "BALENCIAGA The City Grey Leather Two Way Bag",
+      "price": {
+        "value": "1131.22",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147334451618?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YTNBNYTQQZ30BNV06&hash=item224dd151a2:g:460AAeSwqClqFrLI&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDI0wV2bPfHm2Enr9wev8qbEqnqDmofrlW89VXjKn%2BDpXW87w8hSy9DtgQCYjESmRGNnyjS55iwnrN5PUCBB9NFmXtmXkq3iOeTizaZsCy2WiSPfsFctt13VWAdatmHXO7Acwh3251YVfpj374mwNfGzjacJyHIBdd4DL0UxJksy5LbkcoeCvLw1WubHBQ%2BDUfzeueRvHDbeFjPgHu0TfCPEGFLvoWkJWI2KlLl%2FWoOEKFkuSt6M1M5rvvjZNkMsarpwq0OkzEa0Hq3KtvlqHEwJ62Xvlt3pNldLx87kaSMDw%3D%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 139,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "137504054773",
+    "title": "Balenciaga The City Pink Leather 2way Shoulder Bag Handbag 115748 Authentic Y2K",
+    "price": 1184,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/137504054773?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YE8480WE21PFKTW7Y&hash=item2003e15df5:g:1tYAAeSwsqdqUjEn&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAcE0rPd0vXvkJPoS9McicASkb%2BscVEMcHebie7Eqe0GoRZb3XXqqy14%2FmvY9Jjzb9QyJfG6ANqm9FeUm7fuJvhujljUdiyo1VVdd5HkB7RM6ycOkAWnv4AGZyIR5D7bVCb23mbeR8GAvkbuT1f687n3ngcCAAD9%2BLa9f1DATMZU2EsAVSvxi95pjh6R%2FBYSd9SqiUIKvPiA3yO6oAvUJnon0sWzEdLfyzwCRh9XjuSH3l%2FL%2BAtjcmTY4q9wD2IKZc%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "137504054773",
+      "title": "Balenciaga The City Pink Leather 2way Shoulder Bag Handbag 115748 Authentic Y2K",
+      "price": {
+        "value": "1184.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/137504054773?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YE8480WE21PFKTW7Y&hash=item2003e15df5:g:1tYAAeSwsqdqUjEn&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAcE0rPd0vXvkJPoS9McicASkb%2BscVEMcHebie7Eqe0GoRZb3XXqqy14%2FmvY9Jjzb9QyJfG6ANqm9FeUm7fuJvhujljUdiyo1VVdd5HkB7RM6ycOkAWnv4AGZyIR5D7bVCb23mbeR8GAvkbuT1f687n3ngcCAAD9%2BLa9f1DATMZU2EsAVSvxi95pjh6R%2FBYSd9SqiUIKvPiA3yO6oAvUJnon0sWzEdLfyzwCRh9XjuSH3l%2FL%2BAtjcmTY4q9wD2IKZc%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 131,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147392192530",
+    "title": "BALENCIAGA Giant 21 City Motocross Dark Brown Leather Two Way Bag",
+    "price": 1207.34,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147392192530?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YR12EG94062R6NC3V&hash=item2251426012:g:DRAAAeSwallqObsu&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBTB92Kp1duUFS5MSedSv8bqF46hrBouECiMeOibJ%2FiXcXPhvX0p5FX3jQO%2BUmg6gKkGfMoV5FzPYIMN52JUVO9cdB%2FVVua%2B%2FYko6FZlXhnoh3JD%2F1djT%2FtMDoIliwFQGMcmW40ozoTnMi3j5cW9X%2BW7HH7lMhaGnHxZpwCM1aRz7EfSAKw3Xjxiued6zgViSQu2JZ5Z6%2BmcpEzqbBpbm87LclCmI64d%2FEMo6Dlc%2BQZWtvzgN8kADKSNJFyJea%2BM%2BI%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "147392192530",
+      "title": "BALENCIAGA Giant 21 City Motocross Dark Brown Leather Two Way Bag",
+      "price": {
+        "value": "1207.34",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147392192530?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YR12EG94062R6NC3V&hash=item2251426012:g:DRAAAeSwallqObsu&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBTB92Kp1duUFS5MSedSv8bqF46hrBouECiMeOibJ%2FiXcXPhvX0p5FX3jQO%2BUmg6gKkGfMoV5FzPYIMN52JUVO9cdB%2FVVua%2B%2FYko6FZlXhnoh3JD%2F1djT%2FtMDoIliwFQGMcmW40ozoTnMi3j5cW9X%2BW7HH7lMhaGnHxZpwCM1aRz7EfSAKw3Xjxiued6zgViSQu2JZ5Z6%2BmcpEzqbBpbm87LclCmI64d%2FEMo6Dlc%2BQZWtvzgN8kADKSNJFyJea%2BM%2BI%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 142,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147269398223",
+    "title": "BALENCIAGA Mini City Graffiti Black Leather Two Way Bag",
+    "price": 1229.08,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147269398223?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZW36BZZKZY451ANSY&hash=item2249f0aecf:g:idMAAeSwpZhp5rIF&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAqHJJE3b7rg6L2bkdaaygAzpxEFdnuL76%2BfisG7ljRCEre%2BBcDynHq0l0gNdjSjXsoL6spppKvQe98xFDn1353Z6cJHhPnXcGElNcaRKPZHykAmKoaJRAvgWimC3y9Et5%2FteKVGE6A7FatTQ%2F%2BNu6%2B74JisHHJT4etZLAO1Lvlj%2BGMOFgRXX1iMXPOxRrdvJIiokvoC0A9Qzci6krcRMTQwgRrr7N8HPn6aa7l1y46%2FFUE42stH8lTPEgfgeQY8Ik%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "147269398223",
+      "title": "BALENCIAGA Mini City Graffiti Black Leather Two Way Bag",
+      "price": {
+        "value": "1229.08",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147269398223?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZW36BZZKZY451ANSY&hash=item2249f0aecf:g:idMAAeSwpZhp5rIF&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAqHJJE3b7rg6L2bkdaaygAzpxEFdnuL76%2BfisG7ljRCEre%2BBcDynHq0l0gNdjSjXsoL6spppKvQe98xFDn1353Z6cJHhPnXcGElNcaRKPZHykAmKoaJRAvgWimC3y9Et5%2FteKVGE6A7FatTQ%2F%2BNu6%2B74JisHHJT4etZLAO1Lvlj%2BGMOFgRXX1iMXPOxRrdvJIiokvoC0A9Qzci6krcRMTQwgRrr7N8HPn6aa7l1y46%2FFUE42stH8lTPEgfgeQY8Ik%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 156,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "137416732766",
+    "title": "BALENCIAGA City 2way Bag Size Mini Arena Lambskin Black 806395",
+    "price": 1243,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/137416732766?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9Z37MMPE4ADDCD6AM5&hash=item1ffeacf05e:g:qMkAAeSwMiBqTa4I&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xASeiLzOribwlhhy8uIp53NGglj1j9W%2BeR8i9VwOZo77EAFOmbyfTeg5%2BJKmOplW25bUzPzC6FVqgWjFYe3jSNcJN%2FuK9hVvib6DaNIYYlhMd6ttzinbL8X0ERCWcSYh0haLS1p%2B9jMPq18OTvLTjdhBFJaonvVhz85Tgo6sFOgCj%2BH3IHVNUvqnIJR853to4k%2BMqbHjspzsY0gILr4PaJ9oSaI1Lu%2BvMvTYgboV24FjN9XclJ2fRwIgj5NCpatQieRgLUqg%2FGV38aywgfjo9%2FtR7mnJJqMtNUvKUbxXvqFQw%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "137416732766",
+      "title": "BALENCIAGA City 2way Bag Size Mini Arena Lambskin Black 806395",
+      "price": {
+        "value": "1243.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/137416732766?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9Z37MMPE4ADDCD6AM5&hash=item1ffeacf05e:g:qMkAAeSwMiBqTa4I&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xASeiLzOribwlhhy8uIp53NGglj1j9W%2BeR8i9VwOZo77EAFOmbyfTeg5%2BJKmOplW25bUzPzC6FVqgWjFYe3jSNcJN%2FuK9hVvib6DaNIYYlhMd6ttzinbL8X0ERCWcSYh0haLS1p%2B9jMPq18OTvLTjdhBFJaonvVhz85Tgo6sFOgCj%2BH3IHVNUvqnIJR853to4k%2BMqbHjspzsY0gILr4PaJ9oSaI1Lu%2BvMvTYgboV24FjN9XclJ2fRwIgj5NCpatQieRgLUqg%2FGV38aywgfjo9%2FtR7mnJJqMtNUvKUbxXvqFQw%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 152,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147401974326",
+    "title": "BALENCIAGA The City Anthracite Black Leather Two Way Bag",
+    "price": 1243.15,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147401974326?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZN4YDDDZX7XQ1K020&hash=item2251d7a236:g:MZYAAeSwlGVqQIIx&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDpkbaVIly0BwZrxWNNlWkDyuLBIPiYSXkZ4Abz1%2FIEtfN%2F4FCjLCiHxegFUCTC7GW7pTuVVloOn5OPrphBYUXoEtHhMLTT%2BsgZ4DpiSOkyNzNChzYAqs%2BRPhuwO8uA6O3VeP92EJeHmSqDb%2F4txUCnHnW6iJbIhsgJ0NL9P8pWKGCg0e6goys9c%2BsbyCvhc3%2FrAZxPAjX%2BBepqowvEuvmYdR7Ocoqgp%2BRNDw0oJOg1n8Ayrt7Aagjik2Au6saDjGA%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "147401974326",
+      "title": "BALENCIAGA The City Anthracite Black Leather Two Way Bag",
+      "price": {
+        "value": "1243.15",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147401974326?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZN4YDDDZX7XQ1K020&hash=item2251d7a236:g:MZYAAeSwlGVqQIIx&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDpkbaVIly0BwZrxWNNlWkDyuLBIPiYSXkZ4Abz1%2FIEtfN%2F4FCjLCiHxegFUCTC7GW7pTuVVloOn5OPrphBYUXoEtHhMLTT%2BsgZ4DpiSOkyNzNChzYAqs%2BRPhuwO8uA6O3VeP92EJeHmSqDb%2F4txUCnHnW6iJbIhsgJ0NL9P8pWKGCg0e6goys9c%2BsbyCvhc3%2FrAZxPAjX%2BBepqowvEuvmYdR7Ocoqgp%2BRNDw0oJOg1n8Ayrt7Aagjik2Au6saDjGA%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 130,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147392192332",
+    "title": "BALENCIAGA Mini City Classic Graffiti Black Leather Two Way Bag",
+    "price": 1314.8,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147392192332?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9Y8YP7GFBFQ5EAX87F&hash=item2251425f4c:g:4xQAAeSwhhBqObsO&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBMCqzH0fis%2F7nejVnYWDB4qNmuLmBQTOkuk8Dafpx2T69xR0NSRxsGQ9hAxD%2FI0FIuy8QHy4ktBKk7OtO3G03ku%2FcTVbNyOfzSYy2XKBNSbmsIYDG8ZqbRTM0Y%2BkpNKMZM%2FlRiwzXIP0cWTfA7tPw3W6bhDhd%2BXFWzRED%2BWOdQ%2F8xj6Rf1LueaDmoDTOWCmh4fG6lCsIdu1ozC%2F8Dq6xrpBNd6KpxyUZonUrv%2FC5ByhiJQaM125hN%2BlnM1ln4LIk0%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "147392192332",
+      "title": "BALENCIAGA Mini City Classic Graffiti Black Leather Two Way Bag",
+      "price": {
+        "value": "1314.80",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147392192332?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9Y8YP7GFBFQ5EAX87F&hash=item2251425f4c:g:4xQAAeSwhhBqObsO&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBMCqzH0fis%2F7nejVnYWDB4qNmuLmBQTOkuk8Dafpx2T69xR0NSRxsGQ9hAxD%2FI0FIuy8QHy4ktBKk7OtO3G03ku%2FcTVbNyOfzSYy2XKBNSbmsIYDG8ZqbRTM0Y%2BkpNKMZM%2FlRiwzXIP0cWTfA7tPw3W6bhDhd%2BXFWzRED%2BWOdQ%2F8xj6Rf1LueaDmoDTOWCmh4fG6lCsIdu1ozC%2F8Dq6xrpBNd6KpxyUZonUrv%2FC5ByhiJQaM125hN%2BlnM1ln4LIk0%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 154,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147275473189",
+    "title": "BALENCIAGA Mini City Graffiti White Leather Two Way Bag",
+    "price": 1334.37,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147275473189?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZGBHBPJXARRJGMD3K&hash=item224a4d6125:g:zpoAAeSwf2lp6wm0&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAkCneBwmQFZ6MXSpjxsb2MpYDiTA7WbY1%2Fo0d4mH8yj6u7H%2BPObQhT8MAthSkLTJ3HoY3eQ%2BqS%2BOuMJrorX9u4dYEbhu41GulwdNvZNskKvMPpvyNZ0o%2FSRIdAyqkcWNq%2FronRm4SkjwhSRLg32m8yq6c3iBDLSx4aQFYKMsHX1EFq%2FBSxptxGRXG7Gs63Ztu%2BLNXLEENpAujxvpPJQmpTI4%2FElU5NlCBRgY9Ogd4ZLAM5SmtQUv8n%2FOQdMAavB6sberGi0U1T%2F6DyAJ%2BrU8sRNISIcFJ25dmW8mDVPEwVag%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "147275473189",
+      "title": "BALENCIAGA Mini City Graffiti White Leather Two Way Bag",
+      "price": {
+        "value": "1334.37",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147275473189?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZGBHBPJXARRJGMD3K&hash=item224a4d6125:g:zpoAAeSwf2lp6wm0&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAkCneBwmQFZ6MXSpjxsb2MpYDiTA7WbY1%2Fo0d4mH8yj6u7H%2BPObQhT8MAthSkLTJ3HoY3eQ%2BqS%2BOuMJrorX9u4dYEbhu41GulwdNvZNskKvMPpvyNZ0o%2FSRIdAyqkcWNq%2FronRm4SkjwhSRLg32m8yq6c3iBDLSx4aQFYKMsHX1EFq%2FBSxptxGRXG7Gs63Ztu%2BLNXLEENpAujxvpPJQmpTI4%2FElU5NlCBRgY9Ogd4ZLAM5SmtQUv8n%2FOQdMAavB6sberGi0U1T%2F6DyAJ%2BrU8sRNISIcFJ25dmW8mDVPEwVag%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 121,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "358626243354",
+    "title": "Balenciaga Motocross City Bag Green Lambskin Leather Shoulder 128523 3444",
+    "price": 1335,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/358626243354?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9X593E5A1STVQNMS0F&hash=item537fca331a:g:UUgAAeSwi7NqHbyv&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCqySGh6NGuTaGiUYiX7MFqcueqsf8Dtibik6z9IDMLY103Hycj764ENpGqsIOBhLCuEyYpm53CKwiM24mQdEjzyvMlOkHH1sqxNAay23bLOLyGB6vP7qRXyqj%2BFIQP4tQGuxhReDKpTAUVEJdoX9RYcsHOv7o%2FTZu1bi1dtdkNfxiBOTR0FVdK697d8IYk9vokuaPCrEvNGg5dQykPc%2BCpWdQI5ebzlVg4%2Fuvnv8gLJm%2F4ssEy3xIzZR%2FlWG0MYHg%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "358626243354",
+      "title": "Balenciaga Motocross City Bag Green Lambskin Leather Shoulder 128523 3444",
+      "price": {
+        "value": "1335.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/358626243354?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9X593E5A1STVQNMS0F&hash=item537fca331a:g:UUgAAeSwi7NqHbyv&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCqySGh6NGuTaGiUYiX7MFqcueqsf8Dtibik6z9IDMLY103Hycj764ENpGqsIOBhLCuEyYpm53CKwiM24mQdEjzyvMlOkHH1sqxNAay23bLOLyGB6vP7qRXyqj%2BFIQP4tQGuxhReDKpTAUVEJdoX9RYcsHOv7o%2FTZu1bi1dtdkNfxiBOTR0FVdK697d8IYk9vokuaPCrEvNGg5dQykPc%2BCpWdQI5ebzlVg4%2Fuvnv8gLJm%2F4ssEy3xIzZR%2FlWG0MYHg%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 145,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "137481115943",
+    "title": "Authentic BALENCIAGA The City 115748 2way Shoulder Bag Pink Leather Y2K Vintage",
+    "price": 1374,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/137481115943?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZX7FRW3PKKC1S9XWE&hash=item2002835927:g:nasAAeSwsyhqSNAD&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAPONGTZDopxqB4yLGRbObYr3CJpnolSHI21Y9eR8q6adsxlCJsD7t3F9P8yKjTW79I7y6fao1YwIeWdG8JKo36k4Rb0Ar0yDp6ipYHzSsazQ7MKEXX7e7ARw9EyBiCRrAeqoKX0WuOGrhE9M4zqBjU1UjWtNWjpM4eXQY2DXTDXc0UBHKyb4S4IoUlATMJMDh6MeKdS%2Bwv%2Fr4k2jmh7P9kvLMc%2FGXMLVYkyT6iCIHVdVnyji0ATmqzUwmMj2i9HfYLRGZ7MAZUFQ30BIAhm4OJLOs1hpUomuYdEviDchSBNw%3D%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "137481115943",
+      "title": "Authentic BALENCIAGA The City 115748 2way Shoulder Bag Pink Leather Y2K Vintage",
+      "price": {
+        "value": "1374.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/137481115943?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZX7FRW3PKKC1S9XWE&hash=item2002835927:g:nasAAeSwsyhqSNAD&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAPONGTZDopxqB4yLGRbObYr3CJpnolSHI21Y9eR8q6adsxlCJsD7t3F9P8yKjTW79I7y6fao1YwIeWdG8JKo36k4Rb0Ar0yDp6ipYHzSsazQ7MKEXX7e7ARw9EyBiCRrAeqoKX0WuOGrhE9M4zqBjU1UjWtNWjpM4eXQY2DXTDXc0UBHKyb4S4IoUlATMJMDh6MeKdS%2Bwv%2Fr4k2jmh7P9kvLMc%2FGXMLVYkyT6iCIHVdVnyji0ATmqzUwmMj2i9HfYLRGZ7MAZUFQ30BIAhm4OJLOs1hpUomuYdEviDchSBNw%3D%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 147,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "158076937823",
+    "title": "Balenciaga The First City Handbag Shoulder Bag Black Leather Auth 103208 Used",
+    "price": 1382.5,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/158076937823?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZK5708DWAW05XCRDG&hash=item24ce1ea65f:g:zEUAAeSwlOZqUJuY&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDlHuLuHQVorvAQEvQUUVPuUzZLPxQ3h%2FUX%2FhGAtDCeMCbUg99Hbsri%2Bhs9eP51qgxHiA%2BPa1%2F0rGxGtyw95d0Wn7ypjbjUpabAjK2ZXUDl6PdKC09iuPgNPc4mABI%2B8TNtt7TJIFq0xkVKN%2FuKd%2FFL1wcjFEb2L4myUAFufAN3dff7L2lyZHHdcyV2RXRYKrVVHhu71OOA4vvFU7n%2BgLF6cQeowU8eAan2VZAncdwqw0jcXV%2FnLGwLdfxs2v52%2FmNKU5QvvHPVyTSwcJRvQqxpkfqIDs22YVOczMahKgGKbQ%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "158076937823",
+      "title": "Balenciaga The First City Handbag Shoulder Bag Black Leather Auth 103208 Used",
+      "price": {
+        "value": "1382.50",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/158076937823?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZK5708DWAW05XCRDG&hash=item24ce1ea65f:g:zEUAAeSwlOZqUJuY&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDlHuLuHQVorvAQEvQUUVPuUzZLPxQ3h%2FUX%2FhGAtDCeMCbUg99Hbsri%2Bhs9eP51qgxHiA%2BPa1%2F0rGxGtyw95d0Wn7ypjbjUpabAjK2ZXUDl6PdKC09iuPgNPc4mABI%2B8TNtt7TJIFq0xkVKN%2FuKd%2FFL1wcjFEb2L4myUAFufAN3dff7L2lyZHHdcyV2RXRYKrVVHhu71OOA4vvFU7n%2BgLF6cQeowU8eAan2VZAncdwqw0jcXV%2FnLGwLdfxs2v52%2FmNKU5QvvHPVyTSwcJRvQqxpkfqIDs22YVOczMahKgGKbQ%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 162,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147401974365",
+    "title": "BALENCIAGA The City Black Leather Two Way Bag",
+    "price": 1538.66,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147401974365?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZN9K5F23Y476Z7KYX&hash=item2251d7a25d:g:z~EAAeSwHKFqQIJC&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDyI3vGty68hLyj89mPe1SmwO96lgpr5Li3Xcx%2BUAEJ%2BRvyJ9utHyphBt%2Bpxz1M4ovZcf8ETbhaX%2BjzNwrp3uQX7ev05nqGEwDw%2FInPzPRkyg3sxfpZ7PWPi2jFMcAbVhQS%2FJ66J4s%2FTbHSaAK7btwGPtqD5E9HlqYUypE7Ql2TSJ0B9%2FDsWsXrBpDd2AfpYTtvcR5KbSkI9J20SCi55KZaM7pRAJuRZO1KXPn8wY0%2FUKWyJRO%2BHyI%2FftIqQmp5Ink%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "147401974365",
+      "title": "BALENCIAGA The City Black Leather Two Way Bag",
+      "price": {
+        "value": "1538.66",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147401974365?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZN9K5F23Y476Z7KYX&hash=item2251d7a25d:g:z~EAAeSwHKFqQIJC&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDyI3vGty68hLyj89mPe1SmwO96lgpr5Li3Xcx%2BUAEJ%2BRvyJ9utHyphBt%2Bpxz1M4ovZcf8ETbhaX%2BjzNwrp3uQX7ev05nqGEwDw%2FInPzPRkyg3sxfpZ7PWPi2jFMcAbVhQS%2FJ66J4s%2FTbHSaAK7btwGPtqD5E9HlqYUypE7Ql2TSJ0B9%2FDsWsXrBpDd2AfpYTtvcR5KbSkI9J20SCi55KZaM7pRAJuRZO1KXPn8wY0%2FUKWyJRO%2BHyI%2FftIqQmp5Ink%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 155,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "137450908225",
+    "title": "Authentic BALENCIAGA Le City Small 811442 Bag Pink Beige Lamb leather 2way",
+    "price": 1585,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/137450908225?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZDJ5AGBAJBY354V4V&hash=item2000b66a41:g:RPcAAeSwjwJqPLT7&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBNuTy4Z%2FkRQqu9uI8Ths9zucA4JqlO47OlqxC3PVsmBDwGSYl3HjA8i4CBEsruXKYYOk6SbeWNB%2BHcnVgN%2FOrYOvOL6tUSrxmoKaif57WFYnPKgqf6X%2FfmKdtz3KFjtTaoV5nUpFXQdsisiyHJA3Pn2EcYSEJiQcgMJ3Tfznm8SPaGxnjBiaYaq5GvaL%2B%2FQEk7c3KxKOxMAPRjd6oTaMec1NYmw0Y120xPhL7efNJSAvmtBOwMyh7Z5w6MQtVH440gEN8NbCpCr2j7AVPp9UXPRQ8yMNEGAyMKrB0gIVUhsQ%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "137450908225",
+      "title": "Authentic BALENCIAGA Le City Small 811442 Bag Pink Beige Lamb leather 2way",
+      "price": {
+        "value": "1585.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/137450908225?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZDJ5AGBAJBY354V4V&hash=item2000b66a41:g:RPcAAeSwjwJqPLT7&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBNuTy4Z%2FkRQqu9uI8Ths9zucA4JqlO47OlqxC3PVsmBDwGSYl3HjA8i4CBEsruXKYYOk6SbeWNB%2BHcnVgN%2FOrYOvOL6tUSrxmoKaif57WFYnPKgqf6X%2FfmKdtz3KFjtTaoV5nUpFXQdsisiyHJA3Pn2EcYSEJiQcgMJ3Tfznm8SPaGxnjBiaYaq5GvaL%2B%2FQEk7c3KxKOxMAPRjd6oTaMec1NYmw0Y120xPhL7efNJSAvmtBOwMyh7Z5w6MQtVH440gEN8NbCpCr2j7AVPp9UXPRQ8yMNEGAyMKrB0gIVUhsQ%3D%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 151,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "257586276284",
+    "title": "BALENCIAGA Le City Small blue washed denim gunmetal studded top handle bag",
+    "price": 1683,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/257586276284?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZMY3X5TSNN8Y4VCFB&hash=item3bf956a7bc:g:ykgAAeSwq1dqPP9B&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDF5WTSai6MqqhcKpSgUWp%2BrBdkQUGJGX3cuBaLS%2FUYUojMoLTCIOQ1wAZnV3N0AJWcSyT4%2Flblox3QXhSBI6kpzBOxl7vSP85n3qlajRI9c3DTGnE3QV8TujxyymofprvY1awsbNCmuL0qKGFFYg0Naa%2B%2FuC7wGai%2FWCVA90TUL8D9vGicBtW8N1UszPk%2BxkVII8nnYpM4IzSUc%2FZwOAobbH5elxFUsiBC7NnfWRzCLDtfh0oRmF4Yuaq1vcRbdvQ%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "257586276284",
+      "title": "BALENCIAGA Le City Small blue washed denim gunmetal studded top handle bag",
+      "price": {
+        "value": "1683.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/257586276284?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZMY3X5TSNN8Y4VCFB&hash=item3bf956a7bc:g:ykgAAeSwq1dqPP9B&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDF5WTSai6MqqhcKpSgUWp%2BrBdkQUGJGX3cuBaLS%2FUYUojMoLTCIOQ1wAZnV3N0AJWcSyT4%2Flblox3QXhSBI6kpzBOxl7vSP85n3qlajRI9c3DTGnE3QV8TujxyymofprvY1awsbNCmuL0qKGFFYg0Naa%2B%2FuC7wGai%2FWCVA90TUL8D9vGicBtW8N1UszPk%2BxkVII8nnYpM4IzSUc%2FZwOAobbH5elxFUsiBC7NnfWRzCLDtfh0oRmF4Yuaq1vcRbdvQ%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 113,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "800275292697",
+    "title": "BALENCIAGA Giant City Hand Bag Leather 2way Black Silver 173084 38cm",
+    "price": 1783,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/800275292697?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XJCT3EAX7186AWYB7&hash=itemba541fe219:g:Sd8AAeSwNYtqRcp6&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xB0658Z56sYMC0a%2FCEsLWREomvYiPpnQmMg77%2BRlZansF1wGaCXDr8E5jcyIpfcQiQdO49ekv%2BQQ%2B86KTKKiNtOK6wKmy1sI8g5TynfSdG8nZxSA1hmEAYKZWY2Zgs7R5MeXrE13S9s9lA9L3COyIRO1tYe3WY4hD2p93IUy9SKuZGNmDy0mhv8E0SBhpLoRetnCtx7HERSQdq30ECCyO4aKkRqp4v9XwzdvB0GJJaMaRjKW3tSziRtMd5ze7S1xqyjccn%2B7wQ4an3PzcuSv4CBb2KShQ26kAFHGLHHgv296w%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "800275292697",
+      "title": "BALENCIAGA Giant City Hand Bag Leather 2way Black Silver 173084 38cm",
+      "price": {
+        "value": "1783.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/800275292697?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9XJCT3EAX7186AWYB7&hash=itemba541fe219:g:Sd8AAeSwNYtqRcp6&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xB0658Z56sYMC0a%2FCEsLWREomvYiPpnQmMg77%2BRlZansF1wGaCXDr8E5jcyIpfcQiQdO49ekv%2BQQ%2B86KTKKiNtOK6wKmy1sI8g5TynfSdG8nZxSA1hmEAYKZWY2Zgs7R5MeXrE13S9s9lA9L3COyIRO1tYe3WY4hD2p93IUy9SKuZGNmDy0mhv8E0SBhpLoRetnCtx7HERSQdq30ECCyO4aKkRqp4v9XwzdvB0GJJaMaRjKW3tSziRtMd5ze7S1xqyjccn%2B7wQ4an3PzcuSv4CBb2KShQ26kAFHGLHHgv296w%3D%3D%7Ctkp%3ABk9SR4zl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 149,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147392192298",
+    "title": "BALENCIAGA The City Red Suede Hand Bag",
+    "price": 2053.57,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147392192298?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZRTT8Q2TFZSVNMDR8&hash=item2251425f2a:g:oMEAAeSwPYBqObr8&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCZ%2Fq%2BiUneKR9LQq8YVzUoNgLx270DlnYQd8Z%2FR6dW1TgaS3nOrGb%2BhwzaT8IJ0oGHqBh%2FxxrXbpk94g%2BykNFd8x2QoeeGkMXM7BE6e2A9QP5xt%2ByANn%2FGn2o2zeZ%2BFDuo%2BoksHY8MgZSXnuZS2zetYLO%2BPqmw5nMVCnKRhod89dBP1ueGDQk6z%2B8Nf6tbXXt7oODGN%2FbRy%2BjPUEzh%2FdKAMtldf3gJ4VVEpLJuQu0WmLBqol1Y5Ojbb6KSlrAbx4O4%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "147392192298",
+      "title": "BALENCIAGA The City Red Suede Hand Bag",
+      "price": {
+        "value": "2053.57",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147392192298?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9ZRTT8Q2TFZSVNMDR8&hash=item2251425f2a:g:oMEAAeSwPYBqObr8&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCZ%2Fq%2BiUneKR9LQq8YVzUoNgLx270DlnYQd8Z%2FR6dW1TgaS3nOrGb%2BhwzaT8IJ0oGHqBh%2FxxrXbpk94g%2BykNFd8x2QoeeGkMXM7BE6e2A9QP5xt%2ByANn%2FGn2o2zeZ%2BFDuo%2BoksHY8MgZSXnuZS2zetYLO%2BPqmw5nMVCnKRhod89dBP1ueGDQk6z%2B8Nf6tbXXt7oODGN%2FbRy%2BjPUEzh%2FdKAMtldf3gJ4VVEpLJuQu0WmLBqol1Y5Ojbb6KSlrAbx4O4%3D%7Ctkp%3ABk9SR5Dl3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 135,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287417896608",
+    "title": "RRP \u00a32400 /New Balenciaga Giant 12 Rose Pink  Golden Stud Classic City bag",
+    "price": 2400,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287417896608?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YPVFZ3BR5J15AN1K0&hash=item42eb710ea0:g:h-4AAeSw-dNqDyPa&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAoqjbxrh8z9vLE%2F401TaVcnaxdJm7fC0%2F%2BuFpadXN%2FEs%2Fq3Sa9kFBu00t5oZkDAgRyDGHi%2FfrlG2gFkITuJFIgBRTiuUTc%2FtJXLL7ORm76pLSyxPIwHc9olUgSkYNNt4Y6KkkPa%2BohdlNzv3hNIDu4tpTiXwcjopdOJ0eKPMZ5hHuQoMnQ1pdzdw0dwondovCFX%2BDds1Ire8qeMSu8ukqrcgKFxGTqqSTlmUry%2FUna01I5RurlYF3nI1Of9wFxpJSyUBgnJUvAZSfNeoB%2BpkskPpD5WIagHmPI8MkLNrDg4g%3D%3D%7Ctkp%3ABk9SR47l3pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:18:27.594573",
+    "first_observed": "2026-07-14T16:18:27.594573",
+    "last_observed": "2026-07-14T16:18:27.594573",
+    "expires_at": "2026-08-13T16:18:27.594909",
+    "raw_payload": {
+      "itemId": "287417896608",
+      "title": "RRP \u00a32400 /New Balenciaga Giant 12 Rose Pink  Golden Stud Classic City bag",
+      "price": {
+        "value": "2400",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287417896608?_skw=balenciaga+city+bag&itmmeta=01KXGPQP9YPVFZ3BR5J15AN1K0&hash=item42eb710ea0:g:h-4AAeSw-dNqDyPa&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAoqjbxrh8z9vLE%2F401TaVcnaxdJm7fC0%2F%2BuFpadXN%2FEs%2Fq3Sa9kFBu00t5oZkDAgRyDGHi%2FfrlG2gFkITuJFIgBRTiuUTc%2FtJXLL7ORm76pLSyxPIwHc9olUgSkYNNt4Y6KkkPa%2BohdlNzv3hNIDu4tpTiXwcjopdOJ0eKPMZ5hHuQoMnQ1pdzdw0dwondovCFX%2BDds1Ire8qeMSu8ukqrcgKFxGTqqSTlmUry%2FUna01I5RurlYF3nI1Of9wFxpJSyUBgnJUvAZSfNeoB%2BpkskPpD5WIagHmPI8MkLNrDg4g%3D%3D%7Ctkp%3ABk9SR47l3pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "balenciaga-city"
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 74,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16040052883759",
+    "title": "Agneau Giant Brogues Hardware City Black",
+    "price": 1295,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/balenciaga-agneau-giant-brogues-hardware-city-black-1918901",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:17:17.188116",
+    "first_observed": "2026-07-14T16:17:17.188116",
+    "last_observed": "2026-07-14T16:17:17.188116",
+    "expires_at": "2026-08-13T16:17:17.188128",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16040052883759",
+      "title": "Agneau Giant Brogues Hardware City Black",
+      "price": 1295.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/balenciaga-agneau-giant-brogues-hardware-city-black-1918901",
+      "condition": "Pre-owned",
+      "bag_slug": "balenciaga-city",
+      "bag_id": 2
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 73,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16050363531567",
+    "title": "Agneau Classic Hardware City Cyprus",
+    "price": 1450,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/balenciaga-agneau-classic-hardware-city-cyprus-1921379",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:17:17.188116",
+    "first_observed": "2026-07-14T16:17:17.188116",
+    "last_observed": "2026-07-14T16:17:17.188116",
+    "expires_at": "2026-08-13T16:17:17.188128",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16050363531567",
+      "title": "Agneau Classic Hardware City Cyprus",
+      "price": 1450.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/balenciaga-agneau-classic-hardware-city-cyprus-1921379",
+      "condition": "Pre-owned",
+      "bag_slug": "balenciaga-city",
+      "bag_id": 2
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 80,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "10826028679471",
+    "title": "Agneau Arena Classic Hardware Small Le City Almond",
+    "price": 1660,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/balenciaga-agneau-arena-classic-hardware-small-le-city-almond-1772257",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:17:17.188116",
+    "first_observed": "2026-07-14T16:17:17.188116",
+    "last_observed": "2026-07-14T16:17:17.188116",
+    "expires_at": "2026-08-13T16:17:17.188128",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "10826028679471",
+      "title": "Agneau Arena Classic Hardware Small Le City Almond",
+      "price": 1660.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/balenciaga-agneau-arena-classic-hardware-small-le-city-almond-1772257",
+      "condition": "Pre-owned",
+      "bag_slug": "balenciaga-city",
+      "bag_id": 2
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 76,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16013979943215",
+    "title": "Chevre Silver Metallic Edge Hardware City Black",
+    "price": 1895,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/balenciaga-chevre-silver-metallic-edge-hardware-city-black-1885219",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:17:17.188116",
+    "first_observed": "2026-07-14T16:17:17.188116",
+    "last_observed": "2026-07-14T16:17:17.188116",
+    "expires_at": "2026-08-13T16:17:17.188128",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16013979943215",
+      "title": "Chevre Silver Metallic Edge Hardware City Black",
+      "price": 1895.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/balenciaga-chevre-silver-metallic-edge-hardware-city-black-1885219",
+      "condition": "Pre-owned",
+      "bag_slug": "balenciaga-city",
+      "bag_id": 2
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 72,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16030619205935",
+    "title": "Agneau Classic Hardware City Anthracite",
+    "price": 1950,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/balenciaga-agneau-classic-hardware-city-anthracite-1906896",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:17:17.188116",
+    "first_observed": "2026-07-14T16:17:17.188116",
+    "last_observed": "2026-07-14T16:17:17.188116",
+    "expires_at": "2026-08-13T16:17:17.188128",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16030619205935",
+      "title": "Agneau Classic Hardware City Anthracite",
+      "price": 1950.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/balenciaga-agneau-classic-hardware-city-anthracite-1906896",
+      "condition": "Pre-owned",
+      "bag_slug": "balenciaga-city",
+      "bag_id": 2
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 75,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16039150158127",
+    "title": "Agneau Classic Hardware City Rouge Coquelicot",
+    "price": 2050,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/balenciaga-agneau-classic-hardware-city-rouge-coquelicot-1918303",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:17:17.188116",
+    "first_observed": "2026-07-14T16:17:17.188116",
+    "last_observed": "2026-07-14T16:17:17.188116",
+    "expires_at": "2026-08-13T16:17:17.188128",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16039150158127",
+      "title": "Agneau Classic Hardware City Rouge Coquelicot",
+      "price": 2050.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/balenciaga-agneau-classic-hardware-city-rouge-coquelicot-1918303",
+      "condition": "Pre-owned",
+      "bag_slug": "balenciaga-city",
+      "bag_id": 2
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 79,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "12666252951855",
+    "title": "Agneau Arena Silver Hardware Small Le City Black",
+    "price": 2110,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/balenciaga-agneau-arena-silver-hardware-small-le-city-black-1809885",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:17:17.188116",
+    "first_observed": "2026-07-14T16:17:17.188116",
+    "last_observed": "2026-07-14T16:17:17.188116",
+    "expires_at": "2026-08-13T16:17:17.188128",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "12666252951855",
+      "title": "Agneau Arena Silver Hardware Small Le City Black",
+      "price": 2110.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/balenciaga-agneau-arena-silver-hardware-small-le-city-black-1809885",
+      "condition": "Pre-owned",
+      "bag_slug": "balenciaga-city",
+      "bag_id": 2
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 78,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16053193474351",
+    "title": "Agneau Arena Gold Hardware Small Le City Black",
+    "price": 2295,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/balenciaga-agneau-arena-gold-hardware-small-le-city-black-1918945",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:17:17.188116",
+    "first_observed": "2026-07-14T16:17:17.188116",
+    "last_observed": "2026-07-14T16:17:17.188116",
+    "expires_at": "2026-08-13T16:17:17.188128",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16053193474351",
+      "title": "Agneau Arena Gold Hardware Small Le City Black",
+      "price": 2295.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/balenciaga-agneau-arena-gold-hardware-small-le-city-black-1918945",
+      "condition": "Pre-owned",
+      "bag_slug": "balenciaga-city",
+      "bag_id": 2
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 77,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16060986556719",
+    "title": "Agneau Arena Classic Hardware Medium Le City Camel",
+    "price": 2395,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/balenciaga-agneau-arena-classic-hardware-medium-le-city-camel-1919746",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:17:17.188116",
+    "first_observed": "2026-07-14T16:17:17.188116",
+    "last_observed": "2026-07-14T16:17:17.188116",
+    "expires_at": "2026-08-13T16:17:17.188128",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16060986556719",
+      "title": "Agneau Arena Classic Hardware Medium Le City Camel",
+      "price": 2395.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/balenciaga-agneau-arena-classic-hardware-medium-le-city-camel-1919746",
+      "condition": "Pre-owned",
+      "bag_slug": "balenciaga-city",
+      "bag_id": 2
+    },
+    "bag_slug": "balenciaga-city"
+  },
+  {
+    "id": 71,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16020307018031",
+    "title": "Agneau Classic Hardware City Black",
+    "price": 2465,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/balenciaga-agneau-classic-hardware-city-black-1901802",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 2,
+    "observed_at": "2026-07-14T16:17:17.188116",
+    "first_observed": "2026-07-14T16:17:17.188116",
+    "last_observed": "2026-07-14T16:17:17.188116",
+    "expires_at": "2026-08-13T16:17:17.188128",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16020307018031",
+      "title": "Agneau Classic Hardware City Black",
+      "price": 2465.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/balenciaga-agneau-classic-hardware-city-black-1901802",
+      "condition": "Pre-owned",
+      "bag_slug": "balenciaga-city",
+      "bag_id": 2
+    },
+    "bag_slug": "balenciaga-city"
+  }
+]

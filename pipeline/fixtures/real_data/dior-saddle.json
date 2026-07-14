@@ -1,0 +1,2272 @@
+[
+  {
+    "id": 282,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "117283675524",
+    "title": "Authentic Dior Saddle Medium Bag Oblique Jacquard Canvas Blue Gold Hardware",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/117283675524?_skw=dior+saddle+bag&itmmeta=01KXGPSJXHRM88EQFGVVTDR40V&hash=item1b4ea6dd84:g:4U8AAeSwQIBqSJ50&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xADHZqONcoENWEahoO0k1%2FE0oKwXYoAOVNgQuWuhT7eT1lk6fZVAI%2FvqYOJquzQz4K8hShCKaGmTJArB2dwIqfDzFDEurRzPFGXUUUBfDM8UWIT9pSlOyD7DQF4bpsxjyMJdkv8PC%2FFG4H%2FDI1AYH9zE2ncF%2BuJpVju6FA161oqOWWGpjXEoCtOXcDq2saZpPk66Vl2V8ufaqLbouvlQtFVcFL7oVt5Gk%2FyLTmEAYRiLtzYbGhNKKlNOyMXg2oEXhaz0QGVAm0FHYYZZOl4SO1QUF6fU4J%2BymifMoJzQWV2hw%3D%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "117283675524",
+      "title": "Authentic Dior Saddle Medium Bag Oblique Jacquard Canvas Blue Gold Hardware",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/117283675524?_skw=dior+saddle+bag&itmmeta=01KXGPSJXHRM88EQFGVVTDR40V&hash=item1b4ea6dd84:g:4U8AAeSwQIBqSJ50&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xADHZqONcoENWEahoO0k1%2FE0oKwXYoAOVNgQuWuhT7eT1lk6fZVAI%2FvqYOJquzQz4K8hShCKaGmTJArB2dwIqfDzFDEurRzPFGXUUUBfDM8UWIT9pSlOyD7DQF4bpsxjyMJdkv8PC%2FFG4H%2FDI1AYH9zE2ncF%2BuJpVju6FA161oqOWWGpjXEoCtOXcDq2saZpPk66Vl2V8ufaqLbouvlQtFVcFL7oVt5Gk%2FyLTmEAYRiLtzYbGhNKKlNOyMXg2oEXhaz0QGVAm0FHYYZZOl4SO1QUF6fU4J%2BymifMoJzQWV2hw%3D%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 266,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "137494958497",
+    "title": "DIOR Mini Saddle Bag Black Grained Calfskin | Gold-Finish Metal",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/137494958497?_skw=dior+saddle+bag&itmmeta=01KXGPSJXG56T2XAWQ4JPJQD1N&hash=item20035691a1:g:6ncAAeSwbg9qTjVY&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCNhiSuNy9lR5rPk8BQIPX2EXOQB%2FmlP%2BJF7gIszaWAfGq%2B6QgsTBPd7zKSlY%2BrG6lp5C%2FCaH3VidSd2GR%2Ftt5wyNTZBRjJePD00TKd1%2FN9vmSIfkB90pOra9DIE6dI2%2FEIBLiGzFc9b%2Bey5Vzp1ai2kbCoqv461f5TIYtNfC9xonoFDVix5ijuNQBHwjoNbbvTC1Q5eZSXtOS%2FQnVvMCN9QUDUW9kS6bH6WSwHcx8v0ebffJcdzK%2Fka%2Fs1Al02iT0%3D%7Ctkp%3ABk9SR_au5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "137494958497",
+      "title": "DIOR Mini Saddle Bag Black Grained Calfskin | Gold-Finish Metal",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/137494958497?_skw=dior+saddle+bag&itmmeta=01KXGPSJXG56T2XAWQ4JPJQD1N&hash=item20035691a1:g:6ncAAeSwbg9qTjVY&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCNhiSuNy9lR5rPk8BQIPX2EXOQB%2FmlP%2BJF7gIszaWAfGq%2B6QgsTBPd7zKSlY%2BrG6lp5C%2FCaH3VidSd2GR%2Ftt5wyNTZBRjJePD00TKd1%2FN9vmSIfkB90pOra9DIE6dI2%2FEIBLiGzFc9b%2Bey5Vzp1ai2kbCoqv461f5TIYtNfC9xonoFDVix5ijuNQBHwjoNbbvTC1Q5eZSXtOS%2FQnVvMCN9QUDUW9kS6bH6WSwHcx8v0ebffJcdzK%2Fka%2Fs1Al02iT0%3D%7Ctkp%3ABk9SR_au5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 242,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "206272947653",
+    "title": "Christian Dior Rare Gaucho Leather Handbag Khaki Brown Vintage Saddle Bag Auth",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/206272947653?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFW7SPBTQ49K5PS1XB&hash=item3006d365c5:g:FlYAAeSwI3ZqBQ~Y&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCshM6wO9Ejcup%2BbuoASgvTLSkt%2FcidGnlJKY%2FirXuhZspA871OJwumJGaU6Oq4fIDKuQJUQbMAVFbC8jr3qfV8ndKgtGBSEIeNZaSVHvgJRdyrZoBVsmYFS%2BQi1UaUGlzOnPqdUj7MH9oTQaJTmQoMjb724OkSggE3pmPpUe14suGH84GHv2f4PPPbFAgesHFpfP8uxNAgxKyRfTYSb6obFHj%2FeQyWp6WL2jPWVUMHLiT2bk9EcfO0hmR%2FLorAh%2Fw%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "206272947653",
+      "title": "Christian Dior Rare Gaucho Leather Handbag Khaki Brown Vintage Saddle Bag Auth",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/206272947653?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFW7SPBTQ49K5PS1XB&hash=item3006d365c5:g:FlYAAeSwI3ZqBQ~Y&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCshM6wO9Ejcup%2BbuoASgvTLSkt%2FcidGnlJKY%2FirXuhZspA871OJwumJGaU6Oq4fIDKuQJUQbMAVFbC8jr3qfV8ndKgtGBSEIeNZaSVHvgJRdyrZoBVsmYFS%2BQi1UaUGlzOnPqdUj7MH9oTQaJTmQoMjb724OkSggE3pmPpUe14suGH84GHv2f4PPPbFAgesHFpfP8uxNAgxKyRfTYSb6obFHj%2FeQyWp6WL2jPWVUMHLiT2bk9EcfO0hmR%2FLorAh%2Fw%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 275,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "236925570003",
+    "title": "Dior Saddle Bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/236925570003?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGVWCVNQRFTWTDT9X0&hash=item3729dd4bd3:g:lTAAAeSwih1qTqRm&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDQix0c8xiYF1kGlr11bFX2JQESv3M61ZOMWBCSOEuH65Dvl4dZJRHjXy7ZzmGux2llkvT76hTesIKwP7l%2FH%2FJxCXaw6qBqerBlbTJeUku8hq3EZvKu6F%2FQdL1xLzTzIBW%2FO6olQZ22DszH7XnSJTsNOtvSPs7S%2Fm0SZ36Wti02HyiGbZyURLKBpcpqMNI7Ex%2BTuBsjhrJJ7zxsRpwb8yOujwFfCYjDE64gsR7E%2Fcgk%2FGermqk5D1BF7RoC7k%2B4MJak8v%2FOV5blMpNxFExywfl1QNzRzH53JCSd6oI1ejKVVw%3D%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "236925570003",
+      "title": "Dior Saddle Bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/236925570003?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGVWCVNQRFTWTDT9X0&hash=item3729dd4bd3:g:lTAAAeSwih1qTqRm&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDQix0c8xiYF1kGlr11bFX2JQESv3M61ZOMWBCSOEuH65Dvl4dZJRHjXy7ZzmGux2llkvT76hTesIKwP7l%2FH%2FJxCXaw6qBqerBlbTJeUku8hq3EZvKu6F%2FQdL1xLzTzIBW%2FO6olQZ22DszH7XnSJTsNOtvSPs7S%2Fm0SZ36Wti02HyiGbZyURLKBpcpqMNI7Ex%2BTuBsjhrJJ7zxsRpwb8yOujwFfCYjDE64gsR7E%2Fcgk%2FGermqk5D1BF7RoC7k%2B4MJak8v%2FOV5blMpNxFExywfl1QNzRzH53JCSd6oI1ejKVVw%3D%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 270,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "267655698467",
+    "title": "Christian Dior Saddle bag Shoulder Bag Japan ookura",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/267655698467?_skw=dior+saddle+bag&itmmeta=01KXGPSJXG79Q24A831JPJEJ0R&hash=item3e5185d823:g:WusAAeSw10tqNNeN&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xD7haqn3EkgA%2BMNqp3m6eMQV59MEhOOpY15TsLHJNBzWzz0Z6Omg0t80ksbGHeCU4vHnM%2Bw0sUlmK7CVprVoIJR7WkITDs6hLYp%2B%2B%2BOa5lIY57kIVvEjom1gG6UFNZUVk3aSp--xJRU4kKo8YYgEb%2F%2BCu7o%2BKBLUAv5gDnlaBHPxKC36Nou05jWP5B7FBmmbTbXijA%2FSKNa1FbwJ0bkSU7lJBbiRcBddi7VI0A6Hq5rZHO8hd%2FTGX1J4g8XEzhTUEQ%3D%7Ctkp%3ABk9SR_au5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "267655698467",
+      "title": "Christian Dior Saddle bag Shoulder Bag Japan ookura",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/267655698467?_skw=dior+saddle+bag&itmmeta=01KXGPSJXG79Q24A831JPJEJ0R&hash=item3e5185d823:g:WusAAeSw10tqNNeN&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xD7haqn3EkgA%2BMNqp3m6eMQV59MEhOOpY15TsLHJNBzWzz0Z6Omg0t80ksbGHeCU4vHnM%2Bw0sUlmK7CVprVoIJR7WkITDs6hLYp%2B%2B%2BOa5lIY57kIVvEjom1gG6UFNZUVk3aSp--xJRU4kKo8YYgEb%2F%2BCu7o%2BKBLUAv5gDnlaBHPxKC36Nou05jWP5B7FBmmbTbXijA%2FSKNa1FbwJ0bkSU7lJBbiRcBddi7VI0A6Hq5rZHO8hd%2FTGX1J4g8XEzhTUEQ%3D%7Ctkp%3ABk9SR_au5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 289,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287442214878",
+    "title": "Christian Dior SADDLE Handbag Beige Leather #RCB6899",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287442214878?_skw=dior+saddle+bag&itmmeta=01KXGPSJXHY8R44Q61ZG6886HF&hash=item42ece41fde:g:7F8AAeSw8OVqVEZ-&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCCXW7XGXPM9JIzZ68i%2B0bsrPZH6XPkZG96uv1o%2BPBBW1Rov9YV95HQKG7Qqnyh4E4%2BAqhsyyRT0yxUjTjcN11avFwci3e4CRYUvo4P0sTHDxfXRqZ9UjEFOjXPZiHWVFKi4JBF9mhwAtKMAMOgUOapWv%2F0%2Fd5ZArQuK8EpoP105WosOUFvW0n6%2FkKfMfIROzP8FQ3790MhpsoqG7slP1gEquSJ7GrOjVwpWuTBMsat4R8zjj5wNuDiREu%2BAzwBuo8%3D%7Ctkp%3ABk9SR_qu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "287442214878",
+      "title": "Christian Dior SADDLE Handbag Beige Leather #RCB6899",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287442214878?_skw=dior+saddle+bag&itmmeta=01KXGPSJXHY8R44Q61ZG6886HF&hash=item42ece41fde:g:7F8AAeSw8OVqVEZ-&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCCXW7XGXPM9JIzZ68i%2B0bsrPZH6XPkZG96uv1o%2BPBBW1Rov9YV95HQKG7Qqnyh4E4%2BAqhsyyRT0yxUjTjcN11avFwci3e4CRYUvo4P0sTHDxfXRqZ9UjEFOjXPZiHWVFKi4JBF9mhwAtKMAMOgUOapWv%2F0%2Fd5ZArQuK8EpoP105WosOUFvW0n6%2FkKfMfIROzP8FQ3790MhpsoqG7slP1gEquSJ7GrOjVwpWuTBMsat4R8zjj5wNuDiREu%2BAzwBuo8%3D%7Ctkp%3ABk9SR_qu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 262,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287448461142",
+    "title": "Dior Mini Saddle 43 MA 0261 Leather Blue Women's Bag #LTB1007",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287448461142?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGYE6B7XWEK626NA71&hash=item42ed436f56:g:3u0AAeSwROhqVNLr&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xC1okMWpZbVm2Te18X79TfghqLfM%2F6J9YKera%2BwEGw9yGW2UliIY9nZtTNjNse2hMWUuP2T2DDhs1b7pUKJvI3V%2BBvo0M4DVdwHHG187SuocApVA%2B5CD4s7J%2FBA0bbuPUWv59f1Ybqdz1Iglr6jYvuEqQW6DX5ksCHzPkrbKPNJc4T9kK4ExNSkdAOagfil8cXnmZRbA7buoNjKIUaOLK%2FBbEtQs%2BHp71nBj5AcruzrBrsE2vwkupQlb%2Fg9WsRwcGToMuMc0Y4roRhIMtVxYwYpu08CuTG5JxhvOObBMWX%2BOg%3D%3D%7Ctkp%3ABk9SR_au5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "287448461142",
+      "title": "Dior Mini Saddle 43 MA 0261 Leather Blue Women's Bag #LTB1007",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287448461142?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGYE6B7XWEK626NA71&hash=item42ed436f56:g:3u0AAeSwROhqVNLr&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xC1okMWpZbVm2Te18X79TfghqLfM%2F6J9YKera%2BwEGw9yGW2UliIY9nZtTNjNse2hMWUuP2T2DDhs1b7pUKJvI3V%2BBvo0M4DVdwHHG187SuocApVA%2B5CD4s7J%2FBA0bbuPUWv59f1Ybqdz1Iglr6jYvuEqQW6DX5ksCHzPkrbKPNJc4T9kK4ExNSkdAOagfil8cXnmZRbA7buoNjKIUaOLK%2FBbEtQs%2BHp71nBj5AcruzrBrsE2vwkupQlb%2Fg9WsRwcGToMuMc0Y4roRhIMtVxYwYpu08CuTG5JxhvOObBMWX%2BOg%3D%3D%7Ctkp%3ABk9SR_au5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 279,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287459529676",
+    "title": "DIOR Saddle Burgundy Canvas Shoulder Bag #OKB2288",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287459529676?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGXW9JCFZS0S0BHR1Q&hash=item42edec53cc:g:s90AAeSwdhFqVXXr&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCRXNjD%2BBmltnkJ1HUXoakb7nw50WJXb%2BoeFaVMBmiN9%2B%2FxOnO9yDHwjpuZwWcDXTZw0hSmXZbSHV5b%2BkIIYvSHXF6rRa31eABHx%2FzWpAnQavqnHyqb1WUWtvO2qmKoaLePs7TywD9UC23Xv6SRlE4OhX3QDoOX%2Bsh28pJ%2B59NaMVmMJrgtGk5V3VovUBZNZE5hdd0L8rurvJzA525eTH8Q8vb8GnXz22T2RfM7vHfJPpi1YB3h19Ai%2F2%2FNIU%2BxbDgBssFLjJh7rfKW5xCjSmIK%2B%2BhSwa3mCuXjMQDvRQdKng%3D%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "287459529676",
+      "title": "DIOR Saddle Burgundy Canvas Shoulder Bag #OKB2288",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287459529676?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGXW9JCFZS0S0BHR1Q&hash=item42edec53cc:g:s90AAeSwdhFqVXXr&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCRXNjD%2BBmltnkJ1HUXoakb7nw50WJXb%2BoeFaVMBmiN9%2B%2FxOnO9yDHwjpuZwWcDXTZw0hSmXZbSHV5b%2BkIIYvSHXF6rRa31eABHx%2FzWpAnQavqnHyqb1WUWtvO2qmKoaLePs7TywD9UC23Xv6SRlE4OhX3QDoOX%2Bsh28pJ%2B59NaMVmMJrgtGk5V3VovUBZNZE5hdd0L8rurvJzA525eTH8Q8vb8GnXz22T2RfM7vHfJPpi1YB3h19Ai%2F2%2FNIU%2BxbDgBssFLjJh7rfKW5xCjSmIK%2B%2BhSwa3mCuXjMQDvRQdKng%3D%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 245,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287459532756",
+    "title": "Christian Dior SADDLE Body Bag Navy Leather #RCB617",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287459532756?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF62GS4092G9SED9C9&hash=item42edec5fd4:g:~pYAAeSwDB5qVXWf&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCDjKcjzQs0hlxNp10isMFjsdzUkJR1pGfphoCEGZ29vuByAyGP1rjdZTBSthFKtm6CGAPbxbF5H62d1fHjb2%2FNHupvvNzKdKRPvyTRzJWyH9%2B2SDwLTbh8be%2FesyijqRBgXaVzb8%2FLLXksbtr%2FW3nPvwzkQ2uQVRsfACNIvHaiafq67WdVehZpUqJQZO6mjMFeUjgoY6ddD7AgNWpMXWzOUcC49eM%2BemgSPjtxQTsFo9R%2BCv6vnQaxhhakRUrw0gZUUgzRCGULI0OUqRPxIAjxIHobuGEmPYHBda%2BPDMxTmQ%3D%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "287459532756",
+      "title": "Christian Dior SADDLE Body Bag Navy Leather #RCB617",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287459532756?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF62GS4092G9SED9C9&hash=item42edec5fd4:g:~pYAAeSwDB5qVXWf&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCDjKcjzQs0hlxNp10isMFjsdzUkJR1pGfphoCEGZ29vuByAyGP1rjdZTBSthFKtm6CGAPbxbF5H62d1fHjb2%2FNHupvvNzKdKRPvyTRzJWyH9%2B2SDwLTbh8be%2FesyijqRBgXaVzb8%2FLLXksbtr%2FW3nPvwzkQ2uQVRsfACNIvHaiafq67WdVehZpUqJQZO6mjMFeUjgoY6ddD7AgNWpMXWzOUcC49eM%2BemgSPjtxQTsFo9R%2BCv6vnQaxhhakRUrw0gZUUgzRCGULI0OUqRPxIAjxIHobuGEmPYHBda%2BPDMxTmQ%3D%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 257,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287459533619",
+    "title": "Dior DIOR ERL Saddle Body Bag Blue Leather #RCB1467",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287459533619?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF7YR0GGC4SK6HGKRH&hash=item42edec6333:g:BCwAAeSwBGxqVXW4&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAmrnVUTK5qD6MbJ8oA0sxj38D9z7FZDVlpQ7wLOmWdHMZLcdSyNxzXxJcY5BYDHoYMgYJC2tfhKCQqcP2AbT1Zm9ojhOzrCByhX2TZfFJ%2Bkn4sqbCWYrOAKKVu%2BBTCZb1GHObQcBDWYPPZvl8gYrSLoKiZj6Gs34QQJ%2B3WFg%2BfL33syWvsJcN36UBaF%2Bhk4b%2FD%2FJ%2FWEXVa6LuQjzTR1gwl9xqe3hZuR01ZJuOUw2yocdgzBHWowYD8b0pErYq5lBU%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "287459533619",
+      "title": "Dior DIOR ERL Saddle Body Bag Blue Leather #RCB1467",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287459533619?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF7YR0GGC4SK6HGKRH&hash=item42edec6333:g:BCwAAeSwBGxqVXW4&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAmrnVUTK5qD6MbJ8oA0sxj38D9z7FZDVlpQ7wLOmWdHMZLcdSyNxzXxJcY5BYDHoYMgYJC2tfhKCQqcP2AbT1Zm9ojhOzrCByhX2TZfFJ%2Bkn4sqbCWYrOAKKVu%2BBTCZb1GHObQcBDWYPPZvl8gYrSLoKiZj6Gs34QQJ%2B3WFg%2BfL33syWvsJcN36UBaF%2Bhk4b%2FD%2FJ%2FWEXVa6LuQjzTR1gwl9xqe3hZuR01ZJuOUw2yocdgzBHWowYD8b0pErYq5lBU%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 285,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287459534996",
+    "title": "Christian Dior Saddle Shoulder Bag Black Leather #RCB4073",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287459534996?_skw=dior+saddle+bag&itmmeta=01KXGPSJXH10TTXTGK8VJBSTWH&hash=item42edec6894:g:ttQAAeSw8EFqVXYF&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDNJ2lthocDX15bNr0FtMrmuUVmGkAMtVZjxOsSCamk6UhGPCbiivd7X4K2NdcwYuXEXp2Yemke272GHLlUWNJmzr2DPp0s8A%2FZiHdil3jMfscNmLHjCPEP98GF3SuPjr9F3W4YACGNdMkcbE41fFY8gWPJVxkfAoDgpPtD%2FnxF9%2Bki4IgcmCyJjlzGOGqCDwhSiK%2BlAGT3Nh6%2BeibfOHTDqPRQ81n6LbkVi47DVVnoLX%2FlgQ%2F1c3B5uJSlldva98s%3D%7Ctkp%3ABk9SR_qu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "287459534996",
+      "title": "Christian Dior Saddle Shoulder Bag Black Leather #RCB4073",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287459534996?_skw=dior+saddle+bag&itmmeta=01KXGPSJXH10TTXTGK8VJBSTWH&hash=item42edec6894:g:ttQAAeSw8EFqVXYF&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDNJ2lthocDX15bNr0FtMrmuUVmGkAMtVZjxOsSCamk6UhGPCbiivd7X4K2NdcwYuXEXp2Yemke272GHLlUWNJmzr2DPp0s8A%2FZiHdil3jMfscNmLHjCPEP98GF3SuPjr9F3W4YACGNdMkcbE41fFY8gWPJVxkfAoDgpPtD%2FnxF9%2Bki4IgcmCyJjlzGOGqCDwhSiK%2BlAGT3Nh6%2BeibfOHTDqPRQ81n6LbkVi47DVVnoLX%2FlgQ%2F1c3B5uJSlldva98s%3D%7Ctkp%3ABk9SR_qu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 268,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287459535596",
+    "title": "Christian Dior Saddle Body Bag Beige Leather #RCB13814",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287459535596?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGE4GKPYF78WEADTDW&hash=item42edec6aec:g:1lYAAeSwMndqVXZG&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDhz1KaEjcZL%2FM6suU7VcIQyzPu7GH6%2FIHGCPOZpLWJMUAA%2F9q16hnQ6vs3YlzzvwvTZo9tbE2m068UegAo2rD%2Bds4Dm40tJLiPD0H%2F3spaf0CGliqOZ0oU%2FBbwHwdmNNZx2gGle4%2BHqzVkZA1jnpopwzVDxOfRuF%2B7Sc6%2FuV3Kl383h6E2Eq%2BD5XRNWoO06KUIow29hqahE3rA4ehsiIYBYvikeWJ1mPRSf5AkouKzdfgI7s4BvQViE5qtLGqnhEG3EMaL0XwX82pB3WE%2BiDLj8GVuQCseJYanT5ulVxU6vg%3D%3D%7Ctkp%3ABk9SR_au5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "287459535596",
+      "title": "Christian Dior Saddle Body Bag Beige Leather #RCB13814",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287459535596?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGE4GKPYF78WEADTDW&hash=item42edec6aec:g:1lYAAeSwMndqVXZG&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDhz1KaEjcZL%2FM6suU7VcIQyzPu7GH6%2FIHGCPOZpLWJMUAA%2F9q16hnQ6vs3YlzzvwvTZo9tbE2m068UegAo2rD%2Bds4Dm40tJLiPD0H%2F3spaf0CGliqOZ0oU%2FBbwHwdmNNZx2gGle4%2BHqzVkZA1jnpopwzVDxOfRuF%2B7Sc6%2FuV3Kl383h6E2Eq%2BD5XRNWoO06KUIow29hqahE3rA4ehsiIYBYvikeWJ1mPRSf5AkouKzdfgI7s4BvQViE5qtLGqnhEG3EMaL0XwX82pB3WE%2BiDLj8GVuQCseJYanT5ulVxU6vg%3D%3D%7Ctkp%3ABk9SR_au5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 276,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "298498788276",
+    "title": "Christian Dior Saddle Bag Cream Ivory Brown Canvas Leather Shoulder Bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/298498788276?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGXK2ZQ16CJAPNE6CX&hash=item457fea0bb4:g:P3kAAeSwBFtqUsqQ&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xC757ZP3xUjo8xr72cuocUrhGYcGpLuvEM%2Fu%2F2WMvg2lZFKHbm7mPc6CYVRF7KJcu8KPB7t8r95H5H8UiCAO8ykw4lKNvsjZOSPwamLZorYVQ0ZDxlIG4wX1LPkg0iy%2BRF472Q2jrRs0%2FxOcdj2%2BB7n9x2h3iAkIvad9eguMRcfALL559Vw%2Bxt4Z6cUDmQbZd1%2BQEJbT1TAPrztE0RtcSY5TuR0j%2FVdVR%2B7tcPPftlKcJ5of6CX%2BlAUcSA5aJmkPSBkVBw%2BQlmXPVe0PTrMmWk9eXy9%2BTAS544SmZ3YE77cmQ%3D%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "298498788276",
+      "title": "Christian Dior Saddle Bag Cream Ivory Brown Canvas Leather Shoulder Bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/298498788276?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGXK2ZQ16CJAPNE6CX&hash=item457fea0bb4:g:P3kAAeSwBFtqUsqQ&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xC757ZP3xUjo8xr72cuocUrhGYcGpLuvEM%2Fu%2F2WMvg2lZFKHbm7mPc6CYVRF7KJcu8KPB7t8r95H5H8UiCAO8ykw4lKNvsjZOSPwamLZorYVQ0ZDxlIG4wX1LPkg0iy%2BRF472Q2jrRs0%2FxOcdj2%2BB7n9x2h3iAkIvad9eguMRcfALL559Vw%2Bxt4Z6cUDmQbZd1%2BQEJbT1TAPrztE0RtcSY5TuR0j%2FVdVR%2B7tcPPftlKcJ5of6CX%2BlAUcSA5aJmkPSBkVBw%2BQlmXPVe0PTrMmWk9eXy9%2BTAS544SmZ3YE77cmQ%3D%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 277,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "306665759966",
+    "title": "Vintage Christian Dior Saddle Canvas Bag - Pink With Floral Details",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/306665759966?_skw=dior+saddle+bag&itmmeta=01KXGPSJXG13HK8P8DG0FSMB3S&hash=item4766b424de:g:gbQAAeSwxxBpRT67&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCGbslZDqG%2BXqU00EYUDo3OvT8K0V7J2Y1EhcwaRLSLLuFrrMX0FtvFaqPqsdx0W2s9PDEFUgH3I48szL%2B9PKynKdoRm2geT9BUi4bllZXGcOMUUIACtEP146%2FDsnfr8XRTj%2Fs%2BadZ0nZgCm1lsCRDHMgL%2BfDeZ0TSZSow80d2IW%2B1ukb3IpgpopJ%2BaqkOBeb9Yh%2F2fJRa0ul%2FixjoRq0A71UAzcPV%2BzoLskfQRsi7DngPoQaA4UsqWYnQeAY%2B7YASJBY%2Fov14POmBMvtlKsHbr2INiPlGzMFU2j4cclGA%2Bfw%3D%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "306665759966",
+      "title": "Vintage Christian Dior Saddle Canvas Bag - Pink With Floral Details",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/306665759966?_skw=dior+saddle+bag&itmmeta=01KXGPSJXG13HK8P8DG0FSMB3S&hash=item4766b424de:g:gbQAAeSwxxBpRT67&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCGbslZDqG%2BXqU00EYUDo3OvT8K0V7J2Y1EhcwaRLSLLuFrrMX0FtvFaqPqsdx0W2s9PDEFUgH3I48szL%2B9PKynKdoRm2geT9BUi4bllZXGcOMUUIACtEP146%2FDsnfr8XRTj%2Fs%2BadZ0nZgCm1lsCRDHMgL%2BfDeZ0TSZSow80d2IW%2B1ukb3IpgpopJ%2BaqkOBeb9Yh%2F2fJRa0ul%2FixjoRq0A71UAzcPV%2BzoLskfQRsi7DngPoQaA4UsqWYnQeAY%2B7YASJBY%2Fov14POmBMvtlKsHbr2INiPlGzMFU2j4cclGA%2Bfw%3D%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 288,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "336636483429",
+    "title": "AUTHENTIC Dior 43 MA 0261 Mini Saddle Shoulder Bag blue Leather",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/336636483429?_skw=dior+saddle+bag&itmmeta=01KXGPSJXHEYJHQWQYZ6635F19&hash=item4e61191765:g:9i0AAeSwogFqLJ7v&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAtcwpQnf6bpFMihUcGqs6cQw3enlUILtuOf0xSgyyjG5%2BgvwI%2Fk38B3y%2B4UXvLVzbeJlyqOEG5Y9vrcr2lg3qKjJOLOdMlArflwXZmTC5au26xaplhIrrtkXnZxSUOKlrjlzRdZoFkmubfyKNVlRK2cJ368PDsQiyJgl0FdtY4aAzNeztzErRTjr5LK9FejNYuv8lgAypyrl81jK74fdsy5atNGM0EH8iunIgAUOPbXwjB%2BQ3uc9ufHohQTR90h3Dcpfby82Y7budvZm%2BvEBaDGsjArRgCqT79d3TowImfAQ%3D%3D%7Ctkp%3ABk9SR_qu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "336636483429",
+      "title": "AUTHENTIC Dior 43 MA 0261 Mini Saddle Shoulder Bag blue Leather",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/336636483429?_skw=dior+saddle+bag&itmmeta=01KXGPSJXHEYJHQWQYZ6635F19&hash=item4e61191765:g:9i0AAeSwogFqLJ7v&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAtcwpQnf6bpFMihUcGqs6cQw3enlUILtuOf0xSgyyjG5%2BgvwI%2Fk38B3y%2B4UXvLVzbeJlyqOEG5Y9vrcr2lg3qKjJOLOdMlArflwXZmTC5au26xaplhIrrtkXnZxSUOKlrjlzRdZoFkmubfyKNVlRK2cJ368PDsQiyJgl0FdtY4aAzNeztzErRTjr5LK9FejNYuv8lgAypyrl81jK74fdsy5atNGM0EH8iunIgAUOPbXwjB%2BQ3uc9ufHohQTR90h3Dcpfby82Y7budvZm%2BvEBaDGsjArRgCqT79d3TowImfAQ%3D%3D%7Ctkp%3ABk9SR_qu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 252,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "377192579652",
+    "title": "Christian Dior Speedway Denim Mini Saddle bag Canvas Handbag Blue Gray Auth",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/377192579652?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFFQ7VRC7HME7MEZ6Z&hash=item57d26e0244:g:wO8AAeSwv5dqCtp~&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAntCBLux%2BXIs80RWHXiDc7SW6z1OVa1Y8cYpRjgYMC1gk4%2BqQo8q1OdUD8tmgH%2BY%2Bw7%2FDGLFBaf5RVwnXPY9nIoXnNb9OS9xzOazLicSEMOYixsMIENCJM2NBfYQFbai2bIPhow0T1KhEgtAaEhV2GHkg4U03jp%2BLRWAvuhW6aezFZ63iEryD2ifOIgRgBRpm5mRmcv8jzxLi%2BXrnKPNWghRrXJCNlMZfeUFLRjk0%2FEIv9Lw4CE7oj3eijHQJDaWM%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "377192579652",
+      "title": "Christian Dior Speedway Denim Mini Saddle bag Canvas Handbag Blue Gray Auth",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/377192579652?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFFQ7VRC7HME7MEZ6Z&hash=item57d26e0244:g:wO8AAeSwv5dqCtp~&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAntCBLux%2BXIs80RWHXiDc7SW6z1OVa1Y8cYpRjgYMC1gk4%2BqQo8q1OdUD8tmgH%2BY%2Bw7%2FDGLFBaf5RVwnXPY9nIoXnNb9OS9xzOazLicSEMOYixsMIENCJM2NBfYQFbai2bIPhow0T1KhEgtAaEhV2GHkg4U03jp%2BLRWAvuhW6aezFZ63iEryD2ifOIgRgBRpm5mRmcv8jzxLi%2BXrnKPNWghRrXJCNlMZfeUFLRjk0%2FEIv9Lw4CE7oj3eijHQJDaWM%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 236,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "168522027695",
+    "title": "Authentic Christian Dior Trotter Saddle Canvas Green Handbag W/Dustbag NS070213",
+    "price": 15,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/168522027695?_skw=dior+saddle+bag&itmmeta=01KXGPSJXE8HQ0AX2BPV3EF5HZ&hash=item273cb212af:g:Xs0AAeSw9zVqTeQe&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAwnUj682OJzQ5uKlPBZtJWmjWLILqX92YmGiBz0c8OFkAtLWAf0Y8Yvt%2B5ofIuv9clwafnl5Q8XSqdqExiOj3lkkfYoKWOrPH37iXTmuj33iCV2EBP2tZlMlqPFYb%2BgPkkCuRVsN5qPy5Jbv4%2BwFXVSxlfKhI%2BrCNAWVyliebTsICvNEImKgoZnLWX8pw8E%2F3buWOKi%2BnCh%2B0SMf5Kz4%2BsatNHBfDL8ycoWxpOPJ5gi6k0MtzXmm6YraHA%2FiPevh4%3D%7Ctkp%3ABk9SR_Cu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "168522027695",
+      "title": "Authentic Christian Dior Trotter Saddle Canvas Green Handbag W/Dustbag NS070213",
+      "price": {
+        "value": "15",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/168522027695?_skw=dior+saddle+bag&itmmeta=01KXGPSJXE8HQ0AX2BPV3EF5HZ&hash=item273cb212af:g:Xs0AAeSw9zVqTeQe&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAwnUj682OJzQ5uKlPBZtJWmjWLILqX92YmGiBz0c8OFkAtLWAf0Y8Yvt%2B5ofIuv9clwafnl5Q8XSqdqExiOj3lkkfYoKWOrPH37iXTmuj33iCV2EBP2tZlMlqPFYb%2BgPkkCuRVsN5qPy5Jbv4%2BwFXVSxlfKhI%2BrCNAWVyliebTsICvNEImKgoZnLWX8pw8E%2F3buWOKi%2BnCh%2B0SMf5Kz4%2BsatNHBfDL8ycoWxpOPJ5gi6k0MtzXmm6YraHA%2FiPevh4%3D%7Ctkp%3ABk9SR_Cu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 241,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147330148203",
+    "title": "DIOR Saddle Pouch Black Trotter Canvas Shoulder Bag",
+    "price": 576.02,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147330148203?_skw=dior+saddle+bag&itmmeta=01KXGPSJXEHBNHKVY2WE2Y1HDB&hash=item224d8fa76b:g:YsMAAeSwn8tqFAv4&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCMqQE9PxKEfPuWXBHPUNYKT7k7a45Cq55CfPBHh0uMWooz7iSZ7frtgb%2BaD%2Fkqg7fJlEi93elhXMCLVeKh8QV9Oq%2FC7cHgxeZ87CLvcsGl8%2FLGEP9k%2BWFZNTbu2Yloqzn2FS7mmC6yBiryybIhhk09576DNxfGjyu2I5nOrzPJ8biBUSmnGJh9aaoY%2B8Y%2BxkN66CYHJW5jg1pCEwzWnU11vEMg4cMdRo069Ew7Hn%2FK6IcP3nujIdh2vdUA3b3tdtI%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147330148203",
+      "title": "DIOR Saddle Pouch Black Trotter Canvas Shoulder Bag",
+      "price": {
+        "value": "576.02",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147330148203?_skw=dior+saddle+bag&itmmeta=01KXGPSJXEHBNHKVY2WE2Y1HDB&hash=item224d8fa76b:g:YsMAAeSwn8tqFAv4&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCMqQE9PxKEfPuWXBHPUNYKT7k7a45Cq55CfPBHh0uMWooz7iSZ7frtgb%2BaD%2Fkqg7fJlEi93elhXMCLVeKh8QV9Oq%2FC7cHgxeZ87CLvcsGl8%2FLGEP9k%2BWFZNTbu2Yloqzn2FS7mmC6yBiryybIhhk09576DNxfGjyu2I5nOrzPJ8biBUSmnGJh9aaoY%2B8Y%2BxkN66CYHJW5jg1pCEwzWnU11vEMg4cMdRo069Ew7Hn%2FK6IcP3nujIdh2vdUA3b3tdtI%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 280,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "236921558426",
+    "title": "DIOR/ChristianDior Saddle Pouch Dark Gray Light Blue Navy Canvas Leather",
+    "price": 589,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/236921558426?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGHS388GZGZAKTD6H7&hash=item3729a0159a:g:70kAAeSw8GhqEPG3&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBUCTHy%2BcNgLVzA16i8Xsfe8r005u0c27WkJQCgzdEfHXLk%2BzKsDNpLgidM%2FzUZPIPyA4B8M%2B%2FC3I7vOwZLx8tmUTU1y%2FUKUnIqP7TmFGLl%2BrTu1%2FnWZhVlGwBxpNAssdrY4ONVpNyN4dbZnJtCnQ5NgsOp81NbPWxhHEPETiNXeMhaw19uYuWDOlJvLHLAsmx66E%2BSHwXHf90ybapaUSmAYulx1WQ2OLj0sdP4LYX4lkRp7%2B03VGtPB8%2Bqg%2BZnZg8d50s08ajMK2OfreL%2BqA%2FOAG7VndBWewSde3FCBSwH0A%3D%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "236921558426",
+      "title": "DIOR/ChristianDior Saddle Pouch Dark Gray Light Blue Navy Canvas Leather",
+      "price": {
+        "value": "589.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/236921558426?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGHS388GZGZAKTD6H7&hash=item3729a0159a:g:70kAAeSw8GhqEPG3&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBUCTHy%2BcNgLVzA16i8Xsfe8r005u0c27WkJQCgzdEfHXLk%2BzKsDNpLgidM%2FzUZPIPyA4B8M%2B%2FC3I7vOwZLx8tmUTU1y%2FUKUnIqP7TmFGLl%2BrTu1%2FnWZhVlGwBxpNAssdrY4ONVpNyN4dbZnJtCnQ5NgsOp81NbPWxhHEPETiNXeMhaw19uYuWDOlJvLHLAsmx66E%2BSHwXHf90ybapaUSmAYulx1WQ2OLj0sdP4LYX4lkRp7%2B03VGtPB8%2Bqg%2BZnZg8d50s08ajMK2OfreL%2BqA%2FOAG7VndBWewSde3FCBSwH0A%3D%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 239,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147434586927",
+    "title": "DIOR Saddle Pouch Blue Denim Shoulder Bag",
+    "price": 661.86,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147434586927?_skw=dior+saddle+bag&itmmeta=01KXGPSJXEGKYEA320CX0PVMAR&hash=item2253c9432f:g:pHYAAeSwi1JqVWhd&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCPtAEynu5RKGA0yxAIYKyzqXlCEyAgoHX4dwp4eUbZBHhuoYZDepaydZOo1jfg6WDSGnku9jpBj9QPVFgkNpaTPTAgLnjqu5L4KfY7BKp1u%2FnW%2F5ZxN4rLHEOSWd4ExffZDUBtIR4pOJpBCYlZCsf6mflqXc6qVI9psL5VQgWwNtRJphiGmgYTHJTvXIImuU%2F7Ckv6fmHvWr%2FzmEAnk0Vbssaf6GpLZ%2FywKR3xKVAefr0Dbn%2FhlacwHXJmmyiBxJuuhC%2BAAvZRkWYGBKhnhe%2FOjWakw71uQ54IzQNK%2FD96vQ%3D%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147434586927",
+      "title": "DIOR Saddle Pouch Blue Denim Shoulder Bag",
+      "price": {
+        "value": "661.86",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147434586927?_skw=dior+saddle+bag&itmmeta=01KXGPSJXEGKYEA320CX0PVMAR&hash=item2253c9432f:g:pHYAAeSwi1JqVWhd&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCPtAEynu5RKGA0yxAIYKyzqXlCEyAgoHX4dwp4eUbZBHhuoYZDepaydZOo1jfg6WDSGnku9jpBj9QPVFgkNpaTPTAgLnjqu5L4KfY7BKp1u%2FnW%2F5ZxN4rLHEOSWd4ExffZDUBtIR4pOJpBCYlZCsf6mflqXc6qVI9psL5VQgWwNtRJphiGmgYTHJTvXIImuU%2F7Ckv6fmHvWr%2FzmEAnk0Vbssaf6GpLZ%2FywKR3xKVAefr0Dbn%2FhlacwHXJmmyiBxJuuhC%2BAAvZRkWYGBKhnhe%2FOjWakw71uQ54IzQNK%2FD96vQ%3D%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 234,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147434586947",
+    "title": "DIOR Saddle Pouch Blue Trotter Canvas Shoulder Bag",
+    "price": 661.86,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147434586947?_skw=dior+saddle+bag&itmmeta=01KXGPSJXE5M4DN5ED6BATJ185&hash=item2253c94343:g:eCMAAeSw3jFqVWhe&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDmp%2Fh%2F%2BXx%2BbOGQPu9H0tlh8TWLcDwNtPvvrZONrS3lUl0x6p8yB99413BZNSh%2ByWoBSbdHcxvzkkVxSrD%2Fb6rBhFKpMAFx9xa1fYZiph%2FJV7HwWTY%2B4fX%2Bl8gjyNGWAtn6wbKtQ%2Fzm%2FEYkSGzAw3OjwJggONZKT25DWzt7EPf6IHJ1F4uc8o%2BW0l%2FH5NFO5Y85cuakJ7C%2F3WVHs8j6yCY%2B0dRJB%2BUqR6%2FyultSM8B2apM82ppogjOfLHrTLDz0w6HTolMGJvC7pJPdKvjxTEfq4LQy7YMR7GDyE3AR8T7tLQ%3D%3D%7Ctkp%3ABk9SR_Cu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147434586947",
+      "title": "DIOR Saddle Pouch Blue Trotter Canvas Shoulder Bag",
+      "price": {
+        "value": "661.86",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147434586947?_skw=dior+saddle+bag&itmmeta=01KXGPSJXE5M4DN5ED6BATJ185&hash=item2253c94343:g:eCMAAeSw3jFqVWhe&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDmp%2Fh%2F%2BXx%2BbOGQPu9H0tlh8TWLcDwNtPvvrZONrS3lUl0x6p8yB99413BZNSh%2ByWoBSbdHcxvzkkVxSrD%2Fb6rBhFKpMAFx9xa1fYZiph%2FJV7HwWTY%2B4fX%2Bl8gjyNGWAtn6wbKtQ%2Fzm%2FEYkSGzAw3OjwJggONZKT25DWzt7EPf6IHJ1F4uc8o%2BW0l%2FH5NFO5Y85cuakJ7C%2F3WVHs8j6yCY%2B0dRJB%2BUqR6%2FyultSM8B2apM82ppogjOfLHrTLDz0w6HTolMGJvC7pJPdKvjxTEfq4LQy7YMR7GDyE3AR8T7tLQ%3D%3D%7Ctkp%3ABk9SR_Cu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 249,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "306965211825",
+    "title": "CHRISTIAN DIOR Trotter Saddle Bag Black Jacquard Canvas Spain Auth #50960A",
+    "price": 705,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/306965211825?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF4Z71E5S57NRKM0GK&hash=item47788d6ab1:g:B28AAeSwOhNqFqW8&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDA8uCIcTuBVgrKE358JE4DgD1nOwgJeAyT7INvvf6%2F6oh%2B9wPBnSnmZ%2FG5W%2BI5m3ovBpU4jlNUnBk%2FYHHwXPC%2BoX2QGqXq6hcJLBUgfqkTOZxqVJFWZTinyFdtdOhNxQae4f%2BUJuS2aKrwMYThISfFeB5jegvq4Qx5d5lHDbYFctr6Xvyv00rBVfJsKsfaBx8S0NUgzQ2Ug%2BHcBUr3yBi5Kw%2FUcibUNDW4QAD8VdojBvcnsa9m1X8qlcNz1KKv5L0tHh27%2B47wEXN6%2F1u5OQXuRhA8vP0YO9jZnlRGGAYfbQ%3D%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "306965211825",
+      "title": "CHRISTIAN DIOR Trotter Saddle Bag Black Jacquard Canvas Spain Auth #50960A",
+      "price": {
+        "value": "705.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/306965211825?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF4Z71E5S57NRKM0GK&hash=item47788d6ab1:g:B28AAeSwOhNqFqW8&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDA8uCIcTuBVgrKE358JE4DgD1nOwgJeAyT7INvvf6%2F6oh%2B9wPBnSnmZ%2FG5W%2BI5m3ovBpU4jlNUnBk%2FYHHwXPC%2BoX2QGqXq6hcJLBUgfqkTOZxqVJFWZTinyFdtdOhNxQae4f%2BUJuS2aKrwMYThISfFeB5jegvq4Qx5d5lHDbYFctr6Xvyv00rBVfJsKsfaBx8S0NUgzQ2Ug%2BHcBUr3yBi5Kw%2FUcibUNDW4QAD8VdojBvcnsa9m1X8qlcNz1KKv5L0tHh27%2B47wEXN6%2F1u5OQXuRhA8vP0YO9jZnlRGGAYfbQ%3D%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 283,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147351772407",
+    "title": "DIOR Saddle Pouch Blue Trotter Canvas Shoulder Bag",
+    "price": 710.34,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147351772407?_skw=dior+saddle+bag&itmmeta=01KXGPSJXHZ9C24QASB5VSZTN9&hash=item224ed99cf7:g:KO8AAeSw8b1qIcP9&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xA%2F2msXDDcf%2F7OkPQJUQJwWwSNnFVEq3jA9Y8Bnh%2FfX6joaMLqOVua%2FuronZPxuc%2FtPJU%2BnSkkr%2Fe8lxNRqGI7I%2F4q73sbCljaW32NJrdPMIyk9CK19elMfC%2FpaDYzI9ftXAzjQu3LO7dwTvKMNg10GJrgRrMiP5wZTV4ANiws7ocwbCdXyCIcfnag3X8BquPZAikSr5O%2Bn6R3FTONfzgb0T7n0pqx9CNC4tv7NZte4jTi5T12b%2BJcmN4NOiyuQEoY%3D%7Ctkp%3ABk9SR_qu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147351772407",
+      "title": "DIOR Saddle Pouch Blue Trotter Canvas Shoulder Bag",
+      "price": {
+        "value": "710.34",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147351772407?_skw=dior+saddle+bag&itmmeta=01KXGPSJXHZ9C24QASB5VSZTN9&hash=item224ed99cf7:g:KO8AAeSw8b1qIcP9&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xA%2F2msXDDcf%2F7OkPQJUQJwWwSNnFVEq3jA9Y8Bnh%2FfX6joaMLqOVua%2FuronZPxuc%2FtPJU%2BnSkkr%2Fe8lxNRqGI7I%2F4q73sbCljaW32NJrdPMIyk9CK19elMfC%2FpaDYzI9ftXAzjQu3LO7dwTvKMNg10GJrgRrMiP5wZTV4ANiws7ocwbCdXyCIcfnag3X8BquPZAikSr5O%2Bn6R3FTONfzgb0T7n0pqx9CNC4tv7NZte4jTi5T12b%2BJcmN4NOiyuQEoY%3D%7Ctkp%3ABk9SR_qu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 253,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147422012059",
+    "title": "DIOR Mini Saddle Brown Trotter Handle Bag",
+    "price": 721.55,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147422012059?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFV9X3Z80XN4FVRMMM&hash=item225309629b:g:X5QAAeSwlelqTNp8&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBvLFwNprL1if%2F7YrN2w%2FiSZcRSWoiUkoC7kX1yKuiBlCTL%2B24T5soZbu63Lax9bXUmljtLwVZCxxRbO90%2B6kF3A%2BFY0ijMNKex9eDnM7RAQXcKzwylsC3VvoPaa5dBiem4A6Ce3e7Snlmy8aT3BtpXxa0LrlXbbu%2FfPUz4%2BAKYNaniWJdOP2THppvPEZNfVDegHiEw6FZUch5OkAHdnXiOqEOxEri6S0GOkH0NYe1udUTsRpbmMvf9UtwMYffnkM8%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147422012059",
+      "title": "DIOR Mini Saddle Brown Trotter Handle Bag",
+      "price": {
+        "value": "721.55",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147422012059?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFV9X3Z80XN4FVRMMM&hash=item225309629b:g:X5QAAeSwlelqTNp8&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBvLFwNprL1if%2F7YrN2w%2FiSZcRSWoiUkoC7kX1yKuiBlCTL%2B24T5soZbu63Lax9bXUmljtLwVZCxxRbO90%2B6kF3A%2BFY0ijMNKex9eDnM7RAQXcKzwylsC3VvoPaa5dBiem4A6Ce3e7Snlmy8aT3BtpXxa0LrlXbbu%2FfPUz4%2BAKYNaniWJdOP2THppvPEZNfVDegHiEw6FZUch5OkAHdnXiOqEOxEri6S0GOkH0NYe1udUTsRpbmMvf9UtwMYffnkM8%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 233,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147306844621",
+    "title": "DIOR Mini Saddle Red Trotter Canvas Handle Bag",
+    "price": 723.78,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147306844621?_skw=dior+saddle+bag&itmmeta=01KXGPSJXEJYQZZ35HCM1EJD8R&hash=item224c2c11cd:g:6W4AAeSwLUpqAuS5&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAcVdgHcgVzu1uL3KmBoF9tKWlA0GrqFbRrCMHeBmcP2v5ACApns2gNnIQC%2BZ2p7wcEmn2fcBPOwwyeaZtEVc97v4wudYPReVdPE%2Bgh637THxk9AWH3EgOUuSKYR1qj20ZQhBetxthAaQEvgywxel4I%2BgNc2oqSOYgJiT%2BRjmieoBayqPuFxsXuMyXRK7yjRy7u%2FyVP4VtlaKwvQKm%2Bt48oyclXRqpiVGBEgnbxwtZe5kiZyX4P4Kztmayi2b%2Fa554%3D%7Ctkp%3ABk9SR_Cu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147306844621",
+      "title": "DIOR Mini Saddle Red Trotter Canvas Handle Bag",
+      "price": {
+        "value": "723.78",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147306844621?_skw=dior+saddle+bag&itmmeta=01KXGPSJXEJYQZZ35HCM1EJD8R&hash=item224c2c11cd:g:6W4AAeSwLUpqAuS5&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAcVdgHcgVzu1uL3KmBoF9tKWlA0GrqFbRrCMHeBmcP2v5ACApns2gNnIQC%2BZ2p7wcEmn2fcBPOwwyeaZtEVc97v4wudYPReVdPE%2Bgh637THxk9AWH3EgOUuSKYR1qj20ZQhBetxthAaQEvgywxel4I%2BgNc2oqSOYgJiT%2BRjmieoBayqPuFxsXuMyXRK7yjRy7u%2FyVP4VtlaKwvQKm%2Bt48oyclXRqpiVGBEgnbxwtZe5kiZyX4P4Kztmayi2b%2Fa554%3D%7Ctkp%3ABk9SR_Cu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 260,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "306997395025",
+    "title": "CHRISTIAN DIOR Trotter Double Saddle Bag Hand Bag MA0091 Navy MTSY Auth #56266A",
+    "price": 770,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/306997395025?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFZ4SS5E4YMEXGFE2S&hash=item477a787e51:g:bPAAAeSwaHRqK62n&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCeSV%2BziV140FhQ0ZIYblk9v3E2b6d5xPqXLkNr7Q32ohEL7yAQpCaWG2OumEuB0fu02H1sTrFBV740jZJ6w2A5FMHsqsFyVNxe31x7CWVP1E0ttVqcrEq2X9%2ByCyb%2BrYVJ5ij0oySVucAQsTU0hUJqer%2FNj1BupfaJAc94lvsB5QxZxsXuQ%2Buiu5ESqHYo%2FtsKIqyXPkRQk6jh4YwvLd7T5G44PU0bIPHTlIyYQ%2BO7VD7C6f5IFIuoDhJGi4GUHa0%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "306997395025",
+      "title": "CHRISTIAN DIOR Trotter Double Saddle Bag Hand Bag MA0091 Navy MTSY Auth #56266A",
+      "price": {
+        "value": "770.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/306997395025?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFZ4SS5E4YMEXGFE2S&hash=item477a787e51:g:bPAAAeSwaHRqK62n&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCeSV%2BziV140FhQ0ZIYblk9v3E2b6d5xPqXLkNr7Q32ohEL7yAQpCaWG2OumEuB0fu02H1sTrFBV740jZJ6w2A5FMHsqsFyVNxe31x7CWVP1E0ttVqcrEq2X9%2ByCyb%2BrYVJ5ij0oySVucAQsTU0hUJqer%2FNj1BupfaJAc94lvsB5QxZxsXuQ%2Buiu5ESqHYo%2FtsKIqyXPkRQk6jh4YwvLd7T5G44PU0bIPHTlIyYQ%2BO7VD7C6f5IFIuoDhJGi4GUHa0%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 231,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "407070430830",
+    "title": "Dior Gaucho Brown Leather Double Saddle Shoulder Bag",
+    "price": 777.6,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/407070430830?_skw=dior+saddle+bag&itmmeta=01KXGPSJXECZB8PM8355EKMQA7&hash=item5ec749d66e:g:UcUAAeSw-1dqVSxy&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xA%2FolO%2Fiz%2B6%2BWtCSves7QG0i2b4MON1GWv2sN8mH3D4aDZak%2FRsG%2Fv4xelz2dVcOD5VdmMaiYaYa0m9kqR2S8BM5mfG61m37CLOCOMo8a3cDZ%2BIAMLoZR9SmEJ9MT90SN9MagxNhIxXzNntoAQ3AdSRo3ieX%2FDA6vBZ6EXXj2DfFmCuDGKIKGKjxVzNVmd1eg6SbQ2bnPmSP5mORIHnEFDsQgH%2BOT7Ajykg6lLjUPzXK0e%2Bqy7%2FqQ9qHyVnKI%2FlIJ%2BJ5pD39vxdVMntqA5DPz1LdH33KHBuahHmH35L7BoOyA%3D%3D%7Ctkp%3ABk9SR_Cu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "407070430830",
+      "title": "Dior Gaucho Brown Leather Double Saddle Shoulder Bag",
+      "price": {
+        "value": "777.60",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/407070430830?_skw=dior+saddle+bag&itmmeta=01KXGPSJXECZB8PM8355EKMQA7&hash=item5ec749d66e:g:UcUAAeSw-1dqVSxy&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xA%2FolO%2Fiz%2B6%2BWtCSves7QG0i2b4MON1GWv2sN8mH3D4aDZak%2FRsG%2Fv4xelz2dVcOD5VdmMaiYaYa0m9kqR2S8BM5mfG61m37CLOCOMo8a3cDZ%2BIAMLoZR9SmEJ9MT90SN9MagxNhIxXzNntoAQ3AdSRo3ieX%2FDA6vBZ6EXXj2DfFmCuDGKIKGKjxVzNVmd1eg6SbQ2bnPmSP5mORIHnEFDsQgH%2BOT7Ajykg6lLjUPzXK0e%2Bqy7%2FqQ9qHyVnKI%2FlIJ%2BJ5pD39vxdVMntqA5DPz1LdH33KHBuahHmH35L7BoOyA%3D%3D%7Ctkp%3ABk9SR_Cu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 274,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "327181878361",
+    "title": "Vtg Christian Dior by John Galliano Orange Graffiti Print Double Saddle Bag",
+    "price": 785,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/327181878361?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGG3VT9X029ZQATQAJ&hash=item4c2d8f4459:g:E34AAeSwYRNqE49~&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAn%2FbMPOwpgvi0kDCkoSnA3N9u%2FtbZR%2FNQzHH9X52DoYo%2B7c1hRH%2BAPvKOfzTXZTN3DSmuqbKFEkSGbMiDdNWB3O0QIp%2FQOZMeuW3FLKMJsWeRx%2FtlljLQoUQSepiD8wtqs%2B%2BfkPO6Jokp9GjCueuzjsKfv5TSSy98nvfwJ0K7Rq5u%2FOykBK9UkpjIIXHizodj2JohK4Xlxwo%2BFBkzjj8mQQi7gdwoEsqKRmAPDtlif6fQ%2BkG9ZG4l9IXqgquuZew8ASwnMi8wCBPyiPArg6oqtKHvcYD7UiSEZvznBBMSUWA%3D%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "327181878361",
+      "title": "Vtg Christian Dior by John Galliano Orange Graffiti Print Double Saddle Bag",
+      "price": {
+        "value": "785.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/327181878361?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGG3VT9X029ZQATQAJ&hash=item4c2d8f4459:g:E34AAeSwYRNqE49~&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAn%2FbMPOwpgvi0kDCkoSnA3N9u%2FtbZR%2FNQzHH9X52DoYo%2B7c1hRH%2BAPvKOfzTXZTN3DSmuqbKFEkSGbMiDdNWB3O0QIp%2FQOZMeuW3FLKMJsWeRx%2FtlljLQoUQSepiD8wtqs%2B%2BfkPO6Jokp9GjCueuzjsKfv5TSSy98nvfwJ0K7Rq5u%2FOykBK9UkpjIIXHizodj2JohK4Xlxwo%2BFBkzjj8mQQi7gdwoEsqKRmAPDtlif6fQ%2BkG9ZG4l9IXqgquuZew8ASwnMi8wCBPyiPArg6oqtKHvcYD7UiSEZvznBBMSUWA%3D%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 272,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147057050147",
+    "title": "DIOR Saddle Blue Snake Print Leather Shoulder Bag",
+    "price": 796.97,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147057050147?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGM4FZBX13E6A5T5R7&hash=item223d488223:g:T88AAeSw46lpQj4E&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCK02tTbJR4nCprkBPJHsPQLnnujpFGoEIrqLJi%2Fog9SE3GVfiB4%2F1%2BfA3I1VBEfZdSkTouNHNvcdFpFSMgnLw810ceTEgCJo4Aila%2FMTg%2FgDpkG3DmXbNo1ymbDpHvYHGot9Mbn%2BrnKvurcu0EP1K1En62FgJhtS5SJahXDUo6CD36gm1zAAqIhYvB1%2FFI%2BXyZ4PL2EeFuSlPRCnKTJkNYDBmFZENtvVLLTD85Urvo28NAhq3oHVfR1HWfSGzJfHw%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147057050147",
+      "title": "DIOR Saddle Blue Snake Print Leather Shoulder Bag",
+      "price": {
+        "value": "796.97",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147057050147?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGM4FZBX13E6A5T5R7&hash=item223d488223:g:T88AAeSw46lpQj4E&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCK02tTbJR4nCprkBPJHsPQLnnujpFGoEIrqLJi%2Fog9SE3GVfiB4%2F1%2BfA3I1VBEfZdSkTouNHNvcdFpFSMgnLw810ceTEgCJo4Aila%2FMTg%2FgDpkG3DmXbNo1ymbDpHvYHGot9Mbn%2BrnKvurcu0EP1K1En62FgJhtS5SJahXDUo6CD36gm1zAAqIhYvB1%2FFI%2BXyZ4PL2EeFuSlPRCnKTJkNYDBmFZENtvVLLTD85Urvo28NAhq3oHVfR1HWfSGzJfHw%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 278,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147377908298",
+    "title": "DIOR Mini Saddle Red Trotter Handle Bag",
+    "price": 799.89,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147377908298?_skw=dior+saddle+bag&itmmeta=01KXGPSJXG2Z8AQ8AEWV6SPNW7&hash=item2250686a4a:g:6FMAAeSw7QpqMQ1L&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDdOAMPtoYPVZWJvG758hlSE6N7a9KiusAj6189GyHRtTkeEo66NjA7bmopr7atjNZH%2Fj8cbV%2FqFKrfwcwk%2FmGqOxOGcDKa5C2jfRYsmVkXiEZt0lr4N%2FuaBa28Pg0ejFkWwb6tMbB7HwHrje4B2h7ecUK0h%2BBY5JByYZfoa%2Bv0ykNNCQfWECEIoCEY%2FAhCthdSaX9dvCRfdh1nHrAouugkA4aajj7bhiBjzm4ybBaLaRo97lQ8Amgl7%2BdshjLJP7A%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147377908298",
+      "title": "DIOR Mini Saddle Red Trotter Handle Bag",
+      "price": {
+        "value": "799.89",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147377908298?_skw=dior+saddle+bag&itmmeta=01KXGPSJXG2Z8AQ8AEWV6SPNW7&hash=item2250686a4a:g:6FMAAeSw7QpqMQ1L&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDdOAMPtoYPVZWJvG758hlSE6N7a9KiusAj6189GyHRtTkeEo66NjA7bmopr7atjNZH%2Fj8cbV%2FqFKrfwcwk%2FmGqOxOGcDKa5C2jfRYsmVkXiEZt0lr4N%2FuaBa28Pg0ejFkWwb6tMbB7HwHrje4B2h7ecUK0h%2BBY5JByYZfoa%2Bv0ykNNCQfWECEIoCEY%2FAhCthdSaX9dvCRfdh1nHrAouugkA4aajj7bhiBjzm4ybBaLaRo97lQ8Amgl7%2BdshjLJP7A%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 284,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "236835926907",
+    "title": "DIOR/ChristianDior Saddlebag / Flight / Trotter Dark Gray Orange Denim Leather",
+    "price": 830,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/236835926907?_skw=dior+saddle+bag&itmmeta=01KXGPSJXH64F00J3JJWDQ5SDZ&hash=item372485737b:g:pz8AAeSwyRhqE-IL&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCP7Kf5nnMWzhkrecwTC3aH8LJNY%2BUqZCD0xttfNSh9Gx9AW4w9y8bbAi41jSmE8aei9%2BKU9rceDMAzsRXMGxbmddqBei3fiimHMyruQtS8K5TijXP8TtzhUKKxn6OasWN%2BqFqxyOoOAhrNHc%2B75k8wiq0Z6mHdZ1Rs8fsBgAT1BxgCDpVDefHQ6BjrvS10i5WAO2JabpXtfaEIMR2NZpfdTQpgMT6hul9hNbIIu1NFGVOO6q6z%2FVRFs4OWrFE2JTrATTkp42dKiQNRzbJvY332sUfI%2Fk7jvZ7LCbj5JJmsEA%3D%3D%7Ctkp%3ABk9SR_qu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "236835926907",
+      "title": "DIOR/ChristianDior Saddlebag / Flight / Trotter Dark Gray Orange Denim Leather",
+      "price": {
+        "value": "830.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/236835926907?_skw=dior+saddle+bag&itmmeta=01KXGPSJXH64F00J3JJWDQ5SDZ&hash=item372485737b:g:pz8AAeSwyRhqE-IL&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCP7Kf5nnMWzhkrecwTC3aH8LJNY%2BUqZCD0xttfNSh9Gx9AW4w9y8bbAi41jSmE8aei9%2BKU9rceDMAzsRXMGxbmddqBei3fiimHMyruQtS8K5TijXP8TtzhUKKxn6OasWN%2BqFqxyOoOAhrNHc%2B75k8wiq0Z6mHdZ1Rs8fsBgAT1BxgCDpVDefHQ6BjrvS10i5WAO2JabpXtfaEIMR2NZpfdTQpgMT6hul9hNbIIu1NFGVOO6q6z%2FVRFs4OWrFE2JTrATTkp42dKiQNRzbJvY332sUfI%2Fk7jvZ7LCbj5JJmsEA%3D%3D%7Ctkp%3ABk9SR_qu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 232,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147434586849",
+    "title": "DIOR Saddle Pouch Dragon Print Blue Canvas Shoulder Bag",
+    "price": 866.7,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147434586849?_skw=dior+saddle+bag&itmmeta=01KXGPSJXECF61YWWKA9358S83&hash=item2253c942e1:g:lqkAAeSwNwVqVWhW&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCPHci2XSwfK0XYDAv8mqaCfjgs7yLgLI1%2B5i%2FS11zCFt5zQaMx3PnqboifJ2jyjzWJkgYeHODy%2BWCXTPgx9XZlycw7%2FmiuDL8TTGpIJDHpV4ip86iRNMahWrfjJpaZPHUcGz%2FK4atjUgcxBtJFNt3YoHdwmjTD%2F%2BvuxpGTJ%2ByyhUeai1EECP2EeuBTsIabXg0LiB5Zu6nA1j99YUDwusB8cGTEgYOEKnRKdbiR5sNcAvRbSNmkqc6oPApZOKY%2F4sQ%3D%7Ctkp%3ABk9SR_Cu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147434586849",
+      "title": "DIOR Saddle Pouch Dragon Print Blue Canvas Shoulder Bag",
+      "price": {
+        "value": "866.70",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147434586849?_skw=dior+saddle+bag&itmmeta=01KXGPSJXECF61YWWKA9358S83&hash=item2253c942e1:g:lqkAAeSwNwVqVWhW&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCPHci2XSwfK0XYDAv8mqaCfjgs7yLgLI1%2B5i%2FS11zCFt5zQaMx3PnqboifJ2jyjzWJkgYeHODy%2BWCXTPgx9XZlycw7%2FmiuDL8TTGpIJDHpV4ip86iRNMahWrfjJpaZPHUcGz%2FK4atjUgcxBtJFNt3YoHdwmjTD%2F%2BvuxpGTJ%2ByyhUeai1EECP2EeuBTsIabXg0LiB5Zu6nA1j99YUDwusB8cGTEgYOEKnRKdbiR5sNcAvRbSNmkqc6oPApZOKY%2F4sQ%3D%7Ctkp%3ABk9SR_Cu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 281,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147380597179",
+    "title": "DIOR Double Saddle Blue Trotter Canvas Crossbody Bag",
+    "price": 871.53,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147380597179?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGZ47FE7D7PKA9CVZG&hash=item22509171bb:g:RQ4AAeSwtcVqMntw&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAOtIM%2BY9J1VHlemQCoikJcbKdpvTvklgQN7eMWcHcwA95OTCutnQ6GxSpjZNayj7EUi5xGY3pIAK8pM7qzGfP1WVWTIpkfxv1rxFIY16%2BGCp2lU%2FCXmGc%2BZIRuFkyhSqFEE9qrkmFSl6GzoXFaNAL4WrLBEOX0FfONYv5GSO0s4GrX3zulCqkqeFO7%2BXtHqZrL27wHeQnStHdQXKmgRK8kqI%2BhxkDEhRce%2Bf2V2nrv%2FbCVHsDRYdRD0ejBXhW3Ez8%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147380597179",
+      "title": "DIOR Double Saddle Blue Trotter Canvas Crossbody Bag",
+      "price": {
+        "value": "871.53",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147380597179?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGZ47FE7D7PKA9CVZG&hash=item22509171bb:g:RQ4AAeSwtcVqMntw&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAOtIM%2BY9J1VHlemQCoikJcbKdpvTvklgQN7eMWcHcwA95OTCutnQ6GxSpjZNayj7EUi5xGY3pIAK8pM7qzGfP1WVWTIpkfxv1rxFIY16%2BGCp2lU%2FCXmGc%2BZIRuFkyhSqFEE9qrkmFSl6GzoXFaNAL4WrLBEOX0FfONYv5GSO0s4GrX3zulCqkqeFO7%2BXtHqZrL27wHeQnStHdQXKmgRK8kqI%2BhxkDEhRce%2Bf2V2nrv%2FbCVHsDRYdRD0ejBXhW3Ez8%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 271,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147232431135",
+    "title": "DIOR Saddle Blue Lizard Bag",
+    "price": 942.03,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147232431135?_skw=dior+saddle+bag&itmmeta=01KXGPSJXG9W15HX8VCMXMD6CP&hash=item2247bc9c1f:g:S~EAAeSwuC9pxvYh&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCsDv5GWtS1DiI7bwpL0Z5lWSm4497mAzU5PhMNczeGLFUmFwUmr7PraO%2FGGI1LTdtnmFPeLL4XI4ruTjBrUsvBfhTGSSG8TctH4%2FSo87vUBaTiooSAtYf8sGuXhL%2B3o%2BVF1kXeI7vcl9rO9hnL4ZviwnZKQGSaj2HtGmCdKu0h2CClrwcK5tTRabjWLkxAnPi8kE3H30%2F6u0PKmigLB7ZHc%2B2uhr4K0FPHWinky5dWNoUH4KW0QJIEG8zM1KnF0BXwmlu5ONWAEssF8bZv9ivoS084Vyn%2FA95UdoDOE%2BqtrQ%3D%3D%7Ctkp%3ABk9SR_au5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147232431135",
+      "title": "DIOR Saddle Blue Lizard Bag",
+      "price": {
+        "value": "942.03",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147232431135?_skw=dior+saddle+bag&itmmeta=01KXGPSJXG9W15HX8VCMXMD6CP&hash=item2247bc9c1f:g:S~EAAeSwuC9pxvYh&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCsDv5GWtS1DiI7bwpL0Z5lWSm4497mAzU5PhMNczeGLFUmFwUmr7PraO%2FGGI1LTdtnmFPeLL4XI4ruTjBrUsvBfhTGSSG8TctH4%2FSo87vUBaTiooSAtYf8sGuXhL%2B3o%2BVF1kXeI7vcl9rO9hnL4ZviwnZKQGSaj2HtGmCdKu0h2CClrwcK5tTRabjWLkxAnPi8kE3H30%2F6u0PKmigLB7ZHc%2B2uhr4K0FPHWinky5dWNoUH4KW0QJIEG8zM1KnF0BXwmlu5ONWAEssF8bZv9ivoS084Vyn%2FA95UdoDOE%2BqtrQ%3D%3D%7Ctkp%3ABk9SR_au5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 256,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147334451581",
+    "title": "DIOR Saddle Pouch Brown Lizard Print Leather Shoulder Bag",
+    "price": 1019.29,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147334451581?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFQMRTBHY093T2C71H&hash=item224dd1517d:g:5csAAeSwkuZqFrK8&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCZnLvj1qQChdnRnIUW7dvmOeAnApgfMEDi7rjCaZ%2FtQ6CuTo8PkS%2BJV5VfK5lgf98Kp3WxgkDCQza8rC0IOrn4%2FGMkWt9oYwNW7LLjtNGIxJvWHI4ifg1ipN%2F3EjufdWQffUHWC1tedcEMx3lVlKE0IMsGe5emdnkalwROLDOmmybph1NxmgQUO%2BD7d%2FdnGHw2XX7pwoNa1hmI6QOod5f4apaVS%2ByowAvuZhzyHIoxi8Ddn3MEfwXuTgzbea41ptaHbwm%2FeNYY1FCD6moiLZudBtgeuT9irLAHfAy9pcRTTA%3D%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147334451581",
+      "title": "DIOR Saddle Pouch Brown Lizard Print Leather Shoulder Bag",
+      "price": {
+        "value": "1019.29",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147334451581?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFQMRTBHY093T2C71H&hash=item224dd1517d:g:5csAAeSwkuZqFrK8&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCZnLvj1qQChdnRnIUW7dvmOeAnApgfMEDi7rjCaZ%2FtQ6CuTo8PkS%2BJV5VfK5lgf98Kp3WxgkDCQza8rC0IOrn4%2FGMkWt9oYwNW7LLjtNGIxJvWHI4ifg1ipN%2F3EjufdWQffUHWC1tedcEMx3lVlKE0IMsGe5emdnkalwROLDOmmybph1NxmgQUO%2BD7d%2FdnGHw2XX7pwoNa1hmI6QOod5f4apaVS%2ByowAvuZhzyHIoxi8Ddn3MEfwXuTgzbea41ptaHbwm%2FeNYY1FCD6moiLZudBtgeuT9irLAHfAy9pcRTTA%3D%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 243,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147330148114",
+    "title": "DIOR Double Saddle Navy Blue Trotter Canvas Shoulder Bag",
+    "price": 1095.41,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147330148114?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFZNGQMWDZF3AB1QTE&hash=item224d8fa712:g:nnMAAeSwXCBqFAvW&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBPkUrA4Yp2W4Nv9HbgrBKd4WvBgQAapL7lgCoz%2FO58Goprzn9RLNEaZTCx5MoHvoqq0otEzfkXxNkAzgkbJdWN7wiQ2mjkjjb%2FVr12T1zhqHqVN17k8juLasPBMmdn3s08yhv50nOCXrhNlNpAACXqWJVPvZYEit0R%2BRy%2BuPLHtVJro3U2YQKkpwKkBUAMgssuLlW39%2FPpYiQkiJsro7aQNagrvEyCGi7kLB3kPIdHLxS8T%2FigejxzbwihKSMpz7k%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147330148114",
+      "title": "DIOR Double Saddle Navy Blue Trotter Canvas Shoulder Bag",
+      "price": {
+        "value": "1095.41",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147330148114?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFZNGQMWDZF3AB1QTE&hash=item224d8fa712:g:nnMAAeSwXCBqFAvW&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBPkUrA4Yp2W4Nv9HbgrBKd4WvBgQAapL7lgCoz%2FO58Goprzn9RLNEaZTCx5MoHvoqq0otEzfkXxNkAzgkbJdWN7wiQ2mjkjjb%2FVr12T1zhqHqVN17k8juLasPBMmdn3s08yhv50nOCXrhNlNpAACXqWJVPvZYEit0R%2BRy%2BuPLHtVJro3U2YQKkpwKkBUAMgssuLlW39%2FPpYiQkiJsro7aQNagrvEyCGi7kLB3kPIdHLxS8T%2FigejxzbwihKSMpz7k%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 264,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147116935716",
+    "title": "DIOR Saddle Pouch Multi-Color Canvas Shoulder Bag",
+    "price": 1135.02,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147116935716?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGW7GEVSN7YR37X5Y9&hash=item2240da4a24:g:5tcAAeSwW1Vpdtu~&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAYlHp9qfVO8MmpTGtfRNy5P5nq3UryuKvPy6ale30Kq0%2FCW3vnX%2Bwyg27z%2FSsEnywa4qYHxPPHup5xQsF33Zw4SpFxRVBXXeIVXxjHw4XQsVv%2FZU%2BQunzIqbscyzMQExQkSM9XBvNgiwGp9qhIalwgjM%2Fg%2BX%2F6a62agMWdiNsR6%2FzhiyrTRXQFeEKu0ZlVLl5DXthI2aUgR621yp%2BywU9WSQ108%2FIo7cfpxI7qeMi4RYLAJIwP4hR%2FJdKzdKfQzn1DOO%2B1zDW9GsF1L4Aux3qH8XacygnKVbF45M2O5mu9Cw%3D%3D%7Ctkp%3ABk9SR_au5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147116935716",
+      "title": "DIOR Saddle Pouch Multi-Color Canvas Shoulder Bag",
+      "price": {
+        "value": "1135.02",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147116935716?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGW7GEVSN7YR37X5Y9&hash=item2240da4a24:g:5tcAAeSwW1Vpdtu~&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAYlHp9qfVO8MmpTGtfRNy5P5nq3UryuKvPy6ale30Kq0%2FCW3vnX%2Bwyg27z%2FSsEnywa4qYHxPPHup5xQsF33Zw4SpFxRVBXXeIVXxjHw4XQsVv%2FZU%2BQunzIqbscyzMQExQkSM9XBvNgiwGp9qhIalwgjM%2Fg%2BX%2F6a62agMWdiNsR6%2FzhiyrTRXQFeEKu0ZlVLl5DXthI2aUgR621yp%2BywU9WSQ108%2FIo7cfpxI7qeMi4RYLAJIwP4hR%2FJdKzdKfQzn1DOO%2B1zDW9GsF1L4Aux3qH8XacygnKVbF45M2O5mu9Cw%3D%3D%7Ctkp%3ABk9SR_au5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 273,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147162983047",
+    "title": "DIOR Saddle Dark Brown Cotton Shoulder Bag",
+    "price": 1404,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147162983047?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGEJFDSESYJCHQH0F1&hash=item224398ea87:g:g-MAAeSw0uRpmAjA&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDuiJAH%2FXnGZYN3DvGTsOz8LY%2BuWd77eNhtdQBV4HpTbwxelo7k8OFm7J8O8YwV%2BITdpqoZroDo4mXdhHELh2OnHCpO%2FzLwOzopUjSzOD8bAhbO88w%2BeLqvh7Ex1DfRPlWW4hFhy4m0AgmlIPEg2bNgqWdq4lTZGUKUEU2L3Rgbt%2FEb0zaozhxUPbMfMOK%2FTRWA5PLPFT9tF1akJK2NyjNHMzTNytnTwHNWYwa%2B%2F7fOcT5C5zkpWbJwnHtUHWQcoXA%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147162983047",
+      "title": "DIOR Saddle Dark Brown Cotton Shoulder Bag",
+      "price": {
+        "value": "1404.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147162983047?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGEJFDSESYJCHQH0F1&hash=item224398ea87:g:g-MAAeSw0uRpmAjA&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDuiJAH%2FXnGZYN3DvGTsOz8LY%2BuWd77eNhtdQBV4HpTbwxelo7k8OFm7J8O8YwV%2BITdpqoZroDo4mXdhHELh2OnHCpO%2FzLwOzopUjSzOD8bAhbO88w%2BeLqvh7Ex1DfRPlWW4hFhy4m0AgmlIPEg2bNgqWdq4lTZGUKUEU2L3Rgbt%2FEb0zaozhxUPbMfMOK%2FTRWA5PLPFT9tF1akJK2NyjNHMzTNytnTwHNWYwa%2B%2F7fOcT5C5zkpWbJwnHtUHWQcoXA%3D%7Ctkp%3ABk9SR_iu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 240,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147171389601",
+    "title": "DIOR Saddle Blue Denim Shoulder Bag",
+    "price": 1424.3,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147171389601?_skw=dior+saddle+bag&itmmeta=01KXGPSJXE3PJNQ7PSKQH1Z5SB&hash=item22441930a1:g:jVQAAeSwXzZpnnMu&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBNn2s1QPhmL6HOxqj%2FYN5R30pPtlp%2FKDJYHmfD--6ajfRZOE3rGznM%2BbIXHfeZWGtfX5f51V4viItHRZ%2BE8V5Gkv%2F8jwBBCq3pZrb1b0jG4d1%2B470n%2F3U7a4%2FY%2FJnpiUxZDNga7yE5tPmLm9QzLO3VP%2Bj0LT%2FCuUGJqNvLS9goyquL1Alx7o7BwQATy4HnBqwgVw3xp52UNsliQk9tgQDdQbZcACNRjGvd44GcsWZoTO2%2BT1tvnhY8IyQ36AQzn2w%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147171389601",
+      "title": "DIOR Saddle Blue Denim Shoulder Bag",
+      "price": {
+        "value": "1424.30",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147171389601?_skw=dior+saddle+bag&itmmeta=01KXGPSJXE3PJNQ7PSKQH1Z5SB&hash=item22441930a1:g:jVQAAeSwXzZpnnMu&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBNn2s1QPhmL6HOxqj%2FYN5R30pPtlp%2FKDJYHmfD--6ajfRZOE3rGznM%2BbIXHfeZWGtfX5f51V4viItHRZ%2BE8V5Gkv%2F8jwBBCq3pZrb1b0jG4d1%2B470n%2F3U7a4%2FY%2FJnpiUxZDNga7yE5tPmLm9QzLO3VP%2Bj0LT%2FCuUGJqNvLS9goyquL1Alx7o7BwQATy4HnBqwgVw3xp52UNsliQk9tgQDdQbZcACNRjGvd44GcsWZoTO2%2BT1tvnhY8IyQ36AQzn2w%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 261,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147322122399",
+    "title": "DIOR Mini Saddle Red Leather Shoulder Bag",
+    "price": 1462.55,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147322122399?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFT6EH7E1K5XQHKHCM&hash=item224d15309f:g:UjAAAeSw--9qDr98&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAwwEr15VQ5E%2Fn6WivRj9M2jQGH0FI%2Bnh3Jl7Z%2F%2B96POwYZXWGUz6MtBj%2BsIlO8vjkINmgjD8WSxVmGYsaXzhnf2GtOeuBgV7c9v069KwYhGnDN%2F3BUAVvFIYIuUNU6uc2KNIFW0l%2B8B0SQIC%2FOY8pvb1RjpMRpjDQVLOFrJcqku%2FX%2F5N%2FD7j2HRI8%2BODr8pJZwx%2B%2FNl%2FfLWqQlfcislArUu8NqYGgqrMJY4VbZ1gdd0Z5VIO2IYiO0XtAKk8wG7ZNRgX46cuX%2BDw2bs83Rj9VARnaqEt6WouPVu7QecEJesw%3D%3D%7Ctkp%3ABk9SR_au5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147322122399",
+      "title": "DIOR Mini Saddle Red Leather Shoulder Bag",
+      "price": {
+        "value": "1462.55",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147322122399?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFT6EH7E1K5XQHKHCM&hash=item224d15309f:g:UjAAAeSw--9qDr98&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAwwEr15VQ5E%2Fn6WivRj9M2jQGH0FI%2Bnh3Jl7Z%2F%2B96POwYZXWGUz6MtBj%2BsIlO8vjkINmgjD8WSxVmGYsaXzhnf2GtOeuBgV7c9v069KwYhGnDN%2F3BUAVvFIYIuUNU6uc2KNIFW0l%2B8B0SQIC%2FOY8pvb1RjpMRpjDQVLOFrJcqku%2FX%2F5N%2FD7j2HRI8%2BODr8pJZwx%2B%2FNl%2FfLWqQlfcislArUu8NqYGgqrMJY4VbZ1gdd0Z5VIO2IYiO0XtAKk8wG7ZNRgX46cuX%2BDw2bs83Rj9VARnaqEt6WouPVu7QecEJesw%3D%3D%7Ctkp%3ABk9SR_au5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 237,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147351772415",
+    "title": "DIOR Nano Saddle Dusty Blue Leather Hand Bag",
+    "price": 1462.55,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147351772415?_skw=dior+saddle+bag&itmmeta=01KXGPSJXE4M1850WK2PFZQAYG&hash=item224ed99cff:g:S-0AAeSwL95qIcQD&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBHFuq3Br9QQQ1ZN32m00Xt0rqvgJaHrlRpV%2Bkj%2FP4RMjCgCqqRcPi7W761kwk%2FMonNUVjEysouJXoHBkUFs2KmwtjlvolpoPhTas0ybjPxtNlOe1bAIj21UjZvNLUPxZvw%2FSldn1JB4icr%2BXGNKr0JqRlG%2BHeq108X5RlMyyPh%2Fo5yF%2BiYlBSQMSi%2F1kfh99G3CYcgOHDJ6DNJL0NEr8lavBrDsSgEqFRCbmUZuTT%2FrqhcFdVXgBaAfxtqhKkhiGk%3D%7Ctkp%3ABk9SR_Cu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147351772415",
+      "title": "DIOR Nano Saddle Dusty Blue Leather Hand Bag",
+      "price": {
+        "value": "1462.55",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147351772415?_skw=dior+saddle+bag&itmmeta=01KXGPSJXE4M1850WK2PFZQAYG&hash=item224ed99cff:g:S-0AAeSwL95qIcQD&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBHFuq3Br9QQQ1ZN32m00Xt0rqvgJaHrlRpV%2Bkj%2FP4RMjCgCqqRcPi7W761kwk%2FMonNUVjEysouJXoHBkUFs2KmwtjlvolpoPhTas0ybjPxtNlOe1bAIj21UjZvNLUPxZvw%2FSldn1JB4icr%2BXGNKr0JqRlG%2BHeq108X5RlMyyPh%2Fo5yF%2BiYlBSQMSi%2F1kfh99G3CYcgOHDJ6DNJL0NEr8lavBrDsSgEqFRCbmUZuTT%2FrqhcFdVXgBaAfxtqhKkhiGk%3D%7Ctkp%3ABk9SR_Cu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 290,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147368936803",
+    "title": "DIOR Mini Saddle Off-White Leather Shoulder Bag",
+    "price": 1462.55,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147368936803?_skw=dior+saddle+bag&itmmeta=01KXGPSJXHQHCC1WB0VD586E3T&hash=item224fdf8563:g:p18AAeSwj6VqK9xg&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCUrUuRg2jz1%2B9SZY2HMjmwpV7lLu9BIwGUFplHl7naOqREDgx%2Bm%2FRZ6EEm0ehmEETrvTz7x55oZ0t7INuLzzGfM%2FHF0sli1olQFE3FkLcMxuOXmfpbsoE7F3N5Zcwp30ObV2nSu0WhaBlRpiU5bf4jRCn%2F1X4TfnTxu3K%2F4ZQaXWgfLyPAmZgxTWl0CmloxBOigIV1OWXr6xjzS3dXuv4qJT8I09NUlHrwqY2W7XbdPeJyhSiz7Z3lTkHQHNN%2B8ksi%2FqNa3r2D2Ul0Mm%2FoLE4MbcyIgP%2Bt2mR6BnGa3Znyug%3D%3D%7Ctkp%3ABk9SR_qu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147368936803",
+      "title": "DIOR Mini Saddle Off-White Leather Shoulder Bag",
+      "price": {
+        "value": "1462.55",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147368936803?_skw=dior+saddle+bag&itmmeta=01KXGPSJXHQHCC1WB0VD586E3T&hash=item224fdf8563:g:p18AAeSwj6VqK9xg&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCUrUuRg2jz1%2B9SZY2HMjmwpV7lLu9BIwGUFplHl7naOqREDgx%2Bm%2FRZ6EEm0ehmEETrvTz7x55oZ0t7INuLzzGfM%2FHF0sli1olQFE3FkLcMxuOXmfpbsoE7F3N5Zcwp30ObV2nSu0WhaBlRpiU5bf4jRCn%2F1X4TfnTxu3K%2F4ZQaXWgfLyPAmZgxTWl0CmloxBOigIV1OWXr6xjzS3dXuv4qJT8I09NUlHrwqY2W7XbdPeJyhSiz7Z3lTkHQHNN%2B8ksi%2FqNa3r2D2Ul0Mm%2FoLE4MbcyIgP%2Bt2mR6BnGa3Znyug%3D%3D%7Ctkp%3ABk9SR_qu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 244,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147150171112",
+    "title": "DIOR Mini Saddle Crystal Embellished Dusty Blue Satin Shoulder Bag",
+    "price": 1466.17,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147150171112?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF2586CT61GJV6Y7F7&hash=item2242d56be8:g:lsoAAeSwY~FpjZl8&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAi%2FqdPtlER62ADORdPIc%2Bum1zGdonX9u0Y2qUhdu%2FQUofS9JQbcDAdhC1WkIPu7v8Hx9UaPX8bijF5e1XFmGFnvGhJZLOGbm47raJhHJQWPdsY9gjz29ajocnTVDbpLQsjmUzwt1ZUytGQ9rHgw4hP4EmkItGqI30sx97zaFPDGKehr9yMKYGqsHApsvaB92A%2FC8bHhVrmPL%2BxsV8jdI8PKGrgegWxVhGNzVtqyjR3aFgLcZ5iAsTAfolN6hHvuOt83ZKWOmZ8lFeyok8bBCwVBVDziYijypWxUgK%2FTxrqfw%3D%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147150171112",
+      "title": "DIOR Mini Saddle Crystal Embellished Dusty Blue Satin Shoulder Bag",
+      "price": {
+        "value": "1466.17",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147150171112?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF2586CT61GJV6Y7F7&hash=item2242d56be8:g:lsoAAeSwY~FpjZl8&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAi%2FqdPtlER62ADORdPIc%2Bum1zGdonX9u0Y2qUhdu%2FQUofS9JQbcDAdhC1WkIPu7v8Hx9UaPX8bijF5e1XFmGFnvGhJZLOGbm47raJhHJQWPdsY9gjz29ajocnTVDbpLQsjmUzwt1ZUytGQ9rHgw4hP4EmkItGqI30sx97zaFPDGKehr9yMKYGqsHApsvaB92A%2FC8bHhVrmPL%2BxsV8jdI8PKGrgegWxVhGNzVtqyjR3aFgLcZ5iAsTAfolN6hHvuOt83ZKWOmZ8lFeyok8bBCwVBVDziYijypWxUgK%2FTxrqfw%3D%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 235,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147376437971",
+    "title": "DIOR Mini Saddle Bag White Leather Handle Bag",
+    "price": 1538.66,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147376437971?_skw=dior+saddle+bag&itmmeta=01KXGPSJXEYYA1FPWE15GMR6R6&hash=item225051fad3:g:REgAAeSwAdhqMGmu&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAa48G7y37vQUly4DZp9KV7BhlsB50giIb3EHTOSDgVqONdOxTv0zuScHc%2FUYH8no93iHyMbTDKmzmsaTLvIuIVSizLWt5MngZYnZ4GPFwWzYFdHS3cgnSgGfPZ3MOzs9cbASIMS8QWhcxzSYeld947XLto%2Fmuc8gX%2F4CUWUfQzVpcyOTtM5cIrHz6dF%2BfPFFY3xn7ZGBO5lGpK0qynQvrX7pGCxr5EA9JAM84vjzUFyOIfJZHEi03lHmLhKNJl5c4%3D%7Ctkp%3ABk9SR_Cu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147376437971",
+      "title": "DIOR Mini Saddle Bag White Leather Handle Bag",
+      "price": {
+        "value": "1538.66",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147376437971?_skw=dior+saddle+bag&itmmeta=01KXGPSJXEYYA1FPWE15GMR6R6&hash=item225051fad3:g:REgAAeSwAdhqMGmu&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAa48G7y37vQUly4DZp9KV7BhlsB50giIb3EHTOSDgVqONdOxTv0zuScHc%2FUYH8no93iHyMbTDKmzmsaTLvIuIVSizLWt5MngZYnZ4GPFwWzYFdHS3cgnSgGfPZ3MOzs9cbASIMS8QWhcxzSYeld947XLto%2Fmuc8gX%2F4CUWUfQzVpcyOTtM5cIrHz6dF%2BfPFFY3xn7ZGBO5lGpK0qynQvrX7pGCxr5EA9JAM84vjzUFyOIfJZHEi03lHmLhKNJl5c4%3D%7Ctkp%3ABk9SR_Cu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 251,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147269398351",
+    "title": "DIOR Saddle Brown Trotter Patent Leather Shoulder Bag",
+    "price": 1576.74,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147269398351?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFQ66K342RMN0WYXE5&hash=item2249f0af4f:g:pJkAAeSw9HZp5rIS&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDdz5G8Ds3rjvO%2FfXecgI%2BDLlpQ3yZ%2F1GvG8vWx9RNXnTOGIUW5j3tv9qNWrHHlOJqlfo%2BTtoBvTBtadR81kl%2F6b4GNT%2BnZCWESHh3rWJRrha7cLIavdF0W7DCUscuiof8pImbckqlfV1mKpqd1wGNMGIVEuFk0VOkQrhXxL8KLA8Rl3wo63v4H7VusQhFe2U4%2FZfLcxv1uNCGD7P3FQTOYyzLLHIOWoN0a40Zop%2FjbLD5KmMBph90yr7pf40goYt4%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147269398351",
+      "title": "DIOR Saddle Brown Trotter Patent Leather Shoulder Bag",
+      "price": {
+        "value": "1576.74",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147269398351?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFQ66K342RMN0WYXE5&hash=item2249f0af4f:g:pJkAAeSw9HZp5rIS&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDdz5G8Ds3rjvO%2FfXecgI%2BDLlpQ3yZ%2F1GvG8vWx9RNXnTOGIUW5j3tv9qNWrHHlOJqlfo%2BTtoBvTBtadR81kl%2F6b4GNT%2BnZCWESHh3rWJRrha7cLIavdF0W7DCUscuiof8pImbckqlfV1mKpqd1wGNMGIVEuFk0VOkQrhXxL8KLA8Rl3wo63v4H7VusQhFe2U4%2FZfLcxv1uNCGD7P3FQTOYyzLLHIOWoN0a40Zop%2FjbLD5KmMBph90yr7pf40goYt4%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 248,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147376436784",
+    "title": "DIOR Mini Saddle Black Leather Shoulder Bag",
+    "price": 1610.31,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147376436784?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF884EY1M38T0MEKN1&hash=item225051f630:g:rAMAAeSw1cZqMGmE&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAySrFXsTS7ee8U3rHTDrs%2F4WedZ%2B69AoK7xAhuJk7I79EouewWhkm3LBwG9lItNfaIdf6nVu%2BCqiKI8HCnKXHmuKldD1oSNjKqy9a0ydaon1ZmH%2FozbAHWq30KqDA6TH%2Bk1A923Kp8LcwobXOXD%2BiAK4d8UlY0Zib1DT6N7doGhIXrcC3DG8TXYxVP9Eh4vZJ3b5ofIw%2BArkRxxFQvzQysTJKKk5UWXBbPk8gicM1PmFrTQuwOP78kYl0Ot08Wl0w%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147376436784",
+      "title": "DIOR Mini Saddle Black Leather Shoulder Bag",
+      "price": {
+        "value": "1610.31",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147376436784?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF884EY1M38T0MEKN1&hash=item225051f630:g:rAMAAeSw1cZqMGmE&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAySrFXsTS7ee8U3rHTDrs%2F4WedZ%2B69AoK7xAhuJk7I79EouewWhkm3LBwG9lItNfaIdf6nVu%2BCqiKI8HCnKXHmuKldD1oSNjKqy9a0ydaon1ZmH%2FozbAHWq30KqDA6TH%2Bk1A923Kp8LcwobXOXD%2BiAK4d8UlY0Zib1DT6N7doGhIXrcC3DG8TXYxVP9Eh4vZJ3b5ofIw%2BArkRxxFQvzQysTJKKk5UWXBbPk8gicM1PmFrTQuwOP78kYl0Ot08Wl0w%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 247,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147410456025",
+    "title": "DIOR Double Saddle Red Trotter Patten Leather Shoulder Bag",
+    "price": 1686.42,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147410456025?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF54ZZ9ZAJ6DQB55R3&hash=item2252590dd9:g:xXUAAeSwznxqRbc4&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDlUqCjslEDJOWJlull7bODMGGaqLHH3FXb1Xy8aho92cB8NgvSRs8qPR47tXhX%2Fre9z0laxJwzGsDGSJkI%2FPQa2ZtF7HfxuZKDXZDQkAVM4eYIQ3nrZoqFAv9zwynp4XLzyhGrV46xBlpWIX4EIurU7xuJM%2BdDfZOs5%2BO5VUr0OrX2SK7N2hikRUA1qCgkBNu%2F3hp98Bk9NSruWcmhnOZCZ2t6VVrp%2F4h2Qt4wZaFFvSoIL5%2Bj4LD3HK5xCWLWmJM%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147410456025",
+      "title": "DIOR Double Saddle Red Trotter Patten Leather Shoulder Bag",
+      "price": {
+        "value": "1686.42",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147410456025?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF54ZZ9ZAJ6DQB55R3&hash=item2252590dd9:g:xXUAAeSwznxqRbc4&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDlUqCjslEDJOWJlull7bODMGGaqLHH3FXb1Xy8aho92cB8NgvSRs8qPR47tXhX%2Fre9z0laxJwzGsDGSJkI%2FPQa2ZtF7HfxuZKDXZDQkAVM4eYIQ3nrZoqFAv9zwynp4XLzyhGrV46xBlpWIX4EIurU7xuJM%2BdDfZOs5%2BO5VUr0OrX2SK7N2hikRUA1qCgkBNu%2F3hp98Bk9NSruWcmhnOZCZ2t6VVrp%2F4h2Qt4wZaFFvSoIL5%2Bj4LD3HK5xCWLWmJM%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 286,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147428637950",
+    "title": "DIOR Double Saddle Blue Trotter Canvas Shoulder Bag",
+    "price": 1754.77,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147428637950?_skw=dior+saddle+bag&itmmeta=01KXGPSJXHWGQAS83FMY9G33W8&hash=item22536e7cfe:g:GWcAAeSwflRqUMTA&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDX%2F8oHTEeWmihEbw%2FZXVSE%2BlR8JC9K2NZYmwPxZjFo4%2F8GYrM6wZcowrdj6edWMFAjR3dvQVf9plUA%2BU0nMCQTSVoFaPopn4gPRgTpZhm%2FrObxFdIb8gxgJtw%2Bzy0IKozRCOe86pBxEneLTopVgAw%2FN%2BpwnqiEU9QPHgr6O0Nx5zmrfKX4l4m%2BlFCEH498TvoXewkQbTIeOpGMwbgV8d66%2FULBbjBqWlwNIXg1TA9G5s9sH%2F8PVpzvM75xghdmrRA%3D%7Ctkp%3ABk9SR_qu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147428637950",
+      "title": "DIOR Double Saddle Blue Trotter Canvas Shoulder Bag",
+      "price": {
+        "value": "1754.77",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147428637950?_skw=dior+saddle+bag&itmmeta=01KXGPSJXHWGQAS83FMY9G33W8&hash=item22536e7cfe:g:GWcAAeSwflRqUMTA&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDX%2F8oHTEeWmihEbw%2FZXVSE%2BlR8JC9K2NZYmwPxZjFo4%2F8GYrM6wZcowrdj6edWMFAjR3dvQVf9plUA%2BU0nMCQTSVoFaPopn4gPRgTpZhm%2FrObxFdIb8gxgJtw%2Bzy0IKozRCOe86pBxEneLTopVgAw%2FN%2BpwnqiEU9QPHgr6O0Nx5zmrfKX4l4m%2BlFCEH498TvoXewkQbTIeOpGMwbgV8d66%2FULBbjBqWlwNIXg1TA9G5s9sH%2F8PVpzvM75xghdmrRA%3D%7Ctkp%3ABk9SR_qu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 238,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147311643656",
+    "title": "DIOR Mini Saddle Dusty Pink Velvet Shoulder Bag",
+    "price": 1758.06,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147311643656?_skw=dior+saddle+bag&itmmeta=01KXGPSJXESZ6RDPVF2D92PV0W&hash=item224c754c08:g:-SsAAeSwMc9qBsHC&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDRKtRGa9Mh0UNDL%2BMhL%2BN48y8BNPY8NjqvjO%2Fws83NlOShujoGhyPjmtX7CefQlSPVJ2WZxN3j4%2FGiDykjCQeGvxMlVxu5X%2BjsyDb8YXnagDJH2F2nL1ZbVsrhLsoX3Djj5ub%2Bo6zk%2BVNNgiQesCldocipPpRIbGpXAgPiMv3m1IXSpB4stxwbMNwyQit8ibavnnqi7QXPN6BAieWkCWQmARClew2LeXqrIryU%2FhZAFrGdPiQCi7hq8Wtj%2B%2BzXEWY%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147311643656",
+      "title": "DIOR Mini Saddle Dusty Pink Velvet Shoulder Bag",
+      "price": {
+        "value": "1758.06",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147311643656?_skw=dior+saddle+bag&itmmeta=01KXGPSJXESZ6RDPVF2D92PV0W&hash=item224c754c08:g:-SsAAeSwMc9qBsHC&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDRKtRGa9Mh0UNDL%2BMhL%2BN48y8BNPY8NjqvjO%2Fws83NlOShujoGhyPjmtX7CefQlSPVJ2WZxN3j4%2FGiDykjCQeGvxMlVxu5X%2BjsyDb8YXnagDJH2F2nL1ZbVsrhLsoX3Djj5ub%2Bo6zk%2BVNNgiQesCldocipPpRIbGpXAgPiMv3m1IXSpB4stxwbMNwyQit8ibavnnqi7QXPN6BAieWkCWQmARClew2LeXqrIryU%2FhZAFrGdPiQCi7hq8Wtj%2B%2BzXEWY%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 267,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147401974303",
+    "title": "DIOR Saddle Blue Denim Shoulder Bag",
+    "price": 1798.36,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147401974303?_skw=dior+saddle+bag&itmmeta=01KXGPSJXG0YJBKHX629RYA2WT&hash=item2251d7a21f:g:SYQAAeSwBhJqQIIs&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xA5STuCpfaByjJ%2FlOL1Ax132V%2BvMLApGePqPMmZ05k66RkgeqnKWkaYaz0uvGL4QKgUDLOPYwyuUEyyY2cyONgdN4TmxQ6xJWYqGc26LyL3M2jEooXxcIgSq9e0nX3rUBtQo%2BL00tFOavjbBZWl%2B%2FqRUEcC7qhrR1d7%2F7sVrQ%2Bm%2B8riUIc78zVb8b63dNtYi80eE4wuWJz3xqVDQpK69hFvwLsOIfh61oLsf%2BUSjr4%2BHs1ROytTC3iVPp59GmPaJeo%3D%7Ctkp%3ABk9SR_au5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147401974303",
+      "title": "DIOR Saddle Blue Denim Shoulder Bag",
+      "price": {
+        "value": "1798.36",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147401974303?_skw=dior+saddle+bag&itmmeta=01KXGPSJXG0YJBKHX629RYA2WT&hash=item2251d7a21f:g:SYQAAeSwBhJqQIIs&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xA5STuCpfaByjJ%2FlOL1Ax132V%2BvMLApGePqPMmZ05k66RkgeqnKWkaYaz0uvGL4QKgUDLOPYwyuUEyyY2cyONgdN4TmxQ6xJWYqGc26LyL3M2jEooXxcIgSq9e0nX3rUBtQo%2BL00tFOavjbBZWl%2B%2FqRUEcC7qhrR1d7%2F7sVrQ%2Bm%2B8riUIc78zVb8b63dNtYi80eE4wuWJz3xqVDQpK69hFvwLsOIfh61oLsf%2BUSjr4%2BHs1ROytTC3iVPp59GmPaJeo%3D%7Ctkp%3ABk9SR_au5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 263,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147347973992",
+    "title": "DIOR Saddle Black Trotter Canvas Shoulder Bag",
+    "price": 1834.17,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147347973992?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGFVTEW0ZSK945VZJ9&hash=item224e9fa768:g:L8AAAeSwVUhqH2Ll&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCDWXNgCc%2BEAfnj%2BRmyXmOnUIQSvXXsD6mqpSYRdPwx9QJugIkUH7MAKclT3tOqM2kytMnySlXnynqZ73MHSST%2By3oAZvimUQVJqRdUtuUUAl0nUPIyu9m6bp4cbKvnwjQir8JSe4f8hy9awMAu8k25EJnSmYYurFySGREOv1rH4SHDC9lUo5lZIMY9oTnGKXDZePVE4kNWhZ0R016QdeFRpXaNX8wGSlYvlMEyZBA1aJOSwToL4aq8SeKXkYiWkoo%3D%7Ctkp%3ABk9SR_au5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147347973992",
+      "title": "DIOR Saddle Black Trotter Canvas Shoulder Bag",
+      "price": {
+        "value": "1834.17",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147347973992?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGFVTEW0ZSK945VZJ9&hash=item224e9fa768:g:L8AAAeSwVUhqH2Ll&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCDWXNgCc%2BEAfnj%2BRmyXmOnUIQSvXXsD6mqpSYRdPwx9QJugIkUH7MAKclT3tOqM2kytMnySlXnynqZ73MHSST%2By3oAZvimUQVJqRdUtuUUAl0nUPIyu9m6bp4cbKvnwjQir8JSe4f8hy9awMAu8k25EJnSmYYurFySGREOv1rH4SHDC9lUo5lZIMY9oTnGKXDZePVE4kNWhZ0R016QdeFRpXaNX8wGSlYvlMEyZBA1aJOSwToL4aq8SeKXkYiWkoo%3D%7Ctkp%3ABk9SR_au5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 258,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147331743100",
+    "title": "DIOR Double Saddle Green Ostrich Embossed Leather Shoulder Bag",
+    "price": 2053.57,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147331743100?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFJWB3H74PXC9JF8D8&hash=item224da7fd7c:g:TZEAAeSwdYJqFSno&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xChvcy54tvItt1nquv%2BqWv%2Foc6N5QpfVLCv9zBv%2F5Xk5vkmgkhE6Zr%2BHoEFliSKej5aGlVJss9H6VYUoZ8jewuJm%2B2W0Je%2FVwudeqeSBlvkKFQCjsFhV0m6rsGNJLD%2BJEwtyjh6IwwWTw4Shfv0TXGuHCdYa4aGZOPqzgs6WImCLD5HuzYb%2FQeOYPr3U0Ab7yXIYOd0hdA4pDQKPUkqokrVoqHjyqfB7zQ%2BlcmiBLX3QAfCpjhQdj%2BwxLCPrkUNI3Q%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147331743100",
+      "title": "DIOR Double Saddle Green Ostrich Embossed Leather Shoulder Bag",
+      "price": {
+        "value": "2053.57",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147331743100?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFJWB3H74PXC9JF8D8&hash=item224da7fd7c:g:TZEAAeSwdYJqFSno&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xChvcy54tvItt1nquv%2BqWv%2Foc6N5QpfVLCv9zBv%2F5Xk5vkmgkhE6Zr%2BHoEFliSKej5aGlVJss9H6VYUoZ8jewuJm%2B2W0Je%2FVwudeqeSBlvkKFQCjsFhV0m6rsGNJLD%2BJEwtyjh6IwwWTw4Shfv0TXGuHCdYa4aGZOPqzgs6WImCLD5HuzYb%2FQeOYPr3U0Ab7yXIYOd0hdA4pDQKPUkqokrVoqHjyqfB7zQ%2BlcmiBLX3QAfCpjhQdj%2BwxLCPrkUNI3Q%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 269,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "188391323063",
+    "title": "DIOR Saddle Shoulder Bag Calfskin Green",
+    "price": 2246.34,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/188391323063?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGJXYEDJK7AN6STMVM&hash=item2bdcff75b7:g:8VAAAeSwf8FqCS0X&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBWVALkzkmy9jRlqMtYg3rMbLESz4azjJxiW2op2pGEFf4OQDLmnEIboFPahtOjH5NiavAHlGu34iXtIIjVqBBYPJJ8ztHxbh2SnQtSAeuoUumvBh2cojXPQqY1vrHSclqNK8LTL4lSExjV8Xq6C0gJ9BVMo%2BeSTZ4gPs4Sgw%2B7WtbCq0dBVJzNOmZg0UE4u8oe%2F0eg%2FCKS3l56zFTzMOZtzajVBTb9%2FL2nhJ6EjPbNSTem4A0r5cFB9ZAS1p6uezQ%3D%7Ctkp%3ABk9SR_au5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "188391323063",
+      "title": "DIOR Saddle Shoulder Bag Calfskin Green",
+      "price": {
+        "value": "2246.34",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/188391323063?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGJXYEDJK7AN6STMVM&hash=item2bdcff75b7:g:8VAAAeSwf8FqCS0X&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBWVALkzkmy9jRlqMtYg3rMbLESz4azjJxiW2op2pGEFf4OQDLmnEIboFPahtOjH5NiavAHlGu34iXtIIjVqBBYPJJ8ztHxbh2SnQtSAeuoUumvBh2cojXPQqY1vrHSclqNK8LTL4lSExjV8Xq6C0gJ9BVMo%2BeSTZ4gPs4Sgw%2B7WtbCq0dBVJzNOmZg0UE4u8oe%2F0eg%2FCKS3l56zFTzMOZtzajVBTb9%2FL2nhJ6EjPbNSTem4A0r5cFB9ZAS1p6uezQ%3D%7Ctkp%3ABk9SR_au5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 255,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147231187631",
+    "title": "DIOR Saddle Beaded and Sequined Gray Tweed Shoulder Bag",
+    "price": 2349.08,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147231187631?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF26YP5G43S22P94AZ&hash=item2247a9a2af:g:DOYAAeSwu-Zpyju1&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xANjYOYZUAmguLA7PY3aWunZhe2E18K88KfRrrKA8pDgYlqNljP0LzQ3BZlj%2FHIy8PrNG6IebB2L50w6U0zlA4ssmSb9lCo7pcKKDYJn8izXmMmrHKzTEoR2dz1YH4tzlaDXMWnDx1smv6gCcmayKourqd%2FjsvDkeg5uAaqDHudgKpr9Wuj5rQPYzjGNzQ1sLEcGm5rjC1j4BJRJlLSFCJMw2hkGpjHOVQrxLrGuPgC3IPcWjaCEbI%2FSEbeWU8%2BYisicz%2FLgOgl%2Bg7kuuR41N%2FAf1OXrqmc%2BPK6OQamHFHaIg%3D%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147231187631",
+      "title": "DIOR Saddle Beaded and Sequined Gray Tweed Shoulder Bag",
+      "price": {
+        "value": "2349.08",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147231187631?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF26YP5G43S22P94AZ&hash=item2247a9a2af:g:DOYAAeSwu-Zpyju1&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xANjYOYZUAmguLA7PY3aWunZhe2E18K88KfRrrKA8pDgYlqNljP0LzQ3BZlj%2FHIy8PrNG6IebB2L50w6U0zlA4ssmSb9lCo7pcKKDYJn8izXmMmrHKzTEoR2dz1YH4tzlaDXMWnDx1smv6gCcmayKourqd%2FjsvDkeg5uAaqDHudgKpr9Wuj5rQPYzjGNzQ1sLEcGm5rjC1j4BJRJlLSFCJMw2hkGpjHOVQrxLrGuPgC3IPcWjaCEbI%2FSEbeWU8%2BYisicz%2FLgOgl%2Bg7kuuR41N%2FAf1OXrqmc%2BPK6OQamHFHaIg%3D%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 246,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147306844720",
+    "title": "DIOR Saddle Brown Ostrich Shoulder Bag",
+    "price": 2349.08,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147306844720?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFH632GESCFESZ41T9&hash=item224c2c1230:g:zHEAAeSwpB1qAuTW&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBONCq9mYNPQOBtBl8AfUSDmnpl9BMhLqMPrCKbf6uuWRkB7PYBzn3bJaINpdtK78o7LBBzjhM0gG8ZD4sY0AtANyRb10TIfCS%2BrCn%2BODUicODUCVwoe0istkXgslu0iIwJS%2Bm6MQbjmNSVn%2Baq2fHkw2K1m%2B5%2B4YECd%2FWWfJp4eOss0oaEYWcnEVvmJb8MhtbqA1kgjQZmy0nkHn9IIvZt3Zp08c7gJmUTG7Laggjux32jriM8dTyojWV%2FTDZHbv69zt2GKue9DkZgJvz5AWo4Du4nOVvaULJwiKcKcdGwMg%3D%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147306844720",
+      "title": "DIOR Saddle Brown Ostrich Shoulder Bag",
+      "price": {
+        "value": "2349.08",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147306844720?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFH632GESCFESZ41T9&hash=item224c2c1230:g:zHEAAeSwpB1qAuTW&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBONCq9mYNPQOBtBl8AfUSDmnpl9BMhLqMPrCKbf6uuWRkB7PYBzn3bJaINpdtK78o7LBBzjhM0gG8ZD4sY0AtANyRb10TIfCS%2BrCn%2BODUicODUCVwoe0istkXgslu0iIwJS%2Bm6MQbjmNSVn%2Baq2fHkw2K1m%2B5%2B4YECd%2FWWfJp4eOss0oaEYWcnEVvmJb8MhtbqA1kgjQZmy0nkHn9IIvZt3Zp08c7gJmUTG7Laggjux32jriM8dTyojWV%2FTDZHbv69zt2GKue9DkZgJvz5AWo4Du4nOVvaULJwiKcKcdGwMg%3D%3D%7Ctkp%3ABk9SR_Ku5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 259,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147306844774",
+    "title": "DIOR Saddle Brown Leather Shoulder Bag",
+    "price": 2425.2,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147306844774?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF2VTBEETG27H5VMAD&hash=item224c2c1266:g:kD8AAeSw4vpqAuTf&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAyiMl1%2BizRVa%2FNuZ%2BLN4JEfXxvW4w7Fh71CZTd611NiV3VQ%2BJJESv%2FCHg4AL6%2FG4IZqgShmlBG1OjzF%2Bd3bWOvWNob9IsVXvSr4UYO4VBEe335XXlfhwtDkHvGxUfRaP%2BNzsJ99mbq6S6cBKgwQuU2iVvJje8pxMh3Rv6RPReUgUIVJjXompAcfX81mO9AanNEI389R8JNI7AEPudhQ8UDo3CPrJETXBpmvnI27hENiQVon%2F66u1lC6PKpJXVAHgIStJpfKBIovHMmJmjeN9701ClrljplgUo53dCGL%2BhZoQ%3D%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147306844774",
+      "title": "DIOR Saddle Brown Leather Shoulder Bag",
+      "price": {
+        "value": "2425.20",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147306844774?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF2VTBEETG27H5VMAD&hash=item224c2c1266:g:kD8AAeSw4vpqAuTf&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAyiMl1%2BizRVa%2FNuZ%2BLN4JEfXxvW4w7Fh71CZTd611NiV3VQ%2BJJESv%2FCHg4AL6%2FG4IZqgShmlBG1OjzF%2Bd3bWOvWNob9IsVXvSr4UYO4VBEe335XXlfhwtDkHvGxUfRaP%2BNzsJ99mbq6S6cBKgwQuU2iVvJje8pxMh3Rv6RPReUgUIVJjXompAcfX81mO9AanNEI389R8JNI7AEPudhQ8UDo3CPrJETXBpmvnI27hENiQVon%2F66u1lC6PKpJXVAHgIStJpfKBIovHMmJmjeN9701ClrljplgUo53dCGL%2BhZoQ%3D%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 254,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147394090254",
+    "title": "DIOR Mini Saddle Red Python Embossed Leather Hand Bag",
+    "price": 2572.95,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147394090254?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF35RYCNNGH48WN2EH&hash=item22515f550e:g:jOwAAeSwY3xqOyik&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBlvV%2FS2Ue20rlQzoKHTxa22Xv%2BWH%2BmQxpuZ9IsZXnHSrgQQnejStfOVXkx7l7Kk%2BBXr21pcKlka%2FfReIk0F%2FvVaIdVCDlpCcvl2UYjGcmw%2FEpcLZ5Y0boL8kh9etrSJvK52us2PdzYfqbZUIbcC8NJ4f05WbXWAN3vvAtLUNobRSyIoOBIuxTu%2BLTk8wceGJix0Kg3KfBd31UB6Jy1xtPgka5joCl6pAwBnHWT69He6F34APzj1V9Jy98wGXOgDKI%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147394090254",
+      "title": "DIOR Mini Saddle Red Python Embossed Leather Hand Bag",
+      "price": {
+        "value": "2572.95",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147394090254?_skw=dior+saddle+bag&itmmeta=01KXGPSJXF35RYCNNGH48WN2EH&hash=item22515f550e:g:jOwAAeSwY3xqOyik&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBlvV%2FS2Ue20rlQzoKHTxa22Xv%2BWH%2BmQxpuZ9IsZXnHSrgQQnejStfOVXkx7l7Kk%2BBXr21pcKlka%2FfReIk0F%2FvVaIdVCDlpCcvl2UYjGcmw%2FEpcLZ5Y0boL8kh9etrSJvK52us2PdzYfqbZUIbcC8NJ4f05WbXWAN3vvAtLUNobRSyIoOBIuxTu%2BLTk8wceGJix0Kg3KfBd31UB6Jy1xtPgka5joCl6pAwBnHWT69He6F34APzj1V9Jy98wGXOgDKI%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 250,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147365981317",
+    "title": "DIOR Mini Saddle Green Ostrich Leather Shoulder Bag",
+    "price": 2923.66,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147365981317?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFHVSNSJVENQ5RQVFK&hash=item224fb26c85:g:qXkAAeSwQOdqKh8M&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAIMbuG3sqWs69FGMLCi0rA7XACzJaVoWGXoQlhcn9KCEZlQ%2Bnrx0Ikl3DeK1MGELunvwSqA8bNY4le36otwZ7xGPLN64x95iF3yS7i%2BUoESGX%2B9TMTrz74dlCYbz%2BUFO6kURg3iuCDcFTY%2F5olP%2Foxxq7u67w3%2F%2BeI3cuqNbmiS09USrny9TS3R5FPjEIRjuhY7enm8NRzABPMXBtdhZFMb9BizFTwIpsgBT3O8uhojuFZ0lpkN6uX0b7G7JbZz5NHHCAlsUOLsUCkQBVPF5IzDty%2Bb6Sm2Cr9M0clEdZGhQ%3D%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147365981317",
+      "title": "DIOR Mini Saddle Green Ostrich Leather Shoulder Bag",
+      "price": {
+        "value": "2923.66",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147365981317?_skw=dior+saddle+bag&itmmeta=01KXGPSJXFHVSNSJVENQ5RQVFK&hash=item224fb26c85:g:qXkAAeSwQOdqKh8M&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAIMbuG3sqWs69FGMLCi0rA7XACzJaVoWGXoQlhcn9KCEZlQ%2Bnrx0Ikl3DeK1MGELunvwSqA8bNY4le36otwZ7xGPLN64x95iF3yS7i%2BUoESGX%2B9TMTrz74dlCYbz%2BUFO6kURg3iuCDcFTY%2F5olP%2Foxxq7u67w3%2F%2BeI3cuqNbmiS09USrny9TS3R5FPjEIRjuhY7enm8NRzABPMXBtdhZFMb9BizFTwIpsgBT3O8uhojuFZ0lpkN6uX0b7G7JbZz5NHHCAlsUOLsUCkQBVPF5IzDty%2Bb6Sm2Cr9M0clEdZGhQ%3D%3D%7Ctkp%3ABk9SR_Su5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 287,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147376437162",
+    "title": "DIOR Saddle Black Leather Tassels Shoulder Bag",
+    "price": 3311.73,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147376437162?_skw=dior+saddle+bag&itmmeta=01KXGPSJXH9V892T6M72D1RDER&hash=item225051f7aa:g:DtMAAeSwwQVqMGmL&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAgrcmw8%2BZPSon86Ea4tGWhOBWWLC88E2jf8M0ZIxNvdPpFx%2Ba8w4bNlOY3RhC3HBIWH4ahU303KaRokXREX1QdTP9N4YFBzh1uWo39kfhQ%2BsvHbSdFRrqE5opmgISDwwBkk3pBk5%2FzScgsgD3tPoil%2FdB8NCi14RfbZGGkBrY5Kc9LeJbZQ6Ijj6107ufsiwDHhA%2FXnQAloiSVd4XNrxM00Y9cI1d7cOvGLUEb7LTCOxosl2F21k44SzTU0SPBvxwWtdInZhg4hlDcuyfEYJtzzYdWTp1l4xKIp6sDNdvYgw%3D%3D%7Ctkp%3ABk9SR_qu5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147376437162",
+      "title": "DIOR Saddle Black Leather Tassels Shoulder Bag",
+      "price": {
+        "value": "3311.73",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147376437162?_skw=dior+saddle+bag&itmmeta=01KXGPSJXH9V892T6M72D1RDER&hash=item225051f7aa:g:DtMAAeSwwQVqMGmL&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAgrcmw8%2BZPSon86Ea4tGWhOBWWLC88E2jf8M0ZIxNvdPpFx%2Ba8w4bNlOY3RhC3HBIWH4ahU303KaRokXREX1QdTP9N4YFBzh1uWo39kfhQ%2BsvHbSdFRrqE5opmgISDwwBkk3pBk5%2FzScgsgD3tPoil%2FdB8NCi14RfbZGGkBrY5Kc9LeJbZQ6Ijj6107ufsiwDHhA%2FXnQAloiSVd4XNrxM00Y9cI1d7cOvGLUEb7LTCOxosl2F21k44SzTU0SPBvxwWtdInZhg4hlDcuyfEYJtzzYdWTp1l4xKIp6sDNdvYgw%3D%3D%7Ctkp%3ABk9SR_qu5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 265,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147410452513",
+    "title": "DIOR Saddle Orange Tie-Dyed Suede Shoulder Bag",
+    "price": 6633.5,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147410452513?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGHB5WJSSPA2YEEWQW&hash=item2252590021:g:92cAAeSwJY1qRbbF&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xB1Ep1EFPxQylGguGhcxjCmMTa5YCmHhUunAgvnWqUIUbeWpz6IX50%2BZI2TaRlDm1jBNGScPA8x77%2FukeFyrV2kvaG8XjcBl%2FvZ8j7XAKxn1wfsfp5mX3lrxehFJae3X5TBMMg%2BTLo7klo3Ci%2FdFDpiQUGOx4h%2BSvDjg8fFDMfvSa5LD09zisa%2Bdzvr9AclXs3m%2F1cdb2nevOnMb0tQ5AWWp1Jn5dtoPCjcYoe8vQnwtaK1eeOmEnuwl2Amp%2Bs5S80S0B3vlMNpCb4fRXh4uvosc4RjDNJwjAnG2iJ984Ai%2Fg%3D%3D%7Ctkp%3ABk9SR_au5pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:19:39.861123",
+    "first_observed": "2026-07-14T16:19:39.861123",
+    "last_observed": "2026-07-14T16:19:39.861123",
+    "expires_at": "2026-08-13T16:19:39.861495",
+    "raw_payload": {
+      "itemId": "147410452513",
+      "title": "DIOR Saddle Orange Tie-Dyed Suede Shoulder Bag",
+      "price": {
+        "value": "6633.50",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147410452513?_skw=dior+saddle+bag&itmmeta=01KXGPSJXGHB5WJSSPA2YEEWQW&hash=item2252590021:g:92cAAeSwJY1qRbbF&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xB1Ep1EFPxQylGguGhcxjCmMTa5YCmHhUunAgvnWqUIUbeWpz6IX50%2BZI2TaRlDm1jBNGScPA8x77%2FukeFyrV2kvaG8XjcBl%2FvZ8j7XAKxn1wfsfp5mX3lrxehFJae3X5TBMMg%2BTLo7klo3Ci%2FdFDpiQUGOx4h%2BSvDjg8fFDMfvSa5LD09zisa%2Bdzvr9AclXs3m%2F1cdb2nevOnMb0tQ5AWWp1Jn5dtoPCjcYoe8vQnwtaK1eeOmEnuwl2Amp%2Bs5S80S0B3vlMNpCb4fRXh4uvosc4RjDNJwjAnG2iJ984Ai%2Fg%3D%3D%7Ctkp%3ABk9SR_au5pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "dior-saddle"
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 91,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16040093974831",
+    "title": "Grained Calfskin Embossed Dior Gravity Magnetic Saddle Card Holder Kaki",
+    "price": 350,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/christian-dior-grained-calfskin-embossed-dior-gravity-magnetic-saddle-card-holder-kaki-1914346",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:17:29.638869",
+    "first_observed": "2026-07-14T16:17:29.638869",
+    "last_observed": "2026-07-14T16:17:29.638869",
+    "expires_at": "2026-08-13T16:17:29.638881",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16040093974831",
+      "title": "Grained Calfskin Embossed Dior Gravity Magnetic Saddle Card Holder Kaki",
+      "price": 350.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/christian-dior-grained-calfskin-embossed-dior-gravity-magnetic-saddle-card-holder-kaki-1914346",
+      "condition": "Pre-owned",
+      "bag_slug": "dior-saddle",
+      "bag_id": 4
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 97,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "14266020987183",
+    "title": "Oblique Saddle Bag Blue",
+    "price": 2465,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/christian-dior-oblique-saddle-bag-blue-1849359",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:17:29.638869",
+    "first_observed": "2026-07-14T16:17:29.638869",
+    "last_observed": "2026-07-14T16:17:29.638869",
+    "expires_at": "2026-08-13T16:17:29.638881",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "14266020987183",
+      "title": "Oblique Saddle Bag Blue",
+      "price": 2465.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/christian-dior-oblique-saddle-bag-blue-1849359",
+      "condition": "Pre-owned",
+      "bag_slug": "dior-saddle",
+      "bag_id": 4
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 96,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "14892290277679",
+    "title": "Oblique Saddle Bag Blue",
+    "price": 2560,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/christian-dior-oblique-saddle-bag-blue-1860113",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:17:29.638869",
+    "first_observed": "2026-07-14T16:17:29.638869",
+    "last_observed": "2026-07-14T16:17:29.638869",
+    "expires_at": "2026-08-13T16:17:29.638881",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "14892290277679",
+      "title": "Oblique Saddle Bag Blue",
+      "price": 2560.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/christian-dior-oblique-saddle-bag-blue-1860113",
+      "condition": "Pre-owned",
+      "bag_slug": "dior-saddle",
+      "bag_id": 4
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 98,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "13076768325935",
+    "title": "Oblique Saddle Bag Blue",
+    "price": 2610,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/christian-dior-oblique-saddle-bag-blue-1828879",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:17:29.638869",
+    "first_observed": "2026-07-14T16:17:29.638869",
+    "last_observed": "2026-07-14T16:17:29.638869",
+    "expires_at": "2026-08-13T16:17:29.638881",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "13076768325935",
+      "title": "Oblique Saddle Bag Blue",
+      "price": 2610.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/christian-dior-oblique-saddle-bag-blue-1828879",
+      "condition": "Pre-owned",
+      "bag_slug": "dior-saddle",
+      "bag_id": 4
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 95,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16012291834159",
+    "title": "Oblique Saddle Bag Blue",
+    "price": 2610,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/christian-dior-oblique-saddle-bag-blue-1887455",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:17:29.638869",
+    "first_observed": "2026-07-14T16:17:29.638869",
+    "last_observed": "2026-07-14T16:17:29.638869",
+    "expires_at": "2026-08-13T16:17:29.638881",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16012291834159",
+      "title": "Oblique Saddle Bag Blue",
+      "price": 2610.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/christian-dior-oblique-saddle-bag-blue-1887455",
+      "condition": "Pre-owned",
+      "bag_slug": "dior-saddle",
+      "bag_id": 4
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 94,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16017226203439",
+    "title": "Oblique Saddle Bag Blue",
+    "price": 2610,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/christian-dior-oblique-saddle-bag-blue-1893887",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:17:29.638869",
+    "first_observed": "2026-07-14T16:17:29.638869",
+    "last_observed": "2026-07-14T16:17:29.638869",
+    "expires_at": "2026-08-13T16:17:29.638881",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16017226203439",
+      "title": "Oblique Saddle Bag Blue",
+      "price": 2610.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/christian-dior-oblique-saddle-bag-blue-1893887",
+      "condition": "Pre-owned",
+      "bag_slug": "dior-saddle",
+      "bag_id": 4
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 93,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16022958604591",
+    "title": "Oblique Saddle Bag Blue",
+    "price": 2845,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/christian-dior-oblique-saddle-bag-blue-1904908",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:17:29.638869",
+    "first_observed": "2026-07-14T16:17:29.638869",
+    "last_observed": "2026-07-14T16:17:29.638869",
+    "expires_at": "2026-08-13T16:17:29.638881",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16022958604591",
+      "title": "Oblique Saddle Bag Blue",
+      "price": 2845.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/christian-dior-oblique-saddle-bag-blue-1904908",
+      "condition": "Pre-owned",
+      "bag_slug": "dior-saddle",
+      "bag_id": 4
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 100,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16004549804335",
+    "title": "Grained Calfskin Saddle Bag Black",
+    "price": 2875,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/christian-dior-grained-calfskin-saddle-bag-black-1885548",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:17:29.638869",
+    "first_observed": "2026-07-14T16:17:29.638869",
+    "last_observed": "2026-07-14T16:17:29.638869",
+    "expires_at": "2026-08-13T16:17:29.638881",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16004549804335",
+      "title": "Grained Calfskin Saddle Bag Black",
+      "price": 2875.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/christian-dior-grained-calfskin-saddle-bag-black-1885548",
+      "condition": "Pre-owned",
+      "bag_slug": "dior-saddle",
+      "bag_id": 4
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 99,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16006914441519",
+    "title": "Grained Calfskin Saddle Bag Black",
+    "price": 2965,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/christian-dior-grained-calfskin-saddle-bag-black-1888871",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:17:29.638869",
+    "first_observed": "2026-07-14T16:17:29.638869",
+    "last_observed": "2026-07-14T16:17:29.638869",
+    "expires_at": "2026-08-13T16:17:29.638881",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16006914441519",
+      "title": "Grained Calfskin Saddle Bag Black",
+      "price": 2965.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/christian-dior-grained-calfskin-saddle-bag-black-1888871",
+      "condition": "Pre-owned",
+      "bag_slug": "dior-saddle",
+      "bag_id": 4
+    },
+    "bag_slug": "dior-saddle"
+  },
+  {
+    "id": 92,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16050304516399",
+    "title": "Oblique Saddle Bag Blue",
+    "price": 2995,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/christian-dior-oblique-saddle-bag-blue-1918544",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 4,
+    "observed_at": "2026-07-14T16:17:29.638869",
+    "first_observed": "2026-07-14T16:17:29.638869",
+    "last_observed": "2026-07-14T16:17:29.638869",
+    "expires_at": "2026-08-13T16:17:29.638881",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16050304516399",
+      "title": "Oblique Saddle Bag Blue",
+      "price": 2995.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/christian-dior-oblique-saddle-bag-blue-1918544",
+      "condition": "Pre-owned",
+      "bag_slug": "dior-saddle",
+      "bag_id": 4
+    },
+    "bag_slug": "dior-saddle"
+  }
+]

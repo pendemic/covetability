@@ -1,0 +1,2272 @@
+[
+  {
+    "id": 55,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147351078561",
+    "title": "2000s Chloe Red Leather Paddington Shoulder Bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147351078561?_skw=chloe+paddington+bag&itmmeta=01KXGPM7664V992D4VAC0SRFX3&hash=item224ecf06a1:g:kpYAAeSwr~JqKlat&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDpw4wyH7d9cLFe8nCrzuTEb6qmpcTAMkONXCdAYdzmFmEOVNeOdgi01y9kHVBT39UMIdN6IT1aFz0K3Zm2tp4tt7O5JIj41lx%2FGVWhvu28R23m4cM%2BFxBKpdLgeH%2BKBRAMx8OHemYI76TvJ2nvAhxPVCUt%2F0YA4V6XwaBW%2BB%2BCPcS2Q7ec2sQ7t4hk2I%2FtWnSsPYTEuxk9UctwH7RvdLU3N1xvUpiOGP8AfmLGEIVPlfC21kKmzgtgC%2FTL%2FzR%2BAkU%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "147351078561",
+      "title": "2000s Chloe Red Leather Paddington Shoulder Bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147351078561?_skw=chloe+paddington+bag&itmmeta=01KXGPM7664V992D4VAC0SRFX3&hash=item224ecf06a1:g:kpYAAeSwr~JqKlat&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDpw4wyH7d9cLFe8nCrzuTEb6qmpcTAMkONXCdAYdzmFmEOVNeOdgi01y9kHVBT39UMIdN6IT1aFz0K3Zm2tp4tt7O5JIj41lx%2FGVWhvu28R23m4cM%2BFxBKpdLgeH%2BKBRAMx8OHemYI76TvJ2nvAhxPVCUt%2F0YA4V6XwaBW%2BB%2BCPcS2Q7ec2sQ7t4hk2I%2FtWnSsPYTEuxk9UctwH7RvdLU3N1xvUpiOGP8AfmLGEIVPlfC21kKmzgtgC%2FTL%2FzR%2BAkU%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 10,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147396522584",
+    "title": "CHLOE Calfskin Small Paddington Satchel Black",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147396522584?_skw=chloe+paddington+bag&itmmeta=01KXGPM764AN5KA7TNHC8JD8PX&hash=item2251847258:g:zrAAAeSw-~tqPLFv&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCMfk95lU8V0r75chocfrG13x7R0tkLJ44eftimEsxm3O%2BnduhUZ6zdj8U1ztoYCDF%2Fw5kLT%2B6UvpYrvR6dReBobDxkXsfnLuwY6AZ4PlQNseozOA%2F4dDFKaIJud2rTPBYojkVzNeo%2Flf8SMgTrP9y2MGJSFVUBK0SUNihGpo3l%2FdENkGqruS1msU4vYJEQ55pLh797Wtk37WZ3Wnf8MFPZbkqfrjGV1kjU%2F54gjr6Q6%2BYn2Bs1UR%2FDAJKaIWetg4M%3D%7Ctkp%3ABk9SR57z0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "147396522584",
+      "title": "CHLOE Calfskin Small Paddington Satchel Black",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147396522584?_skw=chloe+paddington+bag&itmmeta=01KXGPM764AN5KA7TNHC8JD8PX&hash=item2251847258:g:zrAAAeSw-~tqPLFv&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCMfk95lU8V0r75chocfrG13x7R0tkLJ44eftimEsxm3O%2BnduhUZ6zdj8U1ztoYCDF%2Fw5kLT%2B6UvpYrvR6dReBobDxkXsfnLuwY6AZ4PlQNseozOA%2F4dDFKaIJud2rTPBYojkVzNeo%2Flf8SMgTrP9y2MGJSFVUBK0SUNihGpo3l%2FdENkGqruS1msU4vYJEQ55pLh797Wtk37WZ3Wnf8MFPZbkqfrjGV1kjU%2F54gjr6Q6%2BYn2Bs1UR%2FDAJKaIWetg4M%3D%7Ctkp%3ABk9SR57z0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 54,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "158063637556",
+    "title": "Chloe Paddington Satchel Bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/158063637556?_skw=chloe+paddington+bag&itmmeta=01KXGPM766M2QH1GD02W4BXHCR&hash=item24cd53b434:g:XIEAAeSwebNqTR4s&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCxlAspNNZH3q6pl5vVm%2BhFulA0dNmu6A5mi7ajeJ5ORXevuFyEgJmDW5Vm7vwjs3%2B69Vc8PjtvEPe4w9DE8%2BrttGdaYCGmxvolam38md5us%2Fu21YHlzk00l5s2chEsBcA1xW7s9wsOg2MzCHkUdD9BtaPfMoeVSef6xzA1X9tGCNfVS%2Bb0capPlBFPZhhVXPGdY8BUsQVxT4rYl0ffLobBxMnViBeuCCezUsmc4IzG%2BqjPjPHmazWDj6TvRYbbfNc%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "158063637556",
+      "title": "Chloe Paddington Satchel Bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/158063637556?_skw=chloe+paddington+bag&itmmeta=01KXGPM766M2QH1GD02W4BXHCR&hash=item24cd53b434:g:XIEAAeSwebNqTR4s&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCxlAspNNZH3q6pl5vVm%2BhFulA0dNmu6A5mi7ajeJ5ORXevuFyEgJmDW5Vm7vwjs3%2B69Vc8PjtvEPe4w9DE8%2BrttGdaYCGmxvolam38md5us%2Fu21YHlzk00l5s2chEsBcA1xW7s9wsOg2MzCHkUdD9BtaPfMoeVSef6xzA1X9tGCNfVS%2Bb0capPlBFPZhhVXPGdY8BUsQVxT4rYl0ffLobBxMnViBeuCCezUsmc4IzG%2BqjPjPHmazWDj6TvRYbbfNc%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 29,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "168433763833",
+    "title": "CHLOE Paddington Handbag Padlock Leather Black Tote Bag Gold Hardware Classic",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/168433763833?_skw=chloe+paddington+bag&itmmeta=01KXGPM765KHR95RBAXYDMNVWF&hash=item27376f45f9:g:-b8AAeSwgglqIyGv&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDnVpiKEp%2Bog5dSTavz8NFqFWDqEUo13rtV2ElsQx8WhVgdZo%2FvUe1GMagq7%2BcP5xApxXC190JnI5Fusz7t6BmMglYQ7pPfX5B83DxJd%2FDYAoo%2FqNG7V2jrtY72g3qcHCL35xQhkyfMAAaoodgwkwUDTDM6XfJGKvlXS18eZN4NCT%2B5uMDnB9CaQ%2FZRVHNiYFSz5HoeQgbuvpwKdTy0pzX65y8GDfBoL70TN635cesThf8cSd3VHCvCxz2pN3g5g8k%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "168433763833",
+      "title": "CHLOE Paddington Handbag Padlock Leather Black Tote Bag Gold Hardware Classic",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/168433763833?_skw=chloe+paddington+bag&itmmeta=01KXGPM765KHR95RBAXYDMNVWF&hash=item27376f45f9:g:-b8AAeSwgglqIyGv&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDnVpiKEp%2Bog5dSTavz8NFqFWDqEUo13rtV2ElsQx8WhVgdZo%2FvUe1GMagq7%2BcP5xApxXC190JnI5Fusz7t6BmMglYQ7pPfX5B83DxJd%2FDYAoo%2FqNG7V2jrtY72g3qcHCL35xQhkyfMAAaoodgwkwUDTDM6XfJGKvlXS18eZN4NCT%2B5uMDnB9CaQ%2FZRVHNiYFSz5HoeQgbuvpwKdTy0pzX65y8GDfBoL70TN635cesThf8cSd3VHCvCxz2pN3g5g8k%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 38,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "168444956028",
+    "title": "CHLOE Paddington Red Leather Handbag Padlock Key Card Tote Satchel Y2K",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/168444956028?_skw=chloe+paddington+bag&itmmeta=01KXGPM7655QWYSRP3QS5E84Q8&hash=item27381a0d7c:g:yQ4AAeSwoP1qKGXM&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDTa4EXwuFTOxJ6dJgcdNPFuiLnlmNMRZkvETn%2BMR1W9iOyNfJ2Oi7gH4VEbLyaynYVJH06duuZsOruUfJZNgL%2FCiwwm8nynvK5OS7%2FAbyu%2BrToku3WWNyT4bNBvBDpuo2svX%2BOTvYznYwKg%2BR%2B7GWYHHCAO42h%2BCnv%2BW59T%2F374jCr%2BGqhOnTAqlpP7Zmp%2BlJ789ehiYqNS3m3Ylpj%2BGD89JRqVgYVsooLFCu%2B5he1TSgBDJfFGMohSZifoKT9qIk%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "168444956028",
+      "title": "CHLOE Paddington Red Leather Handbag Padlock Key Card Tote Satchel Y2K",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/168444956028?_skw=chloe+paddington+bag&itmmeta=01KXGPM7655QWYSRP3QS5E84Q8&hash=item27381a0d7c:g:yQ4AAeSwoP1qKGXM&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDTa4EXwuFTOxJ6dJgcdNPFuiLnlmNMRZkvETn%2BMR1W9iOyNfJ2Oi7gH4VEbLyaynYVJH06duuZsOruUfJZNgL%2FCiwwm8nynvK5OS7%2FAbyu%2BrToku3WWNyT4bNBvBDpuo2svX%2BOTvYznYwKg%2BR%2B7GWYHHCAO42h%2BCnv%2BW59T%2F374jCr%2BGqhOnTAqlpP7Zmp%2BlJ789ehiYqNS3m3Ylpj%2BGD89JRqVgYVsooLFCu%2B5he1TSgBDJfFGMohSZifoKT9qIk%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 22,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "168534078867",
+    "title": "CHLOE Paddington Aurora 2Way Padlock Boston Bag Shoulder Bag Leather w/ Dust bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/168534078867?_skw=chloe+paddington+bag&itmmeta=01KXGPM764MHA008ZBA3G9TNX5&hash=item273d69f593:g:oMUAAeSw46tqVZ7V&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAHCtfdAdt8HG%2FbsyRncMXF5REqqYLU8qXmLY9syOJ2SgFSmWkhOJyP7k8njKOXXgDSKqKS6Sbpwp0TJjlBWD3aXHzCAyf8XYsxIYryK8w1AC3wvjblvlo6Fm97Ohg52Sx%2FLyjSYZ%2B1X9mLy68g2We46ckHaKuFHYbqjmbj7rjpHI4zq7WejIOyifyRh%2FG7gE5unAb%2BU3qOgG2QHA18prBG019Hr7dfJ1rMmQ1bfZvOvd80dR6qeYB5yZejh09NMLM0GV9Y8AHjacc1Hg%2FmX86lQoLswwd80a%2BDuD2rfu%2F0ZQ%3D%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "168534078867",
+      "title": "CHLOE Paddington Aurora 2Way Padlock Boston Bag Shoulder Bag Leather w/ Dust bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/168534078867?_skw=chloe+paddington+bag&itmmeta=01KXGPM764MHA008ZBA3G9TNX5&hash=item273d69f593:g:oMUAAeSw46tqVZ7V&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAHCtfdAdt8HG%2FbsyRncMXF5REqqYLU8qXmLY9syOJ2SgFSmWkhOJyP7k8njKOXXgDSKqKS6Sbpwp0TJjlBWD3aXHzCAyf8XYsxIYryK8w1AC3wvjblvlo6Fm97Ohg52Sx%2FLyjSYZ%2B1X9mLy68g2We46ckHaKuFHYbqjmbj7rjpHI4zq7WejIOyifyRh%2FG7gE5unAb%2BU3qOgG2QHA18prBG019Hr7dfJ1rMmQ1bfZvOvd80dR6qeYB5yZejh09NMLM0GV9Y8AHjacc1Hg%2FmX86lQoLswwd80a%2BDuD2rfu%2F0ZQ%3D%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 26,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "188629401102",
+    "title": "Chloe Bag Paddington 2000s  brown Handbag 02.06.51 Leather Gold Hardware",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/188629401102?_skw=chloe+paddington+bag&itmmeta=01KXGPM76594H93ZJXEC29N7ZW&hash=item2beb303e0e:g:9jUAAeSwjgxp3KBf&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDdnLsIqbrJL3dqBCkIDo%2FlluyOhxfmtQGwYVxbWuEdYKxoWTMmAzgXKud2q8oBgfBqcJQQwsZIr9gFhJQX9dsL4%2BLiyFqPvdUKqo4WJ8JywIwheT6ATFnQY7MG99iuEfILAUtBnyRQx6KyyOaS6py8xiFvT5PGF6ovqXLh1piTPBU0SoWcr2mGVcrDx9R0%2FeIh89qrnhYm2HQOGdXAGZ7IpDFgVbLuuLmIYLZSq8oQ2QzrUvVk56eVkPNPWLRG6AX7ntsde4eIETXaCtvvTNYjsHevfRmeg0U9HJuY7aKo2A%3D%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "188629401102",
+      "title": "Chloe Bag Paddington 2000s  brown Handbag 02.06.51 Leather Gold Hardware",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/188629401102?_skw=chloe+paddington+bag&itmmeta=01KXGPM76594H93ZJXEC29N7ZW&hash=item2beb303e0e:g:9jUAAeSwjgxp3KBf&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDdnLsIqbrJL3dqBCkIDo%2FlluyOhxfmtQGwYVxbWuEdYKxoWTMmAzgXKud2q8oBgfBqcJQQwsZIr9gFhJQX9dsL4%2BLiyFqPvdUKqo4WJ8JywIwheT6ATFnQY7MG99iuEfILAUtBnyRQx6KyyOaS6py8xiFvT5PGF6ovqXLh1piTPBU0SoWcr2mGVcrDx9R0%2FeIh89qrnhYm2HQOGdXAGZ7IpDFgVbLuuLmIYLZSq8oQ2QzrUvVk56eVkPNPWLRG6AX7ntsde4eIETXaCtvvTNYjsHevfRmeg0U9HJuY7aKo2A%3D%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 43,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "257374978446",
+    "title": "AUTH Chloe Paddington Handbag Shoulder Bag Metallic Beige Padlock Leather Key",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/257374978446?_skw=chloe+paddington+bag&itmmeta=01KXGPM76686K7Z73DWWNYM4AW&hash=item3becbe818e:g:3ZsAAeSw7Zxpnstb&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xC2HrFnR%2Ff3YFfdU0KQ22EeclMP%2F5zu3wlzBsWCHhFAVMG8Kjm%2B8RW%2Fopc39N%2FnvjZaZF21h1bHGpIaDnPHGSzX895vAQTOex3A561Pc0Amh%2FiA6daVWHjsUQJJRtUwzjO6iqTNTpPvNdmRjju%2Bp4rrn4Ms%2FXbsAdYoenG0fYPgbHNG%2FeOy7jatulObzBd4qCo%2BU8PvrTwecfYRgCYyAq7fCYPP1SqPLNVFJkSDZoCOKNL7HdW7G1sYLEB%2F0ALcCIFkxHyOra2GSibaQqV2boJTiGKy2RpFWLWXfQxcG4S7bg%3D%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "257374978446",
+      "title": "AUTH Chloe Paddington Handbag Shoulder Bag Metallic Beige Padlock Leather Key",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/257374978446?_skw=chloe+paddington+bag&itmmeta=01KXGPM76686K7Z73DWWNYM4AW&hash=item3becbe818e:g:3ZsAAeSw7Zxpnstb&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xC2HrFnR%2Ff3YFfdU0KQ22EeclMP%2F5zu3wlzBsWCHhFAVMG8Kjm%2B8RW%2Fopc39N%2FnvjZaZF21h1bHGpIaDnPHGSzX895vAQTOex3A561Pc0Amh%2FiA6daVWHjsUQJJRtUwzjO6iqTNTpPvNdmRjju%2Bp4rrn4Ms%2FXbsAdYoenG0fYPgbHNG%2FeOy7jatulObzBd4qCo%2BU8PvrTwecfYRgCYyAq7fCYPP1SqPLNVFJkSDZoCOKNL7HdW7G1sYLEB%2F0ALcCIFkxHyOra2GSibaQqV2boJTiGKy2RpFWLWXfQxcG4S7bg%3D%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 33,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "257586858836",
+    "title": "Chloe Paddington Hand Bag Leather Camel Brown Padlock Key Japan F/S USED",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/257586858836?_skw=chloe+paddington+bag&itmmeta=01KXGPM7651KS4R33TR81CX04N&hash=item3bf95f8b54:g:Gl0AAeSwQBBpMt3n&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xARkEVPm5JEQUK3ak779DDq3rifm6bdU8afbi7nE2gpjZp0PLIBYhLgGa%2Brc%2BDAhj0QNUnFNOO9mrHGwbZY%2BNu7Fx0GWrDgeOf48s9c%2B8ItdM3Dv7a9J8WQ%2FLn8DGf9Oc9Q%2F%2BgJ%2BCwWZZarHasDvyblhRFuHEDyai%2FEp0i34VFWM9g966giS2RaTAY2kKJ%2BadM2mgdKkBU9zG28X7yABFLp2eLQfNHCTy%2F3dyIiAmqb0u%2BaWAShYEx2j1Q1EzaUkSg%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "257586858836",
+      "title": "Chloe Paddington Hand Bag Leather Camel Brown Padlock Key Japan F/S USED",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/257586858836?_skw=chloe+paddington+bag&itmmeta=01KXGPM7651KS4R33TR81CX04N&hash=item3bf95f8b54:g:Gl0AAeSwQBBpMt3n&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xARkEVPm5JEQUK3ak779DDq3rifm6bdU8afbi7nE2gpjZp0PLIBYhLgGa%2Brc%2BDAhj0QNUnFNOO9mrHGwbZY%2BNu7Fx0GWrDgeOf48s9c%2B8ItdM3Dv7a9J8WQ%2FLn8DGf9Oc9Q%2F%2BgJ%2BCwWZZarHasDvyblhRFuHEDyai%2FEp0i34VFWM9g966giS2RaTAY2kKJ%2BadM2mgdKkBU9zG28X7yABFLp2eLQfNHCTy%2F3dyIiAmqb0u%2BaWAShYEx2j1Q1EzaUkSg%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 59,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287433766135",
+    "title": "Chloe Paddington Handbag Leather Brown Women's #TB3263",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287433766135?_skw=chloe+paddington+bag&itmmeta=01KXGPM767RDPEWJ53MHQMERZ2&hash=item42ec6334f7:g:U~MAAeSwkN9qVHQ3&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xChb6r9FNXwqenqUP1k1UKLTBjaEybwgcgGWomP64LFnnGxskooZKIRyhoQLF%2FBo9BT1KoRvc90MHsjb0HpZ1jqe3mqkL8uEeNktPtrAF4HGS2SogtDHyqKBKyoOEt65QkoLH1yZouZgLsbmehdG508I5B9NBHbg7ZENfUAakgaLEuWt02rioUfAXnLpOKjOrTuHhHYyQ8rOs7aA14AXYv40F8LP0piHVTFHdAQoTNPXM42uzv6usUNKDTo5nGEyX8%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "287433766135",
+      "title": "Chloe Paddington Handbag Leather Brown Women's #TB3263",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287433766135?_skw=chloe+paddington+bag&itmmeta=01KXGPM767RDPEWJ53MHQMERZ2&hash=item42ec6334f7:g:U~MAAeSwkN9qVHQ3&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xChb6r9FNXwqenqUP1k1UKLTBjaEybwgcgGWomP64LFnnGxskooZKIRyhoQLF%2FBo9BT1KoRvc90MHsjb0HpZ1jqe3mqkL8uEeNktPtrAF4HGS2SogtDHyqKBKyoOEt65QkoLH1yZouZgLsbmehdG508I5B9NBHbg7ZENfUAakgaLEuWt02rioUfAXnLpOKjOrTuHhHYyQ8rOs7aA14AXYv40F8LP0piHVTFHdAQoTNPXM42uzv6usUNKDTo5nGEyX8%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 17,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287443056537",
+    "title": "Chloe Paddington 7ESA02-7E422 Leather Brown Bag Women's #KNB603",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287443056537?_skw=chloe+paddington+bag&itmmeta=01KXGPM764KZZQ2VZAEKZQM5D6&hash=item42ecf0f799:g:C-AAAeSw7dlqVHTK&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAFl5M%2BtY3yM1wSJS2YweezjdXWyARVvDw4ud3Jscb55RFWlYgMReOUPLpzve8WYWwsqegiivq6%2FxEcfKu84BeXqwMwnYkNRySjVOv%2Bc%2BAeVMQqwvFxHVVCvsh1tZYGFFYiYLrOnCMT%2B4K3dN%2FXj0XZUHyHODWCgMEjD%2BPLVVs6zhklUkrlJ1nJ%2FZOSfPRRrfrqzdig0hpSS2PTKMYaDY%2FkbM9WDXOj%2F3%2Fnnj9f5ueQsr98AHpxC1LefuqKbCOBIUE%3D%7Ctkp%3ABk9SR57z0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "287443056537",
+      "title": "Chloe Paddington 7ESA02-7E422 Leather Brown Bag Women's #KNB603",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287443056537?_skw=chloe+paddington+bag&itmmeta=01KXGPM764KZZQ2VZAEKZQM5D6&hash=item42ecf0f799:g:C-AAAeSw7dlqVHTK&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAFl5M%2BtY3yM1wSJS2YweezjdXWyARVvDw4ud3Jscb55RFWlYgMReOUPLpzve8WYWwsqegiivq6%2FxEcfKu84BeXqwMwnYkNRySjVOv%2Bc%2BAeVMQqwvFxHVVCvsh1tZYGFFYiYLrOnCMT%2B4K3dN%2FXj0XZUHyHODWCgMEjD%2BPLVVs6zhklUkrlJ1nJ%2FZOSfPRRrfrqzdig0hpSS2PTKMYaDY%2FkbM9WDXOj%2F3%2Fnnj9f5ueQsr98AHpxC1LefuqKbCOBIUE%3D%7Ctkp%3ABk9SR57z0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 2,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287450181664",
+    "title": "Chloe Paddington Handbag Leather Beige Women's #TB3416",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287450181664?_skw=chloe+paddington+bag&itmmeta=01KXGPM763E1A7P2EM5J4PXWE5&hash=item42ed5db020:g:IU8AAeSwLhdqT9dZ&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDKFNMcvgTYHLOr5aGS%2BYvSAhMEdNEl5Yn%2BJ4W9HDA7bNU%2B65CAvEUiN0yvUywUwH15CF3AD892gy8qVrK2ow3Tq35GYgTc9LYJ3iIra4IjE3RIl%2BsmKBy5cMEIzRBYCLc%2FH3kg6gO25cQsrs8a%2BEek9bTEEaV5z48oKf6lEBwSguuq%2FpFHHKkSVnXWwZauzQCwf7yjk5UYchjrxVwC%2BSChcLrLZlzmvC%2BpZwIfj5o7iUO40gbyOg8RM%2BkTbe8RizY%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "287450181664",
+      "title": "Chloe Paddington Handbag Leather Beige Women's #TB3416",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287450181664?_skw=chloe+paddington+bag&itmmeta=01KXGPM763E1A7P2EM5J4PXWE5&hash=item42ed5db020:g:IU8AAeSwLhdqT9dZ&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDKFNMcvgTYHLOr5aGS%2BYvSAhMEdNEl5Yn%2BJ4W9HDA7bNU%2B65CAvEUiN0yvUywUwH15CF3AD892gy8qVrK2ow3Tq35GYgTc9LYJ3iIra4IjE3RIl%2BsmKBy5cMEIzRBYCLc%2FH3kg6gO25cQsrs8a%2BEek9bTEEaV5z48oKf6lEBwSguuq%2FpFHHKkSVnXWwZauzQCwf7yjk5UYchjrxVwC%2BSChcLrLZlzmvC%2BpZwIfj5o7iUO40gbyOg8RM%2BkTbe8RizY%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 1,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287450181674",
+    "title": "Chloe Paddington Handbag Leather Brown Women's #TB634",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287450181674?_skw=chloe+paddington+bag&itmmeta=01KXGPM763Z2CRMEHZBMTQSXKD&hash=item42ed5db02a:g:PdEAAeSw6PpqT9cc&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCWEjVYOdtRviAoO7w8Pfx4O6vMVsvhMa447JTQxzHWWPIfGWbU%2BoJ%2B0iMfG9Jgnc9oAHSv3LWKjZx0GE3a3WPx9WLCqKOnds525UlN7ZGk6Y5gR7nB3cdgTjRhLjCWazTkdNTOYPdbv529%2Bh4Xd6eNt7UIuAA%2FRfHlufL1yjFDKm3CpAOn70JXBIJN9UtNRokEYs13adJA1DsifU%2BCsOCwD9MInDxCkGSoTS2GEwrQle%2BCKxwpfEk8M3FNaVbDWck%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "287450181674",
+      "title": "Chloe Paddington Handbag Leather Brown Women's #TB634",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287450181674?_skw=chloe+paddington+bag&itmmeta=01KXGPM763Z2CRMEHZBMTQSXKD&hash=item42ed5db02a:g:PdEAAeSw6PpqT9cc&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCWEjVYOdtRviAoO7w8Pfx4O6vMVsvhMa447JTQxzHWWPIfGWbU%2BoJ%2B0iMfG9Jgnc9oAHSv3LWKjZx0GE3a3WPx9WLCqKOnds525UlN7ZGk6Y5gR7nB3cdgTjRhLjCWazTkdNTOYPdbv529%2Bh4Xd6eNt7UIuAA%2FRfHlufL1yjFDKm3CpAOn70JXBIJN9UtNRokEYs13adJA1DsifU%2BCsOCwD9MInDxCkGSoTS2GEwrQle%2BCKxwpfEk8M3FNaVbDWck%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 3,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287450181699",
+    "title": "Chloe Paddington Handbag Leather Black Shoulder Bag Women's #TB3424",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287450181699?_skw=chloe+paddington+bag&itmmeta=01KXGPM763SBXF30VKD2JQT7V3&hash=item42ed5db043:g:9zIAAeSwgN9qT9dV&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xD1RpEcCht6jvUxRal%2BmpFiJyxUVOU%2Bzytb9p%2BruLtztJUqi0PK%2BwzO0u3%2F93O8yLUhwUk9uCtKuaaWhwSkHvmz8YVt%2BwQaPb93hT%2BMVgPaaPDgPd7Mm2VTZmA90C0X1DfQSUAyCptJJb5PnU9tQJ7xAZ7XpsK87zGSOHI%2FpUEcVrT3EfbfcNBFrFmFSR3F76gdvaosPD2HBLOSsTjHxaEZwYcfxNl0J0Wl55hcPLPRPtrCuLWSFSxKVMch6NZKURE%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "287450181699",
+      "title": "Chloe Paddington Handbag Leather Black Shoulder Bag Women's #TB3424",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287450181699?_skw=chloe+paddington+bag&itmmeta=01KXGPM763SBXF30VKD2JQT7V3&hash=item42ed5db043:g:9zIAAeSwgN9qT9dV&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xD1RpEcCht6jvUxRal%2BmpFiJyxUVOU%2Bzytb9p%2BruLtztJUqi0PK%2BwzO0u3%2F93O8yLUhwUk9uCtKuaaWhwSkHvmz8YVt%2BwQaPb93hT%2BMVgPaaPDgPd7Mm2VTZmA90C0X1DfQSUAyCptJJb5PnU9tQJ7xAZ7XpsK87zGSOHI%2FpUEcVrT3EfbfcNBFrFmFSR3F76gdvaosPD2HBLOSsTjHxaEZwYcfxNl0J0Wl55hcPLPRPtrCuLWSFSxKVMch6NZKURE%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 4,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287450181727",
+    "title": "Chloe Paddington Handbag Leather Brown with Papers Women's #TB796",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287450181727?_skw=chloe+paddington+bag&itmmeta=01KXGPM7639V9H6W0QZZXJW69N&hash=item42ed5db05f:g:ITIAAeSwtPhqVHS0&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAzRXVHrIk%2FFWMzkepk1oRjG8zFCo5aAvfcfjqkL75BHnHCqMAf1GuGZX6gx7uaQVYt38mpOYfxItJd%2BONO4hO0c0f506HLGMlB%2BxcQYWOh6h%2FD6B0Sy%2BEgqB8lTA%2FoaF59cXsoedWnTyIY9SxnCDatFtUG4tqO6%2BNqY1XqW5HCUo4TuDJY%2FQON0dDI8rpkBsSZ%2Fj2%2FlqaNGgBHRCsMZmUgYIZkwyM38gxl1oWWkfRyYqwRca5F3s5kyU2yoYSQgs8vGO95Nq7RTzebz52gqIItmqIodMrS81%2FYFnaCytXHQQ%3D%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "287450181727",
+      "title": "Chloe Paddington Handbag Leather Brown with Papers Women's #TB796",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287450181727?_skw=chloe+paddington+bag&itmmeta=01KXGPM7639V9H6W0QZZXJW69N&hash=item42ed5db05f:g:ITIAAeSwtPhqVHS0&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAzRXVHrIk%2FFWMzkepk1oRjG8zFCo5aAvfcfjqkL75BHnHCqMAf1GuGZX6gx7uaQVYt38mpOYfxItJd%2BONO4hO0c0f506HLGMlB%2BxcQYWOh6h%2FD6B0Sy%2BEgqB8lTA%2FoaF59cXsoedWnTyIY9SxnCDatFtUG4tqO6%2BNqY1XqW5HCUo4TuDJY%2FQON0dDI8rpkBsSZ%2Fj2%2FlqaNGgBHRCsMZmUgYIZkwyM38gxl1oWWkfRyYqwRca5F3s5kyU2yoYSQgs8vGO95Nq7RTzebz52gqIItmqIodMrS81%2FYFnaCytXHQQ%3D%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 31,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "298409881744",
+    "title": "Chloe Paddington Large Tan Leather Satchel Bag w/ Padlock No Key",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/298409881744?_skw=chloe+paddington+bag&itmmeta=01KXGPM765JTHEP2V4MQMQTX10&hash=item457a9d7090:g:NaEAAeSwtkNqJv4X&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAu6fBut3JwS6Veh%2FY0DVv8KTezgx6I3Kbz33g2WXZuKHnFkllnT5w4ol%2FUQw1YXfC6CI%2Fhotic0McYvu6QhoRBf2XBd%2BRuDNxz%2BXPtFG7C5uQihzLIc3%2Bv7ZEMuIZi7vkLaWBHdB3ZCUE1dJDiMuNUpUOBsvr1ntevG4DKdVcnO6VEcRS%2FeRTkbwQDk1dWzlIuHyk6PD7vvXNqhlLtWheanH20HZPV6rTan%2FWqrT62IE3yX7KCGXTinkYN9e4D5Dhv6DJtR99BQgi%2FCUchGz6VX5xRMjg6uZE2H3JH6YR6RA%3D%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "298409881744",
+      "title": "Chloe Paddington Large Tan Leather Satchel Bag w/ Padlock No Key",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/298409881744?_skw=chloe+paddington+bag&itmmeta=01KXGPM765JTHEP2V4MQMQTX10&hash=item457a9d7090:g:NaEAAeSwtkNqJv4X&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAu6fBut3JwS6Veh%2FY0DVv8KTezgx6I3Kbz33g2WXZuKHnFkllnT5w4ol%2FUQw1YXfC6CI%2Fhotic0McYvu6QhoRBf2XBd%2BRuDNxz%2BXPtFG7C5uQihzLIc3%2Bv7ZEMuIZi7vkLaWBHdB3ZCUE1dJDiMuNUpUOBsvr1ntevG4DKdVcnO6VEcRS%2FeRTkbwQDk1dWzlIuHyk6PD7vvXNqhlLtWheanH20HZPV6rTan%2FWqrT62IE3yX7KCGXTinkYN9e4D5Dhv6DJtR99BQgi%2FCUchGz6VX5xRMjg6uZE2H3JH6YR6RA%3D%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 7,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "298492225383",
+    "title": "Chloe Paddington Metallic Silver & Canvas  HW Padlock Key Dust Bag HTF Color way",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/298492225383?_skw=chloe+paddington+bag&itmmeta=01KXGPM7631BES2X274EG0GXQS&hash=item457f85e767:g:SSUAAeSweetqTxBo&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDbzv9c0hEJDQLmrlKnn%2BW%2Fr7iEcq0MKZElAIz%2F3ZES21bTnnI%2FfppCorxc5CelbyEVTK83VrnqT9V8cbKOZ6zM2%2FeAztJgAQUStL%2FEMJMRpUkdcT7EJ%2BZSbCbdTfOaP9LskUn5EdQrM0ggBiegBegNizQjAmJVR8ra1LzhQaiz6DSDYP4vNrdJiTIKXpK9XdHZ4aLM9mvtQm1juGdQg%2BrWnhTeJpM1sQk2GTuYLhXj5lUuy%2FuDELdgHGLt3xkz8NmZ%2FkJ57TKl9DtKKfzps6A9S%2BxLF8H27AmUpGgbomZbiQ%3D%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "298492225383",
+      "title": "Chloe Paddington Metallic Silver & Canvas  HW Padlock Key Dust Bag HTF Color way",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/298492225383?_skw=chloe+paddington+bag&itmmeta=01KXGPM7631BES2X274EG0GXQS&hash=item457f85e767:g:SSUAAeSweetqTxBo&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDbzv9c0hEJDQLmrlKnn%2BW%2Fr7iEcq0MKZElAIz%2F3ZES21bTnnI%2FfppCorxc5CelbyEVTK83VrnqT9V8cbKOZ6zM2%2FeAztJgAQUStL%2FEMJMRpUkdcT7EJ%2BZSbCbdTfOaP9LskUn5EdQrM0ggBiegBegNizQjAmJVR8ra1LzhQaiz6DSDYP4vNrdJiTIKXpK9XdHZ4aLM9mvtQm1juGdQg%2BrWnhTeJpM1sQk2GTuYLhXj5lUuy%2FuDELdgHGLt3xkz8NmZ%2FkJ57TKl9DtKKfzps6A9S%2BxLF8H27AmUpGgbomZbiQ%3D%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 12,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "336636261543",
+    "title": "Chloe Paddington Black Leather Studded Shoulder Bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/336636261543?_skw=chloe+paddington+bag&itmmeta=01KXGPM7646M02M5AWMNAHZ5SE&hash=item4e6115b4a7:g:9PoAAeSwFcFqLGvJ&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCAvqWptYr0apBrm5g53OWikqFLv6t9Yybpy%2FaZptoBhucBhmPP5zUf5rKU%2Bjpu0%2BI9QeSo%2FL7tN%2BJghmYLKmL5SerzbECkJyS9jPpcAd%2BQia4xdqMdgmjN8VeTiZ2gEHahEA4MFMqBbpeLiVs2dQFx2uSbQn3Vf6m%2Bm9NkEcghEheyj4t2DYR3XattWylvp14FsSFiQdiysNfBUPRe4x4MbOZLTxtOLav5%2BSUoycMhQgD4kTN9hF3WAGzljh0Y6Vs%3D%7Ctkp%3ABk9SR57z0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "336636261543",
+      "title": "Chloe Paddington Black Leather Studded Shoulder Bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/336636261543?_skw=chloe+paddington+bag&itmmeta=01KXGPM7646M02M5AWMNAHZ5SE&hash=item4e6115b4a7:g:9PoAAeSwFcFqLGvJ&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCAvqWptYr0apBrm5g53OWikqFLv6t9Yybpy%2FaZptoBhucBhmPP5zUf5rKU%2Bjpu0%2BI9QeSo%2FL7tN%2BJghmYLKmL5SerzbECkJyS9jPpcAd%2BQia4xdqMdgmjN8VeTiZ2gEHahEA4MFMqBbpeLiVs2dQFx2uSbQn3Vf6m%2Bm9NkEcghEheyj4t2DYR3XattWylvp14FsSFiQdiysNfBUPRe4x4MbOZLTxtOLav5%2BSUoycMhQgD4kTN9hF3WAGzljh0Y6Vs%3D%7Ctkp%3ABk9SR57z0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 5,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "357901369658",
+    "title": "Chloe Paddington Black Leather Handbag Women\u2019s Tote Authentic Vintage Bag Y2K",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/357901369658?_skw=chloe+paddington+bag&itmmeta=01KXGPM763920ZR594NPP0AQJA&hash=item535495813a:g:Cz0AAeSwipNqKPDo&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xB0KAv97DK5%2BgnWd7Bqbw4%2FnCxHeWLbqMBiPUJc5y%2BbBriGOrCQeuMokEjzMrCaahZO6moHNB%2FcL3WKVaEtl22JKTxHUOWyx%2BmepMsZBMVfahd0YsSEDH9Dm7pFDfx2Nj9Ef%2FBSEdLEr1%2BXrVc0WEO7LnyD94BFlyw54aB%2ByTWSh5Ei885ygF9h%2BUoXkUmaiesQ8NJHJLwIl%2BDnSOuHiuGeJqal9geaD6o%2Bh5WGwjOqo%2Fl1nVT2Lu4pKWwaaZGu3D4%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "357901369658",
+      "title": "Chloe Paddington Black Leather Handbag Women\u2019s Tote Authentic Vintage Bag Y2K",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/357901369658?_skw=chloe+paddington+bag&itmmeta=01KXGPM763920ZR594NPP0AQJA&hash=item535495813a:g:Cz0AAeSwipNqKPDo&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xB0KAv97DK5%2BgnWd7Bqbw4%2FnCxHeWLbqMBiPUJc5y%2BbBriGOrCQeuMokEjzMrCaahZO6moHNB%2FcL3WKVaEtl22JKTxHUOWyx%2BmepMsZBMVfahd0YsSEDH9Dm7pFDfx2Nj9Ef%2FBSEdLEr1%2BXrVc0WEO7LnyD94BFlyw54aB%2ByTWSh5Ei885ygF9h%2BUoXkUmaiesQ8NJHJLwIl%2BDnSOuHiuGeJqal9geaD6o%2Bh5WGwjOqo%2Fl1nVT2Lu4pKWwaaZGu3D4%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 30,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "357968654564",
+    "title": "Chlo\u00e9 Paddington Greige Tone Silver Hardware Leather Handbag Tote Shoulder Bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/357968654564?_skw=chloe+paddington+bag&itmmeta=01KXGPM7651YXKK7PVY9JB44QG&hash=item53589830e4:g:HIcAAeSwpfdqKt6H&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBKUHrSnoICOR%2FY7uA%2BO0%2BzVfA2amGFUi%2B6IC%2BBp5m7NvZGPnak%2Fo7OCkQqwSdX0bdEr7KEBP%2FwHLcRAqk0xbkf83OLAE%2B%2FsziaNAXKmfQZNAP3Qu%2FSrBWEGCE6do4nV%2FcOvHcECORV1IsJaGKSY1Pb1GxGYBUwP1kEPDrZnQYjFTdlCNZ9P0gI68r2ph7Ij5joj55PEBYU4EmwG3r1tcrnsOeBcgwhobDE4t5Jph2FlSdyzQGUv5bKdcYTSCflKNI%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "357968654564",
+      "title": "Chlo\u00e9 Paddington Greige Tone Silver Hardware Leather Handbag Tote Shoulder Bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/357968654564?_skw=chloe+paddington+bag&itmmeta=01KXGPM7651YXKK7PVY9JB44QG&hash=item53589830e4:g:HIcAAeSwpfdqKt6H&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBKUHrSnoICOR%2FY7uA%2BO0%2BzVfA2amGFUi%2B6IC%2BBp5m7NvZGPnak%2Fo7OCkQqwSdX0bdEr7KEBP%2FwHLcRAqk0xbkf83OLAE%2B%2FsziaNAXKmfQZNAP3Qu%2FSrBWEGCE6do4nV%2FcOvHcECORV1IsJaGKSY1Pb1GxGYBUwP1kEPDrZnQYjFTdlCNZ9P0gI68r2ph7Ij5joj55PEBYU4EmwG3r1tcrnsOeBcgwhobDE4t5Jph2FlSdyzQGUv5bKdcYTSCflKNI%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 50,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "358153526004",
+    "title": "Authentic Chloe Paddington Vintage Leather Shoulder Hand Bag White",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/358153526004?_skw=chloe+paddington+bag&itmmeta=01KXGPM766AWZ52ECV7A32FEEX&hash=item53639d1af4:g:HAIAAeSwAx1pdh7O&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBfvCyVY%2FwxgzbxrlifAnztfZj2LcipPA0EmXnYJ%2Bn5rAoyuNgVeQslQNnINAYOLCD8mS9dhWM5hYAnzy83t4Ozwzw8ScpvrWTqxVln3aXuDeqV9GA7L9OwcgrXmHRcKOcrLp8A3MbP7mcEV70jkbh2YkvscGUhfkGNX7sZMNVQi70K%2BevnEVwKn1K8YBtVK4zDL4CvopUCNymrRhLgMKtWZb4PIMwyjONe4t9MI1LDd3mqhJ%2F59Zb3p0Lgip4AvrZLwV926zunjc%2FxAxOf4RKUTR%2B1VhQyOlLO2pdtiDetCQ%3D%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "358153526004",
+      "title": "Authentic Chloe Paddington Vintage Leather Shoulder Hand Bag White",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/358153526004?_skw=chloe+paddington+bag&itmmeta=01KXGPM766AWZ52ECV7A32FEEX&hash=item53639d1af4:g:HAIAAeSwAx1pdh7O&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBfvCyVY%2FwxgzbxrlifAnztfZj2LcipPA0EmXnYJ%2Bn5rAoyuNgVeQslQNnINAYOLCD8mS9dhWM5hYAnzy83t4Ozwzw8ScpvrWTqxVln3aXuDeqV9GA7L9OwcgrXmHRcKOcrLp8A3MbP7mcEV70jkbh2YkvscGUhfkGNX7sZMNVQi70K%2BevnEVwKn1K8YBtVK4zDL4CvopUCNymrRhLgMKtWZb4PIMwyjONe4t9MI1LDd3mqhJ%2F59Zb3p0Lgip4AvrZLwV926zunjc%2FxAxOf4RKUTR%2B1VhQyOlLO2pdtiDetCQ%3D%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 39,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "358439105330",
+    "title": "Chloe Paddington Red Orange Leather Handbag Padlock Silver Lock Tote Bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/358439105330?_skw=chloe+paddington+bag&itmmeta=01KXGPM7659N13RP7YKT5GT7JV&hash=item5374a2b332:g:mKgAAeSwF0pqKthu&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xA3TvfSD8ilY5hstxBCIpmgUQlEBWsEbKFn8wdkQfKJ9Ws9fQOAviex4VAk6O47Nn0MY%2FXFPgAwHNz1hKRwmB5QoR45EzFkcyUEEpVnSwX9hfncDl5wW1BFABkzHOpc8mEERcZk40UDqk1KgZwYsVnc3bOkdLzyecdVLq1v15s43SUBJlZdC3R0O2qmXGNtxZoBhI8KiKd5QossZyBTP3CGjHF%2BjhYAOohKu6mBlZRDuWkY6H3Q9WUYFYfm023z6plwc%2B0yYbP%2B%2B7J29bXCqw3hHo9IQuYwq68qSChlMywUsQ%3D%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "358439105330",
+      "title": "Chloe Paddington Red Orange Leather Handbag Padlock Silver Lock Tote Bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/358439105330?_skw=chloe+paddington+bag&itmmeta=01KXGPM7659N13RP7YKT5GT7JV&hash=item5374a2b332:g:mKgAAeSwF0pqKthu&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xA3TvfSD8ilY5hstxBCIpmgUQlEBWsEbKFn8wdkQfKJ9Ws9fQOAviex4VAk6O47Nn0MY%2FXFPgAwHNz1hKRwmB5QoR45EzFkcyUEEpVnSwX9hfncDl5wW1BFABkzHOpc8mEERcZk40UDqk1KgZwYsVnc3bOkdLzyecdVLq1v15s43SUBJlZdC3R0O2qmXGNtxZoBhI8KiKd5QossZyBTP3CGjHF%2BjhYAOohKu6mBlZRDuWkY6H3Q9WUYFYfm023z6plwc%2B0yYbP%2B%2B7J29bXCqw3hHo9IQuYwq68qSChlMywUsQ%3D%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 49,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "358486087405",
+    "title": "Chloe Paddington Small Orange Leather Handbag Lock Gold Hardware Classic",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/358486087405?_skw=chloe+paddington+bag&itmmeta=01KXGPM7660QYKFXPA3XWJ3V9S&hash=item53776f96ed:g:~sgAAeSwE2Fp7M2x&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDuA9FkEUOiSug1eCWL%2F5Y%2FEo14oJKkFZVYJ4ErMWuP4FjvdsewskkBsZpgZm3hT4xY03cJahleM7CE7iOjZlyCM1vCFHmn6XrA%2BfEpmgKwXVPDf8G0X3HojpX%2BRjqE1VeElGnm2rxhuGeQqyIEyMytZoyTeMV3jFd6TkD3op0tDnufPetCdQNxle%2F1WUARqdOwS2vJOBTBAKA3E02VNoATuzHi8lWBGCKW0NPrqPr8NfwlUE%2F0RyYb8RSOdjcvhM8%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "358486087405",
+      "title": "Chloe Paddington Small Orange Leather Handbag Lock Gold Hardware Classic",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/358486087405?_skw=chloe+paddington+bag&itmmeta=01KXGPM7660QYKFXPA3XWJ3V9S&hash=item53776f96ed:g:~sgAAeSwE2Fp7M2x&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDuA9FkEUOiSug1eCWL%2F5Y%2FEo14oJKkFZVYJ4ErMWuP4FjvdsewskkBsZpgZm3hT4xY03cJahleM7CE7iOjZlyCM1vCFHmn6XrA%2BfEpmgKwXVPDf8G0X3HojpX%2BRjqE1VeElGnm2rxhuGeQqyIEyMytZoyTeMV3jFd6TkD3op0tDnufPetCdQNxle%2F1WUARqdOwS2vJOBTBAKA3E02VNoATuzHi8lWBGCKW0NPrqPr8NfwlUE%2F0RyYb8RSOdjcvhM8%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 23,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "358654015872",
+    "title": "Chloe Paddington Sage Green Grained Calfskin Leather Handbag Padlock Bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/358654015872?_skw=chloe+paddington+bag&itmmeta=01KXGPM7652EZHMH9P8A5FPFJA&hash=item538171f980:g:t3kAAeSwdUNqJs2N&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAEz%2BMXzGWxJXUS1Lc3LWFRkR5RQDiwHW4wxr4rxSkD45YZGq7O%2BVHVhfeik0l2P83phG4%2FrrVgSo%2F06nejUZNaelxWyAnM7zuc9wyJLJDNK%2BYqhjJ%2BFJZb%2FUy8F5%2BaGNUTNPOZG6SuBKaEcy%2FYo10Hf4c96NKGSv%2BT0OAWojyOfrBLLvxRtxQ88mCpXrlHSjd0Pr4--nLpd5swNiAZkMX6Nc8HGMRJvSB2AhmwSQxiIsItl1XCtf2Qq%2FIEWJLzvLBzQB0zl3T0xX8bj908C%2BRd95pZWc%2BaIuq3IPXjkYK1Kw%3D%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "358654015872",
+      "title": "Chloe Paddington Sage Green Grained Calfskin Leather Handbag Padlock Bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/358654015872?_skw=chloe+paddington+bag&itmmeta=01KXGPM7652EZHMH9P8A5FPFJA&hash=item538171f980:g:t3kAAeSwdUNqJs2N&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAEz%2BMXzGWxJXUS1Lc3LWFRkR5RQDiwHW4wxr4rxSkD45YZGq7O%2BVHVhfeik0l2P83phG4%2FrrVgSo%2F06nejUZNaelxWyAnM7zuc9wyJLJDNK%2BYqhjJ%2BFJZb%2FUy8F5%2BaGNUTNPOZG6SuBKaEcy%2FYo10Hf4c96NKGSv%2BT0OAWojyOfrBLLvxRtxQ88mCpXrlHSjd0Pr4--nLpd5swNiAZkMX6Nc8HGMRJvSB2AhmwSQxiIsItl1XCtf2Qq%2FIEWJLzvLBzQB0zl3T0xX8bj908C%2BRd95pZWc%2BaIuq3IPXjkYK1Kw%3D%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 47,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "358667189699",
+    "title": "Chloe Mini Paddington 2Way Shoulder Hand Bag Black Leather Padlock Rare",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/358667189699?_skw=chloe+paddington+bag&itmmeta=01KXGPM7664NAHHK0E55JWESX8&hash=item53823afdc3:g:J-cAAeSwn75qKuC8&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAnWMdD1xDgybbWyEOw0OTPE3C%2FwFWK64D9WaVPBatEIGUi41X9FZK8dL%2B5Khapv98cgwtyGKJM2KWy%2FbfZ4AnK20xEVcRgZ5QRKCGQyI8DqlpUU90rAWHQTU%2FxksiV2d%2BnlXdH2%2FK%2FHdlV3kDYtUREUVGVPflFQC0ZmT7bnvVUjjiCrUGiiApGtlAkmmytNqnGUgGY31JTSCTzw0VayYJ7Uq472iMo%2BCJAIVG1fPnjgi%2F0jgvszjMzMK3KldaOFft6FTgUS5frsjwmIEv66iv8M2%2BoZOL%2But6aGvhzqzzfHA%3D%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "358667189699",
+      "title": "Chloe Mini Paddington 2Way Shoulder Hand Bag Black Leather Padlock Rare",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/358667189699?_skw=chloe+paddington+bag&itmmeta=01KXGPM7664NAHHK0E55JWESX8&hash=item53823afdc3:g:J-cAAeSwn75qKuC8&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAnWMdD1xDgybbWyEOw0OTPE3C%2FwFWK64D9WaVPBatEIGUi41X9FZK8dL%2B5Khapv98cgwtyGKJM2KWy%2FbfZ4AnK20xEVcRgZ5QRKCGQyI8DqlpUU90rAWHQTU%2FxksiV2d%2BnlXdH2%2FK%2FHdlV3kDYtUREUVGVPflFQC0ZmT7bnvVUjjiCrUGiiApGtlAkmmytNqnGUgGY31JTSCTzw0VayYJ7Uq472iMo%2BCJAIVG1fPnjgi%2F0jgvszjMzMK3KldaOFft6FTgUS5frsjwmIEv66iv8M2%2BoZOL%2But6aGvhzqzzfHA%3D%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 48,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "358705976967",
+    "title": "Chloe Paddington Handbag Red Padlock Gold Hardware Tote bag Authentic",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/358705976967?_skw=chloe+paddington+bag&itmmeta=01KXGPM766SWM9DTHB2T1K4DHR&hash=item53848ad687:g:L~sAAeSwldpqCuGI&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAI1gashLSoQQv2NIBwDDVX2XUiLfHfgTxZsHtuQ9U3TOZYq%2FkP613XljIk2o9az7wu2jSRnITntiTUpfpBg0VtMDTUDVw5ST1TBIwVmerZipgZJGaKCzTegII9Xvq6WDrH36B4VmdIXUoZh4aW%2BsvT5t1Tj%2FGPIvVF0EY0pvnLDVNQGfhMfdGyhtZC3f7CVTPCVof191gQslmtYdLlD0OTenos2ymPnzBtUaoII3JtrYCwGkoe6VGVgIARP9Yyvq78--7wv%2F002tK7DX4yyoz05PfKtjkPBB7D3Q30hZLlIQ%3D%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "358705976967",
+      "title": "Chloe Paddington Handbag Red Padlock Gold Hardware Tote bag Authentic",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/358705976967?_skw=chloe+paddington+bag&itmmeta=01KXGPM766SWM9DTHB2T1K4DHR&hash=item53848ad687:g:L~sAAeSwldpqCuGI&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAI1gashLSoQQv2NIBwDDVX2XUiLfHfgTxZsHtuQ9U3TOZYq%2FkP613XljIk2o9az7wu2jSRnITntiTUpfpBg0VtMDTUDVw5ST1TBIwVmerZipgZJGaKCzTegII9Xvq6WDrH36B4VmdIXUoZh4aW%2BsvT5t1Tj%2FGPIvVF0EY0pvnLDVNQGfhMfdGyhtZC3f7CVTPCVof191gQslmtYdLlD0OTenos2ymPnzBtUaoII3JtrYCwGkoe6VGVgIARP9Yyvq78--7wv%2F002tK7DX4yyoz05PfKtjkPBB7D3Q30hZLlIQ%3D%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 56,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "358747811802",
+    "title": "Vintage 2006 Chloe Paddington Pouch Brown Clutch Bag One Size Excellent",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/358747811802?_skw=chloe+paddington+bag&itmmeta=01KXGPM766256237C632CHES6B&hash=item5387092fda:g:mBgAAeSwnrZqRrPf&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xC4ezUoWkqZcUqyxhcbJgF2ZmxysMtDLfNtUn81NHvDxEBHLWZK1Dqh7CyBaRYSERHCvTLkdhgc6nX9kbRplWkgSnD2kDUt5HzOWN7o40BLbCqQUyoSXyKOpoq4yNHClcWHdQxQ69BBw4EgSc0Kbvy0eiUMp1qkwv4Fz3LoIayP3eNOziBG86lKLi8p6FymCFlxjgfSemyf4kjJ7pyouCCjIScDxcRTY78VE35WaFJuYhP%2FWbmTF7JGmuMqnCS6ObM%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "358747811802",
+      "title": "Vintage 2006 Chloe Paddington Pouch Brown Clutch Bag One Size Excellent",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/358747811802?_skw=chloe+paddington+bag&itmmeta=01KXGPM766256237C632CHES6B&hash=item5387092fda:g:mBgAAeSwnrZqRrPf&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xC4ezUoWkqZcUqyxhcbJgF2ZmxysMtDLfNtUn81NHvDxEBHLWZK1Dqh7CyBaRYSERHCvTLkdhgc6nX9kbRplWkgSnD2kDUt5HzOWN7o40BLbCqQUyoSXyKOpoq4yNHClcWHdQxQ69BBw4EgSc0Kbvy0eiUMp1qkwv4Fz3LoIayP3eNOziBG86lKLi8p6FymCFlxjgfSemyf4kjJ7pyouCCjIScDxcRTY78VE35WaFJuYhP%2FWbmTF7JGmuMqnCS6ObM%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 21,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "358752194257",
+    "title": "Chloe Paddington Mini Shoulder Bag Leather Coral",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/358752194257?_skw=chloe+paddington+bag&itmmeta=01KXGPM764KHCMNSR6R2JQT74Q&hash=item53874c0ed1:g:oJ0AAeSw-lpqR~jp&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAEAHwyw8u7EJ89L3sAtXXSUrqhEDEjHx451%2Be6OX0cPnyGwcqTQqVUCuuxGJiHu2LHy9DV%2B%2FNMkqdGArkA2qNOO7vYKR6EOEQWHDzbUX1KSMyGodlYeWxt6swAZNHFa1d4x50tla7QAdhLBRgDP5LwX4ZgR1whVzT4GQ%2Fza1NtWPbVmgzCFDebxcnm35ZM0qt%2B4d3D8vL%2F4erZEnJIlL1mvYqcJ113gA0LDIQxaiM7lzFkqAbyuZFp%2B4Y%2BT61TpyU%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "358752194257",
+      "title": "Chloe Paddington Mini Shoulder Bag Leather Coral",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/358752194257?_skw=chloe+paddington+bag&itmmeta=01KXGPM764KHCMNSR6R2JQT74Q&hash=item53874c0ed1:g:oJ0AAeSw-lpqR~jp&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAEAHwyw8u7EJ89L3sAtXXSUrqhEDEjHx451%2Be6OX0cPnyGwcqTQqVUCuuxGJiHu2LHy9DV%2B%2FNMkqdGArkA2qNOO7vYKR6EOEQWHDzbUX1KSMyGodlYeWxt6swAZNHFa1d4x50tla7QAdhLBRgDP5LwX4ZgR1whVzT4GQ%2Fza1NtWPbVmgzCFDebxcnm35ZM0qt%2B4d3D8vL%2F4erZEnJIlL1mvYqcJ113gA0LDIQxaiM7lzFkqAbyuZFp%2B4Y%2BT61TpyU%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 51,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "366005603628",
+    "title": "Chloe Paddington Hobo Bag Brown Leather \u2013 Authentic Vintage",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/366005603628?_skw=chloe+paddington+bag&itmmeta=01KXGPM766KPRGB0SNWMPD2BBD&hash=item5537a24d2c:g:RA8AAeSw76VpF2MD&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCUnPtP37u2JpRq96I%2BxXhzzbDXJL1fSMPtcmTLWzii8rQ5xfCrzIdPvYc%2BHtdemBxZ8IHnHKvnc6pK6EkZd1eV9OtV2u3n2EYwyfGLslI8aJpoOEW8GC4bwGh24VFkAiQ074Irr1vvFLfPHeVkBCg5YgtgP%2FbPSs83C%2BtGAO23QpPEzYOJFYJqNbCGruazy0%2BI11dgHQiDLGLtqNJh3gHwXwGtl3T%2FncWallKlNKmx5Pbm%2BehqAFPsT6AkxmdOhIJ9qa4CvU0WH%2B78T%2Fz55mKOVpez1vOYnz%2BKTGvhLcowsA%3D%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "366005603628",
+      "title": "Chloe Paddington Hobo Bag Brown Leather \u2013 Authentic Vintage",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/366005603628?_skw=chloe+paddington+bag&itmmeta=01KXGPM766KPRGB0SNWMPD2BBD&hash=item5537a24d2c:g:RA8AAeSw76VpF2MD&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCUnPtP37u2JpRq96I%2BxXhzzbDXJL1fSMPtcmTLWzii8rQ5xfCrzIdPvYc%2BHtdemBxZ8IHnHKvnc6pK6EkZd1eV9OtV2u3n2EYwyfGLslI8aJpoOEW8GC4bwGh24VFkAiQ074Irr1vvFLfPHeVkBCg5YgtgP%2FbPSs83C%2BtGAO23QpPEzYOJFYJqNbCGruazy0%2BI11dgHQiDLGLtqNJh3gHwXwGtl3T%2FncWallKlNKmx5Pbm%2BehqAFPsT6AkxmdOhIJ9qa4CvU0WH%2B78T%2Fz55mKOVpez1vOYnz%2BKTGvhLcowsA%3D%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 42,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "366452355065",
+    "title": "Chloe Paddington Mini pouch Bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/366452355065?_skw=chloe+paddington+bag&itmmeta=01KXGPM766ENG3KJ446XSHBYDE&hash=item5552432ff9:g:W9gAAeSwWvdp~ErF&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xA9PtdjoNL2gdCUvRjg39cQPcKyaR4RumB%2FZNmWh45GiW9e7CZwoWUBL5cCSaTWM%2FRMK30vMGX1Rzm4YkFBnLTsGkOe%2BE4auHFkTy%2FlhVNaLAd15oXiqp0lqqYGlTogT5nt6uwwbBqQRfUa437lvHB0MgtvtQKUeevXW%2BG%2BnW7TnI9SSnJSfVsT3U%2F4Uo6tbE59AIxZcpJC%2BwsK0KfOOdOXsafWDC7oLrDSEIsOzENJpEDsUUDzbXARpQhfj9cBWEvhgQNxw9Qxk8TC3RX9JgMyxZa8ft7XtMXdZmsWi2BKzA%3D%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "366452355065",
+      "title": "Chloe Paddington Mini pouch Bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/366452355065?_skw=chloe+paddington+bag&itmmeta=01KXGPM766ENG3KJ446XSHBYDE&hash=item5552432ff9:g:W9gAAeSwWvdp~ErF&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xA9PtdjoNL2gdCUvRjg39cQPcKyaR4RumB%2FZNmWh45GiW9e7CZwoWUBL5cCSaTWM%2FRMK30vMGX1Rzm4YkFBnLTsGkOe%2BE4auHFkTy%2FlhVNaLAd15oXiqp0lqqYGlTogT5nt6uwwbBqQRfUa437lvHB0MgtvtQKUeevXW%2BG%2BnW7TnI9SSnJSfVsT3U%2F4Uo6tbE59AIxZcpJC%2BwsK0KfOOdOXsafWDC7oLrDSEIsOzENJpEDsUUDzbXARpQhfj9cBWEvhgQNxw9Qxk8TC3RX9JgMyxZa8ft7XtMXdZmsWi2BKzA%3D%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 32,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "377258180787",
+    "title": "Chloe Paddington Brown Leather Shoulder Handbag Padlock Key Pre-Owned",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/377258180787?_skw=chloe+paddington+bag&itmmeta=01KXGPM765CM44CM2FGA9V0WPY&hash=item57d65700b3:g:MYEAAeSwonJqLP3D&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDtDeQ2KzKrMTXffivkTcaTNu%2B71ftN3p8XXMOoIcNeQEmBuep7qXkUNkxMhLTPGTfrprWVtVoiYU7lllXYUzf6d5FCTSo98Vk0kHCzVXJwgWeA9lt%2BOhFc%2FR9jfkUMtjgF2%2F0rtrQIvjT2q7cbtu6zm6F9lEhgKh6GhqSHo%2BFXSpW0TVVajeAElh8PTtqzwcIytDRO%2FcSYVTUMkGPNEgP9EvKi5ykTeJk2tejgmGclXHZziRTWtV4fIMWTVJB4ocE%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "377258180787",
+      "title": "Chloe Paddington Brown Leather Shoulder Handbag Padlock Key Pre-Owned",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/377258180787?_skw=chloe+paddington+bag&itmmeta=01KXGPM765CM44CM2FGA9V0WPY&hash=item57d65700b3:g:MYEAAeSwonJqLP3D&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDtDeQ2KzKrMTXffivkTcaTNu%2B71ftN3p8XXMOoIcNeQEmBuep7qXkUNkxMhLTPGTfrprWVtVoiYU7lllXYUzf6d5FCTSo98Vk0kHCzVXJwgWeA9lt%2BOhFc%2FR9jfkUMtjgF2%2F0rtrQIvjT2q7cbtu6zm6F9lEhgKh6GhqSHo%2BFXSpW0TVVajeAElh8PTtqzwcIytDRO%2FcSYVTUMkGPNEgP9EvKi5ykTeJk2tejgmGclXHZziRTWtV4fIMWTVJB4ocE%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 40,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "377266898928",
+    "title": "Chloe Paddington Leather Handbag Brown Gold HDW Authentic",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/377266898928?_skw=chloe+paddington+bag&itmmeta=01KXGPM765R8WAG6G9H2N9VCNJ&hash=item57d6dc07f0:g:moQAAeSweM5qMPGK&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAFGe2HrfDH08feFrvKMeCVMv5a1BiGpzlNAirzxYjg4t9tcwJgitkKtz4hqFUGb2wuCsdtS1PlSk6UjHqrDNJQaVQiqS%2BuDLynwquepWmNod1u1PS79WZvt3%2F34Smu%2Bh5cWo1Jrx0Evt21emqUYh%2Badz%2Fni%2FpC3xxWwT4N8YQh0IFqKRre3XY%2BBUgxau73RHuUz8kYZMh%2Fl0RzL1ZglzCu77Kuexoqu9b7Uvr%2Bm1zO48Aa%2FUazIHGfxyPN9rB3ZKv2KwsBOgcWwNe89T%2FzyzWMCybEXOvcxd3uSwOON60SCg%3D%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "377266898928",
+      "title": "Chloe Paddington Leather Handbag Brown Gold HDW Authentic",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/377266898928?_skw=chloe+paddington+bag&itmmeta=01KXGPM765R8WAG6G9H2N9VCNJ&hash=item57d6dc07f0:g:moQAAeSweM5qMPGK&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAFGe2HrfDH08feFrvKMeCVMv5a1BiGpzlNAirzxYjg4t9tcwJgitkKtz4hqFUGb2wuCsdtS1PlSk6UjHqrDNJQaVQiqS%2BuDLynwquepWmNod1u1PS79WZvt3%2F34Smu%2Bh5cWo1Jrx0Evt21emqUYh%2Badz%2Fni%2FpC3xxWwT4N8YQh0IFqKRre3XY%2BBUgxau73RHuUz8kYZMh%2Fl0RzL1ZglzCu77Kuexoqu9b7Uvr%2Bm1zO48Aa%2FUazIHGfxyPN9rB3ZKv2KwsBOgcWwNe89T%2FzyzWMCybEXOvcxd3uSwOON60SCg%3D%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 14,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "398052541381",
+    "title": "Chloe Paddington Leather Hand Bag cream  medium (missing padlock)",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/398052541381?_skw=chloe+paddington+bag&itmmeta=01KXGPM764BK2R5H8CASJRFTSP&hash=item5cadc7c3c5:g:~2EAAeSw8tJqKrCm&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xD%2FUCZFHcGz%2BPne47L6qcKppo7WvE1FPnCsDFMwMISCAP5n44WWvW2NRScv5uhgo%2BOBosW9XvWF2j2Lwvz8UH2pHAp0xYe0TmEuvfhVz3m7Fd5ZuhOCWXCpM9kkmT%2BGAcEJ9DRTDvz0%2FDNzF3NJnecp%2Fu7iI%2B6bGxOz0yQ12Nz6rKl%2BlaeELPRCnflxhPpW6JTiJw0h6MlOhegRK8MMNAd%2F4w6YVspsJck%2FEPs%2Bp%2FyHnmvGhOzfu3CcEidaZUqIv0s%3D%7Ctkp%3ABk9SR57z0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "398052541381",
+      "title": "Chloe Paddington Leather Hand Bag cream  medium (missing padlock)",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/398052541381?_skw=chloe+paddington+bag&itmmeta=01KXGPM764BK2R5H8CASJRFTSP&hash=item5cadc7c3c5:g:~2EAAeSw8tJqKrCm&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xD%2FUCZFHcGz%2BPne47L6qcKppo7WvE1FPnCsDFMwMISCAP5n44WWvW2NRScv5uhgo%2BOBosW9XvWF2j2Lwvz8UH2pHAp0xYe0TmEuvfhVz3m7Fd5ZuhOCWXCpM9kkmT%2BGAcEJ9DRTDvz0%2FDNzF3NJnecp%2Fu7iI%2B6bGxOz0yQ12Nz6rKl%2BlaeELPRCnflxhPpW6JTiJw0h6MlOhegRK8MMNAd%2F4w6YVspsJck%2FEPs%2Bp%2FyHnmvGhOzfu3CcEidaZUqIv0s%3D%7Ctkp%3ABk9SR57z0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 45,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "398146034638",
+    "title": "Chloe Paddington Small Bag Brown #2000",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/398146034638?_skw=chloe+paddington+bag&itmmeta=01KXGPM766RXVR0C7K0MQZ7ZDF&hash=item5cb35a5bce:g:znMAAeSwdTRqS7Ib&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAQnpJbkh4BvgKR%2Fzn0NHjZQoNv1rsynjGs3%2BJIG4aSd3gErUFmWJU4aU6Vcpk6gtixohuNPEjO%2BSOMfhheLAEiYAHrR1d0gWdjzd9B4dySAF4BznBMlFFWEAPvVcB%2FGjfGT%2BOgFSgfm3%2BC7krlaku%2BgUWzycgHy0Y1MAdznwo3B2mRIouv7NtL1wzc%2BUTpUw7KniaC1wBsBQI7AdGMZ1Um0bG4cR3%2Bhs9gEC%2BhYXzj%2Fj11kJ9skA%2BmVfGtGX23JQU%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "398146034638",
+      "title": "Chloe Paddington Small Bag Brown #2000",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/398146034638?_skw=chloe+paddington+bag&itmmeta=01KXGPM766RXVR0C7K0MQZ7ZDF&hash=item5cb35a5bce:g:znMAAeSwdTRqS7Ib&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAQnpJbkh4BvgKR%2Fzn0NHjZQoNv1rsynjGs3%2BJIG4aSd3gErUFmWJU4aU6Vcpk6gtixohuNPEjO%2BSOMfhheLAEiYAHrR1d0gWdjzd9B4dySAF4BznBMlFFWEAPvVcB%2FGjfGT%2BOgFSgfm3%2BC7krlaku%2BgUWzycgHy0Y1MAdznwo3B2mRIouv7NtL1wzc%2BUTpUw7KniaC1wBsBQI7AdGMZ1Um0bG4cR3%2Bhs9gEC%2BhYXzj%2Fj11kJ9skA%2BmVfGtGX23JQU%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 15,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "800320266684",
+    "title": "[Used] Chloe Paddington Brown Leather 2 Way Gold Hardware Padlock Charm 32cm",
+    "price": 464.95,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/800320266684?_skw=chloe+paddington+bag&itmmeta=01KXGPM764ZJYJT4GQYFXR7S4Q&hash=itemba56ce21bc:g:ZW0AAeSwDDdqUPUX&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xA9MLRHL2pKaUSq3H94Pye5vuduuwbJZ%2FQ6Gkq%2Bi5dk6ps0Vy%2BNlQ2p4jm9CTtGM6Tx9Obn%2FlE3J2CKWiOJSF6YQiwwPGa4x7310w8NrYSfY18gCA0JxB88WCk1DnMfwKgohWInzeTe%2Bcngf%2Fao--ZWvfWaOJ9t5TP2h8stn11qURhTCy33iRXWaC9Wl5OACfckM0kfWwyUIdTkYU42kuhQHn8KDWw6HLzDCztxprUgZRpPWGuK9i8VWppETT88KmzmRmgWXR%2FrbjqMEsLiIhPO9%2FtliV156LAGahtjZSnomg%3D%3D%7Ctkp%3ABk9SR57z0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "800320266684",
+      "title": "[Used] Chloe Paddington Brown Leather 2 Way Gold Hardware Padlock Charm 32cm",
+      "price": {
+        "value": "464.95",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/800320266684?_skw=chloe+paddington+bag&itmmeta=01KXGPM764ZJYJT4GQYFXR7S4Q&hash=itemba56ce21bc:g:ZW0AAeSwDDdqUPUX&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xA9MLRHL2pKaUSq3H94Pye5vuduuwbJZ%2FQ6Gkq%2Bi5dk6ps0Vy%2BNlQ2p4jm9CTtGM6Tx9Obn%2FlE3J2CKWiOJSF6YQiwwPGa4x7310w8NrYSfY18gCA0JxB88WCk1DnMfwKgohWInzeTe%2Bcngf%2Fao--ZWvfWaOJ9t5TP2h8stn11qURhTCy33iRXWaC9Wl5OACfckM0kfWwyUIdTkYU42kuhQHn8KDWw6HLzDCztxprUgZRpPWGuK9i8VWppETT88KmzmRmgWXR%2FrbjqMEsLiIhPO9%2FtliV156LAGahtjZSnomg%3D%3D%7Ctkp%3ABk9SR57z0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 8,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "158059008489",
+    "title": "Chloe Paddington Mini Boston bag Handbag Brown Leather Women's Auth from Japan",
+    "price": 514,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/158059008489?_skw=chloe+paddington+bag&itmmeta=01KXGPM764NGAT3WPYZ7T6BJ6X&hash=item24cd0d11e9:g:AKMAAeSwcK9qSyuO&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBUHyddzdcZb0giKTpU0PB%2BAOB88c9BY%2BOa%2F0olaGTCAwPdM6fBeI8JNu8374uYvrpIwUuUiPLGhpmdu3SBbXWFAErtM3P2PDufFLMxHXrF6u9EHPGrFt%2BcqIAtnk%2FZnASIqR1Fcw3ZCfPh1%2BK6nhTUk9S7ZhqNjDPjqCCMlXr%2BXkIydkbJtUtjOfXijPdu0lwiJPHO4I8xM339mewZGidNf5i5EKCqD3hQjpXgZEvIkVX9m4khZdJCRTt9VoaS4zMI92fwgnUt4FG2AnMMEP4gk9hzVDQXagVsUMLhJo%2FxHQ%3D%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "158059008489",
+      "title": "Chloe Paddington Mini Boston bag Handbag Brown Leather Women's Auth from Japan",
+      "price": {
+        "value": "514.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/158059008489?_skw=chloe+paddington+bag&itmmeta=01KXGPM764NGAT3WPYZ7T6BJ6X&hash=item24cd0d11e9:g:AKMAAeSwcK9qSyuO&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBUHyddzdcZb0giKTpU0PB%2BAOB88c9BY%2BOa%2F0olaGTCAwPdM6fBeI8JNu8374uYvrpIwUuUiPLGhpmdu3SBbXWFAErtM3P2PDufFLMxHXrF6u9EHPGrFt%2BcqIAtnk%2FZnASIqR1Fcw3ZCfPh1%2BK6nhTUk9S7ZhqNjDPjqCCMlXr%2BXkIydkbJtUtjOfXijPdu0lwiJPHO4I8xM339mewZGidNf5i5EKCqD3hQjpXgZEvIkVX9m4khZdJCRTt9VoaS4zMI92fwgnUt4FG2AnMMEP4gk9hzVDQXagVsUMLhJo%2FxHQ%3D%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 57,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "158008698944",
+    "title": "Chloe Paddington Leather Handbag Camel Brown Gold Hardware Charm Key 2way Used",
+    "price": 540.38,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/158008698944?_skw=chloe+paddington+bag&itmmeta=01KXGPM766E3909MBXTQT06WK2&hash=item24ca0d6840:g:F0IAAeSw1-hqM7BT&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBVAhdTO13ry8du8uxvK%2BnAJfEsqrwrtgTP8C6jNCkWHZ8C8c701syOJf0jv8z57DXduNRG0r85CnQa7ubLvyfruLS7w3J09rcmtYhiIjudJGEmPskGBK%2F6%2Fv%2F9ieomtaWv9J2LSyRVe2jUgWzfzjWiUA3lZrgOM0KdoC2uPV%2F1zllrY3mEL6g4sV3vszDZ5OJpbEC0WO5ekhv2mwOK1BxLRMYIc22aSc1QrKV0rD7OoIPq%2FX%2BPOSVJzEcl7rorUg0%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "158008698944",
+      "title": "Chloe Paddington Leather Handbag Camel Brown Gold Hardware Charm Key 2way Used",
+      "price": {
+        "value": "540.38",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/158008698944?_skw=chloe+paddington+bag&itmmeta=01KXGPM766E3909MBXTQT06WK2&hash=item24ca0d6840:g:F0IAAeSw1-hqM7BT&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBVAhdTO13ry8du8uxvK%2BnAJfEsqrwrtgTP8C6jNCkWHZ8C8c701syOJf0jv8z57DXduNRG0r85CnQa7ubLvyfruLS7w3J09rcmtYhiIjudJGEmPskGBK%2F6%2Fv%2F9ieomtaWv9J2LSyRVe2jUgWzfzjWiUA3lZrgOM0KdoC2uPV%2F1zllrY3mEL6g4sV3vszDZ5OJpbEC0WO5ekhv2mwOK1BxLRMYIc22aSc1QrKV0rD7OoIPq%2FX%2BPOSVJzEcl7rorUg0%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 13,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "406928946478",
+    "title": "Chloe Black Leather Paddington Shoulder Bag",
+    "price": 585,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/406928946478?_skw=chloe+paddington+bag&itmmeta=01KXGPM764325JS7A0CBY1WGPE&hash=item5ebedaf52e:g:z1MAAeSweFVqBz4d&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBSKN3xJyENJEH2gkurpadXf3wUs%2BL87jys6dMkJ8A0x7929l7fDIF9CJ%2BHL%2BP5cF4COOlETpLxM3GTP%2FXnIRaKy3Xe7I2QsJNSK3Z2hVkgj1KPZk6lkKc8H4hPvlg3Q9iuLS0wa5LvrK5I9Osvb%2BqF7MzJ2q5S8yT66R6K%2Bw6PP7rju50ZDH6kTpCSmXS9yoTV89KAHkR5PUKiI8s3yl%2BAKpnhf58F2D%2Fl%2B0QJn7JoYL%2FtyRk59k6mS1VEgfC9U6yOA6yatJpH%2FqmUucileWc1acmOI09U8d%2Ffdqte7sL9oQ%3D%3D%7Ctkp%3ABk9SR57z0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "406928946478",
+      "title": "Chloe Black Leather Paddington Shoulder Bag",
+      "price": {
+        "value": "585.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/406928946478?_skw=chloe+paddington+bag&itmmeta=01KXGPM764325JS7A0CBY1WGPE&hash=item5ebedaf52e:g:z1MAAeSweFVqBz4d&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBSKN3xJyENJEH2gkurpadXf3wUs%2BL87jys6dMkJ8A0x7929l7fDIF9CJ%2BHL%2BP5cF4COOlETpLxM3GTP%2FXnIRaKy3Xe7I2QsJNSK3Z2hVkgj1KPZk6lkKc8H4hPvlg3Q9iuLS0wa5LvrK5I9Osvb%2BqF7MzJ2q5S8yT66R6K%2Bw6PP7rju50ZDH6kTpCSmXS9yoTV89KAHkR5PUKiI8s3yl%2BAKpnhf58F2D%2Fl%2B0QJn7JoYL%2FtyRk59k6mS1VEgfC9U6yOA6yatJpH%2FqmUucileWc1acmOI09U8d%2Ffdqte7sL9oQ%3D%3D%7Ctkp%3ABk9SR57z0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 53,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "406880315042",
+    "title": "Chloe Paddington Medium Brown Leather Satchel",
+    "price": 636.8,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/406880315042?_skw=chloe+paddington+bag&itmmeta=01KXGPM766YVXHT3SZ1DJ6KVNS&hash=item5ebbf4e6a2:g:fjsAAeSwntxp6fHw&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDTX57of%2FrGp7EWoav%2B7sbtNPpV%2BE9IPvz0%2BJaOWxmn48pCZvCkdsEpL7l16xPqrahdls%2FA9awCB6cjdWHBpWITgVhOXAPKSWYqOb9ZWv7XS7iHt%2BJueRt%2FYnvCsyS91Ua9cRSV8laiFW6IdWkS3IujiXWMOctbrU4gVEeDaRfIYOBoHOZHR8DgBNvESR%2FmEDj0StLGqUgt1oTFlSbueSgaIK6AuqWVnTyelhRJNvEeHmlfbp9Y2XjJiq3Ngkotp9U%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "406880315042",
+      "title": "Chloe Paddington Medium Brown Leather Satchel",
+      "price": {
+        "value": "636.80",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/406880315042?_skw=chloe+paddington+bag&itmmeta=01KXGPM766YVXHT3SZ1DJ6KVNS&hash=item5ebbf4e6a2:g:fjsAAeSwntxp6fHw&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDTX57of%2FrGp7EWoav%2B7sbtNPpV%2BE9IPvz0%2BJaOWxmn48pCZvCkdsEpL7l16xPqrahdls%2FA9awCB6cjdWHBpWITgVhOXAPKSWYqOb9ZWv7XS7iHt%2BJueRt%2FYnvCsyS91Ua9cRSV8laiFW6IdWkS3IujiXWMOctbrU4gVEeDaRfIYOBoHOZHR8DgBNvESR%2FmEDj0StLGqUgt1oTFlSbueSgaIK6AuqWVnTyelhRJNvEeHmlfbp9Y2XjJiq3Ngkotp9U%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 41,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "137367603390",
+    "title": "Chloe Paddington White Handbag #TFB2942",
+    "price": 677.56,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/137367603390?_skw=chloe+paddington+bag&itmmeta=01KXGPM76529PCQSR84C0SW9F3&hash=item1ffbbf48be:g:WdgAAeSwRHFqHWJi&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xC%2BHG%2FRKTht10l050JaOv5BP4ueAYllLJ2q0j7zr2Men9DFPcELJGWPNrERNrA2jAEbNqqU7%2BQUg1lbm9tU%2FzhO5H0zihKMVzNI8c4ZvIpLvEDCUQy6qw8IVqToWgi%2BmYcpVwxCruQPXaBqH3zvUQJqRPOhvEmbQQhVHVCx4dLXKGDXn4SqnmcPe7HHS6Zg5KNUeZ7VGBjWfUoa56ilbLsfJCsXzK3LumoEET9PQwZzemxuuETGp34OYTTLx2yLkD0%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "137367603390",
+      "title": "Chloe Paddington White Handbag #TFB2942",
+      "price": {
+        "value": "677.56",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/137367603390?_skw=chloe+paddington+bag&itmmeta=01KXGPM76529PCQSR84C0SW9F3&hash=item1ffbbf48be:g:WdgAAeSwRHFqHWJi&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xC%2BHG%2FRKTht10l050JaOv5BP4ueAYllLJ2q0j7zr2Men9DFPcELJGWPNrERNrA2jAEbNqqU7%2BQUg1lbm9tU%2FzhO5H0zihKMVzNI8c4ZvIpLvEDCUQy6qw8IVqToWgi%2BmYcpVwxCruQPXaBqH3zvUQJqRPOhvEmbQQhVHVCx4dLXKGDXn4SqnmcPe7HHS6Zg5KNUeZ7VGBjWfUoa56ilbLsfJCsXzK3LumoEET9PQwZzemxuuETGp34OYTTLx2yLkD0%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 6,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "257611401683",
+    "title": "Chloe Paddington Hand Bag Leather Black Purse 90329503",
+    "price": 705.66,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/257611401683?_skw=chloe+paddington+bag&itmmeta=01KXGPM763HR575GBPFDH3KZKE&hash=item3bfad609d3:g:YE4AAeSwoPNqTbP9&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDHImuu%2Fs0X72%2Bdo7P5ebY3wUt6hpuBK11xoSxz%2FXPLcWUMWJYI4oDBlt%2BZP%2BMm3u6z5sIRzGOWT%2BFr8eQE9grOGde4tgxBRio5qFTiVUHjlitOKJggEjrGHl6Q7Kf4RVRpAaqhrJpEGF8dNaCzbCOp88Khiu2CdGakhBBJTjApFq5gIZhSkJG4hg6pwSLx1AaTxHJ8HyQM%2B0Mc9L2TKV7MTI9IPuNuEz4Or%2B%2FKiDaZ6ZB%2FURMD8zJZidXkR5WzRCc%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "257611401683",
+      "title": "Chloe Paddington Hand Bag Leather Black Purse 90329503",
+      "price": {
+        "value": "705.66",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/257611401683?_skw=chloe+paddington+bag&itmmeta=01KXGPM763HR575GBPFDH3KZKE&hash=item3bfad609d3:g:YE4AAeSwoPNqTbP9&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDHImuu%2Fs0X72%2Bdo7P5ebY3wUt6hpuBK11xoSxz%2FXPLcWUMWJYI4oDBlt%2BZP%2BMm3u6z5sIRzGOWT%2BFr8eQE9grOGde4tgxBRio5qFTiVUHjlitOKJggEjrGHl6Q7Kf4RVRpAaqhrJpEGF8dNaCzbCOp88Khiu2CdGakhBBJTjApFq5gIZhSkJG4hg6pwSLx1AaTxHJ8HyQM%2B0Mc9L2TKV7MTI9IPuNuEz4Or%2B%2FKiDaZ6ZB%2FURMD8zJZidXkR5WzRCc%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 46,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "389871346282",
+    "title": "[Used] Chloe Women's Mini Paddington Tote Bag in Leather w/Silver Zipper Logo JP",
+    "price": 706.35,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/389871346282?_skw=chloe+paddington+bag&itmmeta=01KXGPM7661Z1T50D6A4XAHQ5N&hash=item5ac624a26a:g:GmkAAeSwcVtp2O9i&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBD0wfZA0920sv1%2BiOkqrEEbEil71bFrvETMUpvxV8mEX1MCHTnc8obfZhAlIZfOHMWoryvcahcVeaI7dlrUhyxPTxWcNW0K20Yc62nHiXWMaP1SV3YUdrYx70UU8Wq9TWhmFvWQNIf2TVJFR7eg0zMxIDKdI1lEyFev6TneSs6e9XZP5tj7LS2n%2BJdjE6YDSGucdMfjG4nrsgt18ECL25x%2FvC4fQtENCTwWAA4FzEiyl0mvRxtxl7Lo2BSJ60e5cU%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "389871346282",
+      "title": "[Used] Chloe Women's Mini Paddington Tote Bag in Leather w/Silver Zipper Logo JP",
+      "price": {
+        "value": "706.35",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/389871346282?_skw=chloe+paddington+bag&itmmeta=01KXGPM7661Z1T50D6A4XAHQ5N&hash=item5ac624a26a:g:GmkAAeSwcVtp2O9i&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBD0wfZA0920sv1%2BiOkqrEEbEil71bFrvETMUpvxV8mEX1MCHTnc8obfZhAlIZfOHMWoryvcahcVeaI7dlrUhyxPTxWcNW0K20Yc62nHiXWMaP1SV3YUdrYx70UU8Wq9TWhmFvWQNIf2TVJFR7eg0zMxIDKdI1lEyFev6TneSs6e9XZP5tj7LS2n%2BJdjE6YDSGucdMfjG4nrsgt18ECL25x%2FvC4fQtENCTwWAA4FzEiyl0mvRxtxl7Lo2BSJ60e5cU%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 25,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "236822226193",
+    "title": "Chloe Paddington Dark Brown Leather Shoulder Bag",
+    "price": 758,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/236822226193?_skw=chloe+paddington+bag&itmmeta=01KXGPM76564C86GQ1GAF9VXAB&hash=item3723b46511:g:3e4AAeSwkB5qCko6&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xD5C6ZCYPAawJ1GTrXkD29%2FwLIqP7ihn2D1RUvjpDB3JWdy0buFmwBeaNPGgxIYJasDEVQ0RosFpJJ926UAjrSo4DFo1hfI4d%2BGc8SQVq6gEilPohX0rLqxIFuKKhTbFJSVFaoo6rZs0P4S8qdp0FE6G7CAaaOaGbQJUw9emfpqpbr57vZKTgFTYnJZaXACt6E5WBdnj7ZW1SQpiAzDWT6b%2BC7DsGHdOQxmKQ%2BR1a%2FaRoh89i%2Fxm5fMSTCl6l2fES5ZGy%2B%2FZLpj96yeasI4ry4EAHjlmOQVEmOc0biAmyho2w%3D%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "236822226193",
+      "title": "Chloe Paddington Dark Brown Leather Shoulder Bag",
+      "price": {
+        "value": "758.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/236822226193?_skw=chloe+paddington+bag&itmmeta=01KXGPM76564C86GQ1GAF9VXAB&hash=item3723b46511:g:3e4AAeSwkB5qCko6&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xD5C6ZCYPAawJ1GTrXkD29%2FwLIqP7ihn2D1RUvjpDB3JWdy0buFmwBeaNPGgxIYJasDEVQ0RosFpJJ926UAjrSo4DFo1hfI4d%2BGc8SQVq6gEilPohX0rLqxIFuKKhTbFJSVFaoo6rZs0P4S8qdp0FE6G7CAaaOaGbQJUw9emfpqpbr57vZKTgFTYnJZaXACt6E5WBdnj7ZW1SQpiAzDWT6b%2BC7DsGHdOQxmKQ%2BR1a%2FaRoh89i%2Fxm5fMSTCl6l2fES5ZGy%2B%2FZLpj96yeasI4ry4EAHjlmOQVEmOc0biAmyho2w%3D%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 11,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "800229179404",
+    "title": "Chloe Paddington Light Brown Beige Padlock Key Leather 36cm Authentic Hand Bag",
+    "price": 783,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/800229179404?_skw=chloe+paddington+bag&itmmeta=01KXGPM764J2JY85HTRZEBWTSA&hash=itemba5160400c:g:0YcAAeSwCPVqOhQG&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDI%2B7REuIJaAjFndIAfNBti%2FfvjPUS0TpDi5YUqUM%2FHm91v%2F8ShQH1pq1%2BDt8suGmX65oVn8Dt6fy038H9yxFxyb3SztvubSnmYhvFvE8gxEQi84Wv8gGBrMCQ3OVFIE1Un67Lh4fFbI7npRibxsn2WbgGoFuTqVQgV3U%2Fw%2B%2B40naTP%2BThbcgZvVjeRlALAsSTEi7nwYBLVsuaFz9ysX0V0C1q7SyyMUP36tlY0Nhvo0hCB94c5rOHegHo0YGURWge1Em7tNebMz%2BSvBLn4tvE8ODj1F57MHnVxciYkuRyNrw%3D%3D%7Ctkp%3ABk9SR57z0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "800229179404",
+      "title": "Chloe Paddington Light Brown Beige Padlock Key Leather 36cm Authentic Hand Bag",
+      "price": {
+        "value": "783.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/800229179404?_skw=chloe+paddington+bag&itmmeta=01KXGPM764J2JY85HTRZEBWTSA&hash=itemba5160400c:g:0YcAAeSwCPVqOhQG&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDI%2B7REuIJaAjFndIAfNBti%2FfvjPUS0TpDi5YUqUM%2FHm91v%2F8ShQH1pq1%2BDt8suGmX65oVn8Dt6fy038H9yxFxyb3SztvubSnmYhvFvE8gxEQi84Wv8gGBrMCQ3OVFIE1Un67Lh4fFbI7npRibxsn2WbgGoFuTqVQgV3U%2Fw%2B%2B40naTP%2BThbcgZvVjeRlALAsSTEi7nwYBLVsuaFz9ysX0V0C1q7SyyMUP36tlY0Nhvo0hCB94c5rOHegHo0YGURWge1Em7tNebMz%2BSvBLn4tvE8ODj1F57MHnVxciYkuRyNrw%3D%3D%7Ctkp%3ABk9SR57z0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 58,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "137464921709",
+    "title": "CHLOE Paddington Leather Handbag Ivory - Pre-owned (JP)",
+    "price": 784,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/137464921709?_skw=chloe+paddington+bag&itmmeta=01KXGPM76748WJDAJMPVR4DTMW&hash=item20018c3e6d:g:h-sAAeSwNlxqQpnH&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBAa8YAPY2DNAH%2B8ky8%2FYkb9TbNIh7%2FTLpJxKjPAEfcSxolPlGSK3JbB90qF%2FD9QQQRBqqsE0KdBP%2BwgJGflq8sqCvhe0c4ap5Itcts%2BOpFs5w4yLksSq7zG4Gep3azCluFiLgca3dWXa9mFjOLLJ2pyxBQkvjnVyZY9DXfHnfyRrzyS1bLy2eUTjxUx421V2B2lO44uI%2BGfS9gnuBsMZuuICpyVL4D5T7dagOKoyH2vjac%2BbkVLdw1Ix00XMso8Iw%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "137464921709",
+      "title": "CHLOE Paddington Leather Handbag Ivory - Pre-owned (JP)",
+      "price": {
+        "value": "784.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/137464921709?_skw=chloe+paddington+bag&itmmeta=01KXGPM76748WJDAJMPVR4DTMW&hash=item20018c3e6d:g:h-sAAeSwNlxqQpnH&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBAa8YAPY2DNAH%2B8ky8%2FYkb9TbNIh7%2FTLpJxKjPAEfcSxolPlGSK3JbB90qF%2FD9QQQRBqqsE0KdBP%2BwgJGflq8sqCvhe0c4ap5Itcts%2BOpFs5w4yLksSq7zG4Gep3azCluFiLgca3dWXa9mFjOLLJ2pyxBQkvjnVyZY9DXfHnfyRrzyS1bLy2eUTjxUx421V2B2lO44uI%2BGfS9gnuBsMZuuICpyVL4D5T7dagOKoyH2vjac%2BbkVLdw1Ix00XMso8Iw%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 52,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "306750284532",
+    "title": "Chloe Paddington Tote Shoulder Bag Brown Paten Distressed Leather Gold Hardware.",
+    "price": 786.48,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/306750284532?_skw=chloe+paddington+bag&itmmeta=01KXGPM766YQKQQFZQ6M0JW6VY&hash=item476bbde2f4:g:aRkAAeSwjbZpfU0g&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xD0%2FQpDujLdedf%2B%2FFxg5yljpZZO11lnxS1tsZ7IzhElx%2FMsDQZ%2FA1d8%2F0GlD5OHJV3k68B9vMV2dXQnxlaa%2B41wz268SF8AugFwu2sEVzOITdIaU7s02KoefxWHk3EWplISSq0bmzzaIvYi6qbVHxEQSxWEWoQPkY9c03%2BizemMziWgR%2FCC9duho%2FWbhqqltyd8ReegpXUFLGwNq9zdiLbaiCZK2v2JJ0Z9cN73l5Du%2BTnfTabDuCLtcG%2FJMxD67MA%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "306750284532",
+      "title": "Chloe Paddington Tote Shoulder Bag Brown Paten Distressed Leather Gold Hardware.",
+      "price": {
+        "value": "786.48",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/306750284532?_skw=chloe+paddington+bag&itmmeta=01KXGPM766YQKQQFZQ6M0JW6VY&hash=item476bbde2f4:g:aRkAAeSwjbZpfU0g&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xD0%2FQpDujLdedf%2B%2FFxg5yljpZZO11lnxS1tsZ7IzhElx%2FMsDQZ%2FA1d8%2F0GlD5OHJV3k68B9vMV2dXQnxlaa%2B41wz268SF8AugFwu2sEVzOITdIaU7s02KoefxWHk3EWplISSq0bmzzaIvYi6qbVHxEQSxWEWoQPkY9c03%2BizemMziWgR%2FCC9duho%2FWbhqqltyd8ReegpXUFLGwNq9zdiLbaiCZK2v2JJ0Z9cN73l5Du%2BTnfTabDuCLtcG%2FJMxD67MA%3D%7Ctkp%3ABk9SR6bz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 24,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "137431520766",
+    "title": "Chloe Paddington Handbag Gold Metallic Leather Padlock Key Y2K Authentic",
+    "price": 864.88,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/137431520766?_skw=chloe+paddington+bag&itmmeta=01KXGPM765TGDM7QX8VN19GWZE&hash=item1fff8e95fe:g:XSgAAeSwBhJqNMG7&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAlf6qHOW6ufOmH9RpuzIvHgjw4eYhncvr47oUzbWnCcJXkPqLpF3alnaj3fVhNWJjivHxx8d7zSpx1N0aTu6Y6SF6aPCg%2BI19fv7BdVF3vzm6WDyRIPto76R1YMGfK9B19bKWV7Uo93BliA3v3EPNXB%2B%2FaiSRoP3%2F5VqfhvX8dLDkWMmN7ltgp7UyERX2yMIfyNjgyrT4pf7yfTVYH9Zdn%2BP%2FVFCzsMs1icvBO8%2FLc7F551kriH2oNRlfPe8u4tLY%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "137431520766",
+      "title": "Chloe Paddington Handbag Gold Metallic Leather Padlock Key Y2K Authentic",
+      "price": {
+        "value": "864.88",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/137431520766?_skw=chloe+paddington+bag&itmmeta=01KXGPM765TGDM7QX8VN19GWZE&hash=item1fff8e95fe:g:XSgAAeSwBhJqNMG7&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAlf6qHOW6ufOmH9RpuzIvHgjw4eYhncvr47oUzbWnCcJXkPqLpF3alnaj3fVhNWJjivHxx8d7zSpx1N0aTu6Y6SF6aPCg%2BI19fv7BdVF3vzm6WDyRIPto76R1YMGfK9B19bKWV7Uo93BliA3v3EPNXB%2B%2FaiSRoP3%2F5VqfhvX8dLDkWMmN7ltgp7UyERX2yMIfyNjgyrT4pf7yfTVYH9Zdn%2BP%2FVFCzsMs1icvBO8%2FLc7F551kriH2oNRlfPe8u4tLY%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 37,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "306909686485",
+    "title": "CHLOE Paddington Cadena Hand Bag Lambskin Leather Brown Auth #56397A",
+    "price": 870,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/306909686485?_skw=chloe+paddington+bag&itmmeta=01KXGPM765QSSHVKSN8JWYX87C&hash=item47753e2ad5:g:2fYAAeSwWz1p9E9h&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xB9O22H5EJC1fBVyRR0UqcXEqFPHsq2t0nrQx6pwIK5CVzNhwKyRxT%2FUc5TFLWR5pewytdZUF64aA8b1s8b4DiPlyc0w%2BHU1F3roEJyOfJCJB7TpwB2OUp2i6wc8nYrvbfpINc%2BsALxYPy3QDortOLeVjoF1jQB%2FZzFiGgp3Z%2B2X7iiISTFJ6aCHypXHg%2FwjlPGap8cTN46KddUfLXh1AsYzwQSadt9Uz0jdTKF2oWJrOeCaOBi8puQwwWMeN%2F7WVxdoLgp%2F9ti90IxkjdUshHeBhcSvr9md%2F4RLWySl7X47g%3D%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "306909686485",
+      "title": "CHLOE Paddington Cadena Hand Bag Lambskin Leather Brown Auth #56397A",
+      "price": {
+        "value": "870.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/306909686485?_skw=chloe+paddington+bag&itmmeta=01KXGPM765QSSHVKSN8JWYX87C&hash=item47753e2ad5:g:2fYAAeSwWz1p9E9h&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xB9O22H5EJC1fBVyRR0UqcXEqFPHsq2t0nrQx6pwIK5CVzNhwKyRxT%2FUc5TFLWR5pewytdZUF64aA8b1s8b4DiPlyc0w%2BHU1F3roEJyOfJCJB7TpwB2OUp2i6wc8nYrvbfpINc%2BsALxYPy3QDortOLeVjoF1jQB%2FZzFiGgp3Z%2B2X7iiISTFJ6aCHypXHg%2FwjlPGap8cTN46KddUfLXh1AsYzwQSadt9Uz0jdTKF2oWJrOeCaOBi8puQwwWMeN%2F7WVxdoLgp%2F9ti90IxkjdUshHeBhcSvr9md%2F4RLWySl7X47g%3D%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 9,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "800240079926",
+    "title": "Chloe Paddington White Padlock Key Leather 36cm Authentic Hand Bag",
+    "price": 913,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/800240079926?_skw=chloe+paddington+bag&itmmeta=01KXGPM7641APCN8RCHNMXH30F&hash=itemba52069436:g:ikgAAeSwplVqPLyq&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDzvIuWpfGB4JwrTSRZdJjYqZzxvNipnJi31lG%2FhKgTNjZBXd1Ahobg8EgZ2znIIRGA2hE%2FWX%2FZJfoTyZ%2F3g9sVyZizE8GPtO6elDfaKnPkBIdeys4PkMHyLxCZlvl6XTGgwnBzX3%2BPWz5V3Es8%2Fp9Sg28FLvcXVgCPR1hMiKpLWIvhtOYzxZTR9Hq7vd7kS5%2FfIYQplJkTM05bM%2Fr7Ef2V934f1bm2F%2BOMuvERGM9Kg5vjaBkNFaWhxapuDmzQIMjN5Ogteja3pCHaVakQV1SsQOpvWJule%2FkfTLGApgOKyA%3D%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "800240079926",
+      "title": "Chloe Paddington White Padlock Key Leather 36cm Authentic Hand Bag",
+      "price": {
+        "value": "913.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/800240079926?_skw=chloe+paddington+bag&itmmeta=01KXGPM7641APCN8RCHNMXH30F&hash=itemba52069436:g:ikgAAeSwplVqPLyq&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDzvIuWpfGB4JwrTSRZdJjYqZzxvNipnJi31lG%2FhKgTNjZBXd1Ahobg8EgZ2znIIRGA2hE%2FWX%2FZJfoTyZ%2F3g9sVyZizE8GPtO6elDfaKnPkBIdeys4PkMHyLxCZlvl6XTGgwnBzX3%2BPWz5V3Es8%2Fp9Sg28FLvcXVgCPR1hMiKpLWIvhtOYzxZTR9Hq7vd7kS5%2FfIYQplJkTM05bM%2Fr7Ef2V934f1bm2F%2BOMuvERGM9Kg5vjaBkNFaWhxapuDmzQIMjN5Ogteja3pCHaVakQV1SsQOpvWJule%2FkfTLGApgOKyA%3D%3D%7Ctkp%3ABk9SR5zz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 44,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "800245075314",
+    "title": "Chloe Paddington BLACK Padlock Key Leather 36cm Hand Bag Authentic",
+    "price": 933,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/800245075314?_skw=chloe+paddington+bag&itmmeta=01KXGPM766AZDVZG7HF82ZJ4C8&hash=itemba5252cd72:g:RUAAAeSwsa1qPfqa&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBID4TR%2FDHp2Dt2FlGIiFMb%2BcxHUaGGe7x%2FMySZyKnxPFdtmo9MulqCf3ru9YYx53a9Eb%2Ba8VyIRWdX6RsMP139nmNGJjjdWLhkRHr0XSaUFykOFP2AtKy7KYMXR%2FwW6oNj7qSOewpgFANL7iXU7Jg5rZq9WQqpHjKI4DguNGi%2FbQjVcWjo1MKzjrmt52u80y3PLBbuAKfQUazQpxYVIJ4fRNb%2BPxW1NW%2Bj1qhAjaqLjHqG6d75q%2BukNTxlp0%2FiF4QMQ%2BPYpOR%2FklmvpU%2Fn5rYyBCBGim3mFyieplrrZwBZ8A%3D%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "800245075314",
+      "title": "Chloe Paddington BLACK Padlock Key Leather 36cm Hand Bag Authentic",
+      "price": {
+        "value": "933.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/800245075314?_skw=chloe+paddington+bag&itmmeta=01KXGPM766AZDVZG7HF82ZJ4C8&hash=itemba5252cd72:g:RUAAAeSwsa1qPfqa&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBID4TR%2FDHp2Dt2FlGIiFMb%2BcxHUaGGe7x%2FMySZyKnxPFdtmo9MulqCf3ru9YYx53a9Eb%2Ba8VyIRWdX6RsMP139nmNGJjjdWLhkRHr0XSaUFykOFP2AtKy7KYMXR%2FwW6oNj7qSOewpgFANL7iXU7Jg5rZq9WQqpHjKI4DguNGi%2FbQjVcWjo1MKzjrmt52u80y3PLBbuAKfQUazQpxYVIJ4fRNb%2BPxW1NW%2Bj1qhAjaqLjHqG6d75q%2BukNTxlp0%2FiF4QMQ%2BPYpOR%2FklmvpU%2Fn5rYyBCBGim3mFyieplrrZwBZ8A%3D%3D%7Ctkp%3ABk9SR6Tz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 16,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "800306473731",
+    "title": "Chloe Paddington BLACK Padlock Key Leather 36cm Authentic Hand Bag",
+    "price": 933,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/800306473731?_skw=chloe+paddington+bag&itmmeta=01KXGPM764SJCT4PE320RGWMZ9&hash=itemba55fbab03:g:o1AAAeSw3bRqTdOK&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCxLEWB2wxWhBiqJWw13%2FszCye4EPejGvWHuTToyORUiRJsssm9HkiNSUgQ4REp1RIR2SmrURCVXm94PCxn5Yl3E9H%2BCqZUDG3fjtRvBs0XddYCJucmjbsGE8Gm2KvsJ0Xn3x5cHei6cMMSl0HVHCR1KMhBkE32%2FxE7RUHMYpcsu08BKa7imYz%2FQxfLZ0aDU5xg%2FYiyqme7cn2w0%2FvdGkgGWwKmGxWuxUlI6nlZM9rqSRA0Iq2SnYiQRlCWQMF%2BumevO6EewI1z4FmpxzUai7e1xm56FX%2FbeZYvQMIVbAKOpg%3D%3D%7Ctkp%3ABk9SR57z0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "800306473731",
+      "title": "Chloe Paddington BLACK Padlock Key Leather 36cm Authentic Hand Bag",
+      "price": {
+        "value": "933.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/800306473731?_skw=chloe+paddington+bag&itmmeta=01KXGPM764SJCT4PE320RGWMZ9&hash=itemba55fbab03:g:o1AAAeSw3bRqTdOK&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCxLEWB2wxWhBiqJWw13%2FszCye4EPejGvWHuTToyORUiRJsssm9HkiNSUgQ4REp1RIR2SmrURCVXm94PCxn5Yl3E9H%2BCqZUDG3fjtRvBs0XddYCJucmjbsGE8Gm2KvsJ0Xn3x5cHei6cMMSl0HVHCR1KMhBkE32%2FxE7RUHMYpcsu08BKa7imYz%2FQxfLZ0aDU5xg%2FYiyqme7cn2w0%2FvdGkgGWwKmGxWuxUlI6nlZM9rqSRA0Iq2SnYiQRlCWQMF%2BumevO6EewI1z4FmpxzUai7e1xm56FX%2FbeZYvQMIVbAKOpg%3D%3D%7Ctkp%3ABk9SR57z0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 28,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "800229244918",
+    "title": "Chloe Paddington BLACK Padlock Key Leather 36cm Authentic Hand Bag",
+    "price": 953,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/800229244918?_skw=chloe+paddington+bag&itmmeta=01KXGPM765VVPK11Y64GDV6FKW&hash=itemba51613ff6:g:HesAAeSwDs5qOhv1&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCySB1snchn9EwpHaCJWf9y1hg%2F7OFbYT8JsgtqCNJysdqMZ6%2FPOimkFeR9Hiw7Iz1wR8jw%2FAYCCLwAoa384Odz5t7HqBGOnT2NZpwsrHmOJsJZKRCfru9usuPCkeVnVrBWSAs6zmmOrn6gUh%2BWMNgMBIw%2FXuNfb7G6trcvyxxe8X7WHfR5v5OVcYbw3GdjyFRSfRt3eX0ZSE0DYgGLi05IGA3NcMJXprZdi5qU5FJqOiVKAfCJYg3yXGuI5OGRiv4%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "800229244918",
+      "title": "Chloe Paddington BLACK Padlock Key Leather 36cm Authentic Hand Bag",
+      "price": {
+        "value": "953.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/800229244918?_skw=chloe+paddington+bag&itmmeta=01KXGPM765VVPK11Y64GDV6FKW&hash=itemba51613ff6:g:HesAAeSwDs5qOhv1&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCySB1snchn9EwpHaCJWf9y1hg%2F7OFbYT8JsgtqCNJysdqMZ6%2FPOimkFeR9Hiw7Iz1wR8jw%2FAYCCLwAoa384Odz5t7HqBGOnT2NZpwsrHmOJsJZKRCfru9usuPCkeVnVrBWSAs6zmmOrn6gUh%2BWMNgMBIw%2FXuNfb7G6trcvyxxe8X7WHfR5v5OVcYbw3GdjyFRSfRt3eX0ZSE0DYgGLi05IGA3NcMJXprZdi5qU5FJqOiVKAfCJYg3yXGuI5OGRiv4%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 35,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "800301072641",
+    "title": "Chloe Paddington BLACK Crinkled Patent Padlock Key Leather 36cm Hand Bag",
+    "price": 983,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/800301072641?_skw=chloe+paddington+bag&itmmeta=01KXGPM765EJ3F5Y91VG03TDGS&hash=itemba55a94101:g:HpwAAeSwT3JqTHwG&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDqLyvTJGacpZmTXh9Q2ZkYxZbQwTacr5ybTlTF6hzX%2BCcnf%2FPR8M4EBzmCfoosJzPAywJxhmzKJqasOMESldel%2FrtaZaMJQSYcGMvwIRWG6kllDUoIGH5he2BPx8y1IF%2FA7rlIek1PN%2FiK%2F4VkhFFBE4Hk%2FnQ2l5ezY70j7EsVcDWWG6BzoZt0vIypqzT22puQ8%2FYfppsihZC4wYXdX%2BJKU7648lxCa%2B9568ZyWkpKXpQxb7h2p6VdEBI3KGFGBeo%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "800301072641",
+      "title": "Chloe Paddington BLACK Crinkled Patent Padlock Key Leather 36cm Hand Bag",
+      "price": {
+        "value": "983.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/800301072641?_skw=chloe+paddington+bag&itmmeta=01KXGPM765EJ3F5Y91VG03TDGS&hash=itemba55a94101:g:HpwAAeSwT3JqTHwG&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDqLyvTJGacpZmTXh9Q2ZkYxZbQwTacr5ybTlTF6hzX%2BCcnf%2FPR8M4EBzmCfoosJzPAywJxhmzKJqasOMESldel%2FrtaZaMJQSYcGMvwIRWG6kllDUoIGH5he2BPx8y1IF%2FA7rlIek1PN%2FiK%2F4VkhFFBE4Hk%2FnQ2l5ezY70j7EsVcDWWG6BzoZt0vIypqzT22puQ8%2FYfppsihZC4wYXdX%2BJKU7648lxCa%2B9568ZyWkpKXpQxb7h2p6VdEBI3KGFGBeo%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 27,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "227385881470",
+    "title": "Chloe Paddington Black Leather Handbag",
+    "price": 1045,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/227385881470?_skw=chloe+paddington+bag&itmmeta=01KXGPM76588C2X4DJSJVCHW6G&hash=item34f141337e:g:XBoAAeSwuPpqLKAi&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAcsjpsdNsWuK40sXT10signkHYDcAx%2Bom0P5yULbZCxrH3cASGRJdYP0t0qJaI1QX9GcbHtfQCq5nO2WIciUUFj8YGsQxxleYQW4REREbfIGdY47CRpSWg8WQNFIoEiTaf23MLhP4k9UyEXJQ1g6mjGQMwQQgemFgPkcSyc46TmSYxW2X1e9vZPB9p2Oj0xP2FwP8CFPsFKgdUt6yxM%2FD7Na5QeXzEPUWAyV9yd6WCo3Gwwjsr%2FbTgaiHPFUFaWcoDlpZhciLhX8vy7GlKogQqbdIxivGh6vsWqV58SMEeHw%3D%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "227385881470",
+      "title": "Chloe Paddington Black Leather Handbag",
+      "price": {
+        "value": "1045.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/227385881470?_skw=chloe+paddington+bag&itmmeta=01KXGPM76588C2X4DJSJVCHW6G&hash=item34f141337e:g:XBoAAeSwuPpqLKAi&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAcsjpsdNsWuK40sXT10signkHYDcAx%2Bom0P5yULbZCxrH3cASGRJdYP0t0qJaI1QX9GcbHtfQCq5nO2WIciUUFj8YGsQxxleYQW4REREbfIGdY47CRpSWg8WQNFIoEiTaf23MLhP4k9UyEXJQ1g6mjGQMwQQgemFgPkcSyc46TmSYxW2X1e9vZPB9p2Oj0xP2FwP8CFPsFKgdUt6yxM%2FD7Na5QeXzEPUWAyV9yd6WCo3Gwwjsr%2FbTgaiHPFUFaWcoDlpZhciLhX8vy7GlKogQqbdIxivGh6vsWqV58SMEeHw%3D%3D%7Ctkp%3ABk9SR6Dz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 19,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "307033646285",
+    "title": "CHLOE Paddington 7ESA02 Hand Bag Black Lambskin Leather 04-07-51 Auth #58559A",
+    "price": 1100,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/307033646285?_skw=chloe+paddington+bag&itmmeta=01KXGPM764FX2JWFJB8WKEDN3H&hash=item477ca1a4cd:g:C0EAAeSw1yNqQxjt&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAl91AtMOZ%2BOP91%2BQswPJbxcgMXKyKkFRm2MIK%2B9dGuA9O4BI%2BDFCjHTYwfLsXt74AsGxCCsgd9wmefk497OUJVCJB4E%2FGd2YzagxOc9y2xyF5rWNi0FRWX0%2B8twuChq%2BLsIBcLQab6AyuplZmK10dZTMpvVJUbC0rzbmnZOM3Y%2BTBy6dR5CUoYUgxF9XU1OWOX9JrhkN5BAGOdxSTKz8eK0m5wezNVJenphj5KP%2BykydcRZnH9x5av0HUVTCTXJxPMQdojMvKzFKf962ySNVK%2F253CqnOnBEZiC4fE3b6A4g%3D%3D%7Ctkp%3ABk9SR57z0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "307033646285",
+      "title": "CHLOE Paddington 7ESA02 Hand Bag Black Lambskin Leather 04-07-51 Auth #58559A",
+      "price": {
+        "value": "1100.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/307033646285?_skw=chloe+paddington+bag&itmmeta=01KXGPM764FX2JWFJB8WKEDN3H&hash=item477ca1a4cd:g:C0EAAeSw1yNqQxjt&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAl91AtMOZ%2BOP91%2BQswPJbxcgMXKyKkFRm2MIK%2B9dGuA9O4BI%2BDFCjHTYwfLsXt74AsGxCCsgd9wmefk497OUJVCJB4E%2FGd2YzagxOc9y2xyF5rWNi0FRWX0%2B8twuChq%2BLsIBcLQab6AyuplZmK10dZTMpvVJUbC0rzbmnZOM3Y%2BTBy6dR5CUoYUgxF9XU1OWOX9JrhkN5BAGOdxSTKz8eK0m5wezNVJenphj5KP%2BykydcRZnH9x5av0HUVTCTXJxPMQdojMvKzFKf962ySNVK%2F253CqnOnBEZiC4fE3b6A4g%3D%3D%7Ctkp%3ABk9SR57z0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 18,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "307037794466",
+    "title": "CHLOE Paddington 7ESA02 7E422 Hand Bag Black 01-10-51-5243 Auth #58376A",
+    "price": 1130,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/307037794466?_skw=chloe+paddington+bag&itmmeta=01KXGPM764K1XXC0V0VHD85J1C&hash=item477ce0f0a2:g:7w0AAeSwt-ZqRg1w&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xB0RBmv%2F7dbYBy4rdPYkyQmTj0h0C%2FIQza26R%2Fqn83FMXbpuGFnY4mRNLWY%2BzhcIBfUcWygve9ExPz%2FYEHYTkCG2ozZHnHprHPzt66EpNSx0GsMnp2HWgDEi%2FgyGyLrRZ3itN%2FWw6Mi8qxX71OYdv04QyzaO3%2Bs4qbLuragYePyfzEIbMpJ65W2NBUF7UmlLoDpvug6KSHm3iFmtMpunYDwkOPWJpmXUU58DA%2F1rWTJ3ZTMwp1ifnZq2l3I7lpMHCo%3D%7Ctkp%3ABk9SR57z0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "307037794466",
+      "title": "CHLOE Paddington 7ESA02 7E422 Hand Bag Black 01-10-51-5243 Auth #58376A",
+      "price": {
+        "value": "1130.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/307037794466?_skw=chloe+paddington+bag&itmmeta=01KXGPM764K1XXC0V0VHD85J1C&hash=item477ce0f0a2:g:7w0AAeSwt-ZqRg1w&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xB0RBmv%2F7dbYBy4rdPYkyQmTj0h0C%2FIQza26R%2Fqn83FMXbpuGFnY4mRNLWY%2BzhcIBfUcWygve9ExPz%2FYEHYTkCG2ozZHnHprHPzt66EpNSx0GsMnp2HWgDEi%2FgyGyLrRZ3itN%2FWw6Mi8qxX71OYdv04QyzaO3%2Bs4qbLuragYePyfzEIbMpJ65W2NBUF7UmlLoDpvug6KSHm3iFmtMpunYDwkOPWJpmXUU58DA%2F1rWTJ3ZTMwp1ifnZq2l3I7lpMHCo%3D%7Ctkp%3ABk9SR57z0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 60,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147397568800",
+    "title": "Chloe Paddington Handbag Leather Beige with Papers Women's #TB3073",
+    "price": 1135.46,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147397568800?_skw=chloe+paddington+bag&itmmeta=01KXGPM767A99MSY3TAFZBVB69&hash=item2251946920:g:cp4AAeSwPYBqPWGl&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAjo5O8Hh8XHNEpsuXgmRN6anKhWxB%2FTi88R8Gf1jT5n5DdPl%2F2wPok1w2na%2BNR%2F27HJ1AW2AAlVGf5O0%2BR8PFXqbvGX%2BQu1rp%2BXamaaqSpxijNpgd0%2BFk5JeTpFfL444VBbCYf7m3kSF8YBXGmbpd8xuM1zVtzqoJxWjLGfyw3zIrAKg3sJa%2B2z2zvlaa4weSvenRvw6V0VzsesNsDjWrpW82A2TLfFZXvVNfnxFvE2jjgbBGfOkYJuHFGIUrwlrk%3D%7Ctkp%3ABk9SR6jz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "147397568800",
+      "title": "Chloe Paddington Handbag Leather Beige with Papers Women's #TB3073",
+      "price": {
+        "value": "1135.46",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147397568800?_skw=chloe+paddington+bag&itmmeta=01KXGPM767A99MSY3TAFZBVB69&hash=item2251946920:g:cp4AAeSwPYBqPWGl&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAjo5O8Hh8XHNEpsuXgmRN6anKhWxB%2FTi88R8Gf1jT5n5DdPl%2F2wPok1w2na%2BNR%2F27HJ1AW2AAlVGf5O0%2BR8PFXqbvGX%2BQu1rp%2BXamaaqSpxijNpgd0%2BFk5JeTpFfL444VBbCYf7m3kSF8YBXGmbpd8xuM1zVtzqoJxWjLGfyw3zIrAKg3sJa%2B2z2zvlaa4weSvenRvw6V0VzsesNsDjWrpW82A2TLfFZXvVNfnxFvE2jjgbBGfOkYJuHFGIUrwlrk%3D%7Ctkp%3ABk9SR6jz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 36,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "227406361365",
+    "title": "Chloe Paddington Brown Leather Shoulder Bag",
+    "price": 1421,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/227406361365?_skw=chloe+paddington+bag&itmmeta=01KXGPM7651EKEYS5Z5NJJC7JH&hash=item34f279b315:g:yboAAeSw7UBqQF85&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAvRrEDUl0eegg3Ee6OgP1BJgbytwSCxrTLzitsdXlHd5mLEP7vioOQ%2FcYp7fLTJlAIP%2BYrWgHwzGyy22TeK82NfhdQcCTu0A6nNMfj3cjXPJ5GQW%2BSrjF0qBe6YjQ57qtcs3G3Iu8Bkwfl9ysEQuVmcfG9QcgdxlKap0tpNXUHFw--r1L3x5dXj2nAM6kbtKfT7LociwsNO3L6tat1wKrD8RIU3DEd6LICdrrNH6i49xFsBlFxACSH%2FlnaAISQb84%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "227406361365",
+      "title": "Chloe Paddington Brown Leather Shoulder Bag",
+      "price": {
+        "value": "1421.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/227406361365?_skw=chloe+paddington+bag&itmmeta=01KXGPM7651EKEYS5Z5NJJC7JH&hash=item34f279b315:g:yboAAeSw7UBqQF85&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAvRrEDUl0eegg3Ee6OgP1BJgbytwSCxrTLzitsdXlHd5mLEP7vioOQ%2FcYp7fLTJlAIP%2BYrWgHwzGyy22TeK82NfhdQcCTu0A6nNMfj3cjXPJ5GQW%2BSrjF0qBe6YjQ57qtcs3G3Iu8Bkwfl9ysEQuVmcfG9QcgdxlKap0tpNXUHFw--r1L3x5dXj2nAM6kbtKfT7LociwsNO3L6tat1wKrD8RIU3DEd6LICdrrNH6i49xFsBlFxACSH%2FlnaAISQb84%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 20,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "336614959153",
+    "title": "Chloe Paddington Bag Small Version BNWT RRP \u00a31790",
+    "price": 1790,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/336614959153?_skw=chloe+paddington+bag&itmmeta=01KXGPM764BQSHPNEBFVCNHDQM&hash=item4e5fd0a831:g:ZNcAAeSwoulqHpog&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xD4Z%2B%2F9BUjkw0sw3eU9VX5M%2BvnuRl6GDKIToH1dS2zCF1i4ENCHM688OqDJnQ%2B5nA9jVk2YOjB9GlDKl23RTGZTbooTx9L0y9Ttra%2F9Cqv86vya4OpMvJMswFSxg7DxeRGeu9bzqtT%2BcdGCAx689dh4ctG6uJarPWngr%2FsW8YSMAe%2FqtOmJN8QRc5%2BqwOYCFqLHqSryMytUsIrsrK%2Fkz2OnC6xJR3hlzg2EJaVXEyUP9t5H1Xr6a1BaBBBdFj6yUuCTXWr%2BiS3FP8rfYUsYXnzbigvfYT82D0E4aR6nBLXqZA%3D%3D%7Ctkp%3ABk9SR57z0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "336614959153",
+      "title": "Chloe Paddington Bag Small Version BNWT RRP \u00a31790",
+      "price": {
+        "value": "1790",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/336614959153?_skw=chloe+paddington+bag&itmmeta=01KXGPM764BQSHPNEBFVCNHDQM&hash=item4e5fd0a831:g:ZNcAAeSwoulqHpog&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xD4Z%2B%2F9BUjkw0sw3eU9VX5M%2BvnuRl6GDKIToH1dS2zCF1i4ENCHM688OqDJnQ%2B5nA9jVk2YOjB9GlDKl23RTGZTbooTx9L0y9Ttra%2F9Cqv86vya4OpMvJMswFSxg7DxeRGeu9bzqtT%2BcdGCAx689dh4ctG6uJarPWngr%2FsW8YSMAe%2FqtOmJN8QRc5%2BqwOYCFqLHqSryMytUsIrsrK%2Fkz2OnC6xJR3hlzg2EJaVXEyUP9t5H1Xr6a1BaBBBdFj6yUuCTXWr%2BiS3FP8rfYUsYXnzbigvfYT82D0E4aR6nBLXqZA%3D%3D%7Ctkp%3ABk9SR57z0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 34,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147422348321",
+    "title": "Chloe Paddington Padlock Leather Tote Bag Green Brand New Authentic RRP \u00a32250",
+    "price": 2250,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147422348321?_skw=chloe+paddington+bag&itmmeta=01KXGPM7656WG2036NP71MWK82&hash=item22530e8421:g:Q3wAAeSwXWBqTQGw&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xB4QG6njiZzs2ORNzj5YgLAa0zz9y84AjX34i7HoaRy6VaEkgqLlKWwfdVqRmYtiUzKaw2MRgkURvyLNYGw1A8rdB4IRSdlgS4HL%2FGb6OM589GJDFvAP8HJoUj%2F0HXK4aUqLJteVDKK%2BTnLJxj%2Fx7LNUO50euP8AKfu5J74dAfZ710mpdIAk%2Bdo5Yzd5zhI0m6r%2FfWDnPg6un3yHFouji5lBHOrZNOUICt33sN%2BqbPKaF313jTqAq7ZqIY0v61d8nfPqLeQC1NvpayH01mEKMSrhIcFEX%2F6DUIAShyNJuZk%2BA%3D%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:16:29.722690",
+    "first_observed": "2026-07-14T16:16:29.722690",
+    "last_observed": "2026-07-14T16:16:29.722690",
+    "expires_at": "2026-08-13T16:16:29.723053",
+    "raw_payload": {
+      "itemId": "147422348321",
+      "title": "Chloe Paddington Padlock Leather Tote Bag Green Brand New Authentic RRP \u00a32250",
+      "price": {
+        "value": "2250",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147422348321?_skw=chloe+paddington+bag&itmmeta=01KXGPM7656WG2036NP71MWK82&hash=item22530e8421:g:Q3wAAeSwXWBqTQGw&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xB4QG6njiZzs2ORNzj5YgLAa0zz9y84AjX34i7HoaRy6VaEkgqLlKWwfdVqRmYtiUzKaw2MRgkURvyLNYGw1A8rdB4IRSdlgS4HL%2FGb6OM589GJDFvAP8HJoUj%2F0HXK4aUqLJteVDKK%2BTnLJxj%2Fx7LNUO50euP8AKfu5J74dAfZ710mpdIAk%2Bdo5Yzd5zhI0m6r%2FfWDnPg6un3yHFouji5lBHOrZNOUICt33sN%2BqbPKaF313jTqAq7ZqIY0v61d8nfPqLeQC1NvpayH01mEKMSrhIcFEX%2F6DUIAShyNJuZk%2BA%3D%3D%7Ctkp%3ABk9SR6Lz0JbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "chloe-paddington"
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 64,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "10809568067887",
+    "title": "Calfskin Medium Paddington Satchel Tan",
+    "price": 790,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/chloe-calfskin-medium-paddington-satchel-tan-1767094",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:17:11.056023",
+    "first_observed": "2026-07-14T16:17:11.056023",
+    "last_observed": "2026-07-14T16:17:11.056023",
+    "expires_at": "2026-08-13T16:17:11.056086",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "10809568067887",
+      "title": "Calfskin Medium Paddington Satchel Tan",
+      "price": 790.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/chloe-calfskin-medium-paddington-satchel-tan-1767094",
+      "condition": "Pre-owned",
+      "bag_slug": "chloe-paddington",
+      "bag_id": 1
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 66,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "12038773375279",
+    "title": "Crinkled Patent Medium Paddington Satchel Black",
+    "price": 800,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/chloe-crinkled-patent-medium-paddington-satchel-black-1804717",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:17:11.056023",
+    "first_observed": "2026-07-14T16:17:11.056023",
+    "last_observed": "2026-07-14T16:17:11.056023",
+    "expires_at": "2026-08-13T16:17:11.056086",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "12038773375279",
+      "title": "Crinkled Patent Medium Paddington Satchel Black",
+      "price": 800.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/chloe-crinkled-patent-medium-paddington-satchel-black-1804717",
+      "condition": "Pre-owned",
+      "bag_slug": "chloe-paddington",
+      "bag_id": 1
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 68,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "14742607397167",
+    "title": "Calfskin Paddington Front Pocket Tote Chocolate",
+    "price": 950,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/chloe-calfskin-paddington-front-pocket-tote-chocolate-1853005",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:17:11.056023",
+    "first_observed": "2026-07-14T16:17:11.056023",
+    "last_observed": "2026-07-14T16:17:11.056023",
+    "expires_at": "2026-08-13T16:17:11.056086",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "14742607397167",
+      "title": "Calfskin Paddington Front Pocket Tote Chocolate",
+      "price": 950.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/chloe-calfskin-paddington-front-pocket-tote-chocolate-1853005",
+      "condition": "Pre-owned",
+      "bag_slug": "chloe-paddington",
+      "bag_id": 1
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 62,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "12603514683695",
+    "title": "Calfskin Medium Paddington Satchel Rouge",
+    "price": 995,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/chloe-calfskin-medium-paddington-satchel-rouge-1812943",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:17:11.056023",
+    "first_observed": "2026-07-14T16:17:11.056023",
+    "last_observed": "2026-07-14T16:17:11.056023",
+    "expires_at": "2026-08-13T16:17:11.056086",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "12603514683695",
+      "title": "Calfskin Medium Paddington Satchel Rouge",
+      "price": 995.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/chloe-calfskin-medium-paddington-satchel-rouge-1812943",
+      "condition": "Pre-owned",
+      "bag_slug": "chloe-paddington",
+      "bag_id": 1
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 63,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "11914930716975",
+    "title": "Calfskin Medium Paddington Satchel Ivory",
+    "price": 1060,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/chloe-calfskin-medium-paddington-satchel-ivory-1802825",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:17:11.056023",
+    "first_observed": "2026-07-14T16:17:11.056023",
+    "last_observed": "2026-07-14T16:17:11.056023",
+    "expires_at": "2026-08-13T16:17:11.056086",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "11914930716975",
+      "title": "Calfskin Medium Paddington Satchel Ivory",
+      "price": 1060.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/chloe-calfskin-medium-paddington-satchel-ivory-1802825",
+      "condition": "Pre-owned",
+      "bag_slug": "chloe-paddington",
+      "bag_id": 1
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 67,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "14320145269039",
+    "title": "Calfskin Paddington Front Pocket Tote Souris",
+    "price": 1160,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/chloe-calfskin-paddington-front-pocket-tote-souris-1846045",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:17:11.056023",
+    "first_observed": "2026-07-14T16:17:11.056023",
+    "last_observed": "2026-07-14T16:17:11.056023",
+    "expires_at": "2026-08-13T16:17:11.056086",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "14320145269039",
+      "title": "Calfskin Paddington Front Pocket Tote Souris",
+      "price": 1160.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/chloe-calfskin-paddington-front-pocket-tote-souris-1846045",
+      "condition": "Pre-owned",
+      "bag_slug": "chloe-paddington",
+      "bag_id": 1
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 70,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "15899516469551",
+    "title": "Calfskin Paddington Hobo Black",
+    "price": 1315,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/chloe-calfskin-paddington-hobo-black-1870613",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:17:11.056023",
+    "first_observed": "2026-07-14T16:17:11.056023",
+    "last_observed": "2026-07-14T16:17:11.056023",
+    "expires_at": "2026-08-13T16:17:11.056086",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "15899516469551",
+      "title": "Calfskin Paddington Hobo Black",
+      "price": 1315.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/chloe-calfskin-paddington-hobo-black-1870613",
+      "condition": "Pre-owned",
+      "bag_slug": "chloe-paddington",
+      "bag_id": 1
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 65,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "12039178584367",
+    "title": "Calfskin Medium Paddington Satchel Chocolate",
+    "price": 1340,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/chloe-calfskin-medium-paddington-satchel-chocolate-1806001",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:17:11.056023",
+    "first_observed": "2026-07-14T16:17:11.056023",
+    "last_observed": "2026-07-14T16:17:11.056023",
+    "expires_at": "2026-08-13T16:17:11.056086",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "12039178584367",
+      "title": "Calfskin Medium Paddington Satchel Chocolate",
+      "price": 1340.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/chloe-calfskin-medium-paddington-satchel-chocolate-1806001",
+      "condition": "Pre-owned",
+      "bag_slug": "chloe-paddington",
+      "bag_id": 1
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 69,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "14319729672495",
+    "title": "Metallic Calfskin Small Paddington Satchel Golden Brown",
+    "price": 1705,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/chloe-metallic-calfskin-small-paddington-satchel-golden-brown-1845625",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:17:11.056023",
+    "first_observed": "2026-07-14T16:17:11.056023",
+    "last_observed": "2026-07-14T16:17:11.056023",
+    "expires_at": "2026-08-13T16:17:11.056086",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "14319729672495",
+      "title": "Metallic Calfskin Small Paddington Satchel Golden Brown",
+      "price": 1705.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/chloe-metallic-calfskin-small-paddington-satchel-golden-brown-1845625",
+      "condition": "Pre-owned",
+      "bag_slug": "chloe-paddington",
+      "bag_id": 1
+    },
+    "bag_slug": "chloe-paddington"
+  },
+  {
+    "id": 61,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "14884850532655",
+    "title": "Lizard Medium Paddington Satchel Bronze",
+    "price": 1705,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/chloe-lizard-medium-paddington-satchel-bronze-1851952",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 1,
+    "observed_at": "2026-07-14T16:17:11.056023",
+    "first_observed": "2026-07-14T16:17:11.056023",
+    "last_observed": "2026-07-14T16:17:11.056023",
+    "expires_at": "2026-08-13T16:17:11.056086",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "14884850532655",
+      "title": "Lizard Medium Paddington Satchel Bronze",
+      "price": 1705.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/chloe-lizard-medium-paddington-satchel-bronze-1851952",
+      "condition": "Pre-owned",
+      "bag_slug": "chloe-paddington",
+      "bag_id": 1
+    },
+    "bag_slug": "chloe-paddington"
+  }
+]

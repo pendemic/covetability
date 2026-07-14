@@ -1,0 +1,2272 @@
+[
+  {
+    "id": 197,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "117275165848",
+    "title": "Authentic Pre-owned Fendi Baguette FF Shearling Fur Shoulder Crossbody Bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/117275165848?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBH5RR90N4473A6JH66&hash=item1b4e250498:g:r7AAAeSw3fxqQnd7&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDTXProlZvhU4EeiKGnSyN3AgDCU427LtTh39ZNNwSBt8LraUrCdclR51aK4D2CClKc%2BRZhO1oLQbs5U2bq7jscYtKYUW%2FWzey4rZqCzpn9YqsBSN1J0JDo7XV0s1r2SnRE96CqbMcjPBs5pz7d1sL3BUPSUD0fHQkWsdl2T0uxcf89ihwVbgEZKeSBJBJEfXDkyoCMaCTysrk1UOr4Df%2Bi8nJwjvYwNJb6GMsfS4F%2BxhXnaW7q3fIes4oz8q2YntFtWTbPnEfv%2B9LUAy4s958cxtRiw9ENxD71YiYqXjpidA%3D%3D%7Ctkp%3ABk9SR_i14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "117275165848",
+      "title": "Authentic Pre-owned Fendi Baguette FF Shearling Fur Shoulder Crossbody Bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/117275165848?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBH5RR90N4473A6JH66&hash=item1b4e250498:g:r7AAAeSw3fxqQnd7&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDTXProlZvhU4EeiKGnSyN3AgDCU427LtTh39ZNNwSBt8LraUrCdclR51aK4D2CClKc%2BRZhO1oLQbs5U2bq7jscYtKYUW%2FWzey4rZqCzpn9YqsBSN1J0JDo7XV0s1r2SnRE96CqbMcjPBs5pz7d1sL3BUPSUD0fHQkWsdl2T0uxcf89ihwVbgEZKeSBJBJEfXDkyoCMaCTysrk1UOr4Df%2Bi8nJwjvYwNJb6GMsfS4F%2BxhXnaW7q3fIes4oz8q2YntFtWTbPnEfv%2B9LUAy4s958cxtRiw9ENxD71YiYqXjpidA%3D%3D%7Ctkp%3ABk9SR_i14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 225,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "168520440054",
+    "title": "fendi mamma baguette grey jersey shoulder bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/168520440054?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJAK1P7N6XDBVKQAYV&hash=item273c99d8f6:g:UpYAAeSwzNFqTQhr&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBQVtvIr7Gc0sgXZHmadZKq0kHwpMH3w64CVgu5XtSpaMksLXwXpZUTjmL0EVNSERiApcSGY%2B%2Bv23%2FmxNJHLWxV7zLBel63XJDy5rC3gKypYVnj0ZuSRqhrEFT981Bd%2FCkBSVBN%2BFtmvW4eW8HMfq%2F0%2BQ5%2FCzLT0Qs8U3Ytav0I6tXqKoQkwtgCMbl2ZV%2B3o4MWbb26%2BeEbxLguSM0FQvC%2BsJTS3rch3aVNBAqyaJ1UKUBubGfKIXSNKB0KKA8s81s%3D%7Ctkp%3ABk9SR_y14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "168520440054",
+      "title": "fendi mamma baguette grey jersey shoulder bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/168520440054?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJAK1P7N6XDBVKQAYV&hash=item273c99d8f6:g:UpYAAeSwzNFqTQhr&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBQVtvIr7Gc0sgXZHmadZKq0kHwpMH3w64CVgu5XtSpaMksLXwXpZUTjmL0EVNSERiApcSGY%2B%2Bv23%2FmxNJHLWxV7zLBel63XJDy5rC3gKypYVnj0ZuSRqhrEFT981Bd%2FCkBSVBN%2BFtmvW4eW8HMfq%2F0%2BQ5%2FCzLT0Qs8U3Ytav0I6tXqKoQkwtgCMbl2ZV%2B3o4MWbb26%2BeEbxLguSM0FQvC%2BsJTS3rch3aVNBAqyaJ1UKUBubGfKIXSNKB0KKA8s81s%3D%7Ctkp%3ABk9SR_y14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 222,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "168534552598",
+    "title": "FENDI Mamma Baguette FF Logo Vintage Y2K Shoulder Bag Black Cotton Knit Italy",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/168534552598?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJCVVKSZF7MBFH9QA4&hash=item273d713016:g:PVMAAeSwz-BqVeGm&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCxq0d3CKkC2%2FqNyGO5OKrVnvu5rV28wrDCwRJhla0N1HTdCJ7q8KyiCC5Lr5OHuKSlqNreUWlMBS%2FXPknxVRoZFNUccJ4SORmIcV13TfsPmaiOIGBSq1fIj7cjVn%2BqUZkQf1N6kbKHOwP7EeRpltZ0xGsHOv3yRR%2BdVV85Fq3JFmcL0O%2FvWx4JFQ1EfblEouuM96uKU5IlSnmjatx%2B9%2FBmit2O7G1C8qocSKRGoQUn%2BrLIz5Q9nkDpvhYoOleRY50%3D%7Ctkp%3ABk9SR_q14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "168534552598",
+      "title": "FENDI Mamma Baguette FF Logo Vintage Y2K Shoulder Bag Black Cotton Knit Italy",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/168534552598?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJCVVKSZF7MBFH9QA4&hash=item273d713016:g:PVMAAeSwz-BqVeGm&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCxq0d3CKkC2%2FqNyGO5OKrVnvu5rV28wrDCwRJhla0N1HTdCJ7q8KyiCC5Lr5OHuKSlqNreUWlMBS%2FXPknxVRoZFNUccJ4SORmIcV13TfsPmaiOIGBSq1fIj7cjVn%2BqUZkQf1N6kbKHOwP7EeRpltZ0xGsHOv3yRR%2BdVV85Fq3JFmcL0O%2FvWx4JFQ1EfblEouuM96uKU5IlSnmjatx%2B9%2FBmit2O7G1C8qocSKRGoQUn%2BrLIz5Q9nkDpvhYoOleRY50%3D%7Ctkp%3ABk9SR_q14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 205,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "227425795984",
+    "title": "Authentic FENDI Mama Raffia Zucca Shoulder Bag Baguette RARE",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/227425795984?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHS1T2914VREPMT5D9&hash=item34f3a23f90:g:5-8AAeSwqNVqUTwj&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xByC%2FlcZ3rmDETPEV%2FNjUDMN476iVMbhnfHJoZlg5Fv3PXTYnIOHqvoyg4CPrQfeb4b7bKCS0pcRXtvn86SV5tVJ83CtcjmwHg7g9pVk0wmvHY3mIg35IOtnSxdv0DakiyHpcKGTU7cjDWDvrYng5CpFU2%2B1p8iMUuGHEliYEdxs4lwhg%2BTh9iVX7mxaWC%2BsJI34rgxmbQYDvafBI4eEgxgEHioyyjhBvbUU5oBUKddjyIXWwtGEaG1udZaiHrlEcw%3D%7Ctkp%3ABk9SR_i14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "227425795984",
+      "title": "Authentic FENDI Mama Raffia Zucca Shoulder Bag Baguette RARE",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/227425795984?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHS1T2914VREPMT5D9&hash=item34f3a23f90:g:5-8AAeSwqNVqUTwj&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xByC%2FlcZ3rmDETPEV%2FNjUDMN476iVMbhnfHJoZlg5Fv3PXTYnIOHqvoyg4CPrQfeb4b7bKCS0pcRXtvn86SV5tVJ83CtcjmwHg7g9pVk0wmvHY3mIg35IOtnSxdv0DakiyHpcKGTU7cjDWDvrYng5CpFU2%2B1p8iMUuGHEliYEdxs4lwhg%2BTh9iVX7mxaWC%2BsJI34rgxmbQYDvafBI4eEgxgEHioyyjhBvbUU5oBUKddjyIXWwtGEaG1udZaiHrlEcw%3D%7Ctkp%3ABk9SR_i14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 223,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "236870021962",
+    "title": "Vintage Fendi Zucca Canvas Baguette Crossbody Bag RARE - Included US Tariff",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/236870021962?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJQRMDPG4EBR6HCAYK&hash=item37268db34a:g:DY0AAeSwZAxqKQkM&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAW6tdg72HXzNgjxBa3itxkrghUMzsRnOyeC1r9AuEtZUes%2FrZOUUbuYaMUYCc2BkmmMOl9cvAx22I3gpQIKulwDx8yoseYoPfNvVsrQSQHB1wI13Er9aw2bNy0%2FmCzw6v1tFmFrRtQtGyhDm9QbanMw6Jg0f6s09%2FuS4DvUJaNPdF3MEdPER%2BgsbEUfmvxRGRn7EVBQ%2FzxJsDK%2ByQbECbj2XLThCxVuiWKqF6AGGOf%2FHB1GwcUsWXSXpS4cvY%2Fj2E%3D%7Ctkp%3ABk9SR_y14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "236870021962",
+      "title": "Vintage Fendi Zucca Canvas Baguette Crossbody Bag RARE - Included US Tariff",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/236870021962?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJQRMDPG4EBR6HCAYK&hash=item37268db34a:g:DY0AAeSwZAxqKQkM&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAW6tdg72HXzNgjxBa3itxkrghUMzsRnOyeC1r9AuEtZUes%2FrZOUUbuYaMUYCc2BkmmMOl9cvAx22I3gpQIKulwDx8yoseYoPfNvVsrQSQHB1wI13Er9aw2bNy0%2FmCzw6v1tFmFrRtQtGyhDm9QbanMw6Jg0f6s09%2FuS4DvUJaNPdF3MEdPER%2BgsbEUfmvxRGRn7EVBQ%2FzxJsDK%2ByQbECbj2XLThCxVuiWKqF6AGGOf%2FHB1GwcUsWXSXpS4cvY%2Fj2E%3D%7Ctkp%3ABk9SR_y14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 226,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "236933311945",
+    "title": "Fendi Rare 2004 Shock Green & Pink Mamma BAGUETTE Authenticated Y2K Vintage",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/236933311945?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJ2DX715T2K76WE84J&hash=item372a536dc9:g:ob4AAeSwTM9qTPPv&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCUhXlD9VhsjA6pHxKN7mROqw6rYK%2F7ZMN5vCpnnlRsieOdhkY%2F131ClpvMak7D9uswswiy0NW5DUU8Iq6kr6tr4Kzt2N9CMBwXPxmk%2FzXdMdThBN1U9nzGksosYJ3wTNaAszPYXP7%2BTSXbahyvjU%2FcE13Zn4nOSm25cygixd7EI3Wd3f6MQdI0UhTtDMNo%2BTDaKluov0df%2BRn7syq1Yq5Say9ZSs%2FZenPVt4Xh865tzMnoPyhbUth5y4vrw%2B7gG0A%3D%7Ctkp%3ABk9SR_y14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "236933311945",
+      "title": "Fendi Rare 2004 Shock Green & Pink Mamma BAGUETTE Authenticated Y2K Vintage",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/236933311945?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJ2DX715T2K76WE84J&hash=item372a536dc9:g:ob4AAeSwTM9qTPPv&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCUhXlD9VhsjA6pHxKN7mROqw6rYK%2F7ZMN5vCpnnlRsieOdhkY%2F131ClpvMak7D9uswswiy0NW5DUU8Iq6kr6tr4Kzt2N9CMBwXPxmk%2FzXdMdThBN1U9nzGksosYJ3wTNaAszPYXP7%2BTSXbahyvjU%2FcE13Zn4nOSm25cygixd7EI3Wd3f6MQdI0UhTtDMNo%2BTDaKluov0df%2BRn7syq1Yq5Say9ZSs%2FZenPVt4Xh865tzMnoPyhbUth5y4vrw%2B7gG0A%3D%7Ctkp%3ABk9SR_y14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 216,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287442304497",
+    "title": "Fendi Zucchino One Mini By the Way Mamma Baguette Canvas Leather Brown #BS839",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287442304497?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJ52X5BKDX2E5C0EHD&hash=item42ece57df1:g:7y4AAeSw8KJqVNPW&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAQSNLQGmwcs2NgWCLSeUc2mDmUBFOiz%2FDG9ecMrnYV%2FNoejmrtqy9F9w6QjdP4DeD%2BtY%2FxM%2B2UR6iIbUGJg37EoGtsB065iV9%2F4Nz7i8MUD%2BeVN0LcrmgRxuiseoTi0g5OnPEhtP7BMPsY5daVhzPhePcGoVccRRzMexpWIv6JW0uIgi2UmMCWifaOKyg%2Ffz2vD2qMhTiK3aC6GHnS0ZNCwR6%2BsnYCZGLRuA%2FsiQUqh1WFQdyqlNni6YCQHKlpoHKWyJz4sx1QgJUoghdbk7PZnjqYN7hnzBBMRZULxIldQQ%3D%3D%7Ctkp%3ABk9SR_q14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "287442304497",
+      "title": "Fendi Zucchino One Mini By the Way Mamma Baguette Canvas Leather Brown #BS839",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287442304497?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJ52X5BKDX2E5C0EHD&hash=item42ece57df1:g:7y4AAeSw8KJqVNPW&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAQSNLQGmwcs2NgWCLSeUc2mDmUBFOiz%2FDG9ecMrnYV%2FNoejmrtqy9F9w6QjdP4DeD%2BtY%2FxM%2B2UR6iIbUGJg37EoGtsB065iV9%2F4Nz7i8MUD%2BeVN0LcrmgRxuiseoTi0g5OnPEhtP7BMPsY5daVhzPhePcGoVccRRzMexpWIv6JW0uIgi2UmMCWifaOKyg%2Ffz2vD2qMhTiK3aC6GHnS0ZNCwR6%2BsnYCZGLRuA%2FsiQUqh1WFQdyqlNni6YCQHKlpoHKWyJz4sx1QgJUoghdbk7PZnjqYN7hnzBBMRZULxIldQQ%3D%3D%7Ctkp%3ABk9SR_q14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 227,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "287459599329",
+    "title": "FENDI Soft Trunk Baguette Black / Blue Leather Shoulder Bag 7VA565 #OKB3493",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/287459599329?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJ5Q9893WR7AT30WYV&hash=item42eded63e1:g:GyUAAeSwlcJqVX-x&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAoR%2Fsegn2E%2FvfmEz44Rz8%2Bd4G1zgDFZvYR86crPWW%2BJKNvo6M%2FCUAkZA611Fh1Fk1D5s7W7HDQRu9%2BI544I5kBpAa07c1tUYdv0lr6AEd8DXnh5b%2B0SJo5WfGUip3t14v0lfrdXMXd0MHrfBSlIuMdOAngNJAS7U63X6I3%2Fy6rbaRh%2BvSFfF2U6lhzxSux0n9lQU9%2F3DyAyvXnbsd8hTt20nNUbXtlubdpNEU967w5pT8Hb3cLVWRvINgPHsY0aH8%3D%7Ctkp%3ABk9SR_y14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "287459599329",
+      "title": "FENDI Soft Trunk Baguette Black / Blue Leather Shoulder Bag 7VA565 #OKB3493",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/287459599329?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJ5Q9893WR7AT30WYV&hash=item42eded63e1:g:GyUAAeSwlcJqVX-x&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAoR%2Fsegn2E%2FvfmEz44Rz8%2Bd4G1zgDFZvYR86crPWW%2BJKNvo6M%2FCUAkZA611Fh1Fk1D5s7W7HDQRu9%2BI544I5kBpAa07c1tUYdv0lr6AEd8DXnh5b%2B0SJo5WfGUip3t14v0lfrdXMXd0MHrfBSlIuMdOAngNJAS7U63X6I3%2Fy6rbaRh%2BvSFfF2U6lhzxSux0n9lQU9%2F3DyAyvXnbsd8hTt20nNUbXtlubdpNEU967w5pT8Hb3cLVWRvINgPHsY0aH8%3D%7Ctkp%3ABk9SR_y14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 215,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "298347481426",
+    "title": "Authentic VINTAGE early 2000s Fendi Pony Hair Brown Fur Baguette",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/298347481426?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJ5N5EBVX9D2JH5P98&hash=item4576e54952:g:gXwAAeSwkixpuHVY&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCASdZYEWsAHPy8h54mBqMp8pJ97n1C%2BcFcYhC857CTrIssYfgV497R1pYsSYmghIeIqHU40cthT3XjmAmpuxUzWMowDZjUnuCO4sWd1bQpHOXA5KFps2lr2EJJhQ9TleSI3pmdRNk8kQkAxsMiiEPwC8%2F5BeCc8phvL8bWiLm5rQ919st9hz9ZDzbKnzANPd6PnyzccE1PRMdYoRGyc8HR%2F6l%2BvKnhcFa1Nj86aDNPcMU4lnbKk00wL7F7aKPh0UA%3D%7Ctkp%3ABk9SR_q14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "298347481426",
+      "title": "Authentic VINTAGE early 2000s Fendi Pony Hair Brown Fur Baguette",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/298347481426?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJ5N5EBVX9D2JH5P98&hash=item4576e54952:g:gXwAAeSwkixpuHVY&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCASdZYEWsAHPy8h54mBqMp8pJ97n1C%2BcFcYhC857CTrIssYfgV497R1pYsSYmghIeIqHU40cthT3XjmAmpuxUzWMowDZjUnuCO4sWd1bQpHOXA5KFps2lr2EJJhQ9TleSI3pmdRNk8kQkAxsMiiEPwC8%2F5BeCc8phvL8bWiLm5rQ919st9hz9ZDzbKnzANPd6PnyzccE1PRMdYoRGyc8HR%2F6l%2BvKnhcFa1Nj86aDNPcMU4lnbKk00wL7F7aKPh0UA%3D%7Ctkp%3ABk9SR_q14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 210,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "298362141240",
+    "title": "Fendi Mama Baguette Shoulder Bag in Brown Suede",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/298362141240?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHJPKQWZ8SDC9XE2YP&hash=item4577c4fa38:g:aMAAAeSwwapqGFTZ&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBy5rl%2BvruLV0JrG4xu2qFHyXkB4VSyA5Hbk9Dha0AmmdHzY3aTYaeM2qOA5hmxVpFXgLqiVa2V%2Bm4AvN601gCyIVvRL4R7MhriJvaZ0YPzxKhMD436EqYFkdYVMSphZp4ctBiimCg%2BNnytpLmYZMSfndDYB07OS6fzVaq1AQIb%2FhIRuaqIoOJZYBbeyQ%2BWZPY9hO2CF4DvtltHXQeIfOQKeVIqEYWUNli1TYzmoE21Ggfi24AYQ82KCMGpbdbmYd8%3D%7Ctkp%3ABk9SR_i14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "298362141240",
+      "title": "Fendi Mama Baguette Shoulder Bag in Brown Suede",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/298362141240?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHJPKQWZ8SDC9XE2YP&hash=item4577c4fa38:g:aMAAAeSwwapqGFTZ&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBy5rl%2BvruLV0JrG4xu2qFHyXkB4VSyA5Hbk9Dha0AmmdHzY3aTYaeM2qOA5hmxVpFXgLqiVa2V%2Bm4AvN601gCyIVvRL4R7MhriJvaZ0YPzxKhMD436EqYFkdYVMSphZp4ctBiimCg%2BNnytpLmYZMSfndDYB07OS6fzVaq1AQIb%2FhIRuaqIoOJZYBbeyQ%2BWZPY9hO2CF4DvtltHXQeIfOQKeVIqEYWUNli1TYzmoE21Ggfi24AYQ82KCMGpbdbmYd8%3D%7Ctkp%3ABk9SR_i14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 224,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "306842744300",
+    "title": "Fendi baguette Bag Beige Suede With Cream Enamel And Rose Gold HW",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/306842744300?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJ1FNJPDKSVDRPTGDY&hash=item477140b5ec:g:rmoAAeSwvohpxA6S&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAKYOdWh%2B%2FuQKCqo6mkKjuxcfYlAMoCZhtc3SPnyQztUzH51z3Zh35gbC0Xb95aMlKTGI%2BOZBGWY%2BqbfxxmTR9XuqdioeNhDLqAdNhAhQayOLusrKCbyCOfo3Ewvb8g%2B%2FsHs90FEM065xGWoJJ0uvBbReBW%2FwiAWVmXYJf%2Fv9ytRDiz%2FutJHpCxCfqa5b7nFfB23R1yxmZo1rhPR6DRjl8cXP0GwUNDDTgREaBurWxxnH7%2BBRxrLmH4EnbcjM7gLIllQjOMmb9Rj3dh8Kz5cT%2FIhixOzdfWs5qEHAwefB%2FOxg%3D%3D%7Ctkp%3ABk9SR_y14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "306842744300",
+      "title": "Fendi baguette Bag Beige Suede With Cream Enamel And Rose Gold HW",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/306842744300?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJ1FNJPDKSVDRPTGDY&hash=item477140b5ec:g:rmoAAeSwvohpxA6S&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAKYOdWh%2B%2FuQKCqo6mkKjuxcfYlAMoCZhtc3SPnyQztUzH51z3Zh35gbC0Xb95aMlKTGI%2BOZBGWY%2BqbfxxmTR9XuqdioeNhDLqAdNhAhQayOLusrKCbyCOfo3Ewvb8g%2B%2FsHs90FEM065xGWoJJ0uvBbReBW%2FwiAWVmXYJf%2Fv9ytRDiz%2FutJHpCxCfqa5b7nFfB23R1yxmZo1rhPR6DRjl8cXP0GwUNDDTgREaBurWxxnH7%2BBRxrLmH4EnbcjM7gLIllQjOMmb9Rj3dh8Kz5cT%2FIhixOzdfWs5qEHAwefB%2FOxg%3D%3D%7Ctkp%3ABk9SR_y14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 202,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "336623855566",
+    "title": "[modified] 90s Fendi Zucca Patchwork Baguette Shoulder Bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/336623855566?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHJM50NC89VCC79VCR&hash=item4e605867ce:g:TgwAAeSw9FFqJCHg&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAYW22sgnwkjKZH7kIUWGCP4vcFKspY0EekUCkk9VmaBbEcAxvsyYCxNR05WIOalClvl4o0WSJ4X6gKKmq310SloWH8ZCfFHpDbFZ6CnHHtTl0T%2FbHvFSI4Vh7xp%2FpiRH30doyBfFC%2BcvxJrgDWXb0ItlLjIPXis32kcbSxNDvxrTiUn9NMWifXq9idNJ8DhqrDR6NmSfrrqAPu6FafjCCNGCw335NXBnLlw%2B5AyMJeQqmUWC8Ktk75Mj1c8VKXNi4%3D%7Ctkp%3ABk9SR_i14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "336623855566",
+      "title": "[modified] 90s Fendi Zucca Patchwork Baguette Shoulder Bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/336623855566?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHJM50NC89VCC79VCR&hash=item4e605867ce:g:TgwAAeSw9FFqJCHg&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAYW22sgnwkjKZH7kIUWGCP4vcFKspY0EekUCkk9VmaBbEcAxvsyYCxNR05WIOalClvl4o0WSJ4X6gKKmq310SloWH8ZCfFHpDbFZ6CnHHtTl0T%2FbHvFSI4Vh7xp%2FpiRH30doyBfFC%2BcvxJrgDWXb0ItlLjIPXis32kcbSxNDvxrTiUn9NMWifXq9idNJ8DhqrDR6NmSfrrqAPu6FafjCCNGCw335NXBnLlw%2B5AyMJeQqmUWC8Ktk75Mj1c8VKXNi4%3D%7Ctkp%3ABk9SR_i14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 171,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "336675035579",
+    "title": "Vintage Fendi Limited Edition Grass Green Suede Floral Baguette Shoulder Bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/336675035579?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBFBP8SSMZA92JED3D7&hash=item4e636559bb:g:L6oAAeSwuY1qS8oL&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDystLDuubyD6LiAQGb6rHs1Vn0kRQBJ7dOrjRoDT1R5aBEsy6SNCrUNImCtXFYfmDTugPl4cmNnzxbkVspTpYkQZOShROyNvRtPfZ28HOl3wvfjb20z38gkZyakXN9KvB%2BTULjfP7w9uvvnB7VwDi8IDkvtnNgq8vTTGB%2FVBD41Qajq0SzzDZeygBwJLeGXuwkzW%2FZfuIq3vN4kbL%2Fj6fUdVgHuzo1mHAWrvPv17XMNLrNb4Lpqj8BSHRl2DEkvgA%3D%7Ctkp%3ABk9SR_S14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "336675035579",
+      "title": "Vintage Fendi Limited Edition Grass Green Suede Floral Baguette Shoulder Bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/336675035579?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBFBP8SSMZA92JED3D7&hash=item4e636559bb:g:L6oAAeSwuY1qS8oL&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDystLDuubyD6LiAQGb6rHs1Vn0kRQBJ7dOrjRoDT1R5aBEsy6SNCrUNImCtXFYfmDTugPl4cmNnzxbkVspTpYkQZOShROyNvRtPfZ28HOl3wvfjb20z38gkZyakXN9KvB%2BTULjfP7w9uvvnB7VwDi8IDkvtnNgq8vTTGB%2FVBD41Qajq0SzzDZeygBwJLeGXuwkzW%2FZfuIq3vN4kbL%2Fj6fUdVgHuzo1mHAWrvPv17XMNLrNb4Lpqj8BSHRl2DEkvgA%3D%7Ctkp%3ABk9SR_S14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 211,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "366537502870",
+    "title": "RARE: FENDI Red Woven Baguette Clutch Bag",
+    "price": 0,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/366537502870?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHDF6E98GEWQ3KHCDC&hash=item5557567096:g:W8UAAeSwpwZqUvXs&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBGzWBUY8cJuRfxjhWHte8I%2FNUNPJYepy5iLciEx7AB6JTnzlQbfsRiuAU5Ohji%2BPbW9IV1M%2BWjmJ2rwNKMzLFwIbzUunTibMjwrI1nuBahQt3tFMmyxy2nYzUc7rZxM0h5%2F6Ch4KjqK1Inhp0blxe1b75JOql2%2B4n1yBiXC1%2F2uVwXH9ziQP%2BbDMOpSqL0Nd9tETsXengrYKKtdGDU6VxzopNC65JTW4X9%2BhYB3hYxv%2BQ1g6YHmBLjqNm0S7z63jgaRrdvGpe4VVfNhFkMB22xPOQL3aXn8hCuylzSkS0guQ%3D%3D%7Ctkp%3ABk9SR_i14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "366537502870",
+      "title": "RARE: FENDI Red Woven Baguette Clutch Bag",
+      "price": {
+        "value": "0",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/366537502870?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHDF6E98GEWQ3KHCDC&hash=item5557567096:g:W8UAAeSwpwZqUvXs&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBGzWBUY8cJuRfxjhWHte8I%2FNUNPJYepy5iLciEx7AB6JTnzlQbfsRiuAU5Ohji%2BPbW9IV1M%2BWjmJ2rwNKMzLFwIbzUunTibMjwrI1nuBahQt3tFMmyxy2nYzUc7rZxM0h5%2F6Ch4KjqK1Inhp0blxe1b75JOql2%2B4n1yBiXC1%2F2uVwXH9ziQP%2BbDMOpSqL0Nd9tETsXengrYKKtdGDU6VxzopNC65JTW4X9%2BhYB3hYxv%2BQ1g6YHmBLjqNm0S7z63jgaRrdvGpe4VVfNhFkMB22xPOQL3aXn8hCuylzSkS0guQ%3D%3D%7Ctkp%3ABk9SR_i14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 182,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "168519662902",
+    "title": "Auth FENDI Zucchino Mamma Baguette Beige Brown Canvas Shoulder Bag 2PCS NS061296",
+    "price": 15,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/168519662902?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGWSZ42PEE2BG0V1HF&hash=item273c8dfd36:g:DYEAAeSwtK5qTJ7j&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xA89ndeN8QXvRVnC53hLSkJkoKMIIWQ10032rx2xv9fU1J1tgmIUB762BmxHPUL7YfChGvNgvCCBB4zIsJOA4kp5a2Hm%2FghL1tu3FgXPHULu7KScNgIJpgXQtCmoiFNnm1XWziFRWasK4Cf1yCUnmHToVEIOSvT%2FT5iNT9ypDdowptdqKypCXYoi9g8QhBUof7QfqR4qyZHmriHb0fWPF5JIdiNXS9H%2FnMqrlTP0olgKRwmbFXPY0zqG5Swku5XxtJZqgRDkDP3TLH%2BF3lqrnlRrvxlDfK17v0%2F5oXZc9ZMNQ%3D%3D%7Ctkp%3ABk9SR_S14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "168519662902",
+      "title": "Auth FENDI Zucchino Mamma Baguette Beige Brown Canvas Shoulder Bag 2PCS NS061296",
+      "price": {
+        "value": "15",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/168519662902?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGWSZ42PEE2BG0V1HF&hash=item273c8dfd36:g:DYEAAeSwtK5qTJ7j&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xA89ndeN8QXvRVnC53hLSkJkoKMIIWQ10032rx2xv9fU1J1tgmIUB762BmxHPUL7YfChGvNgvCCBB4zIsJOA4kp5a2Hm%2FghL1tu3FgXPHULu7KScNgIJpgXQtCmoiFNnm1XWziFRWasK4Cf1yCUnmHToVEIOSvT%2FT5iNT9ypDdowptdqKypCXYoi9g8QhBUof7QfqR4qyZHmriHb0fWPF5JIdiNXS9H%2FnMqrlTP0olgKRwmbFXPY0zqG5Swku5XxtJZqgRDkDP3TLH%2BF3lqrnlRrvxlDfK17v0%2F5oXZc9ZMNQ%3D%3D%7Ctkp%3ABk9SR_S14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 200,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "168526598112",
+    "title": "Auth Fendi Mamma Baguette Zucca Canvas Leather Khaki Shoulder Bag NS070431",
+    "price": 15,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/168526598112?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBH0CKQWH4N14DW72ZX&hash=item273cf7cfe0:g:OsYAAeSwZlJqUFKy&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCsyKSYdUttzbjrDWsgFS6o6vE2b31H8V%2FBCAZdVF7cRAngmN5O2Iw%2FfTvSoPgL%2BgrE3yj7X2i9n8y4cUaSc3D3zlGUBgiVkOK7EbRdmLBFK63aZFj2COLglai6Ba1MuTKbW9dzisE6toyJTlOTiZFnhg76jrPSUX4ZyP26batFBc1pIGgi4e%2FUpRqHxQVKggN6RcTgdsWtRC9qyvRtxwQXifGhQ7Xdptw%2FRaBdEX%2BULSIl6mfg%2BFe2c9oHJYYZYH0%3D%7Ctkp%3ABk9SR_i14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "168526598112",
+      "title": "Auth Fendi Mamma Baguette Zucca Canvas Leather Khaki Shoulder Bag NS070431",
+      "price": {
+        "value": "15",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/168526598112?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBH0CKQWH4N14DW72ZX&hash=item273cf7cfe0:g:OsYAAeSwZlJqUFKy&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCsyKSYdUttzbjrDWsgFS6o6vE2b31H8V%2FBCAZdVF7cRAngmN5O2Iw%2FfTvSoPgL%2BgrE3yj7X2i9n8y4cUaSc3D3zlGUBgiVkOK7EbRdmLBFK63aZFj2COLglai6Ba1MuTKbW9dzisE6toyJTlOTiZFnhg76jrPSUX4ZyP26batFBc1pIGgi4e%2FUpRqHxQVKggN6RcTgdsWtRC9qyvRtxwQXifGhQ7Xdptw%2FRaBdEX%2BULSIl6mfg%2BFe2c9oHJYYZYH0%3D%7Ctkp%3ABk9SR_i14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 229,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "168528512723",
+    "title": "Auth Fendi Mamma Baguette Zucchino Canvas Leather Navy Shoulder Bag NS070429",
+    "price": 15,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/168528512723?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJ8WSW5XBYHH5EJWKH&hash=item273d1506d3:g:tcsAAeSweXxqUY8H&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBlBwxV4dBLxLXc0CrfQ2Vrlr7MXaGGiMzPbXQzApZKysP6KnRa%2FVmBb3bwc09Ym%2F8M%2F4A1obVHQpHBa4uAJO3z6W3b8cWyUXHR8UkB5TDtpthPOBUatFJcq7lLABXAtCTN3Fm4C1%2Bf3hkCf0wm%2FaaOdTgxBg8mqqDn4ek7ngtWS0L5ZL9lSFp1DMNI3aYActCRQc6%2FKFBeVBJr3HmlvfCeDvCTvTyfxBxK4jykVANsNe0fTUyoCAbUmjy2gXa8trnT6Qn8ezJ4dae9rQ%2ByOL4Vaca4skN4fsqRL1oZIepraA%3D%3D%7Ctkp%3ABk9SR_y14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "168528512723",
+      "title": "Auth Fendi Mamma Baguette Zucchino Canvas Leather Navy Shoulder Bag NS070429",
+      "price": {
+        "value": "15",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/168528512723?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJ8WSW5XBYHH5EJWKH&hash=item273d1506d3:g:tcsAAeSweXxqUY8H&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBlBwxV4dBLxLXc0CrfQ2Vrlr7MXaGGiMzPbXQzApZKysP6KnRa%2FVmBb3bwc09Ym%2F8M%2F4A1obVHQpHBa4uAJO3z6W3b8cWyUXHR8UkB5TDtpthPOBUatFJcq7lLABXAtCTN3Fm4C1%2Bf3hkCf0wm%2FaaOdTgxBg8mqqDn4ek7ngtWS0L5ZL9lSFp1DMNI3aYActCRQc6%2FKFBeVBJr3HmlvfCeDvCTvTyfxBxK4jykVANsNe0fTUyoCAbUmjy2gXa8trnT6Qn8ezJ4dae9rQ%2ByOL4Vaca4skN4fsqRL1oZIepraA%3D%3D%7Ctkp%3ABk9SR_y14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 192,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "306907455580",
+    "title": "FENDI Mamma Baguette 2321 Shoulder Bag Jersey Black 26583 009 Auth #55896A",
+    "price": 461,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/306907455580?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHT7AT2ZC3GF0DZ1KF&hash=item47751c205c:g:Ag4AAeSweFVp8WOq&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDBDd5mNIA37nynTBoPQsiyW3EXYJ3oYHfT7E2xPeOcFdS7ClcYCILMDj1%2F2FXs%2FZH%2BTKDPSwI4bLvpZJBGLRLCyJ%2FRqiD804JCrfXVwORxxAZnvKslzXUhRT9eQyLGDfjohAIzD5K6Pb7uk0AkWcTDCWOj08dSjXeMi%2Bn6qeLucQVzhnkiaPRtGZAUF%2FC1XBXcZEfrrH%2BO0Iw5QxA0plp9SH%2Fw7iq9dtJ7k0Ajq9XhzndW63IFPBA1tvsykYGlJWiseNMt2UJvzgrw%2BKKwJflNDOmoomB%2FJ%2FIk%2FxTsWwz6Iw%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "306907455580",
+      "title": "FENDI Mamma Baguette 2321 Shoulder Bag Jersey Black 26583 009 Auth #55896A",
+      "price": {
+        "value": "461.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/306907455580?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHT7AT2ZC3GF0DZ1KF&hash=item47751c205c:g:Ag4AAeSweFVp8WOq&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDBDd5mNIA37nynTBoPQsiyW3EXYJ3oYHfT7E2xPeOcFdS7ClcYCILMDj1%2F2FXs%2FZH%2BTKDPSwI4bLvpZJBGLRLCyJ%2FRqiD804JCrfXVwORxxAZnvKslzXUhRT9eQyLGDfjohAIzD5K6Pb7uk0AkWcTDCWOj08dSjXeMi%2Bn6qeLucQVzhnkiaPRtGZAUF%2FC1XBXcZEfrrH%2BO0Iw5QxA0plp9SH%2Fw7iq9dtJ7k0Ajq9XhzndW63IFPBA1tvsykYGlJWiseNMt2UJvzgrw%2BKKwJflNDOmoomB%2FJ%2FIk%2FxTsWwz6Iw%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 187,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "307046582490",
+    "title": "FENDI Mamma Baguette 26424 Shoulder Bag Gray 2305 26424 008 Auth #57728A",
+    "price": 473.75,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/307046582490?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGVS1XAKY31Z0G7N8E&hash=item477d6708da:g:8D4AAeSwIxRqTG1Y&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCqQHTbXogu%2FOkBHWi%2FYiBTF5sVp0OxaVrDCzA7Q3rqsMpIrVGl2XJDQSJccE5atzIYyZepUREZnx3173TLNXRZkU%2BbUCXGaGKtHGEySx%2FXfSQ8E2cKyTOeL2G2vdI8VBh8EgYIkK3zqGKQazFWm1VmsG37M2GoozEPV3BJ7VErU85d40SrYrJBvrz5iXXLbhE5eECTxvZR4rVPexXUL8rSYniXUUjsrBokSWLONcxLks%2F2Zk0Arq5MeCPNnK9kKSQ%3D%7Ctkp%3ABk9SR_a14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "307046582490",
+      "title": "FENDI Mamma Baguette 26424 Shoulder Bag Gray 2305 26424 008 Auth #57728A",
+      "price": {
+        "value": "473.75",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/307046582490?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGVS1XAKY31Z0G7N8E&hash=item477d6708da:g:8D4AAeSwIxRqTG1Y&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCqQHTbXogu%2FOkBHWi%2FYiBTF5sVp0OxaVrDCzA7Q3rqsMpIrVGl2XJDQSJccE5atzIYyZepUREZnx3173TLNXRZkU%2BbUCXGaGKtHGEySx%2FXfSQ8E2cKyTOeL2G2vdI8VBh8EgYIkK3zqGKQazFWm1VmsG37M2GoozEPV3BJ7VErU85d40SrYrJBvrz5iXXLbhE5eECTxvZR4rVPexXUL8rSYniXUUjsrBokSWLONcxLks%2F2Zk0Arq5MeCPNnK9kKSQ%3D%7Ctkp%3ABk9SR_a14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 181,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "307023818704",
+    "title": "FENDI Mamma Baguette Zucchino Gold Enamel Brown Hand Bag 2way Auth #58193A",
+    "price": 492.45,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/307023818704?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGJQ9492N739841DHR&hash=item477c0bafd0:g:YcwAAeSwwsJqPNCU&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBaUpmIgVeG%2F7%2BV7hpTRogBrcD%2BvqdTYdlu5DP546DJDCmqlJkDk7Yw69opzC3QX5dE%2BMxhWzN65LgeX4X6v2GQsHViuMV49Cezw6HPfbBY31wyf31ICKPd%2B0nhXqtxViOa3aeJecSjY1aSPGnNnJRQNa%2Bz3dbzF8BRb%2BgVEf8t1oojYGgmWwhuKWF69nt8li2a2ivxJcyTMjVzmg592Jt%2Feoney9Vuj5R6bGVMWltHln4bI4VCE3rx0eS72gdXZYA%3D%7Ctkp%3ABk9SR_S14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "307023818704",
+      "title": "FENDI Mamma Baguette Zucchino Gold Enamel Brown Hand Bag 2way Auth #58193A",
+      "price": {
+        "value": "492.45",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/307023818704?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGJQ9492N739841DHR&hash=item477c0bafd0:g:YcwAAeSwwsJqPNCU&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBaUpmIgVeG%2F7%2BV7hpTRogBrcD%2BvqdTYdlu5DP546DJDCmqlJkDk7Yw69opzC3QX5dE%2BMxhWzN65LgeX4X6v2GQsHViuMV49Cezw6HPfbBY31wyf31ICKPd%2B0nhXqtxViOa3aeJecSjY1aSPGnNnJRQNa%2Bz3dbzF8BRb%2BgVEf8t1oojYGgmWwhuKWF69nt8li2a2ivxJcyTMjVzmg592Jt%2Feoney9Vuj5R6bGVMWltHln4bI4VCE3rx0eS72gdXZYA%3D%7Ctkp%3ABk9SR_S14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 206,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147422011968",
+    "title": "FENDI Baguette Black Neoprene Shoulder Bag",
+    "price": 650.13,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147422011968?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBH1A2P6RWWKTGEG04Y&hash=item2253096240:g:DKgAAeSwqptqTNp0&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xD6QSA5oxectuaXbpj2oHutA3%2BBzXQLSAnTyMSWWtjj53Gx0B8lnQY72cYQGuMr7v3vGyBQtQSQisbq%2FoKpKnCuP5LBlrgHW7mGKDcI3E8mE8K08F7iV120Sd%2FfeIkE2l3NYJ%2BjWWf3MJTqsVsjwb%2F2krSJtfsUlFa%2FMkLiWoEfggGPPSYjRY%2BYnxI3FNszM19BWjcHoKcspwbmwnGFf7bkNMHMHqgcfVXgRpDncDO9viBAj0RlnqFJHsGHX1ywi32rVJH0JE%2FlSOECDGt8BPYBDbKMn%2F8mgiamNHYSNZHgWg%3D%3D%7Ctkp%3ABk9SR_i14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147422011968",
+      "title": "FENDI Baguette Black Neoprene Shoulder Bag",
+      "price": {
+        "value": "650.13",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147422011968?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBH1A2P6RWWKTGEG04Y&hash=item2253096240:g:DKgAAeSwqptqTNp0&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xD6QSA5oxectuaXbpj2oHutA3%2BBzXQLSAnTyMSWWtjj53Gx0B8lnQY72cYQGuMr7v3vGyBQtQSQisbq%2FoKpKnCuP5LBlrgHW7mGKDcI3E8mE8K08F7iV120Sd%2FfeIkE2l3NYJ%2BjWWf3MJTqsVsjwb%2F2krSJtfsUlFa%2FMkLiWoEfggGPPSYjRY%2BYnxI3FNszM19BWjcHoKcspwbmwnGFf7bkNMHMHqgcfVXgRpDncDO9viBAj0RlnqFJHsGHX1ywi32rVJH0JE%2FlSOECDGt8BPYBDbKMn%2F8mgiamNHYSNZHgWg%3D%3D%7Ctkp%3ABk9SR_i14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 184,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147411756606",
+    "title": "FENDI Baguette Pink Leather Shoulder Bag",
+    "price": 871.53,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147411756606?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGZHMAERE3ARM4XEC8&hash=item22526ce63e:g:H24AAeSw3bRqRni9&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDazz7E8WDNG1huNu9JDbMlWXSzQ0LcFjddJUYk1LzEtp7xaFEDJoRQm1edHsAD5%2FV0zGe81MFDkmuWen4WLkVJgKy0zvXaU53%2BMl%2FaaHeRZAtpzdF2jKsM89vlkS6MoS2DoOw0Qh35j5qHGqg6n2bdBZuAWNjZVX%2BO1J3mYYV6IDtjy%2FpfX78NiXI1TfkJwmkvP1Z%2Bb1X74s7dsJ76RwCzQOyWGVTDkGMDINsbAI3%2FYFMGr9pulYdyiQ7q2evPFXi3IGW6yrFNpD3Ob7dqmvPrtte8Md2gZEeNnZPmeQbEgg%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147411756606",
+      "title": "FENDI Baguette Pink Leather Shoulder Bag",
+      "price": {
+        "value": "871.53",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147411756606?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGZHMAERE3ARM4XEC8&hash=item22526ce63e:g:H24AAeSw3bRqRni9&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDazz7E8WDNG1huNu9JDbMlWXSzQ0LcFjddJUYk1LzEtp7xaFEDJoRQm1edHsAD5%2FV0zGe81MFDkmuWen4WLkVJgKy0zvXaU53%2BMl%2FaaHeRZAtpzdF2jKsM89vlkS6MoS2DoOw0Qh35j5qHGqg6n2bdBZuAWNjZVX%2BO1J3mYYV6IDtjy%2FpfX78NiXI1TfkJwmkvP1Z%2Bb1X74s7dsJ76RwCzQOyWGVTDkGMDINsbAI3%2FYFMGr9pulYdyiQ7q2evPFXi3IGW6yrFNpD3Ob7dqmvPrtte8Md2gZEeNnZPmeQbEgg%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 176,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147419744288",
+    "title": "FENDI Baguette Charcoal Grey Zucca Canvas Wool Shoulder Bag",
+    "price": 919.86,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147419744288?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBG8D990ZX6AWYN0MAJ&hash=item2252e6c820:g:BpIAAeSwuqtqS5ao&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDfrGlT8JYXjQwXj3QADu%2BriUmkSRs1GNj3ZaLNKl6Yc%2Fn9PRSyZ1irYzKPEX03XqpShO0H%2FLww8%2BAOxm0aYhCB3Rjlqdv%2BdFBTPY6osi6liFa%2FAMZk6kl0X9cSOizzQFlaHWRyfr%2FhkNbxtGdmnimuYG%2BMv0rpO23qMXwxkgYU7O86peOtCDiKZKFU8c6pDqRv%2BWdPQr4c2GgSPQ5lz9uH7tE8R0DeIlZNpKfYSlZefSd2j4qOkb4wl9L%2B5Pad5M8%3D%7Ctkp%3ABk9SR_S14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147419744288",
+      "title": "FENDI Baguette Charcoal Grey Zucca Canvas Wool Shoulder Bag",
+      "price": {
+        "value": "919.86",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147419744288?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBG8D990ZX6AWYN0MAJ&hash=item2252e6c820:g:BpIAAeSwuqtqS5ao&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDfrGlT8JYXjQwXj3QADu%2BriUmkSRs1GNj3ZaLNKl6Yc%2Fn9PRSyZ1irYzKPEX03XqpShO0H%2FLww8%2BAOxm0aYhCB3Rjlqdv%2BdFBTPY6osi6liFa%2FAMZk6kl0X9cSOizzQFlaHWRyfr%2FhkNbxtGdmnimuYG%2BMv0rpO23qMXwxkgYU7O86peOtCDiKZKFU8c6pDqRv%2BWdPQr4c2GgSPQ5lz9uH7tE8R0DeIlZNpKfYSlZefSd2j4qOkb4wl9L%2B5Pad5M8%3D%7Ctkp%3ABk9SR_S14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 221,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "336684507488",
+    "title": "FENDI GHW Baguette Large 2 Way Shoulder Bag 8BR771 Patent Leather Green",
+    "price": 921,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/336684507488?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJT16NG7N2J53ND25D&hash=item4e63f5e160:g:7VwAAeSwEMdqU204&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xC3vRnEgE4iUD6OQwmBob6Y0NflIJ4kWyUAFx5i0ny9QC124Cq9L7Nfmbwo9pAMhM%2FmJZ%2BO1qiPIwZnpK0V%2Fg05XKeQzhUrSyduLk36sScinC0mqq7fix7fYS0ykEmRMi3lnH13oGyfB10ME9deHYUyDTP%2FNsvXyWI7vu%2BE48C3CgAMJHtpzafFhcKJWT4sTG1u77Jbnlt8FyYU3c8pnukWLzEfUchbTpmTZV2yqnZj%2FOEWnRGtoijq1HM9KXTclSBG3kIB1WWj%2FI9yBUlDhBBKV6YezY%2B7h0Qmq4iLrxKxVA%3D%3D%7Ctkp%3ABk9SR_q14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "336684507488",
+      "title": "FENDI GHW Baguette Large 2 Way Shoulder Bag 8BR771 Patent Leather Green",
+      "price": {
+        "value": "921.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/336684507488?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJT16NG7N2J53ND25D&hash=item4e63f5e160:g:7VwAAeSwEMdqU204&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xC3vRnEgE4iUD6OQwmBob6Y0NflIJ4kWyUAFx5i0ny9QC124Cq9L7Nfmbwo9pAMhM%2FmJZ%2BO1qiPIwZnpK0V%2Fg05XKeQzhUrSyduLk36sScinC0mqq7fix7fYS0ykEmRMi3lnH13oGyfB10ME9deHYUyDTP%2FNsvXyWI7vu%2BE48C3CgAMJHtpzafFhcKJWT4sTG1u77Jbnlt8FyYU3c8pnukWLzEfUchbTpmTZV2yqnZj%2FOEWnRGtoijq1HM9KXTclSBG3kIB1WWj%2FI9yBUlDhBBKV6YezY%2B7h0Qmq4iLrxKxVA%3D%3D%7Ctkp%3ABk9SR_q14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 175,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147394090238",
+    "title": "FENDI Baguette Beige Zucca Canvas Shoulder Bag",
+    "price": 947.64,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147394090238?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGT58S6CCYRGQGVQ4K&hash=item22515f54fe:g:HxgAAeSwEHxqOyia&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCxHdZrKTacY2istyLEGDryNrdpV2uqzTpgha0qFMYucxf5iTEIgk3e59H7xe1IyFPP22TCWEESswGzJR1M8Wn5eKDUUr1FILTaC38HMfP9%2FmQjrDVMUqI%2BezMmb640XM30%2B9koB4rv6vn--dxJ%2BDU6VvsXzGcYjoN4dI6Iv09dwjBau6EF%2FGqDs2hjwS2lyWRpqFKHNC4pC3IzExaq7D3bqShJp9Cv28ct0aSHrE03E9ecJiZ7iCcJJ89Rb3g%2Fuug%3D%7Ctkp%3ABk9SR_S14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147394090238",
+      "title": "FENDI Baguette Beige Zucca Canvas Shoulder Bag",
+      "price": {
+        "value": "947.64",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147394090238?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGT58S6CCYRGQGVQ4K&hash=item22515f54fe:g:HxgAAeSwEHxqOyia&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCxHdZrKTacY2istyLEGDryNrdpV2uqzTpgha0qFMYucxf5iTEIgk3e59H7xe1IyFPP22TCWEESswGzJR1M8Wn5eKDUUr1FILTaC38HMfP9%2FmQjrDVMUqI%2BezMmb640XM30%2B9koB4rv6vn--dxJ%2BDU6VvsXzGcYjoN4dI6Iv09dwjBau6EF%2FGqDs2hjwS2lyWRpqFKHNC4pC3IzExaq7D3bqShJp9Cv28ct0aSHrE03E9ecJiZ7iCcJJ89Rb3g%2Fuug%3D%7Ctkp%3ABk9SR_S14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 198,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147269398395",
+    "title": "FENDI Mini Mamma Baguette Brown Zucca Canvas Shoulder Bag",
+    "price": 952.61,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147269398395?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHFQY45EM4NQ66WMVE&hash=item2249f0af7b:g:iq4AAeSwh5lp5rIW&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCT09145AOnSb3RtnjyjNfp1LS0WTBXDqKx9cos42Og0VosLnFttXS9SQ9ZiYnEPiKbZWdr%2Frr5FuGU1vIS0AXl4k7rud39yXl0kmt7DeTeMzdQRQp8i4uNIRH5hqrL12JsyouWUO6M5TRlluiaKQzCuWp1X12%2FXoEVAOVrfbgLuhzdORR%2Ftn4qeglyAijibCwzQ77D%2BYBIfvYEaluAcTPMnFTzd%2FoCIQRyk5W6tDTu%2B3ErzFgqjYBX4NjntgEwC6E%3D%7Ctkp%3ABk9SR_i14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147269398395",
+      "title": "FENDI Mini Mamma Baguette Brown Zucca Canvas Shoulder Bag",
+      "price": {
+        "value": "952.61",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147269398395?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHFQY45EM4NQ66WMVE&hash=item2249f0af7b:g:iq4AAeSwh5lp5rIW&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCT09145AOnSb3RtnjyjNfp1LS0WTBXDqKx9cos42Og0VosLnFttXS9SQ9ZiYnEPiKbZWdr%2Frr5FuGU1vIS0AXl4k7rud39yXl0kmt7DeTeMzdQRQp8i4uNIRH5hqrL12JsyouWUO6M5TRlluiaKQzCuWp1X12%2FXoEVAOVrfbgLuhzdORR%2Ftn4qeglyAijibCwzQ77D%2BYBIfvYEaluAcTPMnFTzd%2FoCIQRyk5W6tDTu%2B3ErzFgqjYBX4NjntgEwC6E%3D%7Ctkp%3ABk9SR_i14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 196,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147410456780",
+    "title": "FENDI Baguette Zucca Beige Canvas Shoulder Bag",
+    "price": 1019.29,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147410456780?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHRB25CZ64Q57ZZVV2&hash=item22525910cc:g:rG8AAeSwTPJqRbeb&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAcTfhsJMtAacK3Fb6ptFpq5FUCbgqjjU%2FknpcVvyls21tXo6aVARr%2Fn8TOFoVIbXGdeFiylFxZ%2F%2BMGZKAEUeutuV9l6Ux2Q2wd1NhVhsDZpYrunErBpRAb5xeOVFGoA5kYcsFFUX3gmO3N0y99NQu%2BtkthwrEpaUa4Qr2GHE06nhWuDpfdbmL3uPezAH7%2FWzNSFB54s498ZDlVbYxtF%2B1PdTQd2gFFC7kAVReCqJwWbXlZYVIVkh%2BPzrMy5LVE7O0%3D%7Ctkp%3ABk9SR_i14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147410456780",
+      "title": "FENDI Baguette Zucca Beige Canvas Shoulder Bag",
+      "price": {
+        "value": "1019.29",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147410456780?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHRB25CZ64Q57ZZVV2&hash=item22525910cc:g:rG8AAeSwTPJqRbeb&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAcTfhsJMtAacK3Fb6ptFpq5FUCbgqjjU%2FknpcVvyls21tXo6aVARr%2Fn8TOFoVIbXGdeFiylFxZ%2F%2BMGZKAEUeutuV9l6Ux2Q2wd1NhVhsDZpYrunErBpRAb5xeOVFGoA5kYcsFFUX3gmO3N0y99NQu%2BtkthwrEpaUa4Qr2GHE06nhWuDpfdbmL3uPezAH7%2FWzNSFB54s498ZDlVbYxtF%2B1PdTQd2gFFC7kAVReCqJwWbXlZYVIVkh%2BPzrMy5LVE7O0%3D%7Ctkp%3ABk9SR_i14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 173,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147271294417",
+    "title": "FENDI Baguette Zucca Brown Canvas Shoulder Bag",
+    "price": 1023.83,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147271294417?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBFKDF62ERQQ1225S8W&hash=item224a0d9dd1:g:HdYAAeSwLGBp6BGl&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBK7EemOvWSsDKzrD2bTYjfLPVhBqkxu%2Fxy8zdiIRniDyaplmCCRA3jNM8tXw4EZzxCuz0Fw9VaMkQ7MKqTeXYOGFHMF2875hNBXYqEOwSw2gsC%2Fn%2BoHmzI9rNKSSid9Td9DnuEcBU0M3Kdf3olqDfqx%2BAIIljW4%2BoXXTxOmTSzt25G9D47XHY9EyqRlKeN%2FlhdCsvuYfvOGPBy4kKsdGiYbC%2FIOIdtn9fl6mhFRqLfOG2630B5xw5HcMrg5bCBVic%3D%7Ctkp%3ABk9SR_S14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147271294417",
+      "title": "FENDI Baguette Zucca Brown Canvas Shoulder Bag",
+      "price": {
+        "value": "1023.83",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147271294417?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBFKDF62ERQQ1225S8W&hash=item224a0d9dd1:g:HdYAAeSwLGBp6BGl&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBK7EemOvWSsDKzrD2bTYjfLPVhBqkxu%2Fxy8zdiIRniDyaplmCCRA3jNM8tXw4EZzxCuz0Fw9VaMkQ7MKqTeXYOGFHMF2875hNBXYqEOwSw2gsC%2Fn%2BoHmzI9rNKSSid9Td9DnuEcBU0M3Kdf3olqDfqx%2BAIIljW4%2BoXXTxOmTSzt25G9D47XHY9EyqRlKeN%2FlhdCsvuYfvOGPBy4kKsdGiYbC%2FIOIdtn9fl6mhFRqLfOG2630B5xw5HcMrg5bCBVic%3D%7Ctkp%3ABk9SR_S14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 172,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147281012772",
+    "title": "FENDI Baguette Charcoal Wool with Embroidery Shoulder Bag",
+    "price": 1024.27,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147281012772?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBF1Q3P8EE5JPPKKN3D&hash=item224aa1e824:g:kQgAAeSwLuFp7~Qu&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xD6tjW3Ol%2FXw3NZDd%2Fp8c6%2BQyRTDlUeyT%2Beg5FE2nIlZqos%2FTuz4izhds7ndXG27oy7jUhY4Km23mPUflO75SYy0U%2Fv09Y4dP50Mug6l%2FxUgFU82UMmXP8jwxZ8uGDTxX7GnNuRAPSubQJHGxzAEbkRKF4BrnXosLq6trsbx7oOb2o%2BEmT%2F0hMQrbabnyn3zVybrn8ToFB9OdmmENuMay%2BrKMTNzDh0V6E5nFMF0cxOjMRV8nTW4hX%2BSFJEqTXCZfo%3D%7Ctkp%3ABk9SR_S14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147281012772",
+      "title": "FENDI Baguette Charcoal Wool with Embroidery Shoulder Bag",
+      "price": {
+        "value": "1024.27",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147281012772?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBF1Q3P8EE5JPPKKN3D&hash=item224aa1e824:g:kQgAAeSwLuFp7~Qu&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xD6tjW3Ol%2FXw3NZDd%2Fp8c6%2BQyRTDlUeyT%2Beg5FE2nIlZqos%2FTuz4izhds7ndXG27oy7jUhY4Km23mPUflO75SYy0U%2Fv09Y4dP50Mug6l%2FxUgFU82UMmXP8jwxZ8uGDTxX7GnNuRAPSubQJHGxzAEbkRKF4BrnXosLq6trsbx7oOb2o%2BEmT%2F0hMQrbabnyn3zVybrn8ToFB9OdmmENuMay%2BrKMTNzDh0V6E5nFMF0cxOjMRV8nTW4hX%2BSFJEqTXCZfo%3D%7Ctkp%3ABk9SR_S14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 191,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "307046491327",
+    "title": "FENDI VTG Mamma Baguette Leather Shoulder Bag Brown Yellow Italy Auth #58045A",
+    "price": 1065,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/307046491327?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHKZHFAQ4RZCY74RC2&hash=item477d65a4bf:g:Y3kAAeSwmbxqTFyB&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xC9pMlumtzKGM9XuEiGtG4B0kf67reKu459gJJ9nEyRtFabp%2FNw2Nj5UKk0IUDDOsDsXAmKnX1saVnvjuzBF2XygIMOOTLKOrX2hzoD6TF%2BRny1JEflK4sDqh9oLbBSRiSX09QSzJaAd7E2yxM7tbsEWPNUUPxk%2FsJ1tq2lbGLka24gFo2fyBkFii5hP24Zu8nQ1dokQe4%2BNTstz58bu4kds2ijaMYmuWz2UnoPbTj82zTMIStTRW0tfEW4qv72JJE%3D%7Ctkp%3ABk9SR_a14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "307046491327",
+      "title": "FENDI VTG Mamma Baguette Leather Shoulder Bag Brown Yellow Italy Auth #58045A",
+      "price": {
+        "value": "1065.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/307046491327?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHKZHFAQ4RZCY74RC2&hash=item477d65a4bf:g:Y3kAAeSwmbxqTFyB&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xC9pMlumtzKGM9XuEiGtG4B0kf67reKu459gJJ9nEyRtFabp%2FNw2Nj5UKk0IUDDOsDsXAmKnX1saVnvjuzBF2XygIMOOTLKOrX2hzoD6TF%2BRny1JEflK4sDqh9oLbBSRiSX09QSzJaAd7E2yxM7tbsEWPNUUPxk%2FsJ1tq2lbGLka24gFo2fyBkFii5hP24Zu8nQ1dokQe4%2BNTstz58bu4kds2ijaMYmuWz2UnoPbTj82zTMIStTRW0tfEW4qv72JJE%3D%7Ctkp%3ABk9SR_a14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 178,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "307035509903",
+    "title": "FENDI Gold FF Logo Mamma Baguette 26325 Shoulder Bag Orange Auth #58372A",
+    "price": 1080,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/307035509903?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGT912K6C49H35MAMR&hash=item477cbe148f:g:h7UAAeSw40VqRGks&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAo%2B7pBVnSkbo310e4h6HUfsZa5YKR9%2FQBdWs7V4yPL0MQc9LC3dGCrRjj0HMZo%2FEioFQewu%2FUr%2FEA2Ia1eYmn1E3U9aFwwaHNZsxqNo7KUT8EogHl7HvIXWgkRUa4atpTk2YEf57oIkBFSM8t9e53Pow6hh4Zkj2Whq27nELPwyioBo%2F%2BMJWaNqBfEA7%2BUlTy%2BI7WK3pjttQGxM0vyFmb6qHedrYoIHdamnUbGLMMpVmSpbVm3%2BlhlcUn2P3Bqvp4%3D%7Ctkp%3ABk9SR_S14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "307035509903",
+      "title": "FENDI Gold FF Logo Mamma Baguette 26325 Shoulder Bag Orange Auth #58372A",
+      "price": {
+        "value": "1080.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/307035509903?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGT912K6C49H35MAMR&hash=item477cbe148f:g:h7UAAeSw40VqRGks&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAo%2B7pBVnSkbo310e4h6HUfsZa5YKR9%2FQBdWs7V4yPL0MQc9LC3dGCrRjj0HMZo%2FEioFQewu%2FUr%2FEA2Ia1eYmn1E3U9aFwwaHNZsxqNo7KUT8EogHl7HvIXWgkRUa4atpTk2YEf57oIkBFSM8t9e53Pow6hh4Zkj2Whq27nELPwyioBo%2F%2BMJWaNqBfEA7%2BUlTy%2BI7WK3pjttQGxM0vyFmb6qHedrYoIHdamnUbGLMMpVmSpbVm3%2BlhlcUn2P3Bqvp4%3D%7Ctkp%3ABk9SR_S14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 207,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147428635752",
+    "title": "FENDI Baguette Red Zucchino Canvas Shoulder Bag",
+    "price": 1093.34,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147428635752?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBH4DP5M2R64BRR26RS&hash=item22536e7468:g:ePEAAeSwvU5qUMSa&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCmErEVm9mOd%2BOpGULo%2BrmjTIt3sNvjJDcC06SafIVgrU0zLIO%2FtvUZR2kh5RXAo3gipdCoGrEg29QLpNZ3UOsCU%2FpSFtaWOWL46uL5ECV4Xc2OC7xH1CX3FaMFhmDfA4wnqGhRiaaykhqX%2BN8CKwJ%2Fd7YoPJqblD1jphVAanHoonasl7ROvtevslgMeOl6bulACDK6hVevN%2Bzn6QTPxJJLyiMT4tO57I7atDkXHaBh0bSjghYtf1SRB6HKru2OWaLGACAaT9FslBwyv8dogvpCkgCgRrA2I4dVdAdKiG9joQ%3D%3D%7Ctkp%3ABk9SR_i14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147428635752",
+      "title": "FENDI Baguette Red Zucchino Canvas Shoulder Bag",
+      "price": {
+        "value": "1093.34",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147428635752?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBH4DP5M2R64BRR26RS&hash=item22536e7468:g:ePEAAeSwvU5qUMSa&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCmErEVm9mOd%2BOpGULo%2BrmjTIt3sNvjJDcC06SafIVgrU0zLIO%2FtvUZR2kh5RXAo3gipdCoGrEg29QLpNZ3UOsCU%2FpSFtaWOWL46uL5ECV4Xc2OC7xH1CX3FaMFhmDfA4wnqGhRiaaykhqX%2BN8CKwJ%2Fd7YoPJqblD1jphVAanHoonasl7ROvtevslgMeOl6bulACDK6hVevN%2Bzn6QTPxJJLyiMT4tO57I7atDkXHaBh0bSjghYtf1SRB6HKru2OWaLGACAaT9FslBwyv8dogvpCkgCgRrA2I4dVdAdKiG9joQ%3D%3D%7Ctkp%3ABk9SR_i14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 193,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147368936839",
+    "title": "FENDI Baguette Brown Zucca Canvas Shoulder Bag",
+    "price": 1095.41,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147368936839?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBH2DYWMAGKAH86G9BP&hash=item224fdf8587:g:vTYAAeSwielqK9xo&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBsUxRRT6aPgx1XCqk3ED1nR1Y5h2EezFC5rXDSRQPbJXwSDvAmasvIsNfJeOy7UuGSm1sW%2BZZ%2B2QfPTgSx1QS1hYg2qXmrioVluEdPGv4ozzqhjiP6CZi1Tf4Ud5S997MoOMDFnEJbuNS%2BVl5et8qUD7L8yY7GOuMG4CGBOxvnbyZOuunldKoNUirXbGyH9reufA7cVsyHEJ8uRRcXCs%2Fbqw0dcdW5Md%2BjOvObhfAei8ipG%2BQhvvo4YxLUleVKjIWCbeIH9XOOjW%2BsDMyqk2UXboVwvdFuZQjSy9a%2BcCUqeQ%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147368936839",
+      "title": "FENDI Baguette Brown Zucca Canvas Shoulder Bag",
+      "price": {
+        "value": "1095.41",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147368936839?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBH2DYWMAGKAH86G9BP&hash=item224fdf8587:g:vTYAAeSwielqK9xo&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBsUxRRT6aPgx1XCqk3ED1nR1Y5h2EezFC5rXDSRQPbJXwSDvAmasvIsNfJeOy7UuGSm1sW%2BZZ%2B2QfPTgSx1QS1hYg2qXmrioVluEdPGv4ozzqhjiP6CZi1Tf4Ud5S997MoOMDFnEJbuNS%2BVl5et8qUD7L8yY7GOuMG4CGBOxvnbyZOuunldKoNUirXbGyH9reufA7cVsyHEJ8uRRcXCs%2Fbqw0dcdW5Md%2BjOvObhfAei8ipG%2BQhvvo4YxLUleVKjIWCbeIH9XOOjW%2BsDMyqk2UXboVwvdFuZQjSy9a%2BcCUqeQ%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 174,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147392191082",
+    "title": "FENDI Mamma Baguette Brown Suede Shoulder Bag",
+    "price": 1095.41,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147392191082?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGXK493SBC683ETZR1&hash=item2251425a6a:g:V8UAAeSwzm9qObrv&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBDHqPh2tA0rtUvP9c63RLQO%2B%2B2MPrIDZR5eBHPJoKNty4iW6J%2BNr16cCYpd0LYt%2B71rkHHRSO7yV%2Bq4l6lhWerngPcY63o7so9GJYi%2Fv6MPe7hU4BYRLY8Y3G64khxzKdALHaDTL78NzlV%2FgAIE4VDHcmOf7PWX4NRsCJrmWfYRSbavbo4%2BxDmJiMFOHNxQJCSMXKd4uSNtUV5KHBfUD6bHU%2BxBcp6bYmpgX8n5XARymIuhVmb%2FlYrRoj3fWANZqDj7Mj3MRCbMaqOzBhIceVzxmnkxE%2BIly%2FCHLds4MuP8g%3D%3D%7Ctkp%3ABk9SR_S14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147392191082",
+      "title": "FENDI Mamma Baguette Brown Suede Shoulder Bag",
+      "price": {
+        "value": "1095.41",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147392191082?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGXK493SBC683ETZR1&hash=item2251425a6a:g:V8UAAeSwzm9qObrv&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBDHqPh2tA0rtUvP9c63RLQO%2B%2B2MPrIDZR5eBHPJoKNty4iW6J%2BNr16cCYpd0LYt%2B71rkHHRSO7yV%2Bq4l6lhWerngPcY63o7so9GJYi%2Fv6MPe7hU4BYRLY8Y3G64khxzKdALHaDTL78NzlV%2FgAIE4VDHcmOf7PWX4NRsCJrmWfYRSbavbo4%2BxDmJiMFOHNxQJCSMXKd4uSNtUV5KHBfUD6bHU%2BxBcp6bYmpgX8n5XARymIuhVmb%2FlYrRoj3fWANZqDj7Mj3MRCbMaqOzBhIceVzxmnkxE%2BIly%2FCHLds4MuP8g%3D%3D%7Ctkp%3ABk9SR_S14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 217,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147210443467",
+    "title": "FENDI Baguette Brown Leopard Print Pony Hair Shoulder Bag",
+    "price": 1109.92,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147210443467?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJTW283DV54Q0QGPN1&hash=item22466d1acb:g:Bu4AAeSw1r5pumFr&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBtr0fUQBwDNfy%2B5%2FIAyuiISmeA8U69U2WKESptUDO1Z47lzqoKQzyxxMZCjGhzQYkKP4ZgIJFcGtX8XinlCh4XB8jQXwG0kpWiw0AOFLpKQimGWQ3IzoggQFTYOggYBWg231ejZXzR5RTc0gwv5I%2B8gsRBG%2BYH5ONDbGkFh4smlX%2FYs20QqAul2WoOhnMdvV%2FU0C08PaRxMzgIw%2BBFJ46iUddaNoUt%2Fuc0gP7mKTNLy0bTdr2WRl9ZcOSErIOptq%2FsalhyELzTfF8EwXRshlK6Kuj5ddnuuq44lxXeYDLHkQ%3D%3D%7Ctkp%3ABk9SR_q14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147210443467",
+      "title": "FENDI Baguette Brown Leopard Print Pony Hair Shoulder Bag",
+      "price": {
+        "value": "1109.92",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147210443467?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJTW283DV54Q0QGPN1&hash=item22466d1acb:g:Bu4AAeSw1r5pumFr&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBtr0fUQBwDNfy%2B5%2FIAyuiISmeA8U69U2WKESptUDO1Z47lzqoKQzyxxMZCjGhzQYkKP4ZgIJFcGtX8XinlCh4XB8jQXwG0kpWiw0AOFLpKQimGWQ3IzoggQFTYOggYBWg231ejZXzR5RTc0gwv5I%2B8gsRBG%2BYH5ONDbGkFh4smlX%2FYs20QqAul2WoOhnMdvV%2FU0C08PaRxMzgIw%2BBFJ46iUddaNoUt%2Fuc0gP7mKTNLy0bTdr2WRl9ZcOSErIOptq%2FsalhyELzTfF8EwXRshlK6Kuj5ddnuuq44lxXeYDLHkQ%3D%3D%7Ctkp%3ABk9SR_q14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 214,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147421492510",
+    "title": "FENDI Baguette Zucca Brown Canvas Thin Belt Strap Shoulder Bag",
+    "price": 1127.78,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147421492510?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJZ76242Y19EFSKFZ0&hash=item225301751e:g:2y4AAeSw4ulqTIK8&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCPYCsEFsTkIBhHN9unE2cML%2FZkhD4DtASXIS4%2BX%2BfL%2BejxFQkFhK7vUwp%2BFCyjSN1jGTUPEZWRkQodeOOD9nHXP7dTanT%2FQEIWeJv7w9l73M%2BPA6yADTRL8OC26Pz%2FKg4VrSJuxlTWMoNKLtzmUyqbNS89N8wabQyQiJsW9J%2FfLYfbqm3cwk%2FIizSnUfb97TlrRKWqlWdteXj0YqgKIXgeo%2BEJ5QEl454AHo4j7Z9rgJnqGiNJhEVaVDpCHkw%2BGJhX6TwKHj9FuPQrncxpWukH3nEdZ1gXDn2x5TIKVey%2Ftg%3D%3D%7Ctkp%3ABk9SR_q14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147421492510",
+      "title": "FENDI Baguette Zucca Brown Canvas Thin Belt Strap Shoulder Bag",
+      "price": {
+        "value": "1127.78",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147421492510?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJZ76242Y19EFSKFZ0&hash=item225301751e:g:2y4AAeSw4ulqTIK8&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCPYCsEFsTkIBhHN9unE2cML%2FZkhD4DtASXIS4%2BX%2BfL%2BejxFQkFhK7vUwp%2BFCyjSN1jGTUPEZWRkQodeOOD9nHXP7dTanT%2FQEIWeJv7w9l73M%2BPA6yADTRL8OC26Pz%2FKg4VrSJuxlTWMoNKLtzmUyqbNS89N8wabQyQiJsW9J%2FfLYfbqm3cwk%2FIizSnUfb97TlrRKWqlWdteXj0YqgKIXgeo%2BEJ5QEl454AHo4j7Z9rgJnqGiNJhEVaVDpCHkw%2BGJhX6TwKHj9FuPQrncxpWukH3nEdZ1gXDn2x5TIKVey%2Ftg%3D%3D%7Ctkp%3ABk9SR_q14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 189,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147428637728",
+    "title": "FENDI Mini Mamma Baguette Pink Suede Hand Bag",
+    "price": 1164.85,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147428637728?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGR0TEHP6PQKSTB5XF&hash=item22536e7c20:g:HW4AAeSwRRNqUMS2&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAbCCXHxrOQslN%2B6CqbdUE4IFQSvyntrvbg9oNtvDRlxMmqHd7qD9pFZxwLRFmx%2FX3yAywXy4VT7jqQ%2BFfz%2FQATthwyXgVUiG8mETaOtaSHXkJtEYYWvvSkv9uSrHOhHTMjyWkMRmNmEtI%2FtqLIxn3xNZDUZZuzd%2FzsVjyOe3EGno4uiGz%2B1VkjgVe90Ib%2BHOluaaQgo0omlXSb6vx%2Fj4d54O%2F%2BTiRt0PsvVLxkNNagOW1bK1GBB9ii1iX%2Bg4nR5rK063U5FANO5DzeQgSTC%2FPHhtKNKr5mSP7GN42MfrSp4g%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147428637728",
+      "title": "FENDI Mini Mamma Baguette Pink Suede Hand Bag",
+      "price": {
+        "value": "1164.85",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147428637728?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGR0TEHP6PQKSTB5XF&hash=item22536e7c20:g:HW4AAeSwRRNqUMS2&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAbCCXHxrOQslN%2B6CqbdUE4IFQSvyntrvbg9oNtvDRlxMmqHd7qD9pFZxwLRFmx%2FX3yAywXy4VT7jqQ%2BFfz%2FQATthwyXgVUiG8mETaOtaSHXkJtEYYWvvSkv9uSrHOhHTMjyWkMRmNmEtI%2FtqLIxn3xNZDUZZuzd%2FzsVjyOe3EGno4uiGz%2B1VkjgVe90Ib%2BHOluaaQgo0omlXSb6vx%2Fj4d54O%2F%2BTiRt0PsvVLxkNNagOW1bK1GBB9ii1iX%2Bg4nR5rK063U5FANO5DzeQgSTC%2FPHhtKNKr5mSP7GN42MfrSp4g%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 230,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147377908506",
+    "title": "FENDI Baguette Brown Zucca Canvas Shoulder Bag",
+    "price": 1167.04,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147377908506?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJGGVSNAPWAMNR7M0Y&hash=item2250686b1a:g:vUIAAeSw9XlqMQ1h&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCsWGWHCj%2FzczV0nUzYxx%2FGsBLxZFvKfqlNA4wpPLK5M67lk2id9U5SUI5lU3rvo1kiCa72H2xxZ%2F0%2FP04R9k6VevcIwzfqLaew7oUD%2BI9BGDO74G6kviKmRYy4tRI%2BkAgKOvQUj9yyZcxGgaxquVqGYGF0WxrViZGI6wqRcA0ebT4Gli%2BEGJA2F4Ia2w8GInz1a8CaCazhYhGlt7TlkU4UlkOCep53z2iCqkvGV0yzXsdEq7DeVd7Luq%2BoKXiJlUsBbAJxRoiYBfzQEWMual%2Bq4eEstvjOHWfb310s93z5hQ%3D%3D%7Ctkp%3ABk9SR_y14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147377908506",
+      "title": "FENDI Baguette Brown Zucca Canvas Shoulder Bag",
+      "price": {
+        "value": "1167.04",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147377908506?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJGGVSNAPWAMNR7M0Y&hash=item2250686b1a:g:vUIAAeSw9XlqMQ1h&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCsWGWHCj%2FzczV0nUzYxx%2FGsBLxZFvKfqlNA4wpPLK5M67lk2id9U5SUI5lU3rvo1kiCa72H2xxZ%2F0%2FP04R9k6VevcIwzfqLaew7oUD%2BI9BGDO74G6kviKmRYy4tRI%2BkAgKOvQUj9yyZcxGgaxquVqGYGF0WxrViZGI6wqRcA0ebT4Gli%2BEGJA2F4Ia2w8GInz1a8CaCazhYhGlt7TlkU4UlkOCep53z2iCqkvGV0yzXsdEq7DeVd7Luq%2BoKXiJlUsBbAJxRoiYBfzQEWMual%2Bq4eEstvjOHWfb310s93z5hQ%3D%3D%7Ctkp%3ABk9SR_y14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 219,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147392192423",
+    "title": "FENDI Baguette Brown Zucca Canvas Shoulder Bag",
+    "price": 1167.04,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147392192423?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJ6WMG9RX2ZCK9TRBQ&hash=item2251425fa7:g:8cMAAeSw4BZqObsc&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBZSOV5%2BY2vAxsahqplkur63Vu07xSnRqMAvDO8PftQOn0Qcrix7A5XrNCxC2yKoKNCzg4tXQon3%2FgcnMqzJZrewSr%2FS7gHVlhMz50yotY5CK6rGACcBkjtKsTRJ4Ac0L8EpHsqACMQzh7xjJB8sFpcahXfQxPR1IzvlmfVbVw7l%2B0k67ORuf19plvbZakjp2HEkVeFFUok%2FAi%2BnhoAvJ4OgB9QW9uGRpHnP1Adxv0GXFF3hPlMzyIwST5p1qMFHWhDWf3toFkkSfnfzNFO7g338qAqxsS7RDIjPQMBDTDFEQ%3D%3D%7Ctkp%3ABk9SR_q14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147392192423",
+      "title": "FENDI Baguette Brown Zucca Canvas Shoulder Bag",
+      "price": {
+        "value": "1167.04",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147392192423?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJ6WMG9RX2ZCK9TRBQ&hash=item2251425fa7:g:8cMAAeSw4BZqObsc&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBZSOV5%2BY2vAxsahqplkur63Vu07xSnRqMAvDO8PftQOn0Qcrix7A5XrNCxC2yKoKNCzg4tXQon3%2FgcnMqzJZrewSr%2FS7gHVlhMz50yotY5CK6rGACcBkjtKsTRJ4Ac0L8EpHsqACMQzh7xjJB8sFpcahXfQxPR1IzvlmfVbVw7l%2B0k67ORuf19plvbZakjp2HEkVeFFUok%2FAi%2BnhoAvJ4OgB9QW9uGRpHnP1Adxv0GXFF3hPlMzyIwST5p1qMFHWhDWf3toFkkSfnfzNFO7g338qAqxsS7RDIjPQMBDTDFEQ%3D%3D%7Ctkp%3ABk9SR_q14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 185,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147428922448",
+    "title": "FENDI Baguette Black Suede Shoulder Bag",
+    "price": 1240.82,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147428922448?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGKJ4XKSF12DT1K86A&hash=item225372d450:g:EEwAAeSwK7RqUMTW&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDjsSltAEKjgn6M2DzrzSmOf2Gzy4g314uzg%2BJQenv0oy574TtljJxXYDDoFi2gI3ix%2B0xqVQmEzas7UTrkx8D3txx%2F8240OsZYn3vRypemmV1JvXG4CgPI7%2FRad%2Bws7qiX5gvtWZ5F6mQRFtbgml4qmVatXvnnGXR8NOcSsQ43aCQg1utmWgzLbN09UVOQdz4d6RwazifUZxLfShckVIM72XP%2BfSzC0liXsCRHjcSrQownlphxKaMKTyJxAZh%2Bb4M%3D%7Ctkp%3ABk9SR_a14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147428922448",
+      "title": "FENDI Baguette Black Suede Shoulder Bag",
+      "price": {
+        "value": "1240.82",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147428922448?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGKJ4XKSF12DT1K86A&hash=item225372d450:g:EEwAAeSwK7RqUMTW&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDjsSltAEKjgn6M2DzrzSmOf2Gzy4g314uzg%2BJQenv0oy574TtljJxXYDDoFi2gI3ix%2B0xqVQmEzas7UTrkx8D3txx%2F8240OsZYn3vRypemmV1JvXG4CgPI7%2FRad%2Bws7qiX5gvtWZ5F6mQRFtbgml4qmVatXvnnGXR8NOcSsQ43aCQg1utmWgzLbN09UVOQdz4d6RwazifUZxLfShckVIM72XP%2BfSzC0liXsCRHjcSrQownlphxKaMKTyJxAZh%2Bb4M%3D%7Ctkp%3ABk9SR_a14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 201,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147411756792",
+    "title": "FENDI Baguette Orange Suede Shoulder Bag",
+    "price": 1243.15,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147411756792?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBH11181155YR3K8D6F&hash=item22526ce6f8:g:N4gAAeSw5YJqRnjk&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCYB1ubr6zfuUGoD5%2FCJag7OF%2BgsOVvcAhg7PTwp58zUIyc80tS1hk9rsZv6qNRMyndIODRCkun4AKYOmd3YLEyvGWjYapMPFJk%2FxRyyn8fGgInUdAqXSMQZYj4ocSrpm23w3I4%2BE0kM3iJptpHahSDQlDQVrILxKzoJjsXVDzMqysr1NMlUEbnLZN9AhjtQVzqfKTAQb5JSVy8Y9fcDJ68PyN5SFNPgsEfReMTLmYhRuW0ECTBFttjQuzO4XP%2BHr8%3D%7Ctkp%3ABk9SR_i14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147411756792",
+      "title": "FENDI Baguette Orange Suede Shoulder Bag",
+      "price": {
+        "value": "1243.15",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147411756792?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBH11181155YR3K8D6F&hash=item22526ce6f8:g:N4gAAeSw5YJqRnjk&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCYB1ubr6zfuUGoD5%2FCJag7OF%2BgsOVvcAhg7PTwp58zUIyc80tS1hk9rsZv6qNRMyndIODRCkun4AKYOmd3YLEyvGWjYapMPFJk%2FxRyyn8fGgInUdAqXSMQZYj4ocSrpm23w3I4%2BE0kM3iJptpHahSDQlDQVrILxKzoJjsXVDzMqysr1NMlUEbnLZN9AhjtQVzqfKTAQb5JSVy8Y9fcDJ68PyN5SFNPgsEfReMTLmYhRuW0ECTBFttjQuzO4XP%2BHr8%3D%7Ctkp%3ABk9SR_i14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 218,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147411756795",
+    "title": "FENDI Baguette Khaki Green Suede Shoulder Bag",
+    "price": 1243.15,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147411756795?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJX5039E220T2NQPEG&hash=item22526ce6fb:g:fgQAAeSwHt1qRnjl&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCNMTGil6lOuDHVrRe5Ro%2B9b9j5pMITSebJ8vO43wu0sLlakJJPy1dWk2GTWpoJmKUWbe2ihqrEKobpCu94o8%2B3yuX8tMCc1hcTPjaqtDAtMwUdCFlAT99X94LrPAWs8pGBE7aVMyxnVqrP5Tq9mqlGBWob6FTBorZsfGK54CQApBsCgCdWW2%2B57zg9S3EM6Uq5XGsvLYj7R6vSizCp6s%2Fsz4MaSnO5Fk%2FDuzvEOjjxUv9xuiEi2TK%2F2rHx4bGYad8%3D%7Ctkp%3ABk9SR_q14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147411756795",
+      "title": "FENDI Baguette Khaki Green Suede Shoulder Bag",
+      "price": {
+        "value": "1243.15",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147411756795?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJX5039E220T2NQPEG&hash=item22526ce6fb:g:fgQAAeSwHt1qRnjl&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCNMTGil6lOuDHVrRe5Ro%2B9b9j5pMITSebJ8vO43wu0sLlakJJPy1dWk2GTWpoJmKUWbe2ihqrEKobpCu94o8%2B3yuX8tMCc1hcTPjaqtDAtMwUdCFlAT99X94LrPAWs8pGBE7aVMyxnVqrP5Tq9mqlGBWob6FTBorZsfGK54CQApBsCgCdWW2%2B57zg9S3EM6Uq5XGsvLYj7R6vSizCp6s%2Fsz4MaSnO5Fk%2FDuzvEOjjxUv9xuiEi2TK%2F2rHx4bGYad8%3D%7Ctkp%3ABk9SR_q14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 183,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "306967199672",
+    "title": "FENDI VTG Zucchino Mini Mamma Baguette Shoulder Bag Metallic Gold Auth #57875A",
+    "price": 1265,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/306967199672?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGSQ7WR4A273DMFG94&hash=item4778abbfb8:g:hRsAAeSwEv9qF9mp&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBiozwc%2BFyHZlUpnCreu%2FLgEUf5uuW9dH4ktuLRPXYc6tGUR9w2UmXs6S%2FaGLPjVZ2Y0mpCx7l7d%2Ff0ThCG0NDyjxxdHq6vRn2vU40%2B%2BJ%2Fp8iYxTXIkHWg1AxYExlrZzJW6%2BQXwg79jKaCxFaK1QA%2BE3OA%2FWmod0fkRsXW%2BhEcaqra7RVgqyoBv2hlBpBGI8tU%2BVBVKUxEYOjPV9AvAI%2Bl8GFRgM49A0U66BBBe5KPuxYHKZ0k9vfYv%2BDpLduWxXKOCOoQ5b6VmdvMOo93KyGZ2jPPa%2FjMuPs5BfNFQAZyxXg%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "306967199672",
+      "title": "FENDI VTG Zucchino Mini Mamma Baguette Shoulder Bag Metallic Gold Auth #57875A",
+      "price": {
+        "value": "1265.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/306967199672?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGSQ7WR4A273DMFG94&hash=item4778abbfb8:g:hRsAAeSwEv9qF9mp&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBiozwc%2BFyHZlUpnCreu%2FLgEUf5uuW9dH4ktuLRPXYc6tGUR9w2UmXs6S%2FaGLPjVZ2Y0mpCx7l7d%2Ff0ThCG0NDyjxxdHq6vRn2vU40%2B%2BJ%2Fp8iYxTXIkHWg1AxYExlrZzJW6%2BQXwg79jKaCxFaK1QA%2BE3OA%2FWmod0fkRsXW%2BhEcaqra7RVgqyoBv2hlBpBGI8tU%2BVBVKUxEYOjPV9AvAI%2Bl8GFRgM49A0U66BBBe5KPuxYHKZ0k9vfYv%2BDpLduWxXKOCOoQ5b6VmdvMOo93KyGZ2jPPa%2FjMuPs5BfNFQAZyxXg%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 220,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147331743136",
+    "title": "FENDI Baguette Brown Zucca Canvas Wool Two Way Bag",
+    "price": 1278.97,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147331743136?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJSFG4932RWQETM4VM&hash=item224da7fda0:g:qBQAAeSwdJBqFSoI&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCpcmlDaXLrQq%2FnPdwwsnoGdW4I6%2B4QylvECp5ilRW3B0uZQGHecpmVgGZs0t0fcZ9WpgGMRUSooPFTfk41MDv22%2FgpM97DIe5SMgxcpELdZgETsTErIWgedELqEEtEepKIP4S1bltfvKdiHss7wCtg9rTZpKWJNODMLgWo%2BaVnghYT06LcngNOVPlfpxvzeRxnIJNrRxnI8Q19itwrpyEFcuDYatb70yMpUy%2BSpDGbaa8%2FdO2aCepbx%2FpbQX0LdNOobPWDTtfderxdGZZA29hCFqn9VbIdX9j1wAVF0qK5RA%3D%3D%7Ctkp%3ABk9SR_q14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147331743136",
+      "title": "FENDI Baguette Brown Zucca Canvas Wool Two Way Bag",
+      "price": {
+        "value": "1278.97",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147331743136?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJSFG4932RWQETM4VM&hash=item224da7fda0:g:qBQAAeSwdJBqFSoI&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCpcmlDaXLrQq%2FnPdwwsnoGdW4I6%2B4QylvECp5ilRW3B0uZQGHecpmVgGZs0t0fcZ9WpgGMRUSooPFTfk41MDv22%2FgpM97DIe5SMgxcpELdZgETsTErIWgedELqEEtEepKIP4S1bltfvKdiHss7wCtg9rTZpKWJNODMLgWo%2BaVnghYT06LcngNOVPlfpxvzeRxnIJNrRxnI8Q19itwrpyEFcuDYatb70yMpUy%2BSpDGbaa8%2FdO2aCepbx%2FpbQX0LdNOobPWDTtfderxdGZZA29hCFqn9VbIdX9j1wAVF0qK5RA%3D%3D%7Ctkp%3ABk9SR_q14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 228,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147422011398",
+    "title": "FENDI Baguette Beige Cashmere Shoulder Bag",
+    "price": 1310.8,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147422011398?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJ4T63HJBQBA6JHFM1&hash=item2253096006:g:MmYAAeSwGTBqTNpa&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xABvPnOu41FZ%2Fw7o1N0lF6R44wvPmNy%2FMp2QsJnxPW9DRMLSCiH%2BrYtUg1sbBC%2Bpv8lqTiue0lbmRhoOjUrW54GVFxR8brJ9g8hwwR83QRjk2AJv7QXaOnfsb4vKEdcKneomqRijl6HIOi%2Fo1RHrboAXHrNhv2vonQjkmgdnKRfAaDPtj%2FwqGuAy2%2FWVb6EU3qIItn%2FkUOqvbIkmxqRIz%2BQAWZ%2BrNkUAtneeS73dtFjPkZ7TMPMNQU0uFlrGelJLajeHPGbpn0ytO5hH4yeJmQOQZvKh7F%2FhjC5FM3opewmQw%3D%3D%7Ctkp%3ABk9SR_y14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147422011398",
+      "title": "FENDI Baguette Beige Cashmere Shoulder Bag",
+      "price": {
+        "value": "1310.80",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147422011398?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJ4T63HJBQBA6JHFM1&hash=item2253096006:g:MmYAAeSwGTBqTNpa&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xABvPnOu41FZ%2Fw7o1N0lF6R44wvPmNy%2FMp2QsJnxPW9DRMLSCiH%2BrYtUg1sbBC%2Bpv8lqTiue0lbmRhoOjUrW54GVFxR8brJ9g8hwwR83QRjk2AJv7QXaOnfsb4vKEdcKneomqRijl6HIOi%2Fo1RHrboAXHrNhv2vonQjkmgdnKRfAaDPtj%2FwqGuAy2%2FWVb6EU3qIItn%2FkUOqvbIkmxqRIz%2BQAWZ%2BrNkUAtneeS73dtFjPkZ7TMPMNQU0uFlrGelJLajeHPGbpn0ytO5hH4yeJmQOQZvKh7F%2FhjC5FM3opewmQw%3D%3D%7Ctkp%3ABk9SR_y14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 186,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147411756656",
+    "title": "FENDI Mamma Baguette Brown Suede Shoulder Bag",
+    "price": 1314.8,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147411756656?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBG08QB1HHEMFYBX8FN&hash=item22526ce670:g:EGkAAeSwFH9qRnjJ&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBDBRkPH%2BAK8KYovHDiInhIC2DI8J23n0FRqlmSZOPEynSJejZxwGEgKnvZnz0OAxMbrgimMDKiKKHrKIqW7OG4cBfS13y631b3JdzefzWZRVskerY20FVapRNoMMXXpbn8u8qZuXPTcfAuodHwOjjqGWmEca296RwzrNiT%2BnD48WuiuEH8KP0spQUBOKiFmesFxS6bZw0v3X9qUCN049P4Iz1veTTtlGLubnzmsYxqlkpx6vVsRlbXqg%2F0ivuZngiS6%2F%2BNxMdPOaA8PTOe8EiG8PpFpevs7LMrlxG4SdjvfA%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147411756656",
+      "title": "FENDI Mamma Baguette Brown Suede Shoulder Bag",
+      "price": {
+        "value": "1314.80",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147411756656?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBG08QB1HHEMFYBX8FN&hash=item22526ce670:g:EGkAAeSwFH9qRnjJ&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBDBRkPH%2BAK8KYovHDiInhIC2DI8J23n0FRqlmSZOPEynSJejZxwGEgKnvZnz0OAxMbrgimMDKiKKHrKIqW7OG4cBfS13y631b3JdzefzWZRVskerY20FVapRNoMMXXpbn8u8qZuXPTcfAuodHwOjjqGWmEca296RwzrNiT%2BnD48WuiuEH8KP0spQUBOKiFmesFxS6bZw0v3X9qUCN049P4Iz1veTTtlGLubnzmsYxqlkpx6vVsRlbXqg%2F0ivuZngiS6%2F%2BNxMdPOaA8PTOe8EiG8PpFpevs7LMrlxG4SdjvfA%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 179,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147428637890",
+    "title": "FENDI Mini Mamma Baguette Black Leather Shoulder Bag",
+    "price": 1352.18,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147428637890?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBG7SJS74VS2JG429DJ&hash=item22536e7cc2:g:Fm4AAeSwwrlqUMS9&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDgh83LnsDSiotLudoStdnJoB4EHgYpmnkYlCWSSGz%2FsZOSwTFst5F0PCyyzvtI%2BkFAhnaSqf8KvjCBTIU4d4%2F7VHAJIbvA5q7CrkaNt53ulv5Q3pQOQsiGnIv%2BbQoLjB8CS0qHx6uGyQlkCX4vvPRzzfoEGLFQLLjIXwi7%2B1KuLxpavXT61R0FJehknh6nJZZ2hKz2bptCxF3mUkqzUdLinFaGk0zCAbjkRc32gHD9vqvjsHLpx9xczbxMW2C18440OtV0rzVoo3h%2By1jl68HYv4pb9WoeyabpVym%2FdjFrwQ%3D%3D%7Ctkp%3ABk9SR_S14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147428637890",
+      "title": "FENDI Mini Mamma Baguette Black Leather Shoulder Bag",
+      "price": {
+        "value": "1352.18",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147428637890?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBG7SJS74VS2JG429DJ&hash=item22536e7cc2:g:Fm4AAeSwwrlqUMS9&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDgh83LnsDSiotLudoStdnJoB4EHgYpmnkYlCWSSGz%2FsZOSwTFst5F0PCyyzvtI%2BkFAhnaSqf8KvjCBTIU4d4%2F7VHAJIbvA5q7CrkaNt53ulv5Q3pQOQsiGnIv%2BbQoLjB8CS0qHx6uGyQlkCX4vvPRzzfoEGLFQLLjIXwi7%2B1KuLxpavXT61R0FJehknh6nJZZ2hKz2bptCxF3mUkqzUdLinFaGk0zCAbjkRc32gHD9vqvjsHLpx9xczbxMW2C18440OtV0rzVoo3h%2By1jl68HYv4pb9WoeyabpVym%2FdjFrwQ%3D%3D%7Ctkp%3ABk9SR_S14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 213,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "306911414085",
+    "title": "FENDI Pony Hair Mamma Baguette 26424 Shoulder Bag 2370 26424 009 Auth #57488A",
+    "price": 1415,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/306911414085?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJMEZAHQC7DEQEJHV6&hash=item4775588745:g:UBUAAeSwzmBp9AwK&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDl2A38CA55AAe4GXaLnwoM8kizqMfiQUtcCAjoqL8Rff4INDEmXpyLIXIAQZaxEpsNtCJT2QoVlgMXInyhpvQyIqT7IhI92hVC17LiTJGKwnVH4m6DzO1uboGNL2jqpI4Obem8ZD0XARGBz28AT026JlvHhpvldpPBwgT0lCl4DtPw0uz9GVo79397DLSSkdffYWpIzS2sIJTR3eJ1psMyVFPU1cJY10PAsrNLr133K0CQBKI6QIbR6Y54SjrKsuY%3D%7Ctkp%3ABk9SR_q14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "306911414085",
+      "title": "FENDI Pony Hair Mamma Baguette 26424 Shoulder Bag 2370 26424 009 Auth #57488A",
+      "price": {
+        "value": "1415.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/306911414085?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBJMEZAHQC7DEQEJHV6&hash=item4775588745:g:UBUAAeSwzmBp9AwK&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDl2A38CA55AAe4GXaLnwoM8kizqMfiQUtcCAjoqL8Rff4INDEmXpyLIXIAQZaxEpsNtCJT2QoVlgMXInyhpvQyIqT7IhI92hVC17LiTJGKwnVH4m6DzO1uboGNL2jqpI4Obem8ZD0XARGBz28AT026JlvHhpvldpPBwgT0lCl4DtPw0uz9GVo79397DLSSkdffYWpIzS2sIJTR3eJ1psMyVFPU1cJY10PAsrNLr133K0CQBKI6QIbR6Y54SjrKsuY%3D%7Ctkp%3ABk9SR_q14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 180,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147419744463",
+    "title": "FENDI Maxi Mamma Baguette Glittery Black Leather Shoulder Bag",
+    "price": 1456.95,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147419744463?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBG07S9FV27YR1AAFKG&hash=item2252e6c8cf:g:iaQAAeSwq0dqS5bL&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDoXWanS8vdxwLXJQhr5tg40q8IMTCeu%2BE2t2XfmPZ99n9%2FNw6%2Fks9%2Bunu2JrQ0RgmyX6MJOLcdfPe5S%2Foh%2BjS3%2B0WTaltr6Z3xQ8c7KGj40UNE3UzPZX2I%2BJyueOIgR%2BpgdBkEUzDBksxEhjFunz1Wk2SidDn46eQts6m14u4TlsqqxiWvPZs4TDna48MJB9OBtc2VF8XJOTp2%2Beq1G6dUyt8XPmdqsf51%2FKWZLbf0u6ro5ruKwttMKJf9vnILop5444b2IhMK85qbn5pTlCCVES3yINNjkps6spkbWj8cvw%3D%3D%7Ctkp%3ABk9SR_S14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147419744463",
+      "title": "FENDI Maxi Mamma Baguette Glittery Black Leather Shoulder Bag",
+      "price": {
+        "value": "1456.95",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147419744463?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBG07S9FV27YR1AAFKG&hash=item2252e6c8cf:g:iaQAAeSwq0dqS5bL&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDoXWanS8vdxwLXJQhr5tg40q8IMTCeu%2BE2t2XfmPZ99n9%2FNw6%2Fks9%2Bunu2JrQ0RgmyX6MJOLcdfPe5S%2Foh%2BjS3%2B0WTaltr6Z3xQ8c7KGj40UNE3UzPZX2I%2BJyueOIgR%2BpgdBkEUzDBksxEhjFunz1Wk2SidDn46eQts6m14u4TlsqqxiWvPZs4TDna48MJB9OBtc2VF8XJOTp2%2Beq1G6dUyt8XPmdqsf51%2FKWZLbf0u6ro5ruKwttMKJf9vnILop5444b2IhMK85qbn5pTlCCVES3yINNjkps6spkbWj8cvw%3D%3D%7Ctkp%3ABk9SR_S14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 204,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147376437577",
+    "title": "FENDI Baguette Black Suede Green Buckle Shoulder Bag",
+    "price": 1538.66,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147376437577?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHQ1WCJADNWX788540&hash=item225051f949:g:AyMAAeSwCPVqMGmc&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBnKRnuHTTWS8HrtXAvqV5%2Bf9Q277gO7jyTGat%2BN%2Fq4dNHj76X57x6TyjARHXjmNnpKkWXdoHwINRgBvYlJsQJJDYTXjf6FE3PX1BRaSXdYQkbFMAaKBqN0ewiiJXPmwYbUQIgs1prdqfuRPeHL8tNcD4pyq%2FB1WoOk8EwkpIeB7B%2Fdsg7SL8TxltRw3iYftRvq%2B5xJiobT%2B8105wgt0gi6VB2yOvZYN51Jb3UsCTGn6zlLm11wBzr60EeGk3k9cWI%3D%7Ctkp%3ABk9SR_i14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147376437577",
+      "title": "FENDI Baguette Black Suede Green Buckle Shoulder Bag",
+      "price": {
+        "value": "1538.66",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147376437577?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHQ1WCJADNWX788540&hash=item225051f949:g:AyMAAeSwCPVqMGmc&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBnKRnuHTTWS8HrtXAvqV5%2Bf9Q277gO7jyTGat%2BN%2Fq4dNHj76X57x6TyjARHXjmNnpKkWXdoHwINRgBvYlJsQJJDYTXjf6FE3PX1BRaSXdYQkbFMAaKBqN0ewiiJXPmwYbUQIgs1prdqfuRPeHL8tNcD4pyq%2FB1WoOk8EwkpIeB7B%2Fdsg7SL8TxltRw3iYftRvq%2B5xJiobT%2B8105wgt0gi6VB2yOvZYN51Jb3UsCTGn6zlLm11wBzr60EeGk3k9cWI%3D%7Ctkp%3ABk9SR_i14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 188,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147380597702",
+    "title": "FENDI Mamma Baguette Black Leather Shoulder Bag",
+    "price": 1538.66,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147380597702?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBG0W79X07W8Q3G7072&hash=item22509173c6:g:HZIAAeSwa4pqMnuQ&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCjW%2BillOkjvMP8sbiWsuZm31K%2FJ246wGD8L%2B%2ByzjdR6IlojPCi35%2BoGVSpB94M4u5DEWrMcgLOz2SHrmbaM2cN6vdNT0kxl4Sxp9JRT%2F5KX7NoNENEIV%2FoGiyVLCEeqnKnYVvrCX1wPyJONMhgjVUqSvCpMWvcgrshhZmmwOux%2FOyBflNUWflpJFjd0uu3FG23%2BBigbvZlNDtc4A%2FLNm3bgo7uvh8oD0OV3DdTxdKV433d6eLs3DsbQFFHIMoQEk6zp9kvqlWsEEbazygpCzlA7fIEL7Np%2Fkbe66hQ4tbX0Q%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147380597702",
+      "title": "FENDI Mamma Baguette Black Leather Shoulder Bag",
+      "price": {
+        "value": "1538.66",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147380597702?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBG0W79X07W8Q3G7072&hash=item22509173c6:g:HZIAAeSwa4pqMnuQ&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCjW%2BillOkjvMP8sbiWsuZm31K%2FJ246wGD8L%2B%2ByzjdR6IlojPCi35%2BoGVSpB94M4u5DEWrMcgLOz2SHrmbaM2cN6vdNT0kxl4Sxp9JRT%2F5KX7NoNENEIV%2FoGiyVLCEeqnKnYVvrCX1wPyJONMhgjVUqSvCpMWvcgrshhZmmwOux%2FOyBflNUWflpJFjd0uu3FG23%2BBigbvZlNDtc4A%2FLNm3bgo7uvh8oD0OV3DdTxdKV433d6eLs3DsbQFFHIMoQEk6zp9kvqlWsEEbazygpCzlA7fIEL7Np%2Fkbe66hQ4tbX0Q%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 212,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147401974373",
+    "title": "FENDI Baguette Embroidered Flowers Brown Zucca Canvas Shoulder Bag",
+    "price": 1834.17,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147401974373?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHFC4QHY3B5NR8FM8H&hash=item2251d7a265:g:QNIAAeSwfEFqQIJL&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDaBrRckok--xRWyjV1EUAgoH2udRT9QIjBZpZ9qt2UIEyR2wXIAAG6rDdkPmd0MM6HIc054vTBBuv0EZiIWFy5miSnoss0L%2FohIOh8GRZZM3ivgv0FUlNw3R8i3lMAP8QfHQJCEJCES1XxTA%2Bei42aYjWq4m6jtpu08w8R95JlqE8YYSKCzyUhmtcv2vy47ziz0bxWr1reS8AhT36ygB%2F%2BQimV93xdlke%2BAvfOLDetkFvJm%2BdX1t2wb%2BZDX%2BUwHTJjh41uAEocAoMXLBJYqHUeq531iRltqYPyet%2FrQP%2Btsg%3D%3D%7Ctkp%3ABk9SR_q14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147401974373",
+      "title": "FENDI Baguette Embroidered Flowers Brown Zucca Canvas Shoulder Bag",
+      "price": {
+        "value": "1834.17",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147401974373?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHFC4QHY3B5NR8FM8H&hash=item2251d7a265:g:QNIAAeSwfEFqQIJL&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDaBrRckok--xRWyjV1EUAgoH2udRT9QIjBZpZ9qt2UIEyR2wXIAAG6rDdkPmd0MM6HIc054vTBBuv0EZiIWFy5miSnoss0L%2FohIOh8GRZZM3ivgv0FUlNw3R8i3lMAP8QfHQJCEJCES1XxTA%2Bei42aYjWq4m6jtpu08w8R95JlqE8YYSKCzyUhmtcv2vy47ziz0bxWr1reS8AhT36ygB%2F%2BQimV93xdlke%2BAvfOLDetkFvJm%2BdX1t2wb%2BZDX%2BUwHTJjh41uAEocAoMXLBJYqHUeq531iRltqYPyet%2FrQP%2Btsg%3D%3D%7Ctkp%3ABk9SR_q14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 195,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147405961502",
+    "title": "FENDI Baguette Brown Suede Shoulder Bag",
+    "price": 1834.17,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147405961502?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHC20A63GXMFPDE6VB&hash=item225214791e:g:wJwAAeSwrmVqDr--&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xC8KagqUpMEa2JC%2Fjgr9lGdmCiOA2kI1f6McKq16CVQY2eTWGTgCsCUbt9i4Xc2Zf8CrbDBaF0orWwVO2lqkGz93OhSrCX6NwHLoCqCvLhfrDHhMPMCVdt3s0fMYMfJ0ak7Us%2FmxhVUA8GjN%2Fsv7GFs4hCuXIjsftR8OioPk006Sg541ChPx6wasLaLWWT1qQ1SPukyZjxBV8S3L0z2oKEJmRYBeF0iVJNeiD5vxzKzldedQI84cOCn06k9iWYBvYU%3D%7Ctkp%3ABk9SR_a14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147405961502",
+      "title": "FENDI Baguette Brown Suede Shoulder Bag",
+      "price": {
+        "value": "1834.17",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147405961502?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHC20A63GXMFPDE6VB&hash=item225214791e:g:wJwAAeSwrmVqDr--&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xC8KagqUpMEa2JC%2Fjgr9lGdmCiOA2kI1f6McKq16CVQY2eTWGTgCsCUbt9i4Xc2Zf8CrbDBaF0orWwVO2lqkGz93OhSrCX6NwHLoCqCvLhfrDHhMPMCVdt3s0fMYMfJ0ak7Us%2FmxhVUA8GjN%2Fsv7GFs4hCuXIjsftR8OioPk006Sg541ChPx6wasLaLWWT1qQ1SPukyZjxBV8S3L0z2oKEJmRYBeF0iVJNeiD5vxzKzldedQI84cOCn06k9iWYBvYU%3D%7Ctkp%3ABk9SR_a14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 209,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "306975232221",
+    "title": "FENDI Nano Baguette Charm Bag 7AR798 Purple Sequins Gold 1998241 Auth #56654A",
+    "price": 1865,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/306975232221?_skw=fendi+baguette+bag&epid=2329315489&itmmeta=01KXGPRKBHHK7DPHGC4FRJRR9W&hash=item47792650dd:g:354AAeSwWQhqHPr9&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDx4yPbt6iHC5s96CC6qOyN4NzuazcyUD0QXZR--86tfJY1cIDnwnUaGQWPYunWTpbEAIhqcfJnkzzREpfG1JNes7uMGPRHVztKtRC4B6oIs45do6DKGqge%2FkzapDLLfXz%2Bvkm%2BVn8zQvcy3DOTJvhteelxtXq%2BQO2VD5OEu%2FqprtkX8z9Tp84noZc4KCOvB1rKadxKmRxMbEkDw%2B5nUkg7aHxY22GnTRkllib45m9hx3%2B2%2FFS6NHHmUsEJSwEO7B3hieG5ju58yQBxt5pBVHKTh9EPP7o1xNOEHBa%2BvlYaAQ%3D%3D%7Ctkp%3ABk9SR_i14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "306975232221",
+      "title": "FENDI Nano Baguette Charm Bag 7AR798 Purple Sequins Gold 1998241 Auth #56654A",
+      "price": {
+        "value": "1865.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/306975232221?_skw=fendi+baguette+bag&epid=2329315489&itmmeta=01KXGPRKBHHK7DPHGC4FRJRR9W&hash=item47792650dd:g:354AAeSwWQhqHPr9&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDx4yPbt6iHC5s96CC6qOyN4NzuazcyUD0QXZR--86tfJY1cIDnwnUaGQWPYunWTpbEAIhqcfJnkzzREpfG1JNes7uMGPRHVztKtRC4B6oIs45do6DKGqge%2FkzapDLLfXz%2Bvkm%2BVn8zQvcy3DOTJvhteelxtXq%2BQO2VD5OEu%2FqprtkX8z9Tp84noZc4KCOvB1rKadxKmRxMbEkDw%2B5nUkg7aHxY22GnTRkllib45m9hx3%2B2%2FFS6NHHmUsEJSwEO7B3hieG5ju58yQBxt5pBVHKTh9EPP7o1xNOEHBa%2BvlYaAQ%3D%3D%7Ctkp%3ABk9SR_i14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 194,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147334451558",
+    "title": "FENDI Baguette Floral Embroidery Black Fur Shoulder Bag",
+    "price": 2059.35,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147334451558?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBH2GS8WW0CMVFC2FW2&hash=item224dd15166:g:7V8AAeSwtz5qFrKw&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDYUSDVIx%2Bc%2BdSLBLczKT9dPcQHCtcEQ2vchBqenMwoiYoW4CmK96Tr%2BzSu28qc9lwocFkyKrDjrm6G4CwF94Ae4aQKfTFRnMdhrvBm0hm0UY%2BCqXH6WhkzI7DYMcMqxsygtUgU22e9QwCIPrREjrroiU%2F2PotlWh%2BNZu6Hv57uZJTKs4M%2Bk1j4byNnPCoEmX5C3ljICfDjt4IrfdgJLQ9ACDJUWncziEcUsA08UrMWPyYz6Dp82uAJq5ZGkV5BTarvqASrYgx72wz8Nm3Napto%2F4otxDBsUswQNtjipW%2B5hw%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147334451558",
+      "title": "FENDI Baguette Floral Embroidery Black Fur Shoulder Bag",
+      "price": {
+        "value": "2059.35",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147334451558?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBH2GS8WW0CMVFC2FW2&hash=item224dd15166:g:7V8AAeSwtz5qFrKw&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xDYUSDVIx%2Bc%2BdSLBLczKT9dPcQHCtcEQ2vchBqenMwoiYoW4CmK96Tr%2BzSu28qc9lwocFkyKrDjrm6G4CwF94Ae4aQKfTFRnMdhrvBm0hm0UY%2BCqXH6WhkzI7DYMcMqxsygtUgU22e9QwCIPrREjrroiU%2F2PotlWh%2BNZu6Hv57uZJTKs4M%2Bk1j4byNnPCoEmX5C3ljICfDjt4IrfdgJLQ9ACDJUWncziEcUsA08UrMWPyYz6Dp82uAJq5ZGkV5BTarvqASrYgx72wz8Nm3Napto%2F4otxDBsUswQNtjipW%2B5hw%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 199,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "306907537599",
+    "title": "FENDI Mamma Baguette Zucca Pattern Floral embroidery Hand Bag Auth #57191A",
+    "price": 2075,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/306907537599?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHHXD36DKRSNARNJDT&hash=item47751d60bf:g:gLQAAeSwfLxp8Y6N&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAUakC4Df6A7xza2ujkp7vv7hLDcPzxdoMF%2Be0YspTHF60c8uNcPKN4VVQeJvkEFGUyzOkkbZMEvGI2utj7MpvS5dn1wX9Pkt5qSOzwEi%2FEVBlAY7O%2Fp3Fo5dpgF%2Fv4JrohlOvfRdF4cKhNWGAkZCXoEfglinvIWa9IctWyA12ao9yixBUJ9aJXFDViqvW%2BjPhaw72GszINFFtEBCfpCMmTC2icw0FpU%2Fjih3HYRTa84NTeOPZT8nYx1HxYyhRTKPLfwTeNUlyRRqsTmhN00g1Rp82SWIZDgVnGSj4agIEW4A%3D%3D%7Ctkp%3ABk9SR_i14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "306907537599",
+      "title": "FENDI Mamma Baguette Zucca Pattern Floral embroidery Hand Bag Auth #57191A",
+      "price": {
+        "value": "2075.00",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/306907537599?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHHXD36DKRSNARNJDT&hash=item47751d60bf:g:gLQAAeSwfLxp8Y6N&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xAUakC4Df6A7xza2ujkp7vv7hLDcPzxdoMF%2Be0YspTHF60c8uNcPKN4VVQeJvkEFGUyzOkkbZMEvGI2utj7MpvS5dn1wX9Pkt5qSOzwEi%2FEVBlAY7O%2Fp3Fo5dpgF%2Fv4JrohlOvfRdF4cKhNWGAkZCXoEfglinvIWa9IctWyA12ao9yixBUJ9aJXFDViqvW%2BjPhaw72GszINFFtEBCfpCMmTC2icw0FpU%2Fjih3HYRTa84NTeOPZT8nYx1HxYyhRTKPLfwTeNUlyRRqsTmhN00g1Rp82SWIZDgVnGSj4agIEW4A%3D%3D%7Ctkp%3ABk9SR_i14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 190,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147422011407",
+    "title": "FENDI Large Mamma Baguette Front Pocket Flap Brown Zebra Print Pony Hair Shoulde",
+    "price": 2123.23,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147422011407?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGB924F1KQ9KNMGXAD&hash=item225309600f:g:wEIAAeSwKVFqTNpc&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCUlhCyUGynGMT5rVrF5%2FhjAAyFZhtka4SAdmSXT%2BVkw0K6mlmJbdPKBIJsext%2FucECz4NV0eBb3C%2F9vvjQWmxwOL2TWIcDWzY2tlkddtav0ECJBb5Elb%2F9arsUtV6hdLkwm%2BRC37One35Y2K5edHpnOF%2FS3v0yvxrzfqUzPdYWd6e3HxXR3VRZmNj%2FXtUAGUlp%2F0EBZjGWwmcAq7W5xypqLiWnIisIC8ejBYQtS5iVesJegbWDA%2BAWvTFcW%2FOHOsjIBXADGPOnYZmo%2FHE5zAJ3SY10464UWE63DvQomZa4yw%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147422011407",
+      "title": "FENDI Large Mamma Baguette Front Pocket Flap Brown Zebra Print Pony Hair Shoulde",
+      "price": {
+        "value": "2123.23",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147422011407?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBGB924F1KQ9KNMGXAD&hash=item225309600f:g:wEIAAeSwKVFqTNpc&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCUlhCyUGynGMT5rVrF5%2FhjAAyFZhtka4SAdmSXT%2BVkw0K6mlmJbdPKBIJsext%2FucECz4NV0eBb3C%2F9vvjQWmxwOL2TWIcDWzY2tlkddtav0ECJBb5Elb%2F9arsUtV6hdLkwm%2BRC37One35Y2K5edHpnOF%2FS3v0yvxrzfqUzPdYWd6e3HxXR3VRZmNj%2FXtUAGUlp%2F0EBZjGWwmcAq7W5xypqLiWnIisIC8ejBYQtS5iVesJegbWDA%2BAWvTFcW%2FOHOsjIBXADGPOnYZmo%2FHE5zAJ3SY10464UWE63DvQomZa4yw%3D%3D%7Ctkp%3ABk9SR_a14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 203,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147435585124",
+    "title": "FENDI Baguette Dark Grey Leather Shoulder Bag",
+    "price": 2326.81,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147435585124?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHVW30CCFSAVXBYWHD&hash=item2253d87e64:g:vO0AAeSw7dlqVg5M&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xB13y2YR%2Fj1nWawZE5b2VnEiUFXm16%2BwGvF5eQEogyZ%2Bc70gQFLjLS8aTJZjuWjEExf%2B6IRt%2FDN6R9Y1CZr5Qh9SFfyOb6XCrmdWRTxqlDuln8L%2FR3SyBI3mrKZb6D%2FChururFRDx1cFuCfKmOcxgvddrLzkldxh9GeFskT%2FYU1iP3afLDKBgRGlzPKsHPP4MqRTL9pl3wg1v7e%2Bp02JLHfWY7089zdK4Uy1gAlbv4ZzLY31cNvVV6PQgWWjly%2BKSOC5wpk%2FNaTyA2tZCyr3DnCxKVUwt%2B8HMRgZSB87NYw4A%3D%3D%7Ctkp%3ABk9SR_i14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147435585124",
+      "title": "FENDI Baguette Dark Grey Leather Shoulder Bag",
+      "price": {
+        "value": "2326.81",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147435585124?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHVW30CCFSAVXBYWHD&hash=item2253d87e64:g:vO0AAeSw7dlqVg5M&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xB13y2YR%2Fj1nWawZE5b2VnEiUFXm16%2BwGvF5eQEogyZ%2Bc70gQFLjLS8aTJZjuWjEExf%2B6IRt%2FDN6R9Y1CZr5Qh9SFfyOb6XCrmdWRTxqlDuln8L%2FR3SyBI3mrKZb6D%2FChururFRDx1cFuCfKmOcxgvddrLzkldxh9GeFskT%2FYU1iP3afLDKBgRGlzPKsHPP4MqRTL9pl3wg1v7e%2Bp02JLHfWY7089zdK4Uy1gAlbv4ZzLY31cNvVV6PQgWWjly%2BKSOC5wpk%2FNaTyA2tZCyr3DnCxKVUwt%2B8HMRgZSB87NYw4A%3D%3D%7Ctkp%3ABk9SR_i14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 208,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147345799622",
+    "title": "FENDI Baguette Blue Beads Shoulder Bag",
+    "price": 2572.95,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147345799622?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHMGR1J4M5NGK56F2M&hash=item224e7e79c6:g:2aIAAeSwPtlqHfmg&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCcWqJRvIPGUQmQwDsSw4uFL%2FLDlj8BqorPIKhkmHvB0C69xPfHdb%2Ff4oLiXOoib6UhA3wuMLc8VQzwUmvHMceB0bpOR6ehaW3lfokpML9E%2FQdnGmBzg%2BVlvLBOkCbJbs74pdMYNPwp3BbxY4A5McXm3uUN9hrCdNbOknTe8BB%2BVdSwOIMia9YQrnUuZzmz%2BhvZy%2FJ4%2Fqq9CRzIw0%2BO1Qp%2FKFEa0AJe4vmJlTcnrn5fFfOBUWfCytslMrnurcl3OMc%3D%7Ctkp%3ABk9SR_i14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147345799622",
+      "title": "FENDI Baguette Blue Beads Shoulder Bag",
+      "price": {
+        "value": "2572.95",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147345799622?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBHMGR1J4M5NGK56F2M&hash=item224e7e79c6:g:2aIAAeSwPtlqHfmg&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCcWqJRvIPGUQmQwDsSw4uFL%2FLDlj8BqorPIKhkmHvB0C69xPfHdb%2Ff4oLiXOoib6UhA3wuMLc8VQzwUmvHMceB0bpOR6ehaW3lfokpML9E%2FQdnGmBzg%2BVlvLBOkCbJbs74pdMYNPwp3BbxY4A5McXm3uUN9hrCdNbOknTe8BB%2BVdSwOIMia9YQrnUuZzmz%2BhvZy%2FJ4%2Fqq9CRzIw0%2BO1Qp%2FKFEa0AJe4vmJlTcnrn5fFfOBUWfCytslMrnurcl3OMc%3D%7Ctkp%3ABk9SR_i14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 177,
+    "source": "ebay",
+    "source_type": "live",
+    "marketplace_item_id": "147435585217",
+    "title": "FENDI Baguette Brown Suede Shoulder Bag",
+    "price": 2628.78,
+    "currency": "USD",
+    "item_url": "https://www.ebay.com/itm/147435585217?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBG63RS5NADHYQ3761S&hash=item2253d87ec1:g:ZAYAAeSwstBqVg5Y&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBooSl%2F1atdPAvNpTC2GggUPNBsHKBq7w3S%2B8JVJ1LJJR9w27%2F0JQJ90i%2FDUex5t28gcwznluozTQGER7WKYsES72JC0GPpXjHO7%2FjqgxsAYZ2PncJZq6lNcBgDm0OCTH5gWhn1Ne1852QoffEGtAcV9c3P7uFWKb5Y0uFdwXcprnk1drnGMmqEbF48ua4exnn054WIfacyjj8x51ejOS%2BOvysxtdCuIci3NqKQc9AgawYEVKQVMJodyoX15qYu7bO7i9WRBBpvDqKFY6l6T9U7n7YNGuraBMOGSfkQXf%2FvkA%3D%3D%7Ctkp%3ABk9SR_S14pbsZw",
+    "price_type": "fixed_price",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:18:59.577229",
+    "first_observed": "2026-07-14T16:18:59.577229",
+    "last_observed": "2026-07-14T16:18:59.577229",
+    "expires_at": "2026-08-13T16:18:59.577648",
+    "raw_payload": {
+      "itemId": "147435585217",
+      "title": "FENDI Baguette Brown Suede Shoulder Bag",
+      "price": {
+        "value": "2628.78",
+        "currency": "USD"
+      },
+      "itemWebUrl": "https://www.ebay.com/itm/147435585217?_skw=fendi+baguette+bag&itmmeta=01KXGPRKBG63RS5NADHYQ3761S&hash=item2253d87ec1:g:ZAYAAeSwstBqVg5Y&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBooSl%2F1atdPAvNpTC2GggUPNBsHKBq7w3S%2B8JVJ1LJJR9w27%2F0JQJ90i%2FDUex5t28gcwznluozTQGER7WKYsES72JC0GPpXjHO7%2FjqgxsAYZ2PncJZq6lNcBgDm0OCTH5gWhn1Ne1852QoffEGtAcV9c3P7uFWKb5Y0uFdwXcprnk1drnGMmqEbF48ua4exnn054WIfacyjj8x51ejOS%2BOvysxtdCuIci3NqKQc9AgawYEVKQVMJodyoX15qYu7bO7i9WRBBpvDqKFY6l6T9U7n7YNGuraBMOGSfkQXf%2FvkA%3D%3D%7Ctkp%3ABk9SR_S14pbsZw",
+      "condition": "Pre-owned",
+      "image": {
+        "imageUrl": ""
+      },
+      "source": "ebay",
+      "bag_slug": "fendi-baguette"
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 87,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16033518518575",
+    "title": "Zucchino Baguette Toro Mogano Panna",
+    "price": 1050,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/fendi-zucchino-baguette-toro-mogano-panna-1911501",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:17:23.302040",
+    "first_observed": "2026-07-14T16:17:23.302040",
+    "last_observed": "2026-07-14T16:17:23.302040",
+    "expires_at": "2026-08-13T16:17:23.302052",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16033518518575",
+      "title": "Zucchino Baguette Toro Mogano Panna",
+      "price": 1050.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/fendi-zucchino-baguette-toro-mogano-panna-1911501",
+      "condition": "Pre-owned",
+      "bag_slug": "fendi-baguette",
+      "bag_id": 3
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 82,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16019200737583",
+    "title": "Vitello Dolce F is Fendi FF Embossed Micro Double Baguette Tobacco Black",
+    "price": 1135,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/fendi-vitello-dolce-f-is-fendi-ff-embossed-micro-double-baguette-tobacco-black-1901581",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:17:23.302040",
+    "first_observed": "2026-07-14T16:17:23.302040",
+    "last_observed": "2026-07-14T16:17:23.302040",
+    "expires_at": "2026-08-13T16:17:23.302052",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16019200737583",
+      "title": "Vitello Dolce F is Fendi FF Embossed Micro Double Baguette Tobacco Black",
+      "price": 1135.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/fendi-vitello-dolce-f-is-fendi-ff-embossed-micro-double-baguette-tobacco-black-1901581",
+      "condition": "Pre-owned",
+      "bag_slug": "fendi-baguette",
+      "bag_id": 3
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 86,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "13805676069167",
+    "title": "Zucca Mama Baguette Tobacco",
+    "price": 1295,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/fendi-zucca-mama-baguette-tobacco-1831836",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:17:23.302040",
+    "first_observed": "2026-07-14T16:17:23.302040",
+    "last_observed": "2026-07-14T16:17:23.302040",
+    "expires_at": "2026-08-13T16:17:23.302052",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "13805676069167",
+      "title": "Zucca Mama Baguette Tobacco",
+      "price": 1295.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/fendi-zucca-mama-baguette-tobacco-1831836",
+      "condition": "Pre-owned",
+      "bag_slug": "fendi-baguette",
+      "bag_id": 3
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 84,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16003064365359",
+    "title": "Zucca Mama Baguette Tobacco",
+    "price": 1660,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/fendi-zucca-mama-baguette-tobacco-1869276",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:17:23.302040",
+    "first_observed": "2026-07-14T16:17:23.302040",
+    "last_observed": "2026-07-14T16:17:23.302040",
+    "expires_at": "2026-08-13T16:17:23.302052",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16003064365359",
+      "title": "Zucca Mama Baguette Tobacco",
+      "price": 1660.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/fendi-zucca-mama-baguette-tobacco-1869276",
+      "condition": "Pre-owned",
+      "bag_slug": "fendi-baguette",
+      "bag_id": 3
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 85,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "14363806892335",
+    "title": "Zucca Mama Baguette Tobacco",
+    "price": 1675,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/fendi-zucca-mama-baguette-tobacco-1852227",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:17:23.302040",
+    "first_observed": "2026-07-14T16:17:23.302040",
+    "last_observed": "2026-07-14T16:17:23.302040",
+    "expires_at": "2026-08-13T16:17:23.302052",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "14363806892335",
+      "title": "Zucca Mama Baguette Tobacco",
+      "price": 1675.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/fendi-zucca-mama-baguette-tobacco-1852227",
+      "condition": "Pre-owned",
+      "bag_slug": "fendi-baguette",
+      "bag_id": 3
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 83,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16013474431279",
+    "title": "Zucca Mama Baguette Tobacco",
+    "price": 1895,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/fendi-zucca-mama-baguette-tobacco-1889267",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:17:23.302040",
+    "first_observed": "2026-07-14T16:17:23.302040",
+    "last_observed": "2026-07-14T16:17:23.302040",
+    "expires_at": "2026-08-13T16:17:23.302052",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16013474431279",
+      "title": "Zucca Mama Baguette Tobacco",
+      "price": 1895.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/fendi-zucca-mama-baguette-tobacco-1889267",
+      "condition": "Pre-owned",
+      "bag_slug": "fendi-baguette",
+      "bag_id": 3
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 89,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16032253641007",
+    "title": "Nappa FF 1974 Embossed Baguette Mirto",
+    "price": 2660,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/fendi-nappa-ff-1974-embossed-baguette-mirto-1905343",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:17:23.302040",
+    "first_observed": "2026-07-14T16:17:23.302040",
+    "last_observed": "2026-07-14T16:17:23.302040",
+    "expires_at": "2026-08-13T16:17:23.302052",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16032253641007",
+      "title": "Nappa FF 1974 Embossed Baguette Mirto",
+      "price": 2660.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/fendi-nappa-ff-1974-embossed-baguette-mirto-1905343",
+      "condition": "Pre-owned",
+      "bag_slug": "fendi-baguette",
+      "bag_id": 3
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 81,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "15999511626031",
+    "title": "Fabric Tapestry Effect Fendi Dots Baguette Matcha Dove Multicolor",
+    "price": 3145,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/fendi-fabric-tapestry-effect-fendi-dots-baguette-matcha-dove-multicolor-1880073",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:17:23.302040",
+    "first_observed": "2026-07-14T16:17:23.302040",
+    "last_observed": "2026-07-14T16:17:23.302040",
+    "expires_at": "2026-08-13T16:17:23.302052",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "15999511626031",
+      "title": "Fabric Tapestry Effect Fendi Dots Baguette Matcha Dove Multicolor",
+      "price": 3145.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/fendi-fabric-tapestry-effect-fendi-dots-baguette-matcha-dove-multicolor-1880073",
+      "condition": "Pre-owned",
+      "bag_slug": "fendi-baguette",
+      "bag_id": 3
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 88,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16050443911471",
+    "title": "Nappa Medium Mamma Baguette Black",
+    "price": 3295,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/fendi-nappa-medium-mamma-baguette-black-1916867",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:17:23.302040",
+    "first_observed": "2026-07-14T16:17:23.302040",
+    "last_observed": "2026-07-14T16:17:23.302040",
+    "expires_at": "2026-08-13T16:17:23.302052",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16050443911471",
+      "title": "Nappa Medium Mamma Baguette Black",
+      "price": 3295.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/fendi-nappa-medium-mamma-baguette-black-1916867",
+      "condition": "Pre-owned",
+      "bag_slug": "fendi-baguette",
+      "bag_id": 3
+    },
+    "bag_slug": "fendi-baguette"
+  },
+  {
+    "id": 90,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16033486307631",
+    "title": "Sequin Paillettes Nappa Baguette Light Blue",
+    "price": 4750,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/fendi-sequin-paillettes-nappa-baguette-light-blue-1909294",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 3,
+    "observed_at": "2026-07-14T16:17:23.302040",
+    "first_observed": "2026-07-14T16:17:23.302040",
+    "last_observed": "2026-07-14T16:17:23.302040",
+    "expires_at": "2026-08-13T16:17:23.302052",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16033486307631",
+      "title": "Sequin Paillettes Nappa Baguette Light Blue",
+      "price": 4750.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/fendi-sequin-paillettes-nappa-baguette-light-blue-1909294",
+      "condition": "Pre-owned",
+      "bag_slug": "fendi-baguette",
+      "bag_id": 3
+    },
+    "bag_slug": "fendi-baguette"
+  }
+]
