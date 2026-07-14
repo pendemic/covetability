@@ -2009,6 +2009,34 @@
     "bag_slug": "louis-vuitton-pochette-accessoires"
   },
   {
+    "id": 399,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "16044755255599",
+    "title": "Louis Vuitton Monogram Multi Pochette Accessories Small Pochette",
+    "price": 650,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/louis-vuitton-monogram-multi-pochette-accessories-small-pochette-1921492",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 5,
+    "observed_at": "2026-07-14T16:43:29.027954",
+    "first_observed": "2026-07-14T16:43:29.027954",
+    "last_observed": "2026-07-14T16:43:29.027954",
+    "expires_at": "2026-08-13T16:43:29.027971",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "16044755255599",
+      "title": "Louis Vuitton Monogram Multi Pochette Accessories Small Pochette",
+      "price": 650.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/louis-vuitton-monogram-multi-pochette-accessories-small-pochette-1921492",
+      "condition": "Pre-owned",
+      "bag_slug": "louis-vuitton-pochette-accessoires"
+    },
+    "bag_slug": "louis-vuitton-pochette-accessoires"
+  },
+  {
     "id": 109,
     "source": "fashionphile",
     "source_type": "api",
@@ -2092,6 +2120,34 @@
       "condition": "Pre-owned",
       "bag_slug": "louis-vuitton-pochette-accessoires",
       "bag_id": 5
+    },
+    "bag_slug": "louis-vuitton-pochette-accessoires"
+  },
+  {
+    "id": 398,
+    "source": "fashionphile",
+    "source_type": "api",
+    "marketplace_item_id": "15997295264047",
+    "title": "Louis Vuitton Monogram Multi Pochette Accessories Mini Pochette",
+    "price": 995,
+    "currency": "USD",
+    "item_url": "https://www.fashionphile.com/products/louis-vuitton-monogram-multi-pochette-accessories-mini-pochette-1869887",
+    "price_type": "asking",
+    "condition_raw": "Pre-owned",
+    "candidate_bag_model_id": 5,
+    "observed_at": "2026-07-14T16:43:29.027954",
+    "first_observed": "2026-07-14T16:43:29.027954",
+    "last_observed": "2026-07-14T16:43:29.027954",
+    "expires_at": "2026-08-13T16:43:29.027971",
+    "raw_payload": {
+      "source": "fashionphile",
+      "itemId": "15997295264047",
+      "title": "Louis Vuitton Monogram Multi Pochette Accessories Mini Pochette",
+      "price": 995.0,
+      "currency": "USD",
+      "url": "https://www.fashionphile.com/products/louis-vuitton-monogram-multi-pochette-accessories-mini-pochette-1869887",
+      "condition": "Pre-owned",
+      "bag_slug": "louis-vuitton-pochette-accessoires"
     },
     "bag_slug": "louis-vuitton-pochette-accessoires"
   },
